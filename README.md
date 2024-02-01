@@ -1,6 +1,6 @@
 # Research-Analysis | Salisbury University Software Engineering Project
 
-Salisbury University
+Salisbury University  
 https://www.salisbury.edu/ 
 
 ## Description
