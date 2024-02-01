@@ -1,4 +1,4 @@
-# Research-Analysis
+# Research-Analysis | Salisbury University Software Engineering Project
 
 ## Description
 > The home of The Rommel Center Research Concentrations Study. This project harnesses various AI tools to analyze textual data and create an application that will visualize each category of research at Salisbury University. Each individual category will have in depth details related to funding, Influential Faculty, etc...
@@ -12,6 +12,12 @@
 
 ## Tools used in this project
 
+## Roadmap
+
 ## Team Members
 
-## 
+## Detailed Breakdown of the project
+
+## FAQ
+
+## Sponsors
