@@ -19,8 +19,8 @@ https://www.salisbury.edu/
 
 ## Team Members
 
-## Detailed Breakdown of the project
-
 ## FAQ
 
 ## Sponsors
+
+## Sources
