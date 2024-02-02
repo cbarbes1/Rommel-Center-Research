@@ -24,3 +24,19 @@ https://www.salisbury.edu/
 ## Sponsors
 
 ## Sources
+
+
+
+## Meeting 1 Notes
+
+### Questions 
+
+
+### Needs / Wants
+#### What is being researched?
+#### Who is researching?
+#### What is the research specialization?
+#### Is any given specialization a strength or weekness for the university?
+- What is considered strong?
+- What is considered weak?
+#### 
