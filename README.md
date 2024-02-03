@@ -25,9 +25,10 @@ https://www.salisbury.edu/
 
 ## AI usage
 ### Text analysis
-#### find the keywords and topics in research papers and research proposals | Proposed Method
-- Automate the process of parsing blocks of text into a LLM like Open AI API
-- 
+### find the keywords and topics in research papers and research proposals | Proposed Method
+> The main issue with interpreting various sets of text is the context window. Open AI's GPT 3.5 Turbo allows for about 4,096 Tokens in it's context window which translates to about 1,000 to 1,500 words.
+> Solution: Automate the process of parsing blocks of text that fit into the Context Window of GPT. Then ask for the keywords and topics throughout the text and build a program around this that will keep all the information together. 
+
 ## Tools used in this project
 - Tailwindcss for styling.
 - React to make modularity possible and more simple to use with javascript.
@@ -37,7 +38,7 @@ https://www.salisbury.edu/
 ## Roadmap
 
 ### Module 1
-#### In this module, We will be completing a spreadsheet that allows us to first gather the needed data and organize it for businesses at minimum.
+### In this module, We will be completing a spreadsheet that allows us to first gather the needed data and organize it for businesses at minimum.
 
 ### Module 2
 
@@ -56,9 +57,6 @@ https://www.salisbury.edu/
 ## Meeting 1 Notes
 
 ### Questions 
-
-
-### Needs / Wants
 #### What is being researched?
 #### Who is researching?
 #### What is the research specialization?
