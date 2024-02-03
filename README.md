@@ -16,7 +16,7 @@ https://www.salisbury.edu/
 ## Front End 
 - Comprehensive Map of all research being done at Salisbury University with a user friendly interface and ease of use.
 - There should also be a search feature to find exact results
-- At the very least pages associated with each concentration that have enough data to conclude if that topic is a strong or weak area of research at SU
+- At the very least, pages associated with each concentration should have enough data to conclude if a topic is a strong or weak area of research at SU
 
 ## Back End 
 - Open AI api program to process full text (possibly various document types)
