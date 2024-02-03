@@ -10,7 +10,7 @@ https://www.salisbury.edu/
 
 ## Basic Structure of the project
 - AI analysis of different documents to find keywords, topics, and recurring themes which is fed into a database
-- Textual Database of Various Data points regarding research proposals and such.
+- Database of Various Data points regarding research proposals and such.
 - User Interface with categorical data visualization and the ability to drill down each category into detailed chunks of data.
 
 ## Front End 
