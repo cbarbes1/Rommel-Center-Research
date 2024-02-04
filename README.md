@@ -39,6 +39,7 @@ https://www.salisbury.edu/
 
 ### Module 1
 ### In this module, We will be completing a spreadsheet that allows us to first gather the needed data and organize it for businesses at minimum.
+- Scripts to take data out of the mongodb database to add data to the spreadsheet
 
 ### Module 2
 
