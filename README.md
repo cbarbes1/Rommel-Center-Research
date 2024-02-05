@@ -35,7 +35,16 @@ https://www.salisbury.edu/
 - JavaScript
 - Python
 
-## Roadmap
+## Options
+### BERT
+- Bidirectional transformer
+### GPT + RAG
+- undirected transformer
+### ML
+- Trained to analyze the words
+- Deterministic
+- Complexity
+- Categorization
 
 ### Module 1
 ### In this module, We will be completing a spreadsheet that allows us to first gather the needed data and organize it for businesses at minimum.
