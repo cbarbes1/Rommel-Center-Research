@@ -11,22 +11,25 @@ Here are 2 examples of what citations with a DOI looks like:
 
 &nbsp;
 ><div style="text-indent: -0.5in; margin-left: 0.5in;">Koval, M. R. (2018). How Shorebilly Brewing Company Won the Trademark Battle, but Lost the War: A Cautionary Tale for Entrepreneurs. Journal of Legal Studies Education, 35(1), 45-82. <span style="font-weight: bold;">http://onlinelibrary.wiley.com/doi/<span style="color: red;">10.1111/jlse.12069</span>/full</span> [Accepted: June 2018, Published: February 8, 2018]</div>
-<br>
-In the above two examples the bolded text highlighted in red is the DOI value.  
+<br>  
 
-So now that we know whta a DOI looks like how do we actually extract that if our citation has it?  
+In the above two examples the bolded text highlighted in red is the DOI value. Note how both start with "10.", every DOI starts that way.  
+
+So now that we know what a DOI looks like how do we actually extract that if our citation has it?  
 
 **Regular Expressions (regex):**  
-To extract the DOI string we need from the citation we can use regular expressions. In python the library for this is imported like so:
+To extract the DOI string we need from the citation we can use regular expressions. In python, the library for this is imported like so:
 ```python 
 import re
 ```
 
 The process to do this would look something like so:
 * First pull all the citations from the document provided into a list in python
-* Iterate over the list, each index is a citation, for each citation we extract the DOI
 * Construct a **Regular Expression** used to identify the DOI within the citation string
-    * Regular Expression: r"10.\d
+    * Regular Expression: r"10.\d{4,9}/[-._;()/:A-Z0-9]+"
+    * What the above means:
+* Iterate over the list, each index is a citation, for each citation we extract the DOI
+
 ### SCOPUS/Elsevier (Science Direct)
 #### Links:
 >[API Portal](https://dev.elsevier.com/)  
