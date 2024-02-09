@@ -78,35 +78,6 @@ class utilities():
             os.makedirs(path, exist_ok=True)
         return path
     
-    def __enter__(self, mode='r'):
-        """
-        Special method to open the file in read mode as part of the context management protocol. This method is automatically
-        called when the splitter object is entered using the 'with' statement.
-        
-        Arguments:
-            mode (str): The mode in which to open the file. Defaults to 'r' for read mode.
-        
-        Returns:
-            file: The opened file object, allowing for operations such as reading.
-        """
-        # open file as read only
-        self.file = open(self.path_to_file, mode)
-        return self.file
-    
-    def __exit__(self, exc_type, exc_value, traceback):
-        """
-        Special method to close the file as part of the context management protocol. This method is automatically called
-        when exiting the 'with' block, ensuring that the file is properly closed.
-        
-        Arguments:
-            exc_type: The exception type if an exception was raised within the 'with' block.
-            exc_value: The exception value if an exception was raised.
-            traceback: The traceback information if an exception was raised.
-        """
-        if self.file:
-            self.file.close()
-
-    
     def splitter(self, path_to_file):
         """
         Splits the document into individual entries based on a specified delimiter or pattern, and then calls the
