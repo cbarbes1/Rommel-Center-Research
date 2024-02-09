@@ -1,7 +1,6 @@
 import re
 import os
 import warnings
-from Utilities.DEPRECATED_splitter import split
 
 #TODO: Update comments and make documentation on the class and it's methods
 
@@ -17,7 +16,7 @@ class utilities():
         self.end_record_regex = r'DA \d{4}-\d{2}-\d{2}\nER\n?'
         
     # TODO: look at functionality here as it may not be working as intended 
-    def get_attributes(self, entry, attribute):
+    def get_attributes(self, split, attributes):
         """
         Extracts specified attributes from the article entry, returns them in a dictionary,
         and warns about missing or invalid attributes.
@@ -41,17 +40,17 @@ class utilities():
         }
         
         attribute_results = {}
-        for attribute in attribute_patterns:
+        for attribute in attributes:
             if attribute in attribute_patterns:
                 pattern, flags = attribute_patterns[attribute]
-                match = re.search(pattern, entry, flags)
+                match = re.search(pattern, split, flags)
                 if match:
                     attribute_results[attribute] = (True, match.group(1).strip())
                 else:
                     attribute_results[attribute] = (False, None)
                     warnings.warn(f"Attribute: '{attribute}' was not found in the entry", RuntimeWarning)
             else:
-                raise ValueError(f"Unknwon attribute: '{attribute}' requested.")
+                raise ValueError(f"Unknown attribute: '{attribute}' requested.")
         return attribute_results
       
     def get_file_name(self, author, title):
