@@ -1,7 +1,6 @@
 import re
 import os
 import warnings
-from Utilities.DEPRECATED_splitter import split
 
 #TODO: Update comments and make documentation on the class and it's methods
 
