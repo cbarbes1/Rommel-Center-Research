@@ -19,9 +19,25 @@ def main():
         print(f"Entry {entry} saved to: {path}")
         print(f"Entry Number: {i}")
         i += 1
+
+def load_and_print_entry(entry_number):
+    # Load file paths from the JSON file
+    with open('file_paths.json', 'r') as fp:
+        file_paths = json.load(fp)
         
-if __name__ == "__main__":
-    main()
+    # Access and print the specified entry
+    path = file_paths.get(str(entry_number)) # JSON keys are always strings
     
-    # uncomment the line below to load and print a specific entry without rerunning the entire program
-    # load_and_print_entry(1)
+    if path:
+        print(f"Entry: {entry_number} saved to: {path}")
+    else:
+        print(f"No entry found for number: {entry_number}")
+      
+if __name__ == "__main__":
+    # If commented out, uncomment the below line if you need to run the script to make files again
+    #main()
+    
+    # If commented out, uncomment the line below to load and print a specific entry without rerunning the entire program
+    for i in range(1, 655):
+        load_and_print_entry(i)
+        print('\n')
