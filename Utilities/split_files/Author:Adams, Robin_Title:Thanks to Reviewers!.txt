@@ -1,0 +1,1113 @@
+PT J
+AU Adams, R
+   Bahnson, M
+   Bhaduri, S
+   Adams, T
+   Bairaktarova, D
+   Bielefeldt, A
+   Aguirre-Munoz, Z
+   Balakrishnan, B
+   Blosser, EG
+   Ahn, B
+   Beagon, U
+   Bodnar, C
+   Aleong, R
+   Becker, K
+   Borgford-Parnell, J
+   Amelink, C
+   Beddoes, K
+   Borrego, M
+   Anderson, R
+   Bego, C
+   Bowe, B
+   Andrews, CJ
+   Beigpourian, B
+   Bowen, B
+   Angel, J
+   Bekki, J
+   Boyd, J
+   Fonseca, MA
+   Bennett, D
+   Bradburn, I
+   Kranov, AA
+   Berdanier, C
+   Brady, C
+   Bae, CL
+   Bernhard, J
+   Brawner, C
+   Brose, A
+   Case, J
+   Cropley, D
+   Brown, F
+   Cassady, R
+   Cross, K
+   Brown, P
+   Celik, S
+   Cunningham, P
+   Brown, P
+   Ben Chan
+   Cutler, S
+   Brown, S
+   Chance, SM
+   Dabbagh, N
+   Brozina, C
+   Chen, H
+   Dallal, A
+   Brunhaver, S
+   Chen, O
+   Daly, S
+   Bryant, A
+   Cheville, RA
+   Daniel, S
+   Bucciarelli, L
+   Chiu, J
+   Danowitz, A
+   Burkholder, E
+   Choe, NH
+   Darolia, R
+   Burks, G
+   Clark, R
+   Davis, K
+   Burt, B
+   Clevenger, C
+   Davis, S
+   Canney, N
+   Cole, J
+   de Jong, T
+   Cao, Y
+   Coley, B
+   De Vries, C
+   Caratozzolo, P
+   Cooper, L
+   Delaine, D
+   Carballo, R
+   Cooper, M
+   DeMonbrun, R
+   Cardella, M
+   Craig, T
+   Denton, M
+   Di Stefano, M
+   Erdman, AM
+   Gilmartin, S
+   DiBiasio, D
+   Eris, O
+   Gladstone, J
+   Diefes-Dux, H
+   Evangelou, D
+   Glancy, A
+   Dika, S
+   Ewen, B
+   Godwin, A
+   Direito, I
+   Faber, C
+   Goldsmith, R
+   Dohn, N
+   Falconer, J
+   Grigg, SJ
+   Dolansky, M
+   Fantz, T
+   Grohs, J
+   Faulkner, B
+   Doom, D
+   Felder, R
+   Gummer, E
+   Douglas, E
+   Ferris, T
+   Guzey, S
+   Douglas, KA
+   Figueiredo, J
+   Hadgraft, R
+   Dounas-Frazer, D
+   Fiorella, L
+   Hammack, R
+   Dringenberg, E
+   Flores, L
+   Han, K
+   Duffy, G
+   Fong, C
+   Harding, T
+   Easley, D
+   Fowler, RR
+   Harper, K
+   Eccles, J
+   Friedrichsen, D
+   Hartmann, B
+   Edstrom, K
+   Ge, J
+   Hattingh, T
+   Ellestad, R
+   Gelles, L
+   Henderson, R
+   Henderson, TS
+   Immekus, J
+   Kamphorst, J
+   Herman, G
+   Inda, M
+   Karatas, F
+   Hess, J
+   Itabashi-Campbell, R
+   Kartal, O
+   Hieb, J
+   Jackson, A
+   Karwat, D
+   Higbee, S
+   Jankowski, N
+   Katz, A
+   Hilton, E
+   Javernick-Will, A
+   Keipi, T
+   Hira, A
+   Jensen, KJ
+   Kim, D
+   Hirshfield, L
+   Smith, J
+   Kirn, A
+   Knaphus-Soran, E
+   Holly, J
+   Jesiek, B
+   Knight, D
+   Horng, SM
+   Johnson, A
+   Knott, T
+   Huang-Saad, A
+   Johnson, B
+   Kohl, P
+   Huerta, M
+   Johri, A
+   Kohtala, C
+   Huff, J
+   Jones, B
+   Komives, S
+   Hughes, B
+   Jones, L
+   Korsunskiy, E
+   Hughes, R
+   Jones, T
+   Kotys-Schwartz, D
+   Hunsu, N
+   Kaminski, J
+   Kramer, J
+   Hunter, C
+   Kampe, JC
+   Inkelas, KK
+   Lamm, M
+   Lönngren, J
+   McCall, C
+   Lande, M
+   Lottero-Perdue, PS
+   McCave, E
+   Lappalainen, P
+   Aguilar, JFL
+   McCray, E
+   Lawanto, O
+   Lucena, J
+   McGee, E
+   Lawson, J
+   Luk, LYY
+   McGough, C
+   Leath, S
+   Lutz, B
+   McGowan, V
+   Lee, D
+   Ma, Y
+   McNair, LD
+   Lee, W
+   Madon, T
+   McNaughtan, J
+   Liberatore, M
+   Mamaril, N
+   McNeill, N
+   Lichtenstein, G
+   Mangiante, E
+   Mejia, J
+   Lima, M
+   Martin, B
+   Diaz, NM
+   Lima, RM
+   Martin, K
+   Menekse, M
+   Lin, J
+   Lippard, C
+   Mones, AM
+   Mesquita, DID
+   Michell, K
+   Litzler, E
+   Matthews, M
+   Miller, S
+   Lo, CK
+   Matusovich, H
+   Minichiello, A
+   London, J
+   Maynard, N
+   Miskioglu, EE
+   Longwell-Grice, R
+   Mazzurco, A
+   Yusof, KM
+   Mohedas, I
+   Nghia, TL
+   Pearson, A
+   Monat, J
+   Norton, P
+   Pearson, N
+   Monteiro, F
+   Novoselich, BJ
+   Pembridge, J
+   Moote, J
+   Noy, S
+   Perez-Felkner, L
+   Mora, M
+   O'Hara, R
+   Perkins, H
+   O'Moore, L
+   Peters-Burton, E
+   Morgan, D
+   Ohland, M
+   Pfirman, A
+   Morgan, T
+   Okai, B
+   Pinto, C
+   Morton, T
+   Olds, B
+   Pitterson, N
+   Mosyjowski, E
+   Orr, M
+   Polmear, M
+   Murphy, T
+   Ortega-Alvarez, JD
+   Prince, T
+   Murray, J
+   Oseguera, L
+   Purzer, S
+   Murzi, H
+   Owen, C
+   Quan, GM
+   Nagy, G
+   Ozkan, DS
+   Quillin, K
+   Natarajathinam, M
+   Panther, G
+   Rayess, N
+   Nelson, M
+   Patrick, A
+   Reed, T
+   Newberry, B
+   Paul, K
+   Reeping, D
+   Newstetter, W
+   Pawley, A
+   Reese, M
+   Reid, K
+   Rulifson, G
+   Shivy, V
+   Renn, K
+   Rynearson, AM
+   Simpson, Z
+   Ricco, G
+   Sánchez-Peña, ML
+   Sitomer, A
+   Richards, L
+   Saunders-Smits, G
+   Siverling, E
+   Rios, L
+   Sax, L
+   Slaton, A
+   Ro, HK
+   Schimpf, C
+   Sleezer, R
+   Roberts, D
+   Rodgers, K
+   Schippers, M
+   Smith-On, C
+   Rodriguez, S
+   Schnittka, C
+   Smith, J
+   Schunn, C
+   Rogers, C
+   Seah, LH
+   Smith, J
+   Rohde, J
+   Rohrer, D
+   Secules, S
+   Smith, K
+   Smith, N
+   Romine, W
+   Seifert, C
+   Sochacka, N
+   Ross, L
+   Sessa, V
+   Stearns, E
+   Ross, M
+   Sharp, H
+   Steif, M
+   Rottmann, C
+   Sharp, J
+   Stephan, P
+   Rucks, L
+   Shaw, C
+   Stevens, R
+   Streveler, R
+   Tolbert, D
+   van Der Marel, F
+   Strobel, J
+   Toraman, S
+   van Hattum, N
+   Stump, G
+   Tougaw, D
+   Verdin, D
+   Su, XH
+   Trautvetter, LC
+   Verleger, M
+   Sundararaja, N
+   Trenshaw, KF
+   Vieira, C
+   Trevelyan, J
+   Svihla, V
+   Troussas, C
+   Villanueva, I
+   Swan, C
+   Tsai, J
+   Vinck, D
+   Virguez, L
+   Swanson, R
+   Tsugawa, MA
+   Vitasari, P
+   Sweeny, K
+   Tuononen, T
+   Vossoughi, S
+   Swenson, J
+   Turner, J
+   Wallin, P
+   Talley, K
+   Turner, S
+   Tan, L
+   Tyson, W
+   Watted, A
+   Tang, Y
+   Utley, J
+   Webber, K
+   Tank, K
+   Vasquez, RV
+   Weintrop, D
+   Thomas, K
+   Valdivia, A
+   Weiss, E
+   Thompson, JD
+   Valentine, A
+   West, R
+   Tierney, G
+   Van den Bogaard, M
+   Wiles, D
+   Wilson-Lopez, AA
+   Xinrui, X
+   Zastavker, Y
+   Wilson, D
+   Xu, YHJ
+   Zhang, GL
+   Wolmarans, N
+   Yang, Y
+   Zhu, JB
+   Wong, RC
+   Yi, SY
+   Zoltowski, CB
+   Woollacott, L
+   Yoon, SY
+AF Adams, Robin
+   Bahnson, Matthew
+   Bhaduri, Sreyoshi
+   Adams, Tracey
+   Bairaktarova, Diana
+   Bielefeldt, Angela
+   Aguirre-Munoz, Zenaida
+   Balakrishnan, Balamuralithara
+   Blosser, Emily Gwen
+   Ahn, Benjamin
+   Beagon, Una
+   Bodnar, Cheryl
+   Aleong, Richard
+   Becker, Kurt
+   Borgford-Parnell, Jim
+   Amelink, Catherine
+   Beddoes, Kacey
+   Maura Borrego
+   Anderson, Ross
+   Bego, Campbell
+   Bowe, Brian
+   Andrews, Chelsea Joy
+   Beigpourian, Behzad
+   Bowen, Bradley
+   Angel, Jeannette
+   Bekki, Jennifer
+   Boyd, Joshua
+   Fonseca, Mayra Artilles
+   Bennett, Dawn
+   Bradburn, Isabel
+   Kranov, Ashley Ater
+   Berdanier, Catherine
+   Brady, Corey
+   Bae, Christine L.
+   Bernhard, Jonte
+   Brawner, Catherine
+   Brose, Andrea
+   Case, Jenni
+   Cropley, David
+   Brown, Fredericka
+   Cassady, Richard
+   Cross, Kelly
+   Brown, Paige
+   Celik, Sine
+   Cunningham, Patrick
+   Brown, Phillip
+   Ben Chan
+   Cutler, Stephanie
+   Brown, Shane
+   Chance, Shannon Massie
+   Dabbagh, Nada
+   Brozina, Cory
+   Chen, Helen
+   Dallal, Ahmed
+   Brunhaver, Samantha
+   Chen, Ouhao
+   Daly, Shanna
+   Bryant, Antony
+   Cheville, R. Alan
+   Daniel, Scott
+   Bucciarelli, Louis
+   Chiu, Jennifer
+   Danowitz, Andrew
+   Burkholder, Eric
+   Choe, Nathan Hyungsok
+   Darolia, Rajeev
+   Burks, Gabriel
+   Clark, Renee
+   Davis, Kirsten
+   Burt, Brian
+   Clevenger, Caroline
+   Davis, Susannah
+   Canney, Nathan
+   Cole, Jennifer
+   de Jong, Ton
+   Cao, Ying
+   Coley, Brooke
+   De Vries, Charlotte
+   Caratozzolo, Patricia
+   Cooper, Lauren
+   Delaine, David
+   Carballo, Rafael
+   Cooper, Matthew
+   DeMonbrun, Robert
+   Cardella, Monica
+   Craig, Tracy
+   Denton, Maya
+   Di Stefano, Marialuisa
+   Erdman, Andrew M.
+   Gilmartin, Shannon
+   DiBiasio, David
+   Eris, Ozgur
+   Gladstone, Jessica
+   Diefes-Dux, Heidi
+   Evangelou, Demetra
+   Glancy, Aran
+   Dika, Sandra
+   Ewen, Bernadetter
+   Godwin, Allison
+   Direito, Ines
+   Faber, Courtney
+   Goldsmith, Rosalie
+   Dohn, Niels
+   Falconer, John
+   Grigg, Sarah Jane
+   Dolansky, Mary
+   Fantz, Todd
+   Grohs, Jake
+   Faulkner, Brian
+   Doom, David
+   Felder, Richard
+   Gummer, Edith
+   Douglas, Elliot
+   Ferris, Tim
+   Guzey, Selcen
+   Douglas, Kerrie Anna
+   Figueiredo, Jose
+   Hadgraft, Roger
+   Dounas-Frazer, Dimitri
+   Fiorella, Logan
+   Hammack, Rebecca
+   Dringenberg, Emily
+   Flores, Lisa
+   Han, Kyonghee
+   Duffy, Gavin
+   Fong, Carlton
+   Harding, Trevor
+   Easley, Deanna
+   Fowler, Robin Revette
+   Harper, Kathy
+   Eccles, Jacquelynn
+   Friedrichsen, Debra
+   Hartmann, Beth
+   Edstrom, Kristina
+   Ge, Julianna
+   Hattingh, Teresa
+   Ellestad, Rachel
+   Gelles, Laura
+   Henderson, Rachel
+   Henderson, Trevion S.
+   Immekus, Jason
+   Kamphorst, Jan
+   Herman, Geoffrey
+   Inda, Mercedes
+   Karatas, Faik
+   Hess, Justin
+   Itabashi-Campbell, Rachel
+   Kartal, Ozgul
+   Hieb, Jeffrey
+   Jackson, Andrew
+   Karwat, Darshan
+   Higbee, Steven
+   Jankowski, Natasha
+   Katz, Andrew
+   Hilton, Ethan
+   Javernick-Will, Amy
+   Keipi, Teo
+   Hira, Avneet
+   Jensen, Karin Jeanne
+   Kim, Dayoung
+   Hirshfield, Laura
+   Smith, Jeremy
+   Kirn, Adam
+   Knaphus-Soran, Emily
+   Holly, James, Jr.
+   Jesiek, Brent
+   Knight, Daniel
+   Horng, Shwu-Min
+   Johnson, Aaron
+   Knott, Tamara
+   Huang-Saad, Aileen
+   Johnson, Beata
+   Kohl, Pat
+   Huerta, Mark
+   Johri, Aditya
+   Kohtala, Cindy
+   Huff, James
+   Jones, Brett
+   Komives, Susan
+   Hughes, Bryce
+   Jones, Lewis
+   Korsunskiy, Eugene
+   Hughes, Rodney
+   Jones, Tamecia
+   Kotys-Schwartz, Dania
+   Hunsu, Nathaniel
+   Kaminski, Jennifer
+   Kramer, Julia
+   Hunter, Charles
+   Kampe, Jean-Celeste
+   Inkelas, Karen Kurtosuchi
+   Lamm, Monica
+   Lonngren, Johanna
+   McCall, Cassandra
+   Lande, Micah
+   Lottero-Perdue, Pamela Susan
+   McCave, Erin
+   Lappalainen, Pia
+   Aguilar, J. Felix Lozano
+   McCray, Erica
+   Lawanto, Oenardi
+   Lucena, Juan
+   McGee, Ebony
+   Lawson, Justine
+   Luk, Lillian Yun Yung
+   McGough, Catherine
+   Leath, Seanna
+   Lutz, Benjamin
+   McGowan, Veronica
+   Lee, Dennis
+   Ma, Yingyi
+   McNair, Lisa DuPree
+   Lee, Walter
+   Madon, Temina
+   McNaughtan, Jon
+   Liberatore, Matthew
+   Mamaril, Natasha
+   McNeill, Nathan
+   Lichtenstein, Gary
+   Mangiante, Elaine
+   Mejia, Joel
+   Lima, Marybeth
+   Martin, Baker
+   Diaz, Noemi Mendoza
+   Lima, Rui M.
+   Martin, Kayla
+   Menekse, Muhsin
+   Lin, Jian
+   Lippard, Christine
+   Mones, Alejandra Martinez
+   Mesquita, Diana Isabel de Araujo
+   Michell, Kathy
+   Litzler, Elizabeth
+   Matthews, Michael
+   Miller, Sharon
+   Lo, Chung Kwan
+   Matusovich, Holly
+   Minichiello, Angela
+   London, Jeremi
+   Maynard, Nicoleta
+   Miskioglu, Elif Eda
+   Longwell-Grice, Robert
+   Mazzurco, Andrea
+   Yusof, Khairiyah Mohd
+   Mohedas, Ibrahim
+   Nghia, Tran Le Huu
+   Pearson, Ashlee
+   Monat, Jamie
+   Norton, Paran
+   Pearson, Nelson
+   Monteiro, Fatima
+   Novoselich, Brian John
+   Pembridge, James
+   Moote, Julie
+   Noy, Shin
+   Perez-Felkner, Laura
+   Mora, Marcal
+   O'Hara, Robert
+   Perkins, Heather
+   O'Moore, Liza
+   Peters-Burton, Erin
+   Morgan, Demetri
+   Ohland, Matthew
+   Pfirman, Aubrie
+   Morgan, Thea
+   Okai, Benjamin
+   Pinto, Carla
+   Morton, Terrell
+   Olds, Barbara
+   Pitterson, Nicole
+   Mosyjowski, Erika
+   Orr, Marisa
+   Polmear, Madeline
+   Murphy, Teri
+   Ortega-Alvarez, Juan David
+   Prince, Thomas
+   Murray, Jaclyn
+   Oseguera, Leticia
+   Purzer, Senay
+   Murzi, Homero
+   Owen, Corey
+   Quan, Gina M.
+   Nagy, Gabriela
+   Ozkan, Desen Sevi
+   Quillin, Kim
+   Natarajathinam, Malini
+   Panther, Grace
+   Rayess, Nassif
+   Nelson, Mary
+   Patrick, Anita
+   Reed, Teri
+   Newberry, Byron
+   Paul, Kelli
+   Reeping, David
+   Newstetter, Wendy
+   Pawley, Alice
+   Reese, Michael, Jr.
+   Reid, Kenneth
+   Rulifson, Greg
+   Shivy, Victoria
+   Renn, Kriste
+   Rynearson, Anastasia M.
+   Simpson, Zach
+   Ricco, George
+   Sanchez-Pena, Matilde L.
+   Sitomer, Ann
+   Richards, Larry
+   Saunders-Smits, Gillian
+   Siverling, Emilie
+   Rios, Laura
+   Sax, Linda
+   Slaton, Amy
+   Ro, Hyun Kyoung
+   Schimpf, Corey
+   Sleezer, Robert
+   Roberts, Dustyn
+   Rodgers, Kelsey
+   Schippers, Michaela
+   Smith-On, Courtney
+   Rodriguez, Sarah
+   Schnittka, Christine
+   Smith, Jessica
+   Schunn, Christian
+   Rogers, Chris
+   Seah, Lay Hoon
+   Smith, Jonathan
+   Rohde, Jacki
+   Rohrer, Doug
+   Secules, Stephen
+   Smith, Karl
+   Smith, Natasha
+   Romine, William
+   Seifert, Colleen
+   Sochacka, Nicola
+   Ross, Lydia
+   Sessa, Valerie
+   Stearns, Elizabeth
+   Ross, Monique
+   Sharp, Helen
+   Steif, Mike
+   Rottmann, Cindy
+   Sharp, Julie
+   Stephan, Paula
+   Rucks, Lana
+   Shaw, Corrine
+   Stevens, Reed
+   Streveler, Ruth
+   Tolbert, DeLean
+   van Der Marel, Floris
+   Strobel, Johannes
+   Toraman, Sinem
+   van Hattum, Natascha
+   Stump, Glenda
+   Tougaw, Doug
+   Verdin, Dina
+   Su, Xuhong
+   Trautvetter, Lois Calian
+   Verleger, Matthew
+   Sundararaja, NarayanKripa
+   Trenshaw, K. F.
+   Vieira, Camilo
+   Trevelyan, James
+   Svihla, Vanessa
+   Troussas, Christos
+   Villanueva, Idalis
+   Swan, Chris
+   Tsai, Janet
+   Vinck, Dominique
+   Virguez, Lilianny
+   Swanson, Rebecca
+   Tsugawa, Marissa A.
+   Vitasari, Prina
+   Sweeny, Kate
+   Tuononen, Tarja
+   Vossoughi, Shirin
+   Swenson, Jessica
+   Turner, Jeannine
+   Wallin, Patric
+   Talley, Kimberly
+   Turner, Scott
+   Tan, Lin
+   Tyson, Will
+   Watted, Abeer
+   Tang, Yan
+   Utley, Juliana
+   Webber, Karen
+   Tank, Kristina
+   Vasquez, Rodolfo Valdes
+   Weintrop, David
+   Thomas, Katreena
+   Valdivia, Antonio
+   Weiss, Emily
+   Thompson, Julia D.
+   Valentine, Andrew
+   West, Richard
+   Tierney, Gavin
+   Van den Bogaard, Maartje
+   Wiles, Daphne
+   Wilson-Lopez, Amy Alexandra
+   Xinrui, Xu
+   Zastavker, Yevgeniya
+   Wilson, Denise
+   Xu, Yonghong Jade
+   Zhang, Guili
+   Wolmarans, Nicky
+   Yang, Yang
+   Zhu, Jiabin
+   Wong, Rachel
+   Yi, Soohyun
+   Zoltowski, Carla Bauer
+   Woollacott, Laurie
+   Yoon, So Yoon
+TI Thanks to Reviewers!
+SO JOURNAL OF ENGINEERING EDUCATION
+LA English
+DT Editorial Material; Early Access
+C1 [Adams, Robin; Aleong, Richard; Beigpourian, Behzad; Boyd, Joshua; Brown, Paige; Davis, Kirsten; Cardella, Monica; Evangelou, Demetra; Godwin, Allison; Guzey, Selcen; Douglas, Kerrie Anna; Ge, Julianna; Hess, Justin; Higbee, Steven; Kim, Dayoung; Jesiek, Brent; Johnson, Aaron; Johnson, Beata; Menekse, Muhsin; Ohland, Matthew; Murzi, Homero; Pawley, Alice; Streveler, Ruth; Xinrui, Xu; Zoltowski, Carla Bauer] Purdue Univ, W Lafayette, IN 47907 USA.
+   [Bahnson, Matthew; Utley, Juliana] North Carolina State Univ, Raleigh, NC USA.
+   [Bhaduri, Sreyoshi; Bairaktarova, Diana; Amelink, Catherine; Bowen, Bradley; Bradburn, Isabel; Case, Jenni; Grohs, Jake; Katz, Andrew; Huerta, Mark; McNair, Lisa DuPree; Lee, Walter; Matusovich, Holly; London, Jeremi; Pitterson, Nicole; Ozkan, Desen Sevi; Reeping, David; Reid, Kenneth; Secules, Stephen; Smith, Natasha] Virginia Tech, Blacksburg, VA 24061 USA.
+   [Adams, Tracey] Western Univ, Richmond, ON, Canada.
+   [Bielefeldt, Angela] Univ Colorado, Boulder, CO 80309 USA.
+   [Aguirre-Munoz, Zenaida] Univ Calif Merced, Merced, CA USA.
+   [Balakrishnan, Balamuralithara; Clevenger, Caroline; Jackson, Andrew; Litzler, Elizabeth; Minichiello, Angela] Sultan Idris, Tanjung Malim, Malaysia.
+   [Blosser, Emily Gwen; Burt, Brian; Korsunskiy, Eugene; Inkelas, Karen Kurtosuchi; Leath, Seanna; Mohedas, Ibrahim; Mosyjowski, Erika; Oseguera, Leticia; Richards, Larry; Tolbert, DeLean; Tan, Lin] Univ Louisiana Lafayette, Lafayette, LA 70504 USA.
+   [Ahn, Benjamin; Duffy, Gavin; Keipi, Teo] Iowa State Univ, Ames, IA 50011 USA.
+   [Beagon, Una; Hilton, Ethan; Orr, Marisa] Technol Univ Dublin, Dublin, Ireland.
+   [Bodnar, Cheryl; Bowe, Brian; Davis, Susannah; Felder, Richard; Hattingh, Teresa; Henderson, Trevion S.; Karwat, Darshan; Lamm, Monica; Polmear, Madeline; Patrick, Anita] Rowan Univ, Glassboro, NJ USA.
+   [Becker, Kurt; Harper, Kathy; Kartal, Ozgul; Jankowski, Natasha; Kirn, Adam; Kohl, Pat] Utah State Univ, Logan, UT 84322 USA.
+   [Borgford-Parnell, Jim; Gummer, Edith; Turner, Jeannine] Univ Washington, Seattle, WA 98195 USA.
+   [Beddoes, Kacey; Di Stefano, Marialuisa; Hira, Avneet; Knaphus-Soran, Emily; Knight, Daniel; Newstetter, Wendy; Sundararaja, NarayanKripa] San Jose State Univ, San Jose, CA 95192 USA.
+   [Maura Borrego; Verleger, Matthew] Univ Texas Austin, Austin, TX 78712 USA.
+   [Anderson, Ross] Univ Oregon, Eugene, OR 97403 USA.
+   [Bego, Campbell; Hartmann, Beth] Univ Louisville, Louisville, KY 40292 USA.
+   [Andrews, Chelsea Joy] Tufts Univ, Medford, MA 02155 USA.
+   [Angel, Jeannette; Brunhaver, Samantha; McGowan, Veronica] Univ British Columbia, Vancouver, BC, Canada.
+   [Bekki, Jennifer; Fonseca, Mayra Artilles; Purzer, Senay] Arizona State Univ, Phoenix, AZ USA.
+   [Bennett, Dawn; Coley, Brooke; Delaine, David; Harding, Trevor] Curtin Univ, Bentley, WA, Australia.
+   [Kranov, Ashley Ater; De Vries, Charlotte; Ellestad, Rachel; Huang-Saad, Aileen] Washington State Univ, Pullman, WA 99164 USA.
+   [Berdanier, Catherine; Cooper, Matthew; Hughes, Rodney; McCall, Cassandra; Maynard, Nicoleta; van Der Marel, Floris] Penn State Univ, State Coll, PA 16801 USA.
+   [Brady, Corey; Gilmartin, Shannon; Gelles, Laura; Hirshfield, Laura; Jones, Lewis; Rodgers, Kelsey; Trevelyan, James] Vanderbilt Univ, Nashville, TN 37235 USA.
+   [Bae, Christine L.; Mesquita, Diana Isabel de Araujo] Virginia Commonwealth Univ, Richmond, VA USA.
+   [Bernhard, Jonte; Trautvetter, Lois Calian] Linkoping Univ, Linkoping, Sweden.
+   [Brawner, Catherine; Cutler, Stephanie; Tierney, Gavin] Res Triangle Educ Consultants, Res Triangle Pk, NC USA.
+   [Brose, Andrea; Lutz, Benjamin; Lima, Rui M.; Trenshaw, K. F.; Webber, Karen] Hamburg Univ Technol, Hamburg, Germany.
+   [Cropley, David; DeMonbrun, Robert; Shivy, Victoria; Tank, Kristina] Univ South Australia, Adelaide, SA, Australia.
+   [Brown, Fredericka] Univ Texas Tyler, Tyler, TX 75799 USA.
+   [Cassady, Richard] Univ Arkansas, Fayetteville, AR 72701 USA.
+   [Cross, Kelly; Erdman, Andrew M.; Hadgraft, Roger; Easley, Deanna; Knott, Tamara; Jones, Brett; Kotys-Schwartz, Dania; Roberts, Dustyn] Univ Nevada, Reno, NV 89557 USA.
+   [Celik, Sine; Dringenberg, Emily; Johri, Aditya; Steif, Mike; Villanueva, Idalis] Aalto Univ, Espoo, Finland.
+   [Cunningham, Patrick; Lande, Micah; Moote, Julie; Stephan, Paula; Virguez, Lilianny; Swenson, Jessica; Tyson, Will; Wiles, Daphne] Rose Hulman Inst Technol, Terre Haute, IN 47803 USA.
+   [Brown, Phillip; Immekus, Jason; Hieb, Jeffrey; Jones, Tamecia; Rios, Laura; Schunn, Christian] Rutgers State Univ, New Brunswick, NJ USA.
+   [Ben Chan; Liberatore, Matthew; Martin, Kayla] Hong Kong Univ Sci & Technol, Hong Kong, Peoples R China.
+   [Brown, Shane; Matthews, Michael] Oregon State Univ, Corvallis, OR 97331 USA.
+   [Chance, Shannon Massie] Dublin Inst Technol, Dublin, Ireland.
+   [Dabbagh, Nada] George Mason Univ, Fairfax, VA 22030 USA.
+   [Brozina, Cory; Burkholder, Eric] Youngstown State Univ, Youngstown, OH 44555 USA.
+   [Chen, Helen; Clark, Renee] Stanford Univ, Stanford, CA 94305 USA.
+   [Dallal, Ahmed] Univ Pittsburgh, Pittsburgh, PA 15260 USA.
+   [Chen, Ouhao; Falconer, John; Douglas, Elliot; Lappalainen, Pia; Lawanto, Oenardi; Yi, Soohyun] Natl Inst Educ Singapore, Singapore, Singapore.
+   [Daly, Shanna; Fantz, Todd; Fowler, Robin Revette; Henderson, Rachel; Kohtala, Cindy; Madon, Temina; Martin, Baker; Sochacka, Nicola] Univ Michigan, Ann Arbor, MI 48109 USA.
+   [Bryant, Antony; Miskioglu, Elif Eda; Norton, Paran; Perez-Felkner, Laura; O'Hara, Robert; Murray, Jaclyn; Smith-On, Courtney; Strobel, Johannes] Leeds Beckett Univ, Leeds, W Yorkshire, England.
+   [Cheville, R. Alan; Hunsu, Nathaniel; Svihla, Vanessa; Turner, Scott] Bucknell Univ, Lewisburg, PA 17837 USA.
+   [Daniel, Scott; Hunter, Charles; Longwell-Grice, Robert] Swinburne Univ Technol, Hawthorn, Vic, Australia.
+   [Bucciarelli, Louis; McGough, Catherine; Mamaril, Natasha; Vasquez, Rodolfo Valdes] MIT, Cambridge, MA 02139 USA.
+   [Chiu, Jennifer; Cooper, Lauren; Craig, Tracy; Tang, Yan] Univ Virginia, Charlottesville, VA 22904 USA.
+   [Danowitz, Andrew] Calif Polytech State Univ San Luis Obispo, San Luis Obispo, CA USA.
+   [Choe, Nathan Hyungsok] Univ Texas, Austin, TX USA.
+   [Darolia, Rajeev] Univ Kentucky, Lexington, KY 40506 USA.
+   [Burks, Gabriel] Univ Illinois, Chicago, IL USA.
+   [Canney, Nathan; Denton, Maya; Talley, Kimberly] Seattle Univ, Seattle, WA 98122 USA.
+   [Cole, Jennifer; Eccles, Jacquelynn; Kramer, Julia; McCave, Erin; Sharp, Julie; Weiss, Emily; Wilson, Denise] Northwestern Univ, Evanston, IL 60208 USA.
+   [de Jong, Ton; Komives, Susan; McNaughtan, Jon; Prince, Thomas; Rodriguez, Sarah; Smith, Jessica; Toraman, Sinem; Sweeny, Kate; Wallin, Patric; Weintrop, David] Univ Twente, Enschede, Netherlands.
+   [Cao, Ying; Luk, Lillian Yun Yung; Perkins, Heather; Renn, Kriste; Yang, Yang] Drury Univ, Springfield, MO USA.
+   [Caratozzolo, Patricia; Hughes, Bryce; Kampe, Jean-Celeste] Inst Tecnol & Estudios Monterrey, Monterrey, Mexico.
+   [Carballo, Rafael; Friedrichsen, Debra] Int Univ La Rioja, Logrono, Spain.
+   [DiBiasio, David] Worcester Polytech Inst, Worcester, MA 01609 USA.
+   [Eris, Ozgur] MITRE Corp Bedford, Bedford, MA USA.
+   [Gladstone, Jessica] Univ Maryland, College Pk, MD 20742 USA.
+   [Diefes-Dux, Heidi] Univ Nebraska, Lincoln, NE USA.
+   [Glancy, Aran] Univ St Thomas, St Paul, MN 55105 USA.
+   [Dika, Sandra; McGee, Ebony; Lima, Marybeth; Paul, Kelli; Ricco, George; Wolmarans, Nicky] Univ N Carolina, Charlotte, NC USA.
+   [Ewen, Bernadetter; Lawson, Justine; Vinck, Dominique; Swanson, Rebecca] Rose Hulman Univ, Terre Haute, IN USA.
+   [Direito, Ines] UCL, London, England.
+   [Faber, Courtney; O'Moore, Liza] Univ Tennessee, Knoxville, TN USA.
+   [Goldsmith, Rosalie; Lichtenstein, Gary] Univ Technol Sydney, Sydney, NSW, Australia.
+   [Dohn, Niels] Aarhus Univ, Nordre Ringgade, Denmark.
+   [Grigg, Sarah Jane] Embry Riddle Aeronaut Univ, Daytona Beach, FL USA.
+   [Dolansky, Mary] Case Western Reserve Univ, Cleveland, OH 44106 USA.
+   [Faulkner, Brian; Morton, Terrell] Milwaukee Sch Engn, Milwaukee, WI USA.
+   [Doom, David; Lippard, Christine; Sitomer, Ann; West, Richard; Yoon, So Yoon] West Chester Univ, W Chester, PA USA.
+   [Ferris, Tim; McCray, Erica; Pembridge, James; Peters-Burton, Erin; Rogers, Chris] Cranfield Univ, Bedford, Beds, England.
+   [Figueiredo, Jose; Monat, Jamie; Pearson, Nelson; Pfirman, Aubrie; Natarajathinam, Malini; Sleezer, Robert; Sharp, Helen; Su, Xuhong; Swan, Chris] Inst Super Tecn, Lisbon, Portugal.
+   [Dounas-Frazer, Dimitri; Tsugawa, Marissa A.; Vossoughi, Shirin] Western Washington Univ, Bellingham, WA 98225 USA.
+   [Fiorella, Logan; Tsai, Janet] Univ Georgia, Athens, GA 30602 USA.
+   [Hammack, Rebecca] Univ Montana, Missoula, MT 59812 USA.
+   [Flores, Lisa] Univ Missouri, Columbia, MO 65211 USA.
+   [Han, Kyonghee] Yonsei Univ, Yonsei, South Korea.
+   [Fong, Carlton] Texas State Univ, San Marcos, TX USA.
+   [Edstrom, Kristina] KTH Royal Inst Technol, Stockholm, Sweden.
+   [Kamphorst, Jan; Olds, Barbara; Nelson, Mary] Hanze Univ, Groningen, Netherlands.
+   [Herman, Geoffrey; Javernick-Will, Amy; Jensen, Karin Jeanne; Quan, Gina M.; Stevens, Reed; Verdin, Dina; Thompson, Julia D.; Wilson-Lopez, Amy Alexandra; Wong, Rachel] Univ Illinois, Urbana, IL USA.
+   [Inda, Mercedes; Nghia, Tran Le Huu; Ross, Lydia] Univ Oviedo, Oviedo, Spain.
+   [Karatas, Faik; Seifert, Colleen; Van den Bogaard, Maartje] Trabzon Univ, Ak Aabat Trabzon, Turkey.
+   [Smith, Jeremy; Seah, Lay Hoon] Australian Natl Univ, Canberra, ACT, Australia.
+   [Holly, James, Jr.] Wayne Univ, Detroit, MI USA.
+   [Horng, Shwu-Min; Smith, Karl; Romine, William] Natl Chengchi Univ, Taipei, Taiwan.
+   [Huff, James] Harding Univ, Searcy, AR USA.
+   [Kaminski, Jennifer] Wright Univ, Dayton, OH USA.
+   [Lonngren, Johanna; Panther, Grace] Umea Univ, Umea, Sweden.
+   [Lottero-Perdue, Pamela Susan] Towson Univ, Towson, MD USA.
+   [Aguilar, J. Felix Lozano] Dept Proyectos Ingn, Lisbon, Portugal.
+   [Lucena, Juan; Reed, Teri; Siverling, Emilie] Colorado Sch Mines, Golden, CO 80401 USA.
+   [Lee, Dennis] Clemson Univ, Clemson, SC 29634 USA.
+   [Ma, Yingyi; Newberry, Byron; Smith, Jonathan] Syracuse Univ, Syracuse, NY USA.
+   [McNeill, Nathan] Colorado Mesa Univ, Grand Junction, CO USA.
+   [Mangiante, Elaine] Salve Regina Univ, Newport, RI USA.
+   [Mejia, Joel] Univ San Diego, San Diego, CA 92110 USA.
+   [Diaz, Noemi Mendoza] Texas A&M Univ, College Stn, TX USA.
+   [Lin, Jian] Tsinghua Univ, Beijing, Peoples R China.
+   [Mones, Alejandra Martinez] Univ Valladolid Informat, Valladolid, Spain.
+   [Michell, Kathy] Univ Cape Town, Cape Town, South Africa.
+   [Miller, Sharon] Indiana Univ, Bloomington, IN USA.
+   [Lo, Chung Kwan] Educ Univ Hong Kong, Hong Kong, Peoples R China.
+   [Mazzurco, Andrea] Swinburne Univ Technol, Melbourne, Vic, Australia.
+   [Yusof, Khairiyah Mohd] Univ Teknol Malaysia, Skudai, Malaysia.
+   [Pearson, Ashlee] RMIT Univ, Melbourne, Vic, Australia.
+   [Monteiro, Fatima] Inst Super Engn Coimbra, Inst Politecn Coimbra, Coimbra, Portugal.
+   [Novoselich, Brian John] US Mil Acad, West Point, NY 10996 USA.
+   [Noy, Shin] Denison Univ, Granville, OH 43023 USA.
+   [Mora, Marcal] Univ Alcala Madrid, Madrid, Spain.
+   [Mora, Marcal] Univ Queensland, St Lucia, Qld, Australia.
+   [Morgan, Demetri] Loyola Univ, Chicago, IL 60611 USA.
+   [Morgan, Thea] Univ Bristol, Bristol, Avon, England.
+   [Okai, Benjamin; Schimpf, Corey] John Brown Univ, Siloam Springs, AR USA.
+   [Pinto, Carla; Stearns, Elizabeth] Inst Politecn Porto, Porto, Portugal.
+   [Murphy, Teri] Univ Cincinnati, Cincinnati, OH USA.
+   [Ortega-Alvarez, Juan David] Univ EAFIT, Medellin, Colombia.
+   [Owen, Corey] Univ Saskatchewan, Saskatoon, SK, Canada.
+   [Nagy, Gabriela] Duke Univ, Durham, NC USA.
+   [Quillin, Kim; Rohde, Jacki] Salisbury Univ, Salisbury, MD USA.
+   [Rayess, Nassif] Univ Detroit Mercy, Detroit, MI 48221 USA.
+   [Reese, Michael, Jr.; Valentine, Andrew] Johns Hopkins Univ, Baltimore, MD 21218 USA.
+   [Rulifson, Greg] US Agcy Int Dev, Washington, DC 20523 USA.
+   [Rynearson, Anastasia M.; Ross, Monique; Shaw, Corrine] Campbell Univ, Buies Creek, NC 27506 USA.
+   [Simpson, Zach; Thomas, Katreena] Univ Johannesburg, Johannesburg, South Africa.
+   [Sanchez-Pena, Matilde L.; Stump, Glenda] Univ Buffalo, Buffalo, NY USA.
+   [Saunders-Smits, Gillian] Delft Univ Technol, Delft, Netherlands.
+   [Sax, Linda] Univ Calif Los Angeles, Los Angeles, CA USA.
+   [Slaton, Amy] Drexel Univ, Philadelphia, PA 19104 USA.
+   [Ro, Hyun Kyoung] Bowling Green State Univ, Bowling Green, OH 43403 USA.
+   [Schippers, Michaela] Erasmus Univ, Rotterdam, Netherlands.
+   [Schnittka, Christine] Auburn Univ, Auburn, AL 36849 USA.
+   [Rohrer, Doug] Florida Int Univ, Miami, FL 33199 USA.
+   [Sessa, Valerie] Montclair State Univ, Montclair, NJ USA.
+   [Rottmann, Cindy; Valdivia, Antonio] Univ Toronto, Toronto, ON, Canada.
+   [Rucks, Lana] Rucks Grp, Dayton, OH USA.
+   [van Hattum, Natascha] Sax Hogescholen, Enschede, Netherlands.
+   [Tougaw, Doug] Valparaiso Univ, Valparaiso, IN 46383 USA.
+   [Vieira, Camilo] Univ Norte, Barranquilla, Colombia.
+   [Troussas, Christos] Univ New Mexico, Albuquerque, NM 87131 USA.
+   [Vitasari, Prina] ITN Malang, Malang, Indonesia.
+   [Tuononen, Tarja] Univ Helsinki, Helsinki, Finland.
+   [Watted, Abeer] Al Qasemi Acad, Baqa Al Gharbiyye, Israel.
+   [Zastavker, Yevgeniya] Olin Univ, Needham, MA USA.
+   [Xu, Yonghong Jade] Univ Memphis, Memphis, TN 38152 USA.
+   [Zhang, Guili] East Carolina Univ, Greenville, NC 27858 USA.
+   [Zhu, Jiabin] Shanghai Jiao Tong Univ, Shanghai, Peoples R China.
+   [Woollacott, Laurie] Univ Witwatersrand, Johannesburg, South Africa.
+C3 Purdue University System; Purdue University; Purdue University West
+   Lafayette Campus; North Carolina State University; Virginia Polytechnic
+   Institute & State University; University of Colorado System; University
+   of Colorado Boulder; University of California System; University of
+   California Merced; University of Louisiana Lafayette; Iowa State
+   University; Rowan University; Utah System of Higher Education; Utah
+   State University; University of Washington; University of Washington
+   Seattle; California State University System; San Jose State University;
+   University of Texas System; University of Texas Austin; University of
+   Oregon; University of Louisville; Tufts University; University of
+   British Columbia; Arizona State University; Arizona State
+   University-Downtown Phoenix; Curtin University; Washington State
+   University; Pennsylvania Commonwealth System of Higher Education
+   (PCSHE); Pennsylvania State University; Vanderbilt University; Virginia
+   Commonwealth University; Linkoping University; Hamburg University of
+   Technology; University of South Australia; University of Texas System;
+   University of Texas at Tyler; University of Arkansas System; University
+   of Arkansas Fayetteville; Nevada System of Higher Education (NSHE);
+   University of Nevada Reno; Aalto University; Rose Hulman Institute
+   Technology; Rutgers University System; Rutgers University New Brunswick;
+   Hong Kong University of Science & Technology; Oregon State University;
+   Technological University Dublin; George Mason University; University
+   System of Ohio; Youngstown State University; Stanford University;
+   Pennsylvania Commonwealth System of Higher Education (PCSHE); University
+   of Pittsburgh; Nanyang Technological University; National Institute of
+   Education (NIE) Singapore; University of Michigan System; University of
+   Michigan; Leeds Beckett University; Bucknell University; Swinburne
+   University of Technology; Massachusetts Institute of Technology (MIT);
+   University of Virginia; California State University System; California
+   Polytechnic State University San Luis Obispo; University of Texas
+   System; University of Texas Austin; University of Kentucky; University
+   of Illinois System; University of Illinois Chicago; University of
+   Illinois Chicago Hospital; Seattle University; Northwestern University;
+   University of Twente; Tecnologico de Monterrey; Universidad
+   Internacional de La Rioja (UNIR); Worcester Polytechnic Institute; MITRE
+   Corporation; University System of Maryland; University of Maryland
+   College Park; University of Nebraska System; University of Nebraska
+   Lincoln; University of St Thomas Minnesota; University of North
+   Carolina; University of North Carolina Charlotte; Rose Hulman Institute
+   Technology; University of London; University College London; University
+   of Tennessee System; University of Tennessee Knoxville; University of
+   Technology Sydney; Aarhus University; Embry-Riddle Aeronautical
+   University; University System of Ohio; Case Western Reserve University;
+   Milwaukee School Engineering; Pennsylvania State System of Higher
+   Education (PASSHE); West Chester University of Pennsylvania; Cranfield
+   University; Universidade de Lisboa; Instituto Superior Tecnico; Western
+   Washington University; University System of Georgia; University of
+   Georgia; University of Montana System; University of Montana; University
+   of Missouri System; University of Missouri Columbia; Yonsei University;
+   Texas State University System; Texas State University San Marcos; Royal
+   Institute of Technology; University of Illinois System; University of
+   Illinois Urbana-Champaign; University of Oviedo; Australian National
+   University; Wayne State University; National Chengchi University;
+   Harding University; University System of Ohio; Wright State University
+   Dayton; Umea University; University System of Maryland; Towson
+   University; Colorado School of Mines; Clemson University; Syracuse
+   University; University of San Diego; Texas A&M University System; Texas
+   A&M University College Station; Tsinghua University; University of Cape
+   Town; Indiana University System; Indiana University Bloomington;
+   Education University of Hong Kong (EdUHK); Swinburne University of
+   Technology; Universiti Teknologi Malaysia; Royal Melbourne Institute of
+   Technology (RMIT); Universidade de Coimbra; Instituto Politecnico de
+   Coimbra (IPC); United States Department of Defense; United States Army;
+   United States Military Academy; University System of Ohio; Denison
+   University; Universidad de Alcala; University of Queensland; Loyola
+   University Chicago; University of Bristol; Instituto Politecnico do
+   Porto; University System of Ohio; University of Cincinnati; Universidad
+   EAFIT; University of Saskatchewan; Duke University; University System of
+   Maryland; Salisbury University; University of Detroit Mercy; Johns
+   Hopkins University; United States Agency for International Development
+   (USAID); Campbell University; University of Johannesburg; State
+   University of New York (SUNY) System; State University of New York
+   (SUNY) Buffalo; Delft University of Technology; University of California
+   System; University of California Los Angeles; Drexel University;
+   University System of Ohio; Bowling Green State University; Erasmus
+   University Rotterdam - Excl Erasmus MC; Erasmus University Rotterdam;
+   Auburn University System; Auburn University; State University System of
+   Florida; Florida International University; Montclair State University;
+   University of Toronto; Valparaiso University; Universidad del Norte
+   Colombia; University of New Mexico; University of Helsinki; University
+   of Memphis; University of North Carolina; East Carolina University;
+   Shanghai Jiao Tong University; University of Witwatersrand
+RP Adams, R (corresponding author), Purdue Univ, W Lafayette, IN 47907 USA.
+RI Mohd-Yusof, Khairiyah/H-5788-2013; Huerta, Mark/AAD-9162-2022; Yoon, So
+   Yoon/F-1984-2014; Su, Xuhong/ABH-8769-2020; O'Hara, Robert
+   M/GXG-2569-2022; Ellestad, Rachel/ABE-8184-2020; Webber, Karen
+   L./O-4349-2019; Yi, Soohyun/AAX-4855-2021; Hadgraft,
+   Roger/HSF-1493-2023; Duffy, Gavin/ABH-6570-2020; McGee, Ebony
+   Omotola/F-1747-2016; Case, Jennifer/JPA-4124-2023; Evangelou,
+   Demetra/HZM-5621-2023; WANG, YING/JLM-9219-2023; Saunders-Smits,
+   Gillian/AAE-6407-2019; Lippard, Christine N/P-2784-2018; Mesquita,
+   Diana/AAZ-6981-2020; Svihla, Vanessa/F-1481-2010; Lo, Chung
+   Kwan/HZH-6853-2023; Carballo, Rafael/D-1950-2019; Lima, Rui/B-7386-2008;
+   Valdivia, Antonio/HJZ-5108-2023; Perkins, Heather/JKH-4787-2023;
+   Bennett, Dawn/A-7210-2009; Fowler, Robin/GSD-7167-2022; Daniel,
+   Scott/AAQ-9251-2020; Diefes-Dux, Heidi/JLM-8372-2023
+OI Mohd-Yusof, Khairiyah/0000-0002-4333-3396; Yoon, So
+   Yoon/0000-0003-1868-1054; Su, Xuhong/0000-0002-4021-3516; O'Hara, Robert
+   M/0000-0001-7004-0487; Ellestad, Rachel/0000-0001-5163-7675; Webber,
+   Karen L./0000-0003-2353-5043; Yi, Soohyun/0000-0002-7239-8308; McGee,
+   Ebony Omotola/0000-0002-0499-2620; Case, Jennifer/0000-0002-0186-9803;
+   Saunders-Smits, Gillian/0000-0002-2905-864X; Mesquita,
+   Diana/0000-0003-3896-6348; Carballo, Rafael/0000-0001-9591-7708; Lima,
+   Rui/0000-0002-7991-0132; Perkins, Heather/0000-0002-8757-0545; Bennett,
+   Dawn/0000-0002-0676-1623; Daniel, Scott/0000-0002-7528-9713; Tolbert
+   Smith, DeLean/0000-0003-3729-1772; Gilmartin,
+   Shannon/0000-0001-8925-3271
+NR 0
+TC 0
+Z9 0
+U1 2
+U2 34
+PU AMER SOC ENGINEERING EDUCATION
+PI WASHINGTON
+PA 1818 N ST, N W, STE 600, WASHINGTON, DC 20036 USA
+SN 1069-4730
+EI 2168-9830
+J9 J ENG EDUC
+JI J. Eng. Educ.
+PD 2021 APR 8
+PY 2021
+DI 10.1002/jee.20389
+EA APR 2021
+PG 9
+WC Education & Educational Research; Education, Scientific Disciplines;
+   Engineering, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Education & Educational Research; Engineering
+GA RK0JQ
+UT WOS:000637992100001
+DA 2024-02-08
+ER

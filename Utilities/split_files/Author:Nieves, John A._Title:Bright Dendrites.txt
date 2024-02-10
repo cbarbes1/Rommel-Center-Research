@@ -1,0 +1,36 @@
+PT J
+AU Nieves, JA
+AF Nieves, John A.
+TI Bright Dendrites
+SO MINNESOTA REVIEW
+LA English
+DT Poetry
+C1 [Nieves, John A.] Salisbury Univ, English, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Nieves, JA (corresponding author), Salisbury Univ, English, Salisbury, MD 21801 USA.
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU DUKE UNIV PRESS
+PI DURHAM
+PA 905 W MAIN ST, STE 18-B, DURHAM, NC 27701 USA
+SN 0026-5667
+EI 2157-4189
+J9 MINN REV
+JI Minn. Rev.
+PD NOV 1
+PY 2018
+IS 91
+BP 1
+EP 1
+DI 10.1215/00265667-7136822
+PG 1
+WC Literary Reviews
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Literature
+GA HI0TG
+UT WOS:000456156100001
+DA 2024-02-08
+ER

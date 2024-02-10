@@ -1,0 +1,34 @@
+PT J
+AU DiBartolo, M
+AF DiBartolo, Mary
+TI A MASSIVE OPEN ONLINE COURSE TO EDUCATE HEALTHCARE PROFESSIONALS &
+   CAREGIVERS ABOUT ALZHEIMER'S DISEASE
+SO INNOVATION IN AGING
+LA English
+DT Meeting Abstract
+C1 [DiBartolo, Mary] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 1
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+EI 2399-5300
+J9 INNOV AGING
+JI Innov. Aging
+PY 2021
+VL 5
+SU 1
+BP 754
+EP 754
+PG 1
+WC Geriatrics & Gerontology; Gerontology
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Geriatrics & Gerontology
+GA 3V9XA
+UT WOS:000842009903489
+DA 2024-02-08
+ER

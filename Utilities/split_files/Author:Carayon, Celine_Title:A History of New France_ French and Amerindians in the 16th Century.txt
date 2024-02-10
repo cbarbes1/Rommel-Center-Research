@@ -1,0 +1,37 @@
+PT J
+AU Carayon, C
+AF Carayon, Celine
+TI A History of New France: French and Amerindians in the 16th Century
+SO WILLIAM AND MARY QUARTERLY
+LA English
+DT Book Review
+C1 [Carayon, Celine] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Carayon, C (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 21
+TC 0
+Z9 0
+U1 0
+U2 2
+PU INST EARLY AMER HIST CULT
+PI WILLIAMSBURG
+PA BOX 220, WILLIAMSBURG, VA 23187 USA
+SN 0043-5597
+EI 1933-7698
+J9 WILLIAM MARY QUART
+JI William Mary Q.
+PD OCT
+PY 2020
+VL 77
+IS 4
+BP 720
+EP 725
+DI 10.5309/willmaryquar.77.4.0720
+PG 6
+WC History
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC History
+GA PY3WE
+UT WOS:000611976700016
+DA 2024-02-08
+ER

@@ -1,0 +1,47 @@
+PT J
+AU Biehl, AM
+   Hill, B
+AF Biehl, Amelia M.
+   Hill, Brian
+TI Foster care and the earned income tax credit
+SO REVIEW OF ECONOMICS OF THE HOUSEHOLD
+LA English
+DT Article
+DE Foster care; Earned Income Tax Credit; American Recovery and
+   Reinvestment Act of 2009; Difference-in-difference
+ID CHILD MALTREATMENT; SUBSIDIES; ADOPTION; WELFARE
+AB Foster care is a source of significant costs to both governments and foster children. Policies that provide income support to households potentially reduce entry into foster care via reducing child maltreatment and improving child behavior. As part of the American Recovery and Reinvestment Act in 2009 (ARRA2009), the federal government expanded the earned income tax credit (EITC), which is an important income support program for low-income working households. Using state-level data, we investigate the impact of this EITC expansion on state-level foster care entry rates. Typically, states with state-level EITC match federal EITC spending at a specific rate, meaning that increases in federal EITC spending increase state-level spending as well. We find that expansion of EITC decreased foster care entry rates by 7.43% per year in states with a state-level EITC, relative to those without. In models that separately examine foster care entry rates by age of the child, we find that the ARRA2009 had different effects on foster care entry based on the child's age. We find that ARRA2009 decreased foster care entry rates for children age 11-15 by nearly 12% in states with a state EITC and it decreased foster care entry rates for children age 16-20 by roughly 17% in states with a state EITC, relative to states without a state EITC.
+C1 [Biehl, Amelia M.] Florida Gulf Coast Univ, Dept Econ & Finance, 2303 Lutgert Hall, Ft Myers, FL 33965 USA.
+   [Hill, Brian] Salisbury Univ, Dept Econ & Finance, 1101 Camden Ave, Salisbury, MD 21801 USA.
+C3 State University System of Florida; Florida Gulf Coast University;
+   University System of Maryland; Salisbury University
+RP Biehl, AM (corresponding author), Florida Gulf Coast Univ, Dept Econ & Finance, 2303 Lutgert Hall, Ft Myers, FL 33965 USA.
+EM abiehl@fgcu.edu; bchill@salisbury.edu
+OI Hill, Brian/0000-0002-9671-0853
+NR 20
+TC 18
+Z9 20
+U1 0
+U2 9
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING ST, NEW YORK, NY 10013 USA
+SN 1569-5239
+EI 1573-7152
+J9 REV ECON HOUSEHOLD
+JI Rev. Econ. Househ.
+PD SEP
+PY 2018
+VL 16
+IS 3
+BP 661
+EP 680
+DI 10.1007/s11150-017-9381-1
+PG 20
+WC Economics
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA GP3CS
+UT WOS:000440718900004
+DA 2024-02-08
+ER

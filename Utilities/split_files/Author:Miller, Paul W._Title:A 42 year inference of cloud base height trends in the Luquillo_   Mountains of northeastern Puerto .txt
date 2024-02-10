@@ -1,0 +1,81 @@
+PT J
+AU Miller, PW
+   Mote, TL
+   Ramseyer, CA
+   Van Beusekom, AE
+   Scholl, M
+   González, G
+AF Miller, Paul W.
+   Mote, Thomas L.
+   Ramseyer, Craig A.
+   Van Beusekom, Ashley E.
+   Scholl, Martha
+   Gonzalez, Grizelle
+TI A 42 year inference of cloud base height trends in the Luquillo
+   Mountains of northeastern Puerto Rico
+SO CLIMATE RESEARCH
+LA English
+DT Article
+DE Cloud base height; Luquillo Mountains; Cloud forest; Lifted condensation
+   level; Tropical rainforest; Caribbean
+ID CLIMATE-CHANGE; TROPICAL MOUNTAIN; FOREST; ATLANTIC; ISLANDS
+AB The Luquillo Mountains of eastern Puerto Rico are home to the only tropical rainforest managed by the United States Forest Service, with cloud-immersed forests historically occupying the highest elevations. However, within the past 50 yr, studies of the Luquillo cloud forest have suggested an increase in cloud base heights (CBH), although the CBH in the area was not quantified until recently. The present work uses radiosonde observations from nearby San Juan, Puerto Rico, to contextualize the present-day CBH within a 42 yr (1975-2016) proxy record and determine evidence for rising cloud base. Two key questions are addressed: (1) Can theoretical CBH calculations from San Juan provide a reasonable proxy for CBHs in the Luquillo Mountains? (2) Does a significant trend accompany the CBH lifting inferred from recent work in the region? The mean-layer lifted condensation level (MLLCL), a thermodynamic parameter expressing the altitude at which a rising air parcel reaches 100% relative humidity, serves as the proxy. The 42 yr MLLCL time series corroborates both the low CBHs claimed in the 1980s and the higher CBHs documented by recent work. When considering all available radiosonde data, statistically significant increasing CBH trends are detected for all seasons. However, when the record is standardized to correct for progressive vertical resolution improvements to radiosonde observations, recent CBH increases are more modest than initially indicated, and statistically significant increases are only apparent in the late rainfall season.
+C1 [Miller, Paul W.; Mote, Thomas L.] Univ Georgia, Dept Geog, Athens, GA 30602 USA.
+   [Ramseyer, Craig A.] Salisbury Univ, Dept Geog & Geosci, Salisbury, MD 21801 USA.
+   [Van Beusekom, Ashley E.; Gonzalez, Grizelle] US Forest Serv, USDA, Int Inst Trop Forestry, Rio Piedras, PR 00926 USA.
+   [Scholl, Martha] US Geol Survey, Earth Syst Proc Div, Reston, VA 20192 USA.
+C3 University System of Georgia; University of Georgia; University System
+   of Maryland; Salisbury University; United States Department of
+   Agriculture (USDA); United States Forest Service; United States
+   Department of the Interior; United States Geological Survey
+RP Miller, PW (corresponding author), Univ Georgia, Dept Geog, Athens, GA 30602 USA.
+EM m.dienst@geo.uni-mainz.de
+RI Mote, Thomas/U-6681-2017; Miller, Paul/ABH-7129-2020
+OI Mote, Thomas/0000-0002-0021-0134; Miller, Paul/0000-0002-0512-8295;
+   Ramseyer, Craig/0000-0003-0290-4639; Scholl, Martha/0000-0001-6994-4614;
+   Gonzalez, Grizelle/0000-0003-3007-5540
+FU National Science Foundation (NSF) Luquillo Long-Term Ecological Research
+   (LTER) program from the University of Puerto Rico (UPR)-Rio Piedras
+   [DEB1239764]; NSF Luquillo Critical Zone Observatory [EAR-1331841]; LTER
+   program [DEB1239764]; US Department of Agriculture (USDA) Forest
+   Service's International Institute of Tropical Forestry (IITF); UPR-Rio
+   Piedras
+FX This research was supported by the National Science Foundation (NSF)
+   Luquillo Long-Term Ecological Research (LTER) program (DEB1239764)
+   through a sub-award from the University of Puerto Rico (UPR)-Rio Piedras
+   to the University of Georgia. A.E.V.B. and G.G. were also supported by
+   the NSF Luquillo Critical Zone Observatory (EAR-1331841) and the LTER
+   program (DEB1239764). The US Department of Agriculture (USDA) Forest
+   Service's International Institute of Tropical Forestry (IITF) and
+   UPR-Rio Piedras provided additional support. The MLLCL database will be
+   made available through the Luquillo LTER web page
+   (http://luq.lter.network/datacatalog). We also thank Ariel E. Lugo of
+   the IITF, Alicia Torregrosa of the US Geological Survey (USGS), and 2
+   anonymous reviewers whose comments helped enhance the quality of this
+   paper.
+NR 38
+TC 8
+Z9 9
+U1 0
+U2 5
+PU INTER-RESEARCH
+PI OLDENDORF LUHE
+PA NORDBUNTE 23, D-21385 OLDENDORF LUHE, GERMANY
+SN 0936-577X
+EI 1616-1572
+J9 CLIM RES
+JI Clim. Res.
+PY 2018
+VL 76
+IS 1
+BP 87
+EP 94
+DI 10.3354/cr01529
+PG 8
+WC Environmental Sciences; Meteorology & Atmospheric Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Environmental Sciences & Ecology; Meteorology & Atmospheric Sciences
+GA GV8DE
+UT WOS:000446365400006
+DA 2024-02-08
+ER

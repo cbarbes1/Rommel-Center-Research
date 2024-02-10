@@ -1,0 +1,69 @@
+PT J
+AU Lycett, KA
+   Chung, JS
+   Pitula, JS
+AF Lycett, Kristen A.
+   Chung, J. Sook
+   Pitula, Joseph S.
+TI The relationship of blue crab (<i>Callinectes sapidus</i>) size class
+   and molt stage to disease acquisition and intensity of
+   <i>Hematodinium</i> <i>perezi</i> infections
+SO PLOS ONE
+LA English
+DT Article
+ID LOBSTER NEPHROPS-NORVEGICUS; PARASITIC DINOFLAGELLATE; SEASONAL
+   PREVALENCE; CHIONOECETES-OPILIO; HYPERGLYCEMIC HORMONE; CONCEPTION BAY;
+   BACULOVIRUS; CYCLE; SP.; NEWFOUNDLAND
+AB In the blue crab, Callinectes sapidus, early studies suggested a relationship between smaller crabs, which molt more frequently, and higher rates of infection by the dinoflagellate parasite, Hematodinium perezi. In order to better explore the influence of size and molting on infections, blue crabs were collected from the Maryland coastal bays and screened for the presence of H. perezi in hemolymph samples using a quantitative PCR assay. Molt stage was determined by a radioimmunoassay which measured ecdysteroid concentrations in blue crab hemolymph. Differences were seen in infection prevalence between size classes, with the medium size class (crabs 61 to 90 mm carapace width) and juvenile crabs (>= 30 mm carapace width) having the highest infection prevalence at 47.2% and 46.7%, respectively. All size classes were susceptible to infection, although fall months favored disease acquisition by juveniles, whereas mid-sized animals (31-90 mm carapace width) acquired infection predominantly in summer. Disease intensity was also most pronounced in the summer, with blue crabs > 61 mm being primary sources of proliferation. Molt status appeared to be influenced by infection, with infected crabs having significantly lower concentrations of ecdysteroids than uninfected crabs in the spring and the fall. We hypothesize that infection by H. perezi may increase molt intervals, with a delay in the spring molt cycle as an evolutionary adaptation functioning to coincide with increased host metabolism, providing optimal conditions for H. perezi propagation. Regardless of season, postmolt crabs harbored significantly higher proportions of moderate and heavy infections, suggesting that the process of ecdysis, and the postmolt recovery period, has a positive effect on parasite proliferation.
+C1 [Lycett, Kristen A.; Pitula, Joseph S.] Univ Maryland Eastern Shore, Dept Nat Sci, Princess Anne, MD 21853 USA.
+   [Chung, J. Sook] Univ Maryland, Ctr Environm Sci, Inst Marine & Environm Technol, Baltimore, MD 21201 USA.
+   [Lycett, Kristen A.] Salisbury Univ, Dept Biol Sci, Salisbury, MD USA.
+C3 University System of Maryland; University of Maryland Eastern Shore;
+   University System of Maryland; University of Maryland Baltimore;
+   University of Maryland Center for Environmental Science; Institute of
+   Marine & Environmental Technology; University System of Maryland;
+   Salisbury University
+RP Pitula, JS (corresponding author), Univ Maryland Eastern Shore, Dept Nat Sci, Princess Anne, MD 21853 USA.
+EM jspitula@umes.edu
+RI Chung, J.Sook/D-3832-2012
+OI Chung, J.Sook/0000-0002-9318-304X; Pitula, Joseph/0000-0001-5215-1976
+FU National Science Foundation [1036586]; National Science Foundation CREST
+   Award [1036586]; Direct For Education and Human Resources; Division Of
+   Human Resource Development [1036586] Funding Source: National Science
+   Foundation
+FX Funded by National Science Foundation 1036586. PI: Paulinus Chigbu.
+   Co-PI: Joe Pitula. Co-PI: Sook Chung. The funders had no role in study
+   design, data collection and analysis, decision to publish, or
+   preparation of the manuscript.; Funding for this research was provided
+   by National Science Foundation CREST Award number 1036586 awarded to Dr.
+   Paulinus Chigbu (PI). We would like to thank the Maryland Department of
+   Natural Resources, especially Steve Doctor, Gary Tyler, and Angel Wiley,
+   for providing access to the Coastal Bays Fisheries Investigation surveys
+   and database.
+NR 50
+TC 5
+Z9 5
+U1 1
+U2 24
+PU PUBLIC LIBRARY SCIENCE
+PI SAN FRANCISCO
+PA 1160 BATTERY STREET, STE 100, SAN FRANCISCO, CA 94111 USA
+SN 1932-6203
+J9 PLOS ONE
+JI PLoS One
+PD FEB 23
+PY 2018
+VL 13
+IS 2
+AR e0192237
+DI 10.1371/journal.pone.0192237
+PG 14
+WC Multidisciplinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Science & Technology - Other Topics
+GA FX4LV
+UT WOS:000426049500015
+PM 29474370
+OA Green Published, Green Submitted, gold
+DA 2024-02-08
+ER

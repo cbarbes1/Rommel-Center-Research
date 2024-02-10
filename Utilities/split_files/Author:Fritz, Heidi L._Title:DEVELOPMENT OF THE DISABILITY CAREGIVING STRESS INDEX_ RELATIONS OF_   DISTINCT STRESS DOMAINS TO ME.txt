@@ -1,0 +1,43 @@
+PT J
+AU Fritz, HL
+AF Fritz, Heidi L.
+TI DEVELOPMENT OF THE DISABILITY CAREGIVING STRESS INDEX: RELATIONS OF
+   DISTINCT STRESS DOMAINS TO MENTAL AND PHYSICAL HEALTH OUTCOMES AMONG
+   PARENTS OF CHILDREN WITH DEVELOPMENTAL DISABILITIES
+SO PSYCHOSOMATIC MEDICINE
+LA English
+DT Meeting Abstract
+CT 77th Annual Scientific Meeting of the American-Psychosomatic-Society on
+   Body to Mind
+CY MAR 06-09, 2019
+CL Vancouver, CANADA
+SP Amer Psychosomat Soc
+C1 [Fritz, Heidi L.] Salisbury Univ, Psychol, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 1
+PU LIPPINCOTT WILLIAMS & WILKINS
+PI PHILADELPHIA
+PA TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA
+SN 0033-3174
+EI 1534-7796
+J9 PSYCHOSOM MED
+JI Psychosom. Med.
+PD MAY
+PY 2019
+VL 81
+IS 4
+MA 1297
+BP A33
+EP A33
+PG 1
+WC Psychiatry; Psychology; Psychology, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Psychiatry; Psychology
+GA HX7CG
+UT WOS:000467560700092
+DA 2024-02-08
+ER

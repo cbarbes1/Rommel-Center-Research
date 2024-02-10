@@ -1,0 +1,49 @@
+PT J
+AU Boryczka, JM
+   Surak, SM
+AF Boryczka, Jocelyn M.
+   Surak, Sarah M.
+TI Introduction: Beyond Citizenship and the Nation State
+SO NEW POLITICAL SCIENCE
+LA English
+DT Editorial Material
+C1 [Boryczka, Jocelyn M.] Fairfield Univ, Scholarly Creat & Community Engagement, Fairfield, CT 06430 USA.
+   [Boryczka, Jocelyn M.] Fairfield Univ, Polit, Fairfield, CT 06430 USA.
+   [Surak, Sarah M.] Salisbury Univ, Dept Polit Sci, Salisbury, MD USA.
+   [Surak, Sarah M.] Salisbury Univ, Dept Environm Studies, Salisbury, MD USA.
+C3 Fairfield University; Fairfield University; University System of
+   Maryland; Salisbury University; University System of Maryland; Salisbury
+   University
+RP Surak, SM (corresponding author), Dept Polit Sci, Fulton Hall,Room 280 F,1101 Camden Ave, Salisbury, MD 21801 USA.
+EM smsurak@salisbury.edu
+OI Surak, Sarah/0000-0001-8962-0625
+NR 2
+TC 0
+Z9 0
+U1 0
+U2 1
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 0739-3148
+EI 1469-9931
+J9 NEW POLIT SCI
+JI New Polit. Sci.
+PD OCT 1
+PY 2020
+VL 42
+IS 4
+SI SI
+BP 477
+EP 481
+DI 10.1080/07393148.2020.1860560
+EA DEC 2020
+PG 5
+WC Political Science
+WE Emerging Sources Citation Index (ESCI)
+SC Government & Law
+GA PM6RN
+UT WOS:000600442800001
+OA Bronze
+DA 2024-02-08
+ER

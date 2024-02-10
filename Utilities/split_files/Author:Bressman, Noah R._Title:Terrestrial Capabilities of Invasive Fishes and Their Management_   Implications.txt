@@ -1,0 +1,46 @@
+PT J
+AU Bressman, NR
+AF Bressman, Noah R.
+TI Terrestrial Capabilities of Invasive Fishes and Their Management
+   Implications
+SO INTEGRATIVE AND COMPARATIVE BIOLOGY
+LA English
+DT Review
+ID SNAKEHEAD CHANNA-ARGUS; MUMMICHOG FUNDULUS-HETEROCLITUS; ASIAN SWAMP
+   EEL; POTOMAC RIVER; POLYPTERUS-SENEGALUS; ANGUILLA-ROSTRATA; AMPHIBIOUS
+   FISH; CLIMBING PERCH; GREAT-LAKES; 1ST RECORD
+AB Synopsis Amphibious fishes have many adaptations that make them successful in a wide variety of conditions, including air-breathing, terrestrial locomotor capabilities, and extreme tolerance of poor water quality. However, the traits that make them highly adaptable may allow these fishes to successfully establish themselves outside of their native regions. In particular, the terrestrial capabilities of invasive amphibious fishes allow them to disperse overland, unlike fully aquatic invasive fishes, making their management more complicated. Despite numerous amphibious fish introductions around the world, ecological risk assessments and management plans often fail to adequately account for their terrestrial behaviors. In this review, I discuss the diversity of invasive amphibious fishes and what we currently know about why they emerge onto land, how they move around terrestrial environments, and how they orient while on land. In doing so, I use case studies of the performance and motivations of nonnative amphibious fishes in terrestrial environments to propose management solutions that factor in their complete natural history. Amphibious fish species have established a disproportionate number of nonative populations globally compared to fully aquatic species. Because of their terrestrial capabilities, we may need to manage amphibious fishes more like amphibians than fully aquatic fishes, but to do so, we need to learn more about how these species perform in a wide range of terrestrial environments and conditions.
+C1 [Bressman, Noah R.] Salisbury Univ, Dept Biol, 1101 Camden Ave, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Bressman, NR (corresponding author), Salisbury Univ, Dept Biol, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM nrbressman@salisbury.edu
+NR 94
+TC 1
+Z9 2
+U1 2
+U2 6
+PU OXFORD UNIV PRESS INC
+PI CARY
+PA JOURNALS DEPT, 2001 EVANS RD, CARY, NC 27513 USA
+SN 1540-7063
+EI 1557-7023
+J9 INTEGR COMP BIOL
+JI Integr. Comp. Biol.
+PD DEC 6
+PY 2022
+VL 62
+IS 5
+BP 1377
+EP 1394
+DI 10.1093/icb/icac023
+EA MAY 2022
+PG 18
+WC Zoology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Zoology
+GA 6U0SY
+UT WOS:000799569900001
+PM 35511196
+OA Bronze
+DA 2024-02-08
+ER

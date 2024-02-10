@@ -1,0 +1,37 @@
+PT J
+AU Ratti, M
+AF Ratti, Manav
+TI Assembling Ethnicities in Neoliberal Times: Ethnographic Fictions and
+   Sri Lanka's War
+SO WASAFIRI
+LA English
+DT Book Review
+C1 [Ratti, Manav] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Ratti, M (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 0269-0055
+EI 1747-1508
+J9 WASAFIRI
+JI Wasafiri
+PD JAN 2
+PY 2021
+VL 36
+IS 1
+BP 99
+EP 101
+PG 3
+WC Humanities, Multidisciplinary
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Arts & Humanities - Other Topics
+GA QI6DI
+UT WOS:000619067200032
+DA 2024-02-08
+ER

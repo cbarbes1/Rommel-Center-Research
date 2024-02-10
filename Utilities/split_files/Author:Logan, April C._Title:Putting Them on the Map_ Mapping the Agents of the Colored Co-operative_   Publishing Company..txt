@@ -1,0 +1,35 @@
+PT J
+AU Logan, AC
+AF Logan, April C.
+TI Putting Them on the Map: Mapping the Agents of the Colored Co-operative
+   Publishing Company.
+SO LEGACY
+LA English
+DT Book Review
+C1 [Logan, April C.] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Logan, AC (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU UNIV NEBRASKA PRESS
+PI LINCOLN
+PA 1111 LINCOLN MALL, LINCOLN, NE 68588-0630 USA
+SN 0748-4321
+J9 LEGACY
+JI Legacy
+PY 2020
+VL 37
+IS 2
+BP 338
+EP 340
+PG 5
+WC Literature, American
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Literature
+GA RY3HP
+UT WOS:000647806700024
+DA 2024-02-08
+ER

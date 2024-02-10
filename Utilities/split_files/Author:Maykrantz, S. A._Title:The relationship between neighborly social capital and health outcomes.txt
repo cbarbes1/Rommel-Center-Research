@@ -1,0 +1,44 @@
+PT J
+AU Maykrantz, SA
+   Kost, JE
+   Neck, CB
+   Houghton, JD
+AF Maykrantz, S. A.
+   Kost, J. E.
+   Neck, C. B.
+   Houghton, J. D.
+TI The relationship between neighborly social capital and health outcomes
+SO EUROPEAN JOURNAL OF PUBLIC HEALTH
+LA English
+DT Meeting Abstract
+C1 [Maykrantz, S. A.] Salisbury Univ, Sch Hlth Sci, Salisbury, CT USA.
+   [Kost, J. E.] Salisbury Univ, Publ Hlth, Clarke Honors Coll, Salisbury, CT USA.
+   [Neck, C. B.; Houghton, J. D.] West Virginia Univ, John Chambers Coll Business Econ, Morgantown, WV 26506 USA.
+C3 University System of Maryland; Salisbury University; University System
+   of Maryland; Salisbury University; West Virginia University
+EM jkost1@gulls.salisbury.edu
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 1101-1262
+EI 1464-360X
+J9 EUR J PUBLIC HEALTH
+JI Eur. J. Public Health
+PD OCT
+PY 2023
+VL 33
+SU 2
+MA ckad160.11
+PG 2
+WC Public, Environmental & Occupational Health
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Public, Environmental & Occupational Health
+GA W5XX4
+UT WOS:001092365301399
+DA 2024-02-08
+ER

@@ -1,0 +1,144 @@
+PT J
+AU Chang, CH
+   Bartz, MLC
+   Brown, G
+   Callaham, MA 
+   Cameron, EK
+   Dávalos, A
+   Dobson, A
+   Görres, JH
+   Herrick, BM
+   Ikeda, H
+   James, SW
+   Johnston, MR
+   McCay, TS
+   McHugh, D
+   Minamiya, Y
+   Nouri-Aiin, M
+   Novo, M
+   Ortiz-Pachar, J
+   Pinder, RA
+   Ransom, T
+   Richardson, JB
+   Snyder, BA
+   Szlavecz, K
+AF Chang, Chih-Han
+   Bartz, Marie L. C.
+   Brown, George
+   Callaham, Mac A., Jr.
+   Cameron, Erin K.
+   Davalos, Andrea
+   Dobson, Annise
+   Gorres, Josef H.
+   Herrick, Bradley M.
+   Ikeda, Hiroshi
+   James, Samuel W.
+   Johnston, Marie R.
+   McCay, Timothy S.
+   McHugh, Damhnait
+   Minamiya, Yukio
+   Nouri-Aiin, Maryam
+   Novo, Marta
+   Ortiz-Pachar, Jaime
+   Pinder, Rebecca A.
+   Ransom, Tami
+   Richardson, Justin B.
+   Snyder, Bruce A.
+   Szlavecz, Katalin
+TI The second wave of earthworm invasions in North America: biology,
+   environmental impacts, management and control of invasive jumping worms
+SO BIOLOGICAL INVASIONS
+LA English
+DT Review
+DE Jumping worms; Amynthas agrestis; Amynthas tokioensis; Metaphire
+   hilgendorfi; Pheretimoid; Earthworm invasion
+ID ASIAN PHERETIMOID EARTHWORMS; GROUND-NESTING SONGBIRDS;
+   AMYNTHAS-AGRESTIS GOTO; ECOSYSTEM ENGINEER; EXOTIC EARTHWORMS; HARDWOOD
+   FORESTS; LAND-USE; MICROBIAL BIOMASS; EISENIA-FOETIDA; REGIONAL EXTENT
+AB The invasion of jumping worms, a small group of pheretimoid earthworm species from Asia, has increasingly become an ecological, environmental and conservation issue in forest ecosystems and urban-suburban landscapes around the world. Their presence is often noticed due to their high abundance, distinctive "jumping" behavior, and prominent granular casts on the soil surface. Although they are known to affect soil carbon dynamics and nutrient availability, no single paper has summarized their profound impacts on soil biodiversity, plant community, and animals of all trophic groups that rely on soil and the leaf litter layer for habitat, food, and shelter. In this study, we summarize the biology, invasion, and ecological impacts of invasive jumping worms across North America. We highlight potential impacts of this second wave of earthworm invasion, contrast them with the preceding European earthworm invasion in temperate forests in North America, and identify annual life cycle, reproductive and cocoon survival strategies, casting behavior and co-invasion dynamics as the key factors that contribute to their successful invasion and distinct ecological impacts. We then suggest potential management and control strategies for practitioners and policy makers, underscore the importance of coordinated community science projects in tracking the spread, and identify knowledge gaps that need to be addressed to understand and control the invasion.
+C1 [Chang, Chih-Han] Natl Taiwan Univ, Dept Life Sci, 1,Sec 4,Roosevelt Rd, Taipei 10617, Taiwan.
+   [Chang, Chih-Han] Natl Taiwan Univ, Inst Ecol & Evolutionary Biol, Taipei 10617, Taiwan.
+   [Bartz, Marie L. C.] Univ Coimbra, Dept Life Sci, Ctr Funct Ecol, P-3000456 Coimbra, Portugal.
+   [Brown, George] Embrapa Forestry, BR-83411000 Colombo, PR, Brazil.
+   [Callaham, Mac A., Jr.] US Forest Serv, USDA, Southern Res Stn, Athens, GA 30602 USA.
+   [Cameron, Erin K.] St Marys Univ, Dept Environm Sci, Halifax, NS, Canada.
+   [Davalos, Andrea] SUNY Coll Cortland, Cortland, NY 13045 USA.
+   [Dobson, Annise] Yale Univ, New Haven, CT 06511 USA.
+   [Gorres, Josef H.; Nouri-Aiin, Maryam] Univ Vermont, Burlington, VT 05405 USA.
+   [Herrick, Bradley M.; Johnston, Marie R.] Univ Wisconsin Madison Arboretum, Madison, WI 53711 USA.
+   [Ikeda, Hiroshi] Hirosaki Univ, Fac Agr & Life Sci, Hirosaki, Aomori 0368561, Japan.
+   [James, Samuel W.] Maharishi Int Univ, Fairfield, IA 52557 USA.
+   [McCay, Timothy S.; McHugh, Damhnait] Colgate Univ, Hamilton, NY 13346 USA.
+   [Minamiya, Yukio] Tochigi Prefectural Museum, Utsunomiya, Tochigi 3200865, Japan.
+   [Novo, Marta] Univ Complutense Madrid, Biodivers Ecol & Evolut Dept, Madrid 28040, Spain.
+   [Ortiz-Pachar, Jaime] Cornell Univ, Ithaca, NY 14853 USA.
+   [Pinder, Rebecca A.] Columbia Greene Community Coll, Hudson, NY 12534 USA.
+   [Ransom, Tami] Salisbury Univ, Environm Studies Dept, Salisbury, MD 21801 USA.
+   [Richardson, Justin B.] Univ Massachusetts, Amherst, MA 01003 USA.
+   [Snyder, Bruce A.] Georgia Coll & State Univ, Milledgeville, GA 31061 USA.
+   [Szlavecz, Katalin] Johns Hopkins Univ, Baltimore, MD 21218 USA.
+C3 National Taiwan University; National Taiwan University; Universidade de
+   Coimbra; Empresa Brasileira de Pesquisa Agropecuaria (EMBRAPA); United
+   States Department of Agriculture (USDA); United States Forest Service;
+   Saint Marys University - Canada; State University of New York (SUNY)
+   System; SUNY Cortland; Yale University; University of Vermont;
+   University of Wisconsin System; University of Wisconsin Madison;
+   Hirosaki University; Colgate University; Complutense University of
+   Madrid; Cornell University; State University of New York (SUNY) System;
+   SUNY Community College; University System of Maryland; Salisbury
+   University; University of Massachusetts System; University of
+   Massachusetts Amherst; University System of Georgia; Georgia College &
+   State University; Johns Hopkins University
+RP Chang, CH (corresponding author), Natl Taiwan Univ, Dept Life Sci, 1,Sec 4,Roosevelt Rd, Taipei 10617, Taiwan.
+EM chihhanchang@ntu.edu.tw
+RI Bartz, Marie Luise Carolina/AAB-3447-2020; Ikeda, Hiroshi/ABC-4637-2020;
+   Bartz, Marie Luise Carolina/H-1391-2012; Brown, George G/D-4616-2012;
+   Novo, Marta/A-9656-2017
+OI Ikeda, Hiroshi/0000-0002-7187-1722; Bartz, Marie Luise
+   Carolina/0000-0003-3637-8075; Brown, George G/0000-0001-9550-6909; Novo,
+   Marta/0000-0001-7902-3819; Chang, Chih-Han/0000-0002-6289-9555
+FU Ministry of Science and Technology [MOST108-2621-B-002-001-MY3];
+   Ministry of Education, Taiwan; National Science Foundation
+   [DEB-1855277]; Eppley Foundation for Research; Picker Interdisciplinary
+   Science Institute at Colgate University, USA; Ramon y Cajal Fellowship
+   from the Spanish Government [RYC2018024654-I]; Brazilian National
+   Council for Scientific and Technological Development [310690/2017-0,
+   404191/2019-3]; Hatch Grant (SAES-UVM) [1018366]
+FX C.-H. Chang was supported by the Ministry of Science and Technology
+   (MOST108-2621-B-002-001-MY3) and the Ministry of Education, Taiwan
+   (Yushan Scholar Program); K. Szlavecz, the National Science Foundation
+   (DEB-1855277); G. Brown, the Brazilian National Council for Scientific
+   and Technological Development (310690/2017-0 and 404191/2019-3); J.
+   Go<spacing diaeresis> rres and M. Nouri-Aiin, a Hatch Grant (SAES-UVM
+   Accession No. 1018366) and the Eppley Foundation for Research; T. McCay
+   and D. McHugh, the Picker Interdisciplinary Science Institute at Colgate
+   University, USA; M. Novo, a Ramo ' n y Cajal Fellowship
+   (RYC2018024654-I) from the Spanish Government.
+NR 194
+TC 21
+Z9 25
+U1 12
+U2 86
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1387-3547
+EI 1573-1464
+J9 BIOL INVASIONS
+JI Biol. Invasions
+PD NOV
+PY 2021
+VL 23
+IS 11
+BP 3291
+EP 3322
+DI 10.1007/s10530-021-02598-1
+EA JUL 2021
+PG 32
+WC Biodiversity Conservation; Ecology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA WH4CN
+UT WOS:000671768200002
+DA 2024-02-08
+ER

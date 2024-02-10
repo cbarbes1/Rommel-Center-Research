@@ -1,0 +1,39 @@
+PT J
+AU Hatley, J
+AF Hatley, James
+TI The Glory of Signification: A Response to Jill Stauffer's <i>Ethical
+   Loneliness</i>
+SO PHILOSOPHY TODAY
+LA English
+DT Editorial Material
+C1 [Hatley, James] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Hatley, J (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 3
+TC 1
+Z9 1
+U1 0
+U2 0
+PU PHILOSOPHY TODAY DEPAUL UNIV
+PI CHICAGO
+PA 2352 N VLIFTON AVENUE, CHICAGO, IL 60614-3208 USA
+SN 0031-8256
+EI 2329-8596
+J9 PHILOS TODAY
+JI Philos. Today
+PD SPR
+PY 2018
+VL 62
+IS 2
+SI SI
+BP 683
+EP 693
+DI 10.5840/philtoday2018622235
+PG 11
+WC Philosophy
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Philosophy
+GA HF2AV
+UT WOS:000454039000022
+DA 2024-02-08
+ER

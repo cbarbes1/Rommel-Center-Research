@@ -1,0 +1,48 @@
+PT J
+AU Kulavuz-Onal, D
+   Vásquez, C
+AF Kulavuz-Onal, Derya
+   Vasquez, Camilla
+TI "Thanks, shokran, gracias": Translingual practices in a Facebook group
+SO LANGUAGE LEARNING & TECHNOLOGY
+LA English
+DT Article
+DE Computer-Mediated Communication; Technology-Mediated Communication;
+   Discourse Analysis; Culture
+ID LANGUAGE; SOCIALIZATION; CLASSROOM
+AB The affordances associated with networked multilingualism (Androutsopoulos, 2015) have led social media scholars to replace traditional notions of code-switching with broader concepts such as translingual practices. In an attempt to further our understanding of online multilingual linguistic practices in the context of educational telecollaboration, we examined a series of interactions taken from a larger online ethnography of a global community of English as a foreign language (EFL) educators. We describe and illustrate how, when, and why participants drew on their multilingual repertoires within a Facebook group, created by two EFL teachers for their students and where English served as the primary shared linguistic resource. Taking a computer-mediated discourse analytic approach to analyzing data that included a total of 1,206 posts and comments on the group's Facebook page, ethnographic interviews with the teachers, and online documents from their telecollaboration, we found that although this group was discursively constructed as an English-only zone by the teachers for their students to practice English, all participants-especially the teachers-eventually broke this rule, as they drew on both Spanish and Arabic for a variety of purposes, such as selecting an addressee, establishing solidarity, and modeling intercultural sensitivity.
+C1 [Kulavuz-Onal, Derya] Salisbury Univ, Dept English, Appl Linguist & TESOL, Salisbury, MD 21801 USA.
+   [Vasquez, Camilla] Univ S Florida, World Languages Dept, Appl Linguist, Tampa, FL 33620 USA.
+C3 University System of Maryland; Salisbury University; State University
+   System of Florida; University of South Florida
+RP Kulavuz-Onal, D (corresponding author), Salisbury Univ, Dept English, Appl Linguist & TESOL, Salisbury, MD 21801 USA.
+EM kulavuzd@gmail.com; cvasquez@usf.edu
+FU International Research Foundation for English Language Education
+FX The larger online ethnography that this telecollaboration emerged from
+   was partially funded by a Doctoral Dissertation Grant from The
+   International Research Foundation for English Language Education.
+NR 40
+TC 20
+Z9 26
+U1 3
+U2 28
+PU UNIV HAWAII, NATL FOREIGN LANGUAGE RESOURCE CENTER
+PI HONOLULU
+PA 1859 EAST WEST RD, 106, HONOLULU, HI 96822 USA
+SN 1094-3501
+J9 LANG LEARN TECHNOL
+JI Lang. Learn. Technol.
+PD FEB
+PY 2018
+VL 22
+IS 1
+BP 240
+EP 256
+PG 17
+WC Education & Educational Research; Linguistics
+WE Social Science Citation Index (SSCI)
+SC Education & Educational Research; Linguistics
+GA FZ0HF
+UT WOS:000427248300015
+DA 2024-02-08
+ER

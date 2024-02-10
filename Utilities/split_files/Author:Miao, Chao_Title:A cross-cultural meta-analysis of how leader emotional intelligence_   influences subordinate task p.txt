@@ -1,0 +1,54 @@
+PT J
+AU Miao, C
+   Humphrey, RH
+   Qian, SS
+AF Miao, Chao
+   Humphrey, Ronald H.
+   Qian, Shanshan
+TI A cross-cultural meta-analysis of how leader emotional intelligence
+   influences subordinate task performance and organizational citizenship
+   behavior
+SO JOURNAL OF WORLD BUSINESS
+LA English
+DT Article
+DE Cross-culture; Emotional intelligence; Organizational citizenship
+   behavior; Meta-analysis; Leadership
+ID JOB-SATISFACTION; PSYCHOMETRIC PROPERTIES; MEMBER EXCHANGE; TRAIT;
+   CONSEQUENCES; EMPATHY; VALUES; PERSONALITY; VALIDITY; EMPLOYEE
+AB Global human resource managers need to understand which personality characteristics contribute to leadership effectiveness in different cultures for both selection and training purposes. This meta-analysis demonstrates that leaders' emotional intelligence (EI) demonstrates incremental validity and relative weight in predicting subordinates' task performance and organizational citizenship behavior (OCB) after controlling for the Big Five and cognitive ability. The relationship between leaders' El and subordinates' task performance is stronger in collectivistic, feminine, and high uncertainty avoidance cultures. The relationship between leaders' El and subordinates' OCB is stronger in high power distance, collectivistic, feminine, high uncertainty avoidance, long-term oriented, and restraint cultures.
+C1 [Miao, Chao] Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+   [Humphrey, Ronald H.] Univ Lancaster, Management Sch, Dept Leadership & Management, Lancaster LA1 4YX, England.
+   [Qian, Shanshan] Towson Univ, Coll Business & Econ, Dept Management, Towson, MD 21252 USA.
+C3 University System of Maryland; Salisbury University; Lancaster
+   University; University System of Maryland; Towson University
+RP Miao, C (corresponding author), Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+EM cxmiao@salisbury.edu; r.humphrey@lancaster.ac.uk; sqian@towson.edu
+OI Humphrey, Ronald/0000-0002-7266-9702
+NR 133
+TC 78
+Z9 108
+U1 9
+U2 165
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 1090-9516
+EI 1878-5573
+J9 J WORLD BUS
+JI J. World Bus.
+PD JUN
+PY 2018
+VL 53
+IS 4
+BP 463
+EP 474
+DI 10.1016/j.jwb.2018.01.003
+PG 12
+WC Business
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA GI8BB
+UT WOS:000434745700004
+OA Green Accepted
+DA 2024-02-08
+ER

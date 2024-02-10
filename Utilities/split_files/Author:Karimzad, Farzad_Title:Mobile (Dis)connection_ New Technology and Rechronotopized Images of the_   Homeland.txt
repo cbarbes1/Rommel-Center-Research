@@ -1,0 +1,49 @@
+PT J
+AU Karimzad, F
+   Catedral, L
+AF Karimzad, Farzad
+   Catedral, Lydia
+TI Mobile (Dis)connection: New Technology and Rechronotopized Images of the
+   Homeland
+SO JOURNAL OF LINGUISTIC ANTHROPOLOGY
+LA English
+DT Article
+DE Transnationalism; Mobility; Migration Discourse/Narrative; Chronotope;
+   New Media
+ID CHRONOTOPES; LANGUAGE; SELVES
+AB This paper focuses on how information accessed through new media is discursively represented by migrants. Taking an ethnographic approach to the analysis of Uzbek and Iranian migration discourse, we show how the underspecified and decontextualized information received via technology is combined with the "imagined homeland" in order to reconstruct images of life there-and-now. Since images of the homeland are chronotopic in nature, we argue that the reconstruction of these images can be understood as rechronotopization. The rechronotopized image, then, operates as a lens through which migrants socially position themselves relative to the homeland. More specifically, we show how the conflict between prior images and rechronotopized images are invoked to construct difference and discuss disconnection. Thus, while technology facilitates connection, we argue that because it reminds migrants of how things have changed since they left, it may also lead to feelings of disconnection.
+C1 [Karimzad, Farzad] Salisbury Univ, Salisbury, MD 21801 USA.
+   [Catedral, Lydia] City Univ Hong Kong, Dept Linguist & Translat, Hong Kong, Hong Kong, Peoples R China.
+C3 University System of Maryland; Salisbury University; City University of
+   Hong Kong
+RP Karimzad, F (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+EM fkarimzad@salisbury.edu; lcatedra@cityu.edu.hk
+OI Karimzad, Farzad/0000-0002-9729-4361; Catedral,
+   Lydia/0000-0002-6708-294X
+NR 31
+TC 17
+Z9 18
+U1 0
+U2 5
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1055-1360
+EI 1548-1395
+J9 J LINGUIST ANTHROPOL
+JI J. Linguist. Anthropol.
+PD DEC
+PY 2018
+VL 28
+IS 3
+BP 293
+EP 312
+DI 10.1111/jola.12198
+PG 20
+WC Anthropology; Linguistics; Language & Linguistics
+WE Social Science Citation Index (SSCI); Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Anthropology; Linguistics
+GA HC3JO
+UT WOS:000451698500003
+DA 2024-02-08
+ER

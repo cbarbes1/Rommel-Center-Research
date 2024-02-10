@@ -1,0 +1,53 @@
+PT J
+AU Follmer, KB
+   Sabat, IE
+   Siuta, RL
+AF Follmer, Kayla B.
+   Sabat, Isaac Emmanuel
+   Siuta, Rose L.
+TI Disclosure of stigmatized identities at work: An interdisciplinary
+   review and agenda for future research
+SO JOURNAL OF ORGANIZATIONAL BEHAVIOR
+LA English
+DT Review
+DE concealable identity; disclosure; identity management; stigma
+ID SEXUAL ORIENTATION; MANAGEMENT STRATEGIES; SOCIAL IDENTITIES;
+   DECISION-MAKING; SELF-DISCLOSURE; MENTAL-ILLNESS; WORKPLACE; PEOPLE;
+   DISCRIMINATION; CONCEALMENT
+AB This review focuses on the disclosure decisions faced by employees with concealable stigmatized identities-one of the most challenging decisions these individuals must make on a day-to-day basis. Indeed, multiple theoretical frameworks have provided a foundation for understanding the antecedents and outcomes associated with the decision to disclose or not to disclose a stigmatized identity. What is less clear, however, is the extent to which these frameworks have been empirically supported. This systematic review serves to unify the extant literature and prompt continued research related to employees with concealable stigmatized identities. Specifically, we draw upon multiple fields of study, including applied psychology, management, social psychology, and occupational health as a means to systematically synthesize the existing empirical research related to disclosure of stigmatized identities at work. In addition to advancing the scholarly knowledge of disclosure, this review also provides practical utility to organizations as they continue to create work environments that foster inclusion of all stigmatized and nonstigmatized employees.
+C1 [Follmer, Kayla B.] Salisbury Univ, Dept Management, Salisbury, MD USA.
+   [Sabat, Isaac Emmanuel; Siuta, Rose L.] Texas A&M Univ, Dept Psychol & Brain Sci, College Stn, TX USA.
+C3 University System of Maryland; Salisbury University; Texas A&M
+   University System; Texas A&M University College Station
+RP Follmer, KB (corresponding author), West Virginia Univ, John Chambers Coll Business & Econ, 1601 Univ Ave, Morgantown, WV 26506 USA.
+EM kaylabfollmer@gmail.com
+OI Sabat, Isaac/0000-0002-4104-5761; Follmer, Kayla/0000-0002-7243-4866
+NR 82
+TC 65
+Z9 80
+U1 10
+U2 82
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0894-3796
+EI 1099-1379
+J9 J ORGAN BEHAV
+JI J. Organ. Behav.
+PD FEB
+PY 2020
+VL 41
+IS 2
+SI SI
+BP 169
+EP 184
+DI 10.1002/job.2402
+EA JUL 2019
+PG 16
+WC Business; Psychology, Applied; Management
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Psychology
+GA KK2RD
+UT WOS:000479547000001
+DA 2024-02-08
+ER

@@ -1,0 +1,51 @@
+PT J
+AU Maier, KJ
+   Persad-Clem, RA
+   Dietz, BH
+   Hoerster, KD
+   Huizar, N
+AF Maier, Karl J.
+   Persad-Clem, Reema A.
+   Dietz, Bill H.
+   Hoerster, Katherine D.
+   Huizar, Nancy
+TI CLIMATE TO COVID, LOCAL TO GLOBAL: THE BIOPSYCHOSOCIAL ECOLOGY OF
+   SYNDEMIC PREVENTION AND RESPONSE
+SO ANNALS OF BEHAVIORAL MEDICINE
+LA English
+DT Meeting Abstract
+C1 [Maier, Karl J.] Salisbury Univ, Salisbury, MD USA.
+   [Persad-Clem, Reema A.] Geisinger Commonwealth Sch Med, Doylestown, PA USA.
+   [Dietz, Bill H.] George Washington Univ, Washington, DC USA.
+   [Hoerster, Katherine D.] VA Puget Sound Healthcare, Seattle, WA USA.
+   [Hoerster, Katherine D.] Univ Washington, Seattle, WA 98195 USA.
+   [Huizar, Nancy] Got Green, Seattle, WA USA.
+C3 University System of Maryland; Salisbury University; George Washington
+   University; University of Washington; University of Washington Seattle
+EM kjmaier@salisbury.edu
+NR 0
+TC 2
+Z9 2
+U1 0
+U2 0
+PU OXFORD UNIV PRESS INC
+PI CARY
+PA JOURNALS DEPT, 2001 EVANS RD, CARY, NC 27513 USA
+SN 0883-6612
+EI 1532-4796
+J9 ANN BEHAV MED
+JI Ann. Behav. Med.
+PD APR
+PY 2021
+VL 55
+SU 1
+BP S534
+EP S534
+PG 1
+WC Psychology, Multidisciplinary
+WE Social Science Citation Index (SSCI)
+SC Psychology
+GA RZ9MM
+UT WOS:000648922701275
+DA 2024-02-08
+ER

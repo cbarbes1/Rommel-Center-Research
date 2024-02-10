@@ -1,0 +1,52 @@
+PT J
+AU Gang, K
+   Jeong, M
+   Park, M
+AF Gang, KwangWook
+   Jeong, Min
+   Park, Minseok
+TI Industry shakeouts and product strategies: lessons from the US laser
+   printer industry
+SO TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT
+LA English
+DT Article
+DE Industry shakeout; product strategies; US laser printer industry
+ID EMPIRICAL-ANALYSIS; LINE LENGTH; EVOLUTION; PROLIFERATION; DETERMINANTS;
+   COMPETITION; MODEL
+AB Many industries experience a shakeout, which occurs when, after an initial increase, the number of firms drops significantly in a short period of time. A shakeout drives changes in the market structure and, thus, accompanying changes in firms' strategies. In this paper, we explore differences in firms' product strategies (i.e. product quality improvement, product line management, and product market strategy) before and after the initiation of an industry shakeout, focusing on the role of product exit. In analyzing a sample of US laser printer manufacturers and their products for the period between 1983 and 2002, we find clear differences in firms' product exit decisions before and after the initiation of a shakeout. With these findings, our study contributes to the understanding of the link between industry shakeouts and firms' product strategies.
+C1 [Gang, KwangWook] Salisbury Univ, Franklin P Perdue Sch Business, 1101 Camden Ave, Salisbury, MD 21801 USA.
+   [Park, Minseok] Salisbury Univ, Franklin P Perdue Sch Business, Informat & Decis Sci, Salisbury, MD USA.
+   [Jeong, Min] Ulsan Natl Inst Sci & Technol, Sch Business Adm, Ulsan, South Korea.
+C3 University System of Maryland; Salisbury University; University System
+   of Maryland; Salisbury University; Ulsan National Institute of Science &
+   Technology (UNIST)
+RP Gang, K (corresponding author), Salisbury Univ, Franklin P Perdue Sch Business, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM kxgang@salisbury.edu
+RI Park, Minseok/AAF-3526-2020
+OI Park, Minseok/0000-0002-1398-0429
+NR 35
+TC 0
+Z9 0
+U1 0
+U2 8
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 0953-7325
+EI 1465-3990
+J9 TECHNOL ANAL STRATEG
+JI Technol. Anal. Strateg. Manage.
+PY 2018
+VL 30
+IS 10
+BP 1182
+EP 1194
+DI 10.1080/09537325.2018.1458978
+PG 13
+WC Management; Multidisciplinary Sciences
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Science & Technology - Other Topics
+GA GR6KJ
+UT WOS:000442758700005
+DA 2024-02-08
+ER

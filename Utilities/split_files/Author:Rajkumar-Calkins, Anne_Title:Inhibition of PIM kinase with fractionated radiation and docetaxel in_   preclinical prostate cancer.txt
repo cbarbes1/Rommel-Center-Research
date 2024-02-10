@@ -1,0 +1,59 @@
+PT J
+AU Rajkumar-Calkins, A
+   Sagar, V
+   Wang, J
+   Bailey, S
+   Anderson, P
+   Abdulkadir, S
+   Kirschner, AN
+AF Rajkumar-Calkins, Anne
+   Sagar, Vinay
+   Wang, Jian
+   Bailey, Shania
+   Anderson, Philip
+   Abdulkadir, Sarki
+   Kirschner, Austin Noah
+TI Inhibition of PIM kinase with fractionated radiation and docetaxel in
+   preclinical prostate cancer models.
+SO JOURNAL OF CLINICAL ONCOLOGY
+LA English
+DT Meeting Abstract
+CT Annual Meeting of the American-Society-of-Clinical-Oncology (ASCO)
+CY MAY 29-31, 2020
+CL ELECTR NETWORK
+SP Amer Soc Clin Oncol
+C1 Vanderbilt Univ, Med Ctr, Nashville, TN USA.
+   Northwestern Univ, Feinberg Sch Med, Chicago, IL 60611 USA.
+   Northwestern Univ, Dept Radiat Oncol, Med Ctr, Nashville, TN USA.
+   Salisbury Univ, Salisbury, MD USA.
+C3 Vanderbilt University; Northwestern University; Feinberg School of
+   Medicine; Northwestern University; University System of Maryland;
+   Salisbury University
+FU U.S. National Institutes of Health
+FX U.S. National Institutes of Health
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 1
+PU LIPPINCOTT WILLIAMS & WILKINS
+PI PHILADELPHIA
+PA TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA
+SN 0732-183X
+EI 1527-7755
+J9 J CLIN ONCOL
+JI J. Clin. Oncol.
+PD MAY 20
+PY 2020
+VL 38
+IS 15
+SU S
+MA e17534
+PG 2
+WC Oncology
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Oncology
+GA NB2UL
+UT WOS:000560368306298
+DA 2024-02-08
+ER

@@ -1,0 +1,48 @@
+PT J
+AU Jewell, MA
+   Nyland, J
+AF Jewell, Mollie Anne
+   Nyland, Jennifer
+TI Eliciting Differentiation of Human T Lymphocytes into TH1 or TH2 cells
+   with Inorganic Arsenic Exposure
+SO FASEB JOURNAL
+LA English
+DT Meeting Abstract
+CT Experimental Biology Meeting (EB)
+CY APR 06-09, 2019
+CL Orlando, FL
+SP Amer Assoc Anat, Amer Physiol Soc, Amer Soc Biochem & Mol Biol, Amer Soc Investigat Pathol, Amer Soc Pharmacol & Expt Therapeut
+C1 [Jewell, Mollie Anne; Nyland, Jennifer] Salisbury Univ, Dept Biol Sci, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+FU Salisbury University Department of Biological Sciences; Salisbury
+   University Honors College; Salisbury University Henson School of Science
+   Grant
+FX This research is supported by the Salisbury University Department of
+   Biological Sciences, the Salisbury University Honors College, and the
+   Salisbury University Henson School of Science Grant.
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0892-6638
+EI 1530-6860
+J9 FASEB J
+JI Faseb J.
+PD APR
+PY 2019
+VL 33
+SU 1
+MA 792.6
+PG 2
+WC Biochemistry & Molecular Biology; Biology; Cell Biology
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Biochemistry & Molecular Biology; Life Sciences & Biomedicine - Other
+   Topics; Cell Biology
+GA JM9WB
+UT WOS:000496555203128
+DA 2024-02-08
+ER

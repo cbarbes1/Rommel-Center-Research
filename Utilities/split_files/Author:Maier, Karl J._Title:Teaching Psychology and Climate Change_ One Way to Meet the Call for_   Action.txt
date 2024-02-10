@@ -1,0 +1,47 @@
+PT J
+AU Maier, KJ
+   Whitehead, GI
+   Walter, MI
+AF Maier, Karl J.
+   Whitehead, George I.
+   Walter, Mark I.
+TI Teaching Psychology and Climate Change: One Way to Meet the Call for
+   Action
+SO TEACHING OF PSYCHOLOGY
+LA English
+DT Article
+DE climate change; global warming; interdisciplinary; teaching; stress;
+   psychology
+ID BARRIERS; IMPACTS; HEALTH
+AB The American Psychological Association (APA) has called for psychologists to become more involved in addressing climate change. One way to address this pressing issue is through curriculum. To this end, we describe an undergraduate course that we created and teach exclusively focused on the interface of psychology and global climate change. The course is a seminar structured around three broad themes: science and impacts, adaptation, and solutions. To support others developing curriculum in this area, we explain these themes and share the course organization and structure, along with our experiences in teaching it. We provide relevant examples of activities and resources in the context of the goals and outcomes of APA's Guidelines for the Undergraduate Psychology Major. We discuss considerations of competence and interdisciplinarity in teaching on this issue. Finally, given the magnitude and significance of climate change, we consider experiential aspects of students in the course related to stress.
+C1 [Maier, Karl J.; Whitehead, George I.; Walter, Mark I.] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+RP Maier, KJ (corresponding author), Salisbury Univ, Dept Psychol, Salisbury, MD 21801 USA.
+EM kjmaier@salisbury.edu
+NR 49
+TC 5
+Z9 6
+U1 3
+U2 21
+PU SAGE PUBLICATIONS LTD
+PI LONDON
+PA 1 OLIVERS YARD, 55 CITY ROAD, LONDON EC1Y 1SP, ENGLAND
+SN 0098-6283
+EI 1532-8023
+J9 TEACH PSYCHOL
+JI Teach. Psychol.
+PD JUL
+PY 2018
+VL 45
+IS 3
+BP 226
+EP 234
+DI 10.1177/0098628318779261
+PG 9
+WC Education & Educational Research; Psychology, Multidisciplinary
+WE Social Science Citation Index (SSCI)
+SC Education & Educational Research; Psychology
+GA GK3TS
+UT WOS:000436071000004
+DA 2024-02-08
+ER

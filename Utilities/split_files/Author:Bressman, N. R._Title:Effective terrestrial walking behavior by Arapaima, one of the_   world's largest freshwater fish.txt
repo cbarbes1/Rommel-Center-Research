@@ -1,0 +1,43 @@
+PT J
+AU Bressman, NR
+AF Bressman, N. R.
+TI <i>Effective terrestrial walking behavior by Arapaima, one of the
+   world's largest freshwater fish</i>
+SO INTEGRATIVE AND COMPARATIVE BIOLOGY
+LA English
+DT Meeting Abstract
+CT Symposium on Best Practices for Bioinspired Design Education, Research
+   and Product Development at the Virtual Annual Meeting of the
+   Society-for-Integrative-and-Comparative-Biology
+CY JAN 03-FEB 28, 2022
+CL ELECTR NETWORK
+SP Soc Integrat & Comparat Biol
+C1 [Bressman, N. R.] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+EM nrbressman@salisbury.edu
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS INC
+PI CARY
+PA JOURNALS DEPT, 2001 EVANS RD, CARY, NC 27513 USA
+SN 1540-7063
+EI 1557-7023
+J9 INTEGR COMP BIOL
+JI Integr. Comp. Biol.
+PD FEB 21
+PY 2023
+VL 62
+SU 1
+BP S39
+EP S40
+PG 2
+WC Zoology
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Zoology
+GA 9W0VU
+UT WOS:000948800900112
+DA 2024-02-08
+ER

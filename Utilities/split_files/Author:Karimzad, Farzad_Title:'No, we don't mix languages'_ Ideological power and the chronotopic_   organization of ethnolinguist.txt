@@ -1,0 +1,49 @@
+PT J
+AU Karimzad, F
+   Catedral, L
+AF Karimzad, Farzad
+   Catedral, Lydia
+TI 'No, we don't mix languages': Ideological power and the chronotopic
+   organization of ethnolinguistic identities
+SO LANGUAGE IN SOCIETY
+LA English
+DT Article
+DE Chronotope; ethnolinguistic identity; power; Uzbek; Azeri/Azerbaijani;
+   nationalism; language mixing; language ideology
+ID ESSENTIALIZATION
+AB In this study we address ethnolinguistic identity using Bakhtin's (1981) notion of chronotope. Taking an ethnographic approach to linguistic data from Azerbaijani and Uzbek communities, we trace the impact of various chronotopes on our participants' acts of ethnolinguistic identification. Building on Blommaert & De Fina (2017), we illustrate how ethnolinguistic identification is an outcome of the interaction between multiple levels of large- and small-scale chronotopes. Furthermore, we argue that chronotopes differ in terms of their power, depending on the ideological force behind them. We demonstrate how power differentials between chronotopes can account for certain interactional and linguistic patterns in conversation. The power inherent in chronotopes that link nationhood with specific languages makes the notions of discrete languages and static identities real' for our participants. Therefore, discussions of language and identity as flexible and socially constructed, we argue, must not obscure the power of these notions in shaping the perceptions of sociolinguistic subjects.
+C1 [Karimzad, Farzad] Salisbury Univ, Salisbury, MD 21801 USA.
+   [Catedral, Lydia] Univ Illinois, Urbana, IL 61801 USA.
+C3 University System of Maryland; Salisbury University; University of
+   Illinois System; University of Illinois Urbana-Champaign
+RP Karimzad, F (corresponding author), Salisbury Univ, Dept English, 1101 Camden Ave, Salisbury, MD 21801 USA.; Catedral, L (corresponding author), Univ Illinois, Dept Linguist, 4080 Foreign Languages Bldg,707 S Mathews Ave, Urbana, IL 61801 USA.
+EM fkarimzad@salisbury.edu; medill2@illinois.edu
+OI Karimzad, Farzad/0000-0002-9729-4361; Catedral,
+   Lydia/0000-0002-6708-294X
+NR 41
+TC 46
+Z9 49
+U1 0
+U2 12
+PU CAMBRIDGE UNIV PRESS
+PI NEW YORK
+PA 32 AVENUE OF THE AMERICAS, NEW YORK, NY 10013-2473 USA
+SN 0047-4045
+EI 1469-8013
+J9 LANG SOC
+JI Lang. Soc.
+PD FEB
+PY 2018
+VL 47
+IS 1
+BP 89
+EP 113
+DI 10.1017/S0047404517000781
+PG 25
+WC Linguistics; Sociology
+WE Social Science Citation Index (SSCI)
+SC Linguistics; Sociology
+GA FX6EH
+UT WOS:000426175400004
+DA 2024-02-08
+ER

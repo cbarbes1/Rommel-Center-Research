@@ -1,0 +1,53 @@
+PT J
+AU Follmer, DJ
+   Sperling, RA
+AF Follmer, D. Jake
+   Sperling, Rayne A.
+TI Interactions between reader and text: Contributions of cognitive
+   processes, strategy use, and text cohesion to comprehension of
+   expository science text
+SO LEARNING AND INDIVIDUAL DIFFERENCES
+LA English
+DT Article
+DE Reading comprehension; Executive function; Self-regulated learning;
+   Metacognitive monitoring; Text cohesion
+ID QUICK WORD TEST; READING-COMPREHENSION; EXECUTIVE FUNCTION;
+   WORKING-MEMORY; COH-METRIX; LANGUAGE COMPREHENSION; PRIOR KNOWLEDGE;
+   FRONTAL-LOBE; SIMPLE VIEW; CHILDREN
+AB Emerging evidence suggests that characteristics of text demonstrate differential recruitment of specific cognitive processes involved in reading comprehension. The aim of this study was to examine the relations among important reader and text characteristics and their contributions to comprehension of expository science text. Specifically, we examined whether text that varied in referential cohesion required differential use of specific executive functions, metacognitive monitoring of performance, and strategy use among adult readers. The results indicated that shifting, but not updating or inhibition, differentially predicted comprehension of text that was lower in referential cohesion, while updating, but not inhibition or shifting, predicted comprehension of text that was higher in referential cohesion. Metacognitive monitoring and reading strategy use predicted comprehension independent of the level of referential cohesion of text. The findings provide additional evidence for the important and interactive roles of key reader and text characteristics in understanding of expository text, and suggest important areas of future study.
+C1 [Follmer, D. Jake] Salisbury Univ, Sch Educ, Dept Doctoral Studies Literacy, Salisbury, MD 21801 USA.
+   [Sperling, Rayne A.] Penn State Univ, Dept Educ Psychol Counseling & Special Educ, University Pk, PA 16802 USA.
+C3 University System of Maryland; Salisbury University; Pennsylvania
+   Commonwealth System of Higher Education (PCSHE); Pennsylvania State
+   University; Pennsylvania State University - University Park
+RP Follmer, DJ (corresponding author), Salisbury Univ, Sch Educ, Dept Doctoral Studies Literacy, Salisbury, MD 21801 USA.
+EM undefineddjakefollmer@gmail.com
+OI Follmer, D. Jake/0000-0001-7694-9683
+FU Psi Chi
+FX This research was funded in part by Psi Chi.
+NR 117
+TC 21
+Z9 27
+U1 1
+U2 33
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1041-6080
+EI 1873-3425
+J9 LEARN INDIVID DIFFER
+JI Learn. Individ. Differ.
+PD OCT
+PY 2018
+VL 67
+BP 177
+EP 187
+DI 10.1016/j.lindif.2018.08.005
+PG 11
+WC Psychology, Educational
+WE Social Science Citation Index (SSCI)
+SC Psychology
+GA GY3YW
+UT WOS:000448494400017
+DA 2024-02-08
+ER

@@ -1,0 +1,38 @@
+PT J
+AU McCarty, M
+AF McCarty, Michael
+TI Land, Power, and the Sacred: The Estate System in Medieval Japan
+SO JOURNAL OF ASIAN STUDIES
+LA English
+DT Book Review
+C1 [McCarty, Michael] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP McCarty, M (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+EM mbmccarty@salisbury.edu
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU CAMBRIDGE UNIV PRESS
+PI NEW YORK
+PA 32 AVENUE OF THE AMERICAS, NEW YORK, NY 10013-2473 USA
+SN 0021-9118
+EI 1752-0401
+J9 J ASIAN STUD
+JI J. Asian Stud.
+PD AUG
+PY 2019
+VL 78
+IS 3
+BP 679
+EP 681
+DI 10.1017/S0021911819000871
+PG 3
+WC Area Studies; Asian Studies
+WE Social Science Citation Index (SSCI); Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Area Studies; Asian Studies
+GA IT6CE
+UT WOS:000482956900023
+DA 2024-02-08
+ER

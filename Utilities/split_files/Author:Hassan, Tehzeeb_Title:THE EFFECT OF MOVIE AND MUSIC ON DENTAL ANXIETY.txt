@@ -1,0 +1,53 @@
+PT J
+AU Hassan, T
+   Tchienga, I
+   Nibblett, K
+   Leaver, E
+AF Hassan, Tehzeeb
+   Tchienga, Ines
+   Nibblett, Kaitlyn
+   Leaver, Echo
+TI THE EFFECT OF MOVIE AND MUSIC ON DENTAL ANXIETY
+SO PSYCHOPHYSIOLOGY
+LA English
+DT Meeting Abstract
+CT Virtual Annual Meeting of the Society-for-Psychophysiological-Research
+   (SPR)
+CY OCT 04-11, 2020
+CL ELECTR NETWORK
+SP Soc Psychophysiol Res
+DE Anxiety; Dental Anxiety; Music Therapy
+C1 [Hassan, Tehzeeb; Tchienga, Ines; Nibblett, Kaitlyn; Leaver, Echo] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+RI Leaver, Echo/H-7769-2019
+OI Leaver, Echo/0000-0003-0369-8988
+FU Salisbury University Psychology Department
+FX Funded by Salisbury University Psychology Department.
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 4
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0048-5772
+EI 1469-8986
+J9 PSYCHOPHYSIOLOGY
+JI Psychophysiology
+PD OCT
+PY 2020
+VL 57
+SU 1
+MA 3-036
+BP S66
+EP S66
+PG 1
+WC Psychology, Biological; Neurosciences; Physiology; Psychology;
+   Psychology, Experimental
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Psychology; Neurosciences & Neurology; Physiology
+GA OB4NP
+UT WOS:000578448200250
+DA 2024-02-08
+ER

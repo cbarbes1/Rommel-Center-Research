@@ -1,0 +1,54 @@
+PT J
+AU Agarwal, V
+AF Agarwal, Vinita
+TI Re-conceptualizing pain through patient-centred care in the
+   complementary and alternative medicine therapeutic relationship
+SO JOURNAL OF ADVANCED NURSING
+LA English
+DT Article
+DE complementary and alternative medicine; holistic care; nurses; pain
+   acceptance; pain adjustment; pain self-management; patient-centred care;
+   providers; therapeutic relationship
+ID FEAR-AVOIDANCE; ADJUSTMENT; ACCEPTANCE; HEALTH; SUPPORT
+AB Aims: The study aim was to understand the patient description of the therapeutic relationship with their CAM provider in the context of pain self-management.
+   Background: Because pain is a subjective state, its assessment depends on patient perception of and response to pain. For nurses to provide empathetic and compassionate care, there is a need to explicate patient perceptions of the therapeutic relationship to (re) conceptualize models of patient-centred care.
+   Design: Inductive qualitative content analysis of patient interviews was conducted to identify how patients described therapeutic relationship themes and understand self-management of pain.
+   Methods: Participants were individuals working with a CAM practitioner and solicited through purposive and snowball sampling in collaboration with the practitioners from the mid-Atlantic region of the United States in 2016 (N = 13). Verbatim transcriptions of audio-recorded semi-structured in-depth interviews (430 single-spaced pages approximately) were content analysed.
+   Findings: Patients described the therapeutic relationship with the provider as a: (1) giver, who was "in-tune" with their sense of self to support self-affirmation through empathetic listening; and (2) guide, who connected the mind and body through their practice to support self-reflective learning.
+   Conclusion: This description of the CAM therapeutic relationship advances understandings of readjustment of patient relationship with pain through the provider's empathetic listening and connecting the mind and the body to support patient self-affirmation of pain experiences and self-reflective learning. The findings illuminate how a feminist standpoint contributes to understandings of the therapeutic relationship that centres patient subjectivity and co-construction of meaning-making processes to support self-management of pain.
+C1 [Agarwal, Vinita] Salisbury Univ, Dept Commun Arts, Fulton Sch Liberal Arts, 272 FH,1101 Camden Ave, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Agarwal, V (corresponding author), Salisbury Univ, Dept Commun Arts, Fulton Sch Liberal Arts, 272 FH,1101 Camden Ave, Salisbury, MD 21801 USA.
+EM vxagarwal@salisbury.edu
+FU Fulton School of Liberal Arts Faculty Research Grant, Salisbury
+   University, Maryland USA
+FX This research was funded in part through the Fulton School of Liberal
+   Arts Faculty Research Grant, Salisbury University, Maryland USA
+NR 32
+TC 7
+Z9 7
+U1 0
+U2 7
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0309-2402
+EI 1365-2648
+J9 J ADV NURS
+JI J. Adv. Nurs.
+PD OCT
+PY 2018
+VL 74
+IS 10
+BP 2406
+EP 2415
+DI 10.1111/jan.13734
+PG 10
+WC Nursing
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Nursing
+GA GZ0WG
+UT WOS:000449085600017
+PM 29869813
+DA 2024-02-08
+ER

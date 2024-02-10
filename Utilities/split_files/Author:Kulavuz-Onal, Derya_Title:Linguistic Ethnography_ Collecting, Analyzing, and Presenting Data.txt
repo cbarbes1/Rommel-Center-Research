@@ -1,0 +1,38 @@
+PT J
+AU Kulavuz-Onal, D
+AF Kulavuz-Onal, Derya
+TI Linguistic Ethnography: Collecting, Analyzing, and Presenting Data
+SO JOURNAL OF SOCIOLINGUISTICS
+LA English
+DT Book Review
+C1 [Kulavuz-Onal, Derya] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Kulavuz-Onal, D (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+EM dxkulavuz-onal@salisbury.edu
+NR 6
+TC 0
+Z9 0
+U1 0
+U2 5
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1360-6441
+EI 1467-9841
+J9 J SOCIOLING
+JI J. Socioling.
+PD FEB
+PY 2018
+VL 22
+IS 1
+BP 118
+EP 122
+DI 10.1111/josl.12249
+PG 5
+WC Linguistics
+WE Social Science Citation Index (SSCI)
+SC Linguistics
+GA FU4KK
+UT WOS:000423821800007
+DA 2024-02-08
+ER

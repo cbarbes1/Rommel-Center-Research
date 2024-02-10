@@ -1,0 +1,55 @@
+PT J
+AU Miao, C
+   Qian, SS
+   Banks, GC
+   Seers, A
+AF Miao, Chao
+   Qian, Shanshan
+   Banks, George C.
+   Seers, Anson
+TI Supervisor-subordinate guanxi: A meta-analytic review and future
+   research agenda
+SO HUMAN RESOURCE MANAGEMENT REVIEW
+LA English
+DT Review
+DE Supervisor-subordinate guanxi; Workplace outcomes; Correlates;
+   Moderators; Meta-analysis
+ID LEADER-MEMBER EXCHANGE; ORGANIZATIONAL CITIZENSHIP BEHAVIOR; EMPLOYEE
+   WORK OUTCOMES; SOCIAL-EXCHANGE; CHINESE GUANXI; MEDIATING ROLE; TRUST;
+   PERFORMANCE; RECOMMENDATIONS; MULTIDIMENSIONALITY
+AB The present research focuses on supervisor-subordinate guanxi (SSG) - a non-work or personal tie that reflects the relationship between a subordinate and their supervisor. Although SSG has received considerable attention, results are mixed. Further, how the Eastern conceptualization of SSG differs from the Western conceptualization of leader-member exchange (LMX) remains nebulous. We meta-analyzed 71 samples that contain 238 effect sizes. We found that: (1) SSG has a strong overlap with LMX (<(<(rho)over bar>)over cap> = 0.56); (2) SSG has small magnitude relations with its correlates (age, gender, education, and tenure); (3) SSG demonstrates smaller relative weights than LMX in predicting outcome variables (task performance, organizational citizenship behavior, job satisfaction, organizational commitment, turnover intention, subordinates' perceived distributive justice, subordinates' perceived procedural justice, and trust in supervisor); and (4) SSG contributes statistically significant, yet very small (ranging from 0.00 to 0.04), incremental validity above and beyond LMX in predicting all of the aforementioned outcome variables except for subordinates' perceived distributive justice. We conclude with a discussion of future directions for research on SSG.
+C1 [Miao, Chao] Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+   [Qian, Shanshan] Towson Univ, Coll Business & Econ, Dept Management, Towson, MD 21252 USA.
+   [Banks, George C.] Univ North Carolina Charlotte, Belk Coll Business, Dept Management, Charlotte, NC 28223 USA.
+   [Seers, Anson] Virginia Commonwealth Univ, Sch Business, Dept Management, Med Coll Virginia Campus, Richmond, VA 23284 USA.
+C3 University System of Maryland; Salisbury University; University System
+   of Maryland; Towson University; University of North Carolina; University
+   of North Carolina Charlotte; Virginia Commonwealth University
+RP Miao, C (corresponding author), Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+EM cxmiao@salisbury.edu; sqian@towson.edu; gbanks3@uncc.edu; aseers@vcu.edu
+NR 80
+TC 39
+Z9 39
+U1 11
+U2 110
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1053-4822
+EI 1873-7889
+J9 HUM RESOUR MANAGE R
+JI Hum. Resour. Manage. Rev.
+PD JUN
+PY 2020
+VL 30
+IS 2
+AR 100702
+DI 10.1016/j.hrmr.2019.100702
+PG 17
+WC Management
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA LG1XW
+UT WOS:000527903500006
+DA 2024-02-08
+ER

@@ -1,0 +1,51 @@
+PT J
+AU Nan, WX
+   Zhu, XL
+   Markus, ML
+AF Nan, Wenxiu (Vince)
+   Zhu, Xiaolin (Christina)
+   Markus, M. Lynne
+TI What we know and don't know about the socioeconomic impacts of mobile
+   money inSub-SaharanAfrica: A systematic literature review
+SO ELECTRONIC JOURNAL OF INFORMATION SYSTEMS IN DEVELOPING COUNTRIES
+LA English
+DT Review
+DE literature review; mobile money; socioeconomic impacts; Sub-Saharan
+   Africa
+ID FINANCIAL SERVICES; INFORMATION; KENYA; TRANSPARENCY; EXPLANATION;
+   BEHAVIOR; SAVINGS; ACCESS; WORLD
+AB Mobile money has been viewed as transformative in developing countries, because it provides basic financial services via mobile phones to people who lack easy access to formal financial services such as bank accounts. Given its accessibility, security, and affordability, mobile money has been increasingly touted as a promising digital solution for socioeconomic development in Sub-Saharan Africa. Despite its potentially disruptive impacts, research on this innovation remains fragmentary. To take stock of what is known and to advance future research, a systematic review was conducted of 82 empirical academic studies on the socioeconomic impacts of mobile money in Sub-Saharan Africa. Results show that mobile money, when widely used in Sub-Saharan African countries, has enabled a wide range of socioeconomic benefits at multiple levels including household welfare, business benefits, community development, financial development, and country well-being. In addition, the systematic review reveals multifaceted research biases and gaps in the literature and accordingly suggests promising directions for future research.
+C1 [Nan, Wenxiu (Vince)] Salisbury Univ, Franklin P Perdue Sch Business, Salisbury, MD 21801 USA.
+   [Zhu, Xiaolin (Christina)] Renmin Univ China, Sch Business, Beijing, Peoples R China.
+   [Markus, M. Lynne] Bentley Univ, Informat & Proc Management Dept, Waltham, MA 02452 USA.
+C3 University System of Maryland; Salisbury University; Renmin University
+   of China; Bentley University
+RP Nan, WX (corresponding author), Salisbury Univ, Franklin P Perdue Sch Business, Salisbury, MD 21801 USA.
+EM wxnan@salisbury.edu
+OI Nan, Wenxiu (Vince)/0000-0003-4695-4232
+NR 129
+TC 17
+Z9 18
+U1 5
+U2 15
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1681-4835
+J9 ELECTR J INF SYS DEV
+JI Electron. J. Inf. Syst. Dev. Ctries.
+PD MAR
+PY 2021
+VL 87
+IS 2
+AR e12155
+DI 10.1002/isd2.12155
+EA AUG 2020
+PG 22
+WC Social Sciences, Interdisciplinary
+WE Emerging Sources Citation Index (ESCI)
+SC Social Sciences - Other Topics
+GA QT1VT
+UT WOS:000562945800001
+DA 2024-02-08
+ER

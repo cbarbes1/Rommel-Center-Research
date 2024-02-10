@@ -1,0 +1,109 @@
+PT J
+AU Ortmann, L
+   Stutelberg, E
+   Allen, K
+   Beach, R
+   Kleese, N
+   Peterson, D
+   Yoon, SR
+   Schick, A
+   Gambino, A
+   Share, J
+   Brodeur, K
+   Crampton, A
+   Faase, C
+   Israelson, M
+   Madison, SM
+   O'Byrne, WI
+   Cole, M
+   Doerr-Stevens, C
+   Frederick, A
+   Jocius, R
+   Deventer, MMV
+   Sterner, SK
+   Sulzer, M
+AF Ortmann, Lisa
+   Stutelberg, Erin
+   Allen, Kathryn
+   Beach, Richard
+   Kleese, Nick
+   Peterson, Debra
+   Yoon, Stephanie Rollag
+   Schick, Anna
+   Gambino, Andrea
+   Share, Jeff
+   Brodeur, Katherine
+   Crampton, Anne
+   Faase, Chelsea
+   Israelson, Madeleine
+   Madison, Stephanie M.
+   O'Byrne, W. Ian
+   Cole, Mikel
+   Doerr-Stevens, Candance
+   Frederick, Amy
+   Jocius, Robin
+   Deventer, Megan McDonald Van
+   Sterner, Sara K.
+   Sulzer, Mark
+TI Annotated Bibliography of Research in the Teaching of English
+SO RESEARCH IN THE TEACHING OF ENGLISH
+LA English
+DT Bibliography
+C1 [Ortmann, Lisa] Gustavus Adolphus Coll, St Peter, MN 56082 USA.
+   [Stutelberg, Erin] Salisbury Univ, Salisbury, MD USA.
+   [Allen, Kathryn; Faase, Chelsea] Univ Wisconsin Oshkosh, Oshkosh, WI USA.
+   [Beach, Richard; Kleese, Nick; Peterson, Debra; Yoon, Stephanie Rollag; Schick, Anna] Univ Minnesota, Minneapolis, MN USA.
+   [Gambino, Andrea; Share, Jeff] Univ Calif Los Angeles, Los Angeles, CA USA.
+   Bowling Green State Univ, Bowling Green, OH USA.
+   Western Washington Univ, Bellingham, WA USA.
+   Coll St Benedict & St Johns Univ, St Joseph, MN USA.
+   Clemson Univ, Clemson, SC USA.
+   Coll Charleston, Charleston, SC USA.
+   [Cole, Mikel] Univ Houston, Houston, TX USA.
+   [Doerr-Stevens, Candance] Univ Wisconsin Milwaukee, Milwaukee, WI USA.
+   [Frederick, Amy] Univ Wisconsin River Falls, River Falls, WI USA.
+   [Jocius, Robin] Univ Texas Arlington, Arlington, TX USA.
+   [Deventer, Megan McDonald Van] Weber State Univ, Ogden, UT USA.
+   Cal Poly Humboldt, Arcata, CA USA.
+   Univ Cincinnati, Cincinnati, OH USA.
+C3 Gustavus Adolphus College; University System of Maryland; Salisbury
+   University; University of Wisconsin System; University of Wisconsin
+   Oshkosh; University of Minnesota System; University of Minnesota Twin
+   Cities; University of California System; University of California Los
+   Angeles; University System of Ohio; Bowling Green State University;
+   Western Washington University; Saint Johns University Collegeville;
+   College of Saint Benedict & Saint Johns University; Clemson University;
+   College of Charleston; University of Houston System; University of
+   Houston; University of Wisconsin System; University of Wisconsin
+   Milwaukee; University of Wisconsin System; University of Wisconsin River
+   Falls; University of Texas System; University of Texas Arlington; Utah
+   System of Higher Education; Weber State University; University System of
+   Ohio; University of Cincinnati
+RP Ortmann, L (corresponding author), Gustavus Adolphus Coll, St Peter, MN 56082 USA.
+RI Brodeur, Katherine/JWC-7679-2024
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU NATL COUNCIL TEACHERS ENGLISH
+PI URBANA
+PA 1111 KENYON RD, URBANA, IL 61801 USA
+SN 0034-527X
+EI 1943-2348
+J9 RES TEACH ENGL
+JI Res. Teach. Engl.
+PD FEB
+PY 2023
+VL 57
+IS 3
+BP AB1
+EP AB46
+PG 46
+WC Education & Educational Research
+WE Social Science Citation Index (SSCI)
+SC Education & Educational Research
+GA I3JB5
+UT WOS:001001764600001
+DA 2024-02-08
+ER

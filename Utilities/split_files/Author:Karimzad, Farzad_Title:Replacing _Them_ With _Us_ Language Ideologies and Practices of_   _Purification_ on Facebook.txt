@@ -1,0 +1,50 @@
+PT J
+AU Karimzad, F
+   Sibgatullina, G
+AF Karimzad, Farzad
+   Sibgatullina, Gulnaz
+TI Replacing "Them" With "Us": Language Ideologies and Practices of
+   "Purification" on Facebook
+SO INTERNATIONAL MULTILINGUAL RESEARCH JOURNAL
+LA English
+DT Article
+DE Azerbaijani/Azeri; language and identity; language ideologies;
+   linguistic purism/purification; social media; Tatar
+ID WEB
+AB Adopting an online ethnographic approach, we examine the linguistic/ semiotic practices and ideologies of "purism" among Tatar and Iranian Azerbaijani Facebook users. We argue that purification practices can be understood as identity work, the outcome of which is often not an etymologically "purer" language but a (perceived) "purer" and more "authentic" identity. We show that top-down standardization in Tatar has resulted in more homogenized ideologies regarding "pure" language and "authentic" identity, compared to the more heterogeneous ideologies among Iranian Azerbaijanis. Furthermore, we argue that since these communities rarely use the written form of their languages in off-line contexts, their purification practices are profoundly limited to metapragmatic discourses; however, social media provides a unique venue to also exercise these ideologies linguistically/semiotically. Finally, unlike previous scholarship that has focused on the informality of language use on social media, we illustrate how social media turns out to be a platform to practice formal language.
+C1 [Karimzad, Farzad] Salisbury Univ, Dept English, 1101 Camden Ave, Salisbury, MD 21801 USA.
+   [Sibgatullina, Gulnaz] Leiden Univ, Ctr Linguist, Leiden, Netherlands.
+C3 University System of Maryland; Salisbury University; Leiden University;
+   Leiden University - Excl LUMC
+RP Karimzad, F (corresponding author), Salisbury Univ, Dept English, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM fkarimzad@salisbury.edu
+RI Sibgatullina, Gulnaz/K-5557-2019
+OI Sibgatullina, Gulnaz/0000-0001-5628-5920; Karimzad,
+   Farzad/0000-0002-9729-4361
+NR 40
+TC 8
+Z9 10
+U1 1
+U2 7
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 1931-3152
+EI 1931-3160
+J9 INT MULTILING RES J
+JI Int. Multiling. Res. J.
+PY 2018
+VL 12
+IS 2
+BP 124
+EP 139
+DI 10.1080/19313152.2017.1401449
+PG 16
+WC Education & Educational Research; Linguistics; Language & Linguistics
+WE Social Science Citation Index (SSCI)
+SC Education & Educational Research; Linguistics
+GA GJ9KO
+UT WOS:000435720500005
+OA Green Submitted
+DA 2024-02-08
+ER

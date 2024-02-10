@@ -1,0 +1,46 @@
+PT J
+AU Richards, TJ
+   Pasirayi, S
+AF Richards, Timothy J.
+   Pasirayi, Simba
+TI Food retailing in developing economies: Review of empirical insights and
+   new directions
+SO AGRIBUSINESS
+LA English
+DT Review; Early Access
+DE developing economies; emerging markets; food retailing; supply chain
+   management; value chains
+ID PRIVATE LABEL BRANDS; DEVELOPING-COUNTRIES; MARKET POWER; SUPERMARKETS;
+   QUALITY; DIFFUSION; STANDARDS; BARRIERS; PERFORMANCE; COMPETITION
+AB Food retailing in developing economies has undergone significant transformations over the past three decades. Progressing in three waves across regions like Latin America, Asia, Africa, and beyond, food retailers have transitioned from traditional open markets to modern supermarkets akin to those in more developed economies. In this article, we provide an overview of the structure of food retailing in developing economies and examine the empirical literature that delves into the reasons behind the evolution of retailers in developing countries worldwide, as well as their impact on suppliers and consumers. We propose avenues for future research, building upon an empirical framework that recognizes the consumer-driven nature of retail evolution and how the structure of retailing develops as an equilibrium outcome within a dynamic, imperfectly competitive environment. In conclusion, we identify significant gaps in the existing empirical literature and shed light on emerging questions that are likely to gain importance in the future. [EconLit Citations: D43, L13, M31].
+C1 [Richards, Timothy J.] Arizona State Univ, Morrison Sch Agribusiness, WP Carey Sch Business, 7231 E Sonoran Arroyo Mall, Mesa, AZ 85212 USA.
+   [Pasirayi, Simba] Salisbury Univ, Dept Mkt, Salisbury, MD USA.
+C3 Arizona State University; University System of Maryland; Salisbury
+   University
+RP Richards, TJ (corresponding author), Arizona State Univ, Morrison Sch Agribusiness, WP Carey Sch Business, 7231 E Sonoran Arroyo Mall, Mesa, AZ 85212 USA.
+EM trichards@asu.edu
+OI Richards, Timothy/0000-0001-8832-9609
+NR 75
+TC 0
+Z9 0
+U1 2
+U2 2
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0742-4477
+EI 1520-6297
+J9 AGRIBUSINESS
+JI Agribusiness
+PD 2023 OCT 7
+PY 2023
+DI 10.1002/agr.21867
+EA OCT 2023
+PG 24
+WC Agricultural Economics & Policy; Economics; Food Science & Technology
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Agriculture; Business & Economics; Food Science & Technology
+GA W5KX8
+UT WOS:001092025700001
+DA 2024-02-08
+ER

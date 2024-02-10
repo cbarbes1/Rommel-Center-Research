@@ -1,0 +1,37 @@
+PT J
+AU Van de Wide, A
+AF Van de Wide, Aurelie
+TI From surrealism to contemporary photography: at the intersection of the
+   arts and literature
+SO FRENCH REVIEW
+LA French
+DT Book Review
+C1 [Van de Wide, Aurelie] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Van de Wide, A (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AMER ASSOC TEACHERS FRENCH
+PI CARBONDALE
+PA MAILCODE 4510, SOUTHERN ILLINOIS UNIV, CARBONDALE, IL 62901-4510 USA
+SN 0016-111X
+EI 2329-7131
+J9 FR REV
+JI Fr. Rev.
+PD OCT
+PY 2018
+VL 92
+IS 1
+BP 268
+EP 269
+PG 2
+WC Literature, Romance
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Literature
+GA GW8RU
+UT WOS:000447248000080
+DA 2024-02-08
+ER

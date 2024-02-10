@@ -1,0 +1,43 @@
+PT J
+AU Benner, J
+   Purohit, A
+   Cottingham, A
+   Habay, S
+AF Benner, Jeffrey
+   Purohit, Abhishek
+   Cottingham, Andrea
+   Habay, Stephen
+TI Microwave-promoted synthesis of 2,4-diamido-5-aminooxazoles
+SO ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
+LA English
+DT Meeting Abstract
+CT 257th National Meeting of the American-Chemical-Society (ACS)
+CY MAR 31-APR 04, 2019
+CL Orlando, FL
+SP Amer Chem Soc
+C1 [Benner, Jeffrey; Purohit, Abhishek; Cottingham, Andrea; Habay, Stephen] Salisbury Univ, Chem, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+EM jbenner1@gulls.salisbury.edu
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AMER CHEMICAL SOC
+PI WASHINGTON
+PA 1155 16TH ST, NW, WASHINGTON, DC 20036 USA
+SN 0065-7727
+J9 ABSTR PAP AM CHEM S
+JI Abstr. Pap. Am. Chem. Soc.
+PD MAR 31
+PY 2019
+VL 257
+MA 605
+PG 1
+WC Chemistry, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Chemistry
+GA IN7KQ
+UT WOS:000478861203770
+DA 2024-02-08
+ER

@@ -1,0 +1,45 @@
+PT J
+AU Hopkins, E
+   Williams, EE
+AF Hopkins, Emily
+   Williams, E. Eugene
+TI Did Phospholipids Evolve to Increase the Stability of Fatty Acid
+   Membranes?
+SO JOURNAL OF BIOLOGICAL CHEMISTRY
+LA English
+DT Meeting Abstract
+C1 [Hopkins, Emily; Williams, E. Eugene] Salisbury Univ, Salisbury, CT USA.
+C3 University System of Maryland; Salisbury University
+FU Salisbury University's Henson School of Science
+FX Acknowledgements to Salisbury University's Henson School of Science for
+   funding the entire project.
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+EI 1083-351X
+J9 J BIOL CHEM
+JI J. Biol. Chem.
+PY 2023
+VL 299
+IS 3
+SU S
+MA 1516
+BP S427
+EP S427
+AR 103806
+DI 10.1016/j.jbc.2023.103806
+EA APR 2023
+PG 1
+WC Biochemistry & Molecular Biology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biochemistry & Molecular Biology
+GA O0OD7
+UT WOS:001040892101052
+OA gold
+DA 2024-02-08
+ER

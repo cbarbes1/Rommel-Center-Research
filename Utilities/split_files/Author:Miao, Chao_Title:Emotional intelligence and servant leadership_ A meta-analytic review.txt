@@ -1,0 +1,52 @@
+PT J
+AU Miao, C
+   Humphrey, RH
+   Qian, SS
+AF Miao, Chao
+   Humphrey, Ronald H.
+   Qian, Shanshan
+TI Emotional intelligence and servant leadership: A meta-analytic review
+SO BUSINESS ETHICS THE ENVIRONMENT & RESPONSIBILITY
+LA English
+DT Review
+ID ORGANIZATIONAL CITIZENSHIP BEHAVIOR; JOB-SATISFACTION; TRANSFORMATIONAL
+   LEADERSHIP; ETHICAL BEHAVIOR; GENDER; PERFORMANCE; PERSONALITY;
+   MANAGEMENT; ORIENTATION; MEDIATOR
+AB Servant leadership is an effective leadership style that focuses on ethics and morality. Emotional intelligence (EI) is also associated with effective leadership and ethical behavior; thus, there has been a surge in studies that assessed the link between EI and servant leadership. Nevertheless, the empirical landscape of this relationship is mixed and fragmented. We undertook a meta-analysis to clarify this literature and found that (a) EI has a significant positive relationship with servant leadership (rho = .57); (b) the relationship between EI and servant leadership is stronger in studies having a lower percentage of well-educated subjects, in low power distance cultures, and in high institutional collectivism cultures; and (c) We were unable to find sufficient evidence to support moderating effects of the relationship between EI and servant leadership for gender (male-dominated and female-dominated studies), age (between young and old subjects), for self-report versus follower-report of servant leadership, and across different scales of servant leadership.
+C1 [Miao, Chao] Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+   [Humphrey, Ronald H.] Univ Lancaster, Sch Management, Dept Entrepreneurship & Strategy, Lancaster, England.
+   [Qian, Shanshan] Towson Univ, Coll Business & Econ, Dept Management, Towson, MD USA.
+C3 University System of Maryland; Salisbury University; Lancaster
+   University; University System of Maryland; Towson University
+RP Miao, C (corresponding author), Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+EM cxmiao@salisbury.edu
+OI Humphrey, Ronald/0000-0002-7266-9702
+NR 105
+TC 9
+Z9 21
+U1 9
+U2 42
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 2694-6416
+EI 2694-6424
+J9 BUS ETHICS ENV RESP
+JI Bus. Ethics Environ. Responsib.
+PD APR
+PY 2021
+VL 30
+IS 2
+BP 231
+EP 243
+DI 10.1111/beer.12332
+EA FEB 2021
+PG 13
+WC Business; Ethics
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Social Sciences - Other Topics
+GA QZ4JK
+UT WOS:000621405000001
+OA Green Accepted
+DA 2024-02-08
+ER

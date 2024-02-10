@@ -1,0 +1,60 @@
+PT J
+AU Miao, C
+   Humphrey, RH
+   Qian, SS
+   Pollack, JM
+AF Miao, Chao
+   Humphrey, Ronald H.
+   Qian, Shanshan
+   Pollack, Jeffrey M.
+TI Emotional intelligence and entrepreneurial intentions: an exploratory
+   meta-analysis
+SO CAREER DEVELOPMENT INTERNATIONAL
+LA English
+DT Article
+DE Emotional intelligence; Entrepreneurial intention; Cross-culture;
+   Meta-analysis
+ID SELF-EFFICACY; PSYCHOMETRIC PROPERTIES; INDIVIDUAL-DIFFERENCES; CULTURES
+   CONSEQUENCES; PERSON-ORGANIZATION; JOB-SATISFACTION; MEDIATING ROLE;
+   PERFORMANCE; LEADERSHIP; BEHAVIOR
+AB Purpose The topic of entrepreneurial intention, which refers to a person's degree of interest in creating a new business venture, has received close scrutiny in the entrepreneurship literature. The empirical results regarding the relation between emotional intelligence (EI) and entrepreneurial intention were nevertheless mixed across studies. Based on fit theory and trait activation theory, the purpose of this paper is to explain the fundamental reason for the mixed findings in the extant literature thus far.
+   Design/methodology/approach Random-effects meta-analyses, based on 12 studies (along with 12 effect sizes), were performed to not only investigate the overall relation between EI and entrepreneurial intention but also to examine the moderators (i.e. individualism (vs collectivism), masculinity (vs femininity), power distance, long-term orientation (vs short-term orientation), uncertainty avoidance, and indulgence (vs restraint)) that influence this relation.
+   Findings The results of this meta-analysis demonstrated that EI is positively related to entrepreneurial intention; the positive relationship between EI and entrepreneurial intention is stronger in long-term-oriented cultures; and the positive relationship between EI and entrepreneurial intention does not significantly differ based on a culture's level of collectivism, masculinity, power distance, uncertainty avoidance, and indulgence.
+   Originality/value This meta-analysis advances the current understanding of the relation between EI and entrepreneurial intention from cross-cultural perspectives.
+C1 [Miao, Chao] Salisbury Univ, Dept Management & Mkt, Salisbury, MD 21801 USA.
+   [Humphrey, Ronald H.] Univ Lancaster, Management Sch, Dept Entrepreneurship & Strategy, Lancaster, England.
+   [Qian, Shanshan] Towson Univ, Dept Management, Towson, MD USA.
+   [Pollack, Jeffrey M.] North Carolina State Univ, Management Innovat & Entrepreneurship Dept, Raleigh, NC 27695 USA.
+C3 University System of Maryland; Salisbury University; Lancaster
+   University; University System of Maryland; Towson University; North
+   Carolina State University
+RP Miao, C (corresponding author), Salisbury Univ, Dept Management & Mkt, Salisbury, MD 21801 USA.
+EM cxmiao@salisbury.edu
+OI Pollack, Jeffrey/0000-0002-0704-9531; Humphrey,
+   Ronald/0000-0002-7266-9702
+NR 96
+TC 20
+Z9 23
+U1 5
+U2 66
+PU EMERALD GROUP PUBLISHING LTD
+PI BINGLEY
+PA HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
+SN 1362-0436
+EI 1758-6003
+J9 CAREER DEV INT
+JI Career Dev. Int.
+PY 2018
+VL 23
+IS 5
+BP 497
+EP 512
+DI 10.1108/CDI-01-2018-0019
+PG 16
+WC Psychology, Applied; Management
+WE Social Science Citation Index (SSCI)
+SC Psychology; Business & Economics
+GA GY1VM
+UT WOS:000448322500003
+DA 2024-02-08
+ER

@@ -1,0 +1,42 @@
+PT J
+AU Shakur, A
+   Connor, R
+AF Shakur, Asif
+   Connor, Rainor
+TI The PASCO Wireless Smart Cart: A Game Changer in the Undergraduate
+   Physics Laboratory
+SO PHYSICS TEACHER
+LA English
+DT Article
+C1 [Shakur, Asif] Salisbury Univ, Phys, Salisbury, MD 21801 USA.
+   [Connor, Rainor] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University; University System
+   of Maryland; Salisbury University
+RP Shakur, A (corresponding author), Salisbury Univ, Phys, Salisbury, MD 21801 USA.
+EM AMSHAKUR@salisbury.edu
+NR 3
+TC 6
+Z9 6
+U1 0
+U2 10
+PU AMER ASSN PHYSICS TEACHERS
+PI COLLEGE PK
+PA 5110 ROANOKE PLACE SUITE 101, COLLEGE PK, MD 20740 USA
+SN 0031-921X
+J9 PHYS TEACH
+JI Phys. Teach.
+PD MAR
+PY 2018
+VL 56
+IS 3
+BP 152
+EP 154
+DI 10.1119/1.5025290
+PG 3
+WC Education, Scientific Disciplines; Physics, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Education & Educational Research; Physics
+GA FW7II
+UT WOS:000425494900010
+DA 2024-02-08
+ER

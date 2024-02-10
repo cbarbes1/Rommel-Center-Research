@@ -1,0 +1,34 @@
+PT J
+AU Sporer, RA
+AF Sporer, Ryan Alan
+TI <i>The Hinge: Civil Society, Group Cultures, and the Power of Local
+   Commitments</i>
+SO MOBILIZATION
+LA English
+DT Book Review
+C1 [Sporer, Ryan Alan] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Sporer, RA (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 1
+PU SAN DIEGO STATE UNIV
+PI SAN DIEGO
+PA DEPT SOCIOLOGY, SAN DIEGO, CA 92182 USA
+SN 1086-671X
+J9 MOBILIZATION
+JI Mobilization
+PD DEC
+PY 2022
+VL 27
+IS 4
+PG 11
+WC Sociology
+WE Social Science Citation Index (SSCI)
+SC Sociology
+GA 8L2UK
+UT WOS:000923641900010
+DA 2024-02-08
+ER
