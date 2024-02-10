@@ -1,0 +1,38 @@
+PT J
+AU Miller, TS
+AF Miller, Timothy S.
+TI The Rich and the Pure: Philanthropy and the Making of Christian Society
+   in Early Byzantium
+SO AMERICAN HISTORICAL REVIEW
+LA English
+DT Book Review
+C1 [Miller, Timothy S.] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Miller, TS (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 0002-8762
+EI 1937-5239
+J9 AM HIST REV
+JI Am. Hist. Rev.
+PD MAR 31
+PY 2023
+VL 128
+IS 1
+BP 545
+EP 546
+DI 10.1093/ahr/rhad071
+PG 2
+WC History
+WE Social Science Citation Index (SSCI); Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC History
+GA D3SV1
+UT WOS:000967967600131
+DA 2024-02-08
+ER

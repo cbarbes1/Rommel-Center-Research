@@ -1,0 +1,48 @@
+PT J
+AU Groth, RE
+   Jones, M
+   Knaub, M
+AF Groth, Randall E.
+   Jones, Matthew
+   Knaub, Mary
+TI A framework for characterizing students' cognitive processes related to
+   informal best fit lines
+SO MATHEMATICAL THINKING AND LEARNING
+LA English
+DT Article
+ID GESTURES
+AB Informal best fit lines frequently appear in school curricula. Previous research collectively illustrates that the adjective informal does not translate to cognitive simplicity. Using existing literature, we create a hypothetical framework of cognitive processes associated with studying informal best fit lines. We refine the framework using data from a cycle of design-based research about building students' understanding of covariation. The refined framework includes student thinking processes for signifying observations as data, signifying data with scatterplots, perceiving aggregates in scatterplots, perceiving trends in aggregates, signifying trends with straight lines, and using straight lines as estimation tools. We explain how students' perceptions of aggregates can proceed from the inside-out as well as from the outside-in. We also demonstrate how the amounts of variation encountered at different points in time and the extent to which students perceive straight lines to be abbreviations of linear covariation are important considerations for teaching and research.
+C1 [Groth, Randall E.; Jones, Matthew] Seidel Sch Educ, Salisbury, MD USA.
+   [Knaub, Mary] Dept Human Serv, Salisbury, MD USA.
+RP Groth, RE (corresponding author), Salisbury Univ, Seidel Sch Educ, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM regroth@salisbury.edu
+OI Groth, Randall/0000-0002-1266-1397
+FU National Science Foundation [DRL-1356001]
+FX This material is based upon work supported by the National Science
+   Foundation under Grant Number DRL-1356001.
+NR 65
+TC 3
+Z9 3
+U1 0
+U2 5
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 1098-6065
+EI 1532-7833
+J9 MATH THINK LEARN
+JI Math. Think. Learn.
+PY 2018
+VL 20
+IS 4
+BP 251
+EP 276
+DI 10.1080/10986065.2018.1509418
+PG 26
+WC Education & Educational Research
+WE Social Science Citation Index (SSCI)
+SC Education & Educational Research
+GA GU4MX
+UT WOS:000445259100001
+DA 2024-02-08
+ER

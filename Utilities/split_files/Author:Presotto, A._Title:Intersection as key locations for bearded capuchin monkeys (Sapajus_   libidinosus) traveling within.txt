@@ -1,0 +1,77 @@
+PT J
+AU Presotto, A
+   Verderane, MP
+   Biondi, L
+   Mendonça-Furtado, O
+   Spagnoletti, N
+   Madden, M
+   Izar, P
+AF Presotto, A.
+   Verderane, M. P.
+   Biondi, L.
+   Mendonca-Furtado, O.
+   Spagnoletti, N.
+   Madden, M.
+   Izar, P.
+TI Intersection as key locations for bearded capuchin monkeys (<i>Sapajus
+   libidinosus</i>) traveling within a route network
+SO ANIMAL COGNITION
+LA English
+DT Article
+DE Route network system; Spatial cognition; Capuchin monkeys; Spatial
+   analysis; Animal navigation
+ID SPATIAL MEMORY; DESERT ANTS; COGNITIVE MAPS; LANDMARK USE; SPACE;
+   AUTOCORRELATION; SOCIOECOLOGY; DECISIONS; PRIMATES; BABOONS
+AB There is evidence that wild animals are able to recall key locations and associate them with navigational routes. Studies in primate navigation suggest most species navigate through the route network system, using intersections among routes as locations of decision-making. Recent approaches presume that points of directional change may be key locations where animals decide where to go next. Over four consecutive years, we observed how a wild group of bearded capuchin monkeys used a route network system and Change Point locations (CPs) in the Brazilian ecotone of Cerrado-Caatinga. We built 200 daily routes of one wild bearded capuchin group. We used ArcGIS, the Change Point Test, Spatial Analysis in Macroecology (SAM), and statistical models to test the hypothesis that wild bearded capuchins use CPs located along routes in a different fashion than they use the CPs located at intersections of routes. A logistic regression model was used to determine the landscape variables affecting capuchins' directional changes at intersections or along routes. CPs at intersections were important points of travel path changes, whereas CPs along routes represented a zig-zag movement along the routes following the landscape features. CPs at intersections were associated with steeper terrains and shorter distances from important resources, along with better visibility of the home range. Our results support the hypothesis that intersections among routes in the route network system are located at points where monkeys have the best visibility available to make decisions on where to visit next.
+C1 [Presotto, A.] Salisbury Univ, Dept Geog & Geosci, 1101 Camden Ave, Salisbury, MD 21801 USA.
+   [Verderane, M. P.; Biondi, L.; Mendonca-Furtado, O.; Spagnoletti, N.; Izar, P.] Univ Sao Paulo, Dept Expt Psychol, Ave Prof Mello de Morais 1721, BR-05508 Sao Paulo, SP, Brazil.
+   [Madden, M.] Univ Georgia, Dept Geog, CGR, 210 Field St, Athens, GA 30602 USA.
+   [Spagnoletti, N.] CNR, Ist Sci & Tecnol Cogniz, Via S Martino dela Battaglia 44, I-00185 Rome, Italy.
+C3 University System of Maryland; Salisbury University; Universidade de Sao
+   Paulo; University System of Georgia; University of Georgia; Consiglio
+   Nazionale delle Ricerche (CNR); Istituto di Scienze e Tecnologie della
+   Cognizione (ISTC-CNR)
+RP Presotto, A (corresponding author), Salisbury Univ, Dept Geog & Geosci, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM axpresotto@salisbury.edu
+RI Biondi, Luiz Carlos Matos/AAL-6767-2021; Spagnoletti, Noemi/B-4811-2013;
+   Verderane, Michele/E-3078-2013; Mendonça-Furtado, Olívia/O-4853-2016;
+   Izar, Patricia/C-3445-2012
+OI Biondi, Luiz Carlos Matos/0000-0002-4568-7315; Spagnoletti,
+   Noemi/0000-0002-8285-5963; Verderane, Michele/0000-0001-8467-8385;
+   Mendonça-Furtado, Olívia/0000-0002-0643-5414; Izar,
+   Patricia/0000-0001-6741-0731; Presotto, Andrea/0000-0002-2805-5113
+FU FAPESP [06/51577-2, 06/56059-0, 08/54020-4, 08/55684-3, 06/51578-9,
+   08/52293-3, 08/51567-2]; University La Sapienza di Roma; ISTC-CNR of
+   Rome (Italy)
+FX This research was supported by FAPESP Grants to PI (06/51577-2;
+   06/56059-0; 08/54020-4; 08/55684-3), and FAPESP scholarships to MV, OM,
+   LB (06/51578-9; 08/52293-3; 08/51567-2). NS was granted by University La
+   Sapienza di Roma and ISTC-CNR of Rome (Italy).
+NR 61
+TC 21
+Z9 22
+U1 2
+U2 20
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 1435-9448
+EI 1435-9456
+J9 ANIM COGN
+JI Anim. Cogn.
+PD MAY
+PY 2018
+VL 21
+IS 3
+BP 393
+EP 405
+DI 10.1007/s10071-018-1176-0
+PG 13
+WC Behavioral Sciences; Zoology
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Behavioral Sciences; Zoology
+GA GD4RY
+UT WOS:000430491500007
+PM 29532262
+DA 2024-02-08
+ER

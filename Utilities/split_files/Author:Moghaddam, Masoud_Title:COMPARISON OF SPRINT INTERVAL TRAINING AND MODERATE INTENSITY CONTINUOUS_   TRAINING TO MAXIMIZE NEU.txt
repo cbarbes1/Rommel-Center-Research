@@ -1,0 +1,48 @@
+PT J
+AU Moghaddam, M
+   Estrada, CA
+   Muddle, TWD
+   Jacobson, BH
+AF Moghaddam, Masoud
+   Estrada, Carlos A.
+   Muddle, Tyler W. D.
+   Jacobson, Bert H.
+TI COMPARISON OF SPRINT INTERVAL TRAINING AND MODERATE INTENSITY CONTINUOUS
+   TRAINING TO MAXIMIZE NEUROMUSCULAR ADAPTATIONS
+SO MEDICINE AND SCIENCE IN SPORTS AND EXERCISE
+LA English
+DT Meeting Abstract
+C1 [Moghaddam, Masoud] Salisbury Univ, Salisbury, MD USA.
+   [Estrada, Carlos A.] Aurora Univ, Aurora, IL USA.
+   [Muddle, Tyler W. D.] Mississippi Univ Women, Columbus, MS USA.
+   [Jacobson, Bert H.] Oklahoma State Univ, Stillwater, OK USA.
+C3 University System of Maryland; Salisbury University; Aurora University;
+   Oklahoma State University System; Oklahoma State University - Stillwater
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU LIPPINCOTT WILLIAMS & WILKINS
+PI PHILADELPHIA
+PA TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA
+SN 0195-9131
+EI 1530-0315
+J9 MED SCI SPORT EXER
+JI Med. Sci. Sports Exerc.
+PD AUG
+PY 2021
+VL 53
+IS 8
+SU S
+MA 89
+BP 28
+EP 28
+PG 1
+WC Sport Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Sport Sciences
+GA UM1WH
+UT WOS:000693128400090
+DA 2024-02-08
+ER

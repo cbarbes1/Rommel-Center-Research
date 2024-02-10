@@ -1,0 +1,69 @@
+PT J
+AU Freeman, AR
+   Lee, DN
+   Allen, JJ
+   Blank, B
+   Jeffery, D
+   Lerer, A
+   Singh, B
+   Southard, T
+   Cheong, SH
+   Ophir, AG
+AF Freeman, Angela R.
+   Lee, Danielle N.
+   Allen, Jeremy J.
+   Blank, Bryant
+   Jeffery, Dean
+   Lerer, Assaf
+   Singh, Bhupinder
+   Southard, Teresa
+   Cheong, Soon Hon
+   Ophir, Alexander G.
+TI Extreme plasticity of reproductive state in a female rodent
+SO CURRENT BIOLOGY
+LA English
+DT Letter
+ID MATURATION; PHEROMONE
+C1 [Freeman, Angela R.; Lee, Danielle N.; Ophir, Alexander G.] Cornell Univ, Dept Psychol, Ithaca, NY 14853 USA.
+   [Freeman, Angela R.] Salisbury Univ, Dept Biol, Salisbury, MD 21801 USA.
+   [Lee, Danielle N.] Southern Illinois Univ Edwardsville, Dept Biol, Edwardsville, IL 62026 USA.
+   [Allen, Jeremy J.] Cornell Univ, Dept Anim Sci, Ithaca, NY 14853 USA.
+   [Blank, Bryant; Jeffery, Dean; Singh, Bhupinder] Cornell Univ, Ctr Anim Resources & Educ, Ithaca, NY 14853 USA.
+   [Jeffery, Dean] Coastal Rivers Pet Hosp, Abbotsford, BC, Canada.
+   [Lerer, Assaf] Cornell Univ, Dept Clin Sci, Ithaca, NY 14853 USA.
+   [Southard, Teresa] Cornell Univ, Dept Biomed Sci, Ithaca, NY 14853 USA.
+C3 Cornell University; University System of Maryland; Salisbury University;
+   Southern Illinois University System; Southern Illinois University
+   Edwardsville; Cornell University; Cornell University; Cornell
+   University; Cornell University
+RP Ophir, AG (corresponding author), Cornell Univ, Dept Psychol, Ithaca, NY 14853 USA.
+EM ophir@cornell.edu
+OI Cheong, Soon Hon/0000-0001-9002-7589
+NR 10
+TC 0
+Z9 0
+U1 2
+U2 2
+PU CELL PRESS
+PI CAMBRIDGE
+PA 50 HAMPSHIRE ST, FLOOR 5, CAMBRIDGE, MA 02139 USA
+SN 0960-9822
+EI 1879-0445
+J9 CURR BIOL
+JI Curr. Biol.
+PD MAR 27
+PY 2023
+VL 33
+IS 6
+BP R215
+EP R216
+PG 2
+WC Biochemistry & Molecular Biology; Biology; Cell Biology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biochemistry & Molecular Biology; Life Sciences & Biomedicine - Other
+   Topics; Cell Biology
+GA M6FC2
+UT WOS:001031144900001
+PM 36977379
+DA 2024-02-08
+ER

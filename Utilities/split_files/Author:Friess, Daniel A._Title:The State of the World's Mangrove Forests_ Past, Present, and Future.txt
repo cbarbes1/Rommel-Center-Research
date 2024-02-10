@@ -1,0 +1,83 @@
+PT S
+AU Friess, DA
+   Rogers, K
+   Lovelock, CE
+   Krauss, KW
+   Hamilton, SE
+   Lee, SY
+   Lucas, R
+   Primavera, J
+   Rajkaran, A
+   Shi, SH
+AF Friess, Daniel A.
+   Rogers, Kerrylee
+   Lovelock, Catherine E.
+   Krauss, Ken W.
+   Hamilton, Stuart E.
+   Lee, Shing Yip
+   Lucas, Richard
+   Primavera, Jurgenne
+   Rajkaran, Anusha
+   Shi, Suhua
+BE Gadgil, A
+   Tomich, TP
+TI The State of the World's Mangrove Forests: Past, Present, and Future
+SO ANNUAL REVIEW OF ENVIRONMENT AND RESOURCES, VOL 44
+SE Annual Review of Environment and Resources
+LA English
+DT Review; Book Chapter
+DE climate change; conversion; deforestation; ecosystem services;
+   restoration; sea-level rise
+ID SEA-LEVEL RISE; MEKONG RIVER DELTA; NEW-SOUTH-WALES; CARBON STOCKS;
+   GLOBAL DISTRIBUTION; AYEYARWADY DELTA; ELEVATION CHANGE; SATELLITE DATA;
+   WATER SOURCES; COASTAL
+AB Intertidal mangrove forests are a dynamic ecosystem experiencing rapid changes in extent and habitat quality over geological history, today and into the future. Climate and sea level have drastically altered mangrove distribution since their appearance in the geological record similar to 75 million years ago (Mya), through to the Holocene. In contrast, contemporary mangrove dynamics are driven primarily by anthropogenic threats, including pollution, overextraction, and conversion to aquaculture and agriculture. Deforestation rates have declined in the past decade, but the future ofmangroves is uncertain; new deforestation frontiers are opening, particularly in Southeast Asia and West Africa, despite international conservation policies and ambitious global targets for rehabilitation. In addition, geological and climatic processes such as sea-level rise that were important over geological history will continue to influence globalmangrove distribution in the future. Recommendations are given to reframe mangrove conservation, with a view to improving the state of mangroves in the future.
+C1 [Friess, Daniel A.] Natl Univ Singapore, Dept Geog, Singapore 117570, Singapore.
+   [Friess, Daniel A.; Lee, Shing Yip; Primavera, Jurgenne] IUCN, Mangrove Specialist Grp, Gland, Switzerland.
+   [Rogers, Kerrylee] Univ Wollongong, Sch Earth & Environm Sci, Wollongong, NSW 2522, Australia.
+   [Lovelock, Catherine E.] Univ Queensland, Sch Biol Sci, St Lucia, Qld 4072, Australia.
+   [Krauss, Ken W.] US Geol Survey, Wetland & Aquat Res Ctr, Lafayette, LA 70506 USA.
+   [Hamilton, Stuart E.] Salisbury Univ, Dept Geog & Geosci, Salisbury, MD 21801 USA.
+   [Lee, Shing Yip] Chinese Univ Hong Kong, Simon FS Li Marine Sci Lab, Shatin, Hong Kong, Peoples R China.
+   [Lucas, Richard] Aberystwyth Univ, Dept Geog & Earth Sci, Aberystwyth SY23 3DB, Dyfed, Wales.
+   [Primavera, Jurgenne] Zool Soc London, Iloilo 5000, Philippines.
+   [Rajkaran, Anusha] Univ Western Cape, Dept Biodivers & Conservat Biol, ZA-7535 Bellville, South Africa.
+   [Shi, Suhua] Sun Yat Sen Univ, Sch Life Sci, Guangzhou 510275, Guangdong, Peoples R China.
+C3 National University of Singapore; University of Wollongong; University
+   of Queensland; United States Department of the Interior; United States
+   Geological Survey; University System of Maryland; Salisbury University;
+   Chinese University of Hong Kong; Aberystwyth University; University of
+   the Western Cape; Sun Yat Sen University
+RP Friess, DA (corresponding author), Natl Univ Singapore, Dept Geog, Singapore 117570, Singapore.; Friess, DA (corresponding author), IUCN, Mangrove Specialist Grp, Gland, Switzerland.
+EM dan.friess@nus.edu.sg
+RI Hamilton, Stuart E./A-4297-2013; Friess, Dan/G-2056-2011; Lovelock,
+   Catherine E./AAF-7294-2020; Friess, Daniel/HJY-2143-2023; Rogers,
+   Kerrylee/AAC-8093-2022; Lee, Joe S. Y./B-9185-2008
+OI Hamilton, Stuart E./0000-0001-8114-7247; Lovelock, Catherine
+   E./0000-0002-2219-6855; Friess, Daniel/0000-0002-3087-5233; Lee, Joe S.
+   Y./0000-0001-9336-2323; Rogers, Kerrylee/0000-0003-1350-4737
+NR 149
+TC 317
+Z9 341
+U1 95
+U2 491
+PU ANNUAL REVIEWS
+PI PALO ALTO
+PA 4139 EL CAMINO WAY, PO BOX 10139, PALO ALTO, CA 94303-0897 USA
+SN 1543-5938
+BN 978-0-8243-2344-8
+J9 ANNU REV ENV RESOUR
+JI Annu. Rev. Environ. Resour
+PY 2019
+VL 44
+BP 89
+EP 115
+DI 10.1146/annurev-environ-101718-033302
+PG 27
+WC Environmental Sciences; Environmental Studies
+WE Book Citation Index – Social Sciences & Humanities (BKCI-SSH); Book Citation Index – Science (BKCI-S); Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Environmental Sciences & Ecology
+GA BO0IS
+UT WOS:000491256100004
+DA 2024-02-08
+ER

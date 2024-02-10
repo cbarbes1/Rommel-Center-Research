@@ -1,0 +1,88 @@
+PT J
+AU Crowe, W
+   Allsopp, PJ
+   Nyland, JF
+   Magee, PJ
+   Strain, JJ
+   Doherty, LC
+   Watson, GE
+   Ball, E
+   Riddell, C
+   Armstrong, DJ
+   Penta, K
+   Todd, JJ
+   Spence, T
+   McSorley, EM
+AF Crowe, William
+   Allsopp, Philip J.
+   Nyland, Jennifer F.
+   Magee, Pamela J.
+   Strain, J. J.
+   Doherty, Leanne C.
+   Watson, Gene E.
+   Ball, Elisabeth
+   Riddell, Claire
+   Armstrong, David J.
+   Penta, Kayla
+   Todd, Joshua J.
+   Spence, Toni
+   McSorley, Emeir M.
+TI Inflammatory response following<i> in vitro </i>exposure to
+   methylmercury with and without n-3 long chain polyunsaturated fatty
+   acids in peripheral blood mononuclear cells from systemic lupus
+   erythematosus patients compared to healthy controls
+SO TOXICOLOGY IN VITRO
+LA English
+DT Article
+DE Mercury; Eicosapentaenoic acid; Docosahexaenoic acid; Systemic lupus
+   erythematosus; Inflammation; Cytokines
+ID RHEUMATOID-ARTHRITIS PATIENTS; FISH-OIL; METHYL MERCURY; DIETARY
+   SUPPLEMENTATION; ANTINUCLEAR ANTIBODIES; EICOSAPENTAENOIC ACID; SEAFOOD
+   CONSUMPTION; SUSCEPTIBLE MICE; EXPRESSION; EXPOSURE
+AB Methylmercury (MeHg) is a proposed environmental stimulus in systemic lupus erythematosus (SLE). Humans are primarily exposed to MeHg through fish consumption. Fish are also important sources of n-3 long chain polyunsaturated fatty acids (n-3 LCPUFA). This in vitro study investigated the inflammatory response of isolated peripheral blood mononuclear cells (PBMCs), when exposed to either MeHg alone or with added n-3 LCPUFA, from SLE patients (N = 12) compared to healthy sex matched controls (N = 12). The PBMCs were isolated and exposed to 200 nM of MeHg for 24 h with or without pre-exposure to eicosapentaenoic acid (EPA) or docosahexaenoic acid (DHA) at a concentration of 100 mu M each. Supernatants were analyzed for the inflammatory markers. Following exposure to MeHg, mean TNF-alpha concentrations were significantly higher in SLE patients (2226.01 +/- 348.98pg/ml) compared to controls (701.40 +/- 680.65 pg/ml) (P = .008). Pre-exposure of cells with MeHg and EPA resulted in a significantly higher concentration of IL-8 in supernatants from SLE patients (2137.83 +/- 1559.01 pg/ml) compared to that of the controls (879.26 +/- 979.49 pg/ml) (P = .030). EPA and DHA attenuated the pro-inflammatory inducing effects of MeHg in SLE and control cells. In summary, exposure to MeHg stimulated a higher TNF-alpha response in SLE patients compared with healthy controls; nevertheless the presence of n-3 LCPUFA reduced the overall inflammatory response, albeit to a lesser degree in SLE patients.
+C1 [Crowe, William; Allsopp, Philip J.; Magee, Pamela J.; Strain, J. J.; Doherty, Leanne C.; Todd, Joshua J.; Spence, Toni; McSorley, Emeir M.] Univ Ulster, Nutr Innovat Ctr Food & Hlth NICHE, Coleraine BT52 1SA, Londonderry, North Ireland.
+   [Nyland, Jennifer F.; Penta, Kayla] Univ South Carolina, Sch Med, Dept Pathol Microbiol & Immunol, 6439 Garners Ferry Rd,Bldg 1, Columbia, SC 29208 USA.
+   [Nyland, Jennifer F.] Salisbury Univ, Dept Biol Sci, 1101 Camden Ave, Salisbury, MD 21801 USA.
+   [Watson, Gene E.] Univ Rochester, Sch Med & Dent, Eastman Inst Oral Hlth, Dept Environm Med, Rochester, NY 14642 USA.
+   [Ball, Elisabeth; Riddell, Claire] Musgrave Pk Hosp, Dept Rheumatol, Stockmans Lane, Belfast BT9 7JB, Antrim, North Ireland.
+   [Armstrong, David J.] Altnagelvin Hosp, Dept Rheumatol, Glenshane Rd, Londonderry BT47 6SB, Ireland.
+C3 Ulster University; University of South Carolina System; University of
+   South Carolina Columbia; University System of Maryland; Salisbury
+   University; University of Rochester
+RP McSorley, EM (corresponding author), Univ Ulster, Nutr Innovat Ctr Food & Hlth NICHE, Coleraine BT52 1SA, Londonderry, North Ireland.
+EM em.mcsorley@ulster.ac.uk
+OI Riddell, Claire/0000-0002-3187-7337; Magee, Pamela/0000-0002-0479-3314;
+   Todd, Joshua J./0000-0001-7608-5184; Crowe, William/0000-0002-9511-4101;
+   McSorley, Emeir/0000-0003-1861-3991; Watson, Gene/0000-0002-3397-1116
+FU Northern Ireland Department of Employment and Learning (DEL)
+FX This research was supported financially by the Northern Ireland
+   Department of Employment and Learning (DEL). We wish to acknowledge Ms.
+   Cecile Bigand of Universite Nice Sophia Antipolis, for providing help
+   with laboratory analysis.
+NR 62
+TC 13
+Z9 13
+U1 0
+U2 6
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0887-2333
+J9 TOXICOL IN VITRO
+JI Toxicol. Vitro
+PD OCT
+PY 2018
+VL 52
+BP 272
+EP 278
+DI 10.1016/j.tiv.2018.05.008
+PG 7
+WC Toxicology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Toxicology
+GA GU5FB
+UT WOS:000445310300031
+PM 29778720
+OA Green Accepted
+DA 2024-02-08
+ER

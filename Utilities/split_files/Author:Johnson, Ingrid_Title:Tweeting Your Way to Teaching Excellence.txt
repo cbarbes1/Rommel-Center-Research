@@ -1,0 +1,43 @@
+PT J
+AU Johnson, I
+   Barry, J
+AF Johnson, Ingrid
+   Barry, Jim
+TI Tweeting Your Way to Teaching Excellence
+SO JOURNAL OF PHYSICAL EDUCATION RECREATION AND DANCE
+LA English
+DT Editorial Material
+AB Social media is a part of life these days. A majority of students use social media as a way to interact with each other, get information and keep up with current events. As teachers, we can embrace this and help guide our students on how to properly use social media as digital citizens. This is how two professionals use Twitter to engage themselves and their students in professional learning networks (PLNs).
+C1 [Johnson, Ingrid] Grand Valley State Univ, Dept Movement Sci, Hlth & Phys Educ Teacher Educ, Allendale, MI 49401 USA.
+   [Barry, Jim] Salisbury Univ, Seidel Sch Educ, Dept Secondary & Phys Educ, Salisbury, MD USA.
+C3 Grand Valley State University; University System of Maryland; Salisbury
+   University
+RP Johnson, I (corresponding author), Grand Valley State Univ, Dept Movement Sci, Hlth & Phys Educ Teacher Educ, Allendale, MI 49401 USA.
+EM johnsoi@gvsu.edu
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 0730-3084
+EI 2168-3816
+J9 J PHYS EDUC RECREAT
+JI J. Phys. Educ. Recreat. Dance
+PD FEB 12
+PY 2023
+VL 94
+IS 2
+BP 3
+EP 4
+DI 10.1080/07303084.2022.2146963
+PG 2
+WC Education & Educational Research
+WE Emerging Sources Citation Index (ESCI)
+SC Education & Educational Research
+GA 9A6ND
+UT WOS:000934171800001
+DA 2024-02-08
+ER

@@ -1,0 +1,964 @@
+PT J
+AU Bernal, XE
+   Rojas, B
+   Pinto, MA
+   Mendoza-Henao, AM
+   Herrera-Montes, A
+   Herrera-Montes, MI
+   Franco, ADC
+   Cerón-Souza, I
+   Paz, A
+   Vergara, D
+   Contreras, LAB
+   Salazar, C
+   Alonso, MLB
+   Guarnizo, CE
+   Sanchez, A
+   Olaya-Castro, A
+   Urbina-Cardona, N
+   Guayasamin, JM
+   Uy, FMK
+   Feris, FL
+   Franco-Orozco, B
+   Muñoz, MM
+   Rincón-Díaz, MP
+   Herrera, MS
+   Betancourth-Cundar, M
+   Tarvin, RD
+   Márquez, R
+   López-Aguirre, C
+   Ron, SR
+   Ramirez, S
+   Páez-Vacas, M
+   Gaitan-Espitia, JD
+   Navarrete-Méndez, MJ
+   Vianna, JA
+   Varela-Jaramillo, A
+   Sánchez-Martínez, PM
+   Rodríguez, MAC
+   García-Robledo, C
+   Kuprewicz, EK
+   Gómez-Bahamón, V
+   Chacón-Vargas, K
+   Trillo, A
+   Castañeda, VR
+   Buenaventura, E
+   Monmany-Garzia, AC
+   Carnaval, AC
+   Dick, CW
+   Andrade-Núñez, MJ
+   Castro, JDC
+   Pinto, DM
+   Camargo-Sanabria, AA
+   Lips, KR
+   Motta-Gonzalez, D
+   Canedo, C
+   Díaz, JM
+   Navarro-Suárez, AM
+   Corredor, K
+   Roa-Varon, A
+   Flechas, SV
+   Martínez-Lanfranco, JA
+   Thomé, MTC
+   Caldwell, MS
+   Ballestas, O
+   Mejía, C
+   Chaverri, G
+   Rossi, A
+   Bonaccorso, E
+   Pimiento, C
+   Guerrero, RF
+   Warkentin, KM
+   Montoya-Pachongo, C
+   Alvarez, SJ
+   González-Durán, G
+   Anganoy-Criollo, M
+   Martínez-Habibe, MC
+   Ramirez, JP
+   Burrowes, P
+   Catenazzi, A
+   Riveros, AJ
+   Targino, M
+   Vélez, A
+   Vargas, OM
+   Zapata, F
+   Waltrick, CS
+   Ceron, K
+   Salcedo, CS
+   Silva-Velasco, M
+   Ochoa-Herrera, V
+   Medina, I
+   Narins, PM
+   Saccol, SDA
+   Godinho, MBD
+   Escobar, BEV
+   Velasco, JA
+   Lomáscolo, S
+   Hoke, K
+   Zeidemann, V
+   Almeida-Santos, P
+   Ferraro, DP
+   Araujo-Vieira, K
+   da Rocha, SB
+   Torres, MF
+   Cadena, CD
+   Collevatti, RG
+   Vasconcellos, MM
+   Recart, W
+   Aide, TM
+   Bacon, C
+   Jeckel, AM
+   Diele-Viegas, LM
+   Lourenço, ACC
+   Santos, DL
+   Cholak, LR
+   Mendes, RG
+   Silva, FM
+   Guedes, T
+   López-Perilla, YR
+   Fusinatto, LA
+   Terra, JD
+   Brenes, SR
+   Narvaez, AE
+   Zina, J
+   Calderón-Espinosa, ML
+   Pardo-Diaz, C
+   Abadie, M
+   Maldonado-Chaparro, A
+   Arias, LNC
+   Montesinos, R
+   Fenker, J
+   Brunes, TO
+   Silva, ASFL
+   Vallejos, JG
+   Rodrigues, APVC
+   Friol, NR
+   Herrera-Alvarez, S
+   de Souza, E
+   Araújo, OGS
+   Citeli, NQK
+   Ruggeri, J
+   Fierro-Calderón, E
+   Acevedo-Charry, O
+   Barato, P
+   Campos-Cerqueira, M
+   Mazzini, F
+   Beltrán, I
+   Meneses-Giorgi, MA
+   Jerez, A
+   Clavijo, AP
+   Jiménez, CN
+   Dantas, GPM
+   Nascimento, LB
+   Caballero, SJ
+   Sepúlveda, ACH
+   Wolff, M
+   Barnabé, PC
+   Quiñones-Lebrón, SG
+   Bressan, RF
+   Gómez-Montoya, N
+   Gómez, C
+   Colón-Piñeiro, Z
+   Dobles, CE
+   Bloch, N
+   Stynoski, JL
+   Arango, D
+   González, TM
+   Moreno, FL
+   Taylor, R
+   Lawrence, JP
+   Briscoe, ADM
+   Ortiz-Barrientos, D
+   Salerno, PE
+   Restrepo, S
+   Pasukonis, A
+   Damasceno, RP
+   Dalton, MC
+   Pröhl, H
+   Valdez-Ward, E
+   Rodríguez, SA
+   García, MM
+   Bonaparte, EB
+   Escobar, JAM
+   Brown, JL
+   Yeager, J
+   Kikuchi, D
+   Ringler, M
+   Duran, LH
+   Schulte, LM
+   Vaira, M
+   Pereyra, L
+   Bravo, DA
+   Salica, MJ
+   Varga, S
+   Eguren, A
+   Grattarola, F
+   Bernal, MA
+   Gastón, MS
+   Chinchilla, JEO
+   Burdfield-Steel, E
+   Valencia, LM
+   Ringler, E
+   Rada, M
+   Melendez-Ackerman, E
+   Botero, CA
+   Estrada-Villegas, S
+   Orizaola, G
+   Pinto, BJ
+   Gonzalez-Bellido, P
+   Hunter, KL
+   Solano, LAR
+   Gordon, S
+   Guerra, MA
+   Albo, MJ
+   Vega-Frutis, R
+   Blundo, C
+   Castañeda-Gómez, L
+   Donnelly, MA
+   Escobar, BDC
+   Moreno, MI
+   Crawford, AJ
+   Jiggins, CD
+   Rössler, DC
+   Valencia, LB
+   Sarmiento, C
+   Muñoz, KA
+   Galeano, SP
+   Castañeda, MD
+   Cárdenas, CJC
+   Zalamea, PC
+   Arias, M
+   Zank, C
+   Suárez-Mayorga, AM
+   Colombo, P
+   Cuervo, AM
+   Coriolano, IR
+   de Melo, LSO
+   Cardona, AB
+   Elias, M
+   González, M
+   Aldana, AM
+   Gubert, C
+   Parra, JL
+   Contador, T
+   Coelho, L
+   Trillo, M
+   Bordin, K
+   Zulian, V
+   Arias, RM
+   Loretto, MC
+   Medina, CA
+   Lyra, ML
+   Pulido-Santacruz, P
+   Rosser, N
+   Waldrón, T
+   Duran, CHM
+   Pizano, C
+   Hödl, W
+   Fratani, J
+   Bru, ASD
+   Grosso, J
+   Candioti, FV
+   Rengifo, IA
+AF Bernal, Ximena E.
+   Rojas, Bibiana
+   Pinto-E, Maria Alejandra
+   Mendoza-Henao, Angela M.
+   Herrera-Montes, Adriana
+   Isabel Herrera-Montes, Maria
+   Caceres Franco, Andrea del Pilar
+   Ceron-Souza, Ivania
+   Paz, Andrea
+   Vergara, Daniela
+   Barragan Contreras, Leidy Alejandra
+   Salazar, Camilo
+   Bohorquez Alonso, Martha Lucia
+   Guarnizo, Carlos E.
+   Sanchez, Adriana
+   Olaya-Castro, Alexandra
+   Urbina-Cardona, Nicolas
+   Guayasamin, Juan M.
+   Uy, Floria Mora-Kepfer
+   Feris, Faride Lamadrid
+   Franco-Orozco, Barbara
+   Munoz, Martha M.
+   Patricia Rincon-Diaz, Martha
+   Sanchez Herrera, Melissa
+   Betancourth-Cundar, Mileidy
+   Tarvin, Rebecca D.
+   Marquez, Roberto
+   Lopez-Aguirre, Camilo
+   Ron, Santiago R.
+   Ramirez, Santiago
+   Paez-Vacas, Monica
+   Gaitan-Espitia, Juan Diego
+   Navarrete-Mendez, Maria J.
+   Vianna, Juliana A.
+   Varela-Jaramillo, Andrea
+   Sanchez-Martinez, Paola M.
+   Caminer Rodriguez, Marcel Adrian
+   Garcia-Robledo, Carlos
+   Kuprewicz, Erin K.
+   Gomez-Bahamon, Valentina
+   Chacon-Vargas, Katherine
+   Trillo, Alex
+   Ramirez Castaneda, Valeria
+   Buenaventura, Eliana
+   Carolina Monmany-Garzia, A.
+   Carolina Carnaval, Ana
+   Dick, Christopher W.
+   Jose Andrade-Nunez, Maria
+   Carvajal Castro, Juan David
+   Marcela Pinto, Diana
+   Camargo-Sanabria, Angela A.
+   Lips, Karen R.
+   Motta-Gonzalez, Diana
+   Canedo, Clarissa
+   Melissa Diaz, Jhandra
+   Navarro-Suarez, Adriana M.
+   Corredor, Karen
+   Roa-Varon, Adela
+   Flechas, Sandra V.
+   Andres Martinez-Lanfranco, Juan
+   Chiarioni Thomé, Maria Tereza
+   Caldwell, Michael S.
+   Ballestas, Onil
+   Mejia M, Carolina
+   Chaverri, Gloriana
+   Rossi, Alejandra
+   Bonaccorso, Elisa
+   Pimiento, Catalina
+   Guerrero, Rafael F.
+   Warkentin, Karen M.
+   Montoya-Pachongo, Carolina
+   Alvarez, Silvia J.
+   Gonzalez-Duran, Gustavo
+   Anganoy-Criollo, Marvin
+   Martinez-Habibe, Maria Cristina
+   Ramirez, Juan P.
+   Burrowes, Patricia
+   Catenazzi, Alessandro
+   Riveros, Andre J.
+   Targino, Mariane
+   Velez, Alejandro
+   Vargas, Oscar M.
+   Zapata, Felipe
+   Waltrick, Camilla Spengler
+   Ceron, Karoline
+   Segovia Salcedo, Claudia
+   Silva-Velasco, Martha
+   Ochoa-Herrera, Valeria
+   Medina, Iliana
+   Narins, Peter M.
+   Alves Saccol, Suelen da Silva
+   de Castro Godinho, Marcela Brasil
+   Velasquez Escobar, Beatriz Eugenia
+   Velasco, Julian A.
+   Lomascolo, Silvia
+   Hoke, Kim
+   Zeidemann, Vivian
+   Almeida-Santos, Patricia
+   Paola Ferraro, Daiana
+   Araujo-Vieira, Katyuscia
+   da Rocha, Sabine Borges
+   Torres, Maria Fernanda
+   Daniel Cadena, Carlos
+   Collevatti, Rosane Garcia
+   Vasconcellos, Mariana Mira
+   Recart, Wilnelia
+   Mitchell Aide, T.
+   Bacon, Christine
+   Jeckel, Adriana Moriguchi
+   Diele-Viegas, Luisa Maria
+   Calijorne Lourenco, Ana Carolina
+   Santos, Danusy Lopes
+   Rieder Cholak, Luiza
+   Mendes, Roberta Graboski
+   Silva, Fernanda Magalhaes
+   Guedes, Thais
+   Lopez-Perilla, Yeny R.
+   Fusinatto, Luciana Ardenghi
+   Terra, Juliana de Souza
+   Rodriguez Brenes, Sofía
+   Narvaez, Andrea E.
+   Zina, Juliana
+   Calderon-Espinosa, Martha L.
+   Pardo-Diaz, Carolina
+   Abadie, Michelle
+   Maldonado-Chaparro, Adriana
+   Cespedes Arias, Laura N.
+   Montesinos, Rachel
+   Fenker, Jessica
+   Brunes, Tuliana Oliveira
+   Ferreira Lantyer Silva, Amanda Santiago
+   Vallejos, Johana Goyes
+   Costa Rodrigues, Ana Paula V.
+   Friol, Natalia Rizzo
+   Herrera-Alvarez, Santiago
+   de Souza, Eletra
+   Araujo, Olivia G. S.
+   Citeli, Nathalie Q. K.
+   Ruggeri, Joice
+   Fierro-Calderon, Eliana
+   Acevedo-Charry, Orlando
+   Barato, Paola
+   Campos-Cerqueira, Marconi
+   Mazzini, Flavia
+   Beltran, Ivan
+   Alejandra Meneses-Giorgi, Maria
+   Jerez, Adriana
+   Clavijo, Andrea P.
+   Neira Jimenez, Carolina
+   Dantas, Gisele P. M.
+   Nascimento, Luciana Barreto
+   Caballero, Susana J.
+   Henao Sepulveda, A. Carolina
+   Wolff, Marta
+   Barnabe, Paula Cristina
+   Quinones-Lebron, Shakira G.
+   Bressan, Raissa Fries
+   Gomez-Montoya, Nataly
+   Gomez, Camila
+   Colon-Pineiro, Zuania
+   Esquivel Dobles, Carolina
+   Bloch, Natasha
+   Stynoski, Jennifer L.
+   Arango, Daniel
+   Marisol Gonzalez, Tania
+   Luque Moreno, Francisco
+   Taylor, Ryan
+   Lawrence, J. P.
+   Briscoe, Adriana Darielle Mejia
+   Ortiz-Barrientos, Daniel
+   Elena Salerno, Patricia
+   Restrepo, Silvia
+   Pasukonis, Andrius
+   Damasceno, Roberta Pacheco
+   Cecilia Dalton, Maria
+   Proehl, Heike
+   Valdez-Ward, Evelyn
+   Andrea Rodriguez, Sabrina
+   Marquez Garcia, Marcela
+   Bianca Bonaparte, Eugenia
+   Molina Escobar, Jorge Alberto
+   Brown, Jason L.
+   Yeager, Justin
+   Kikuchi, David
+   Ringler, Max
+   Duran, Linda Hernandez
+   Schulte, Lisa M.
+   Vaira, Marcos
+   Pereyra, Laura
+   Astudillo Bravo, Diana
+   Jose Salica, María
+   Varga, Sandra
+   Eguren, Antonieta
+   Grattarola, Florencia
+   Bernal, Moises A.
+   Soledad Gaston, Maria
+   Ortega Chinchilla, Jesus Eduardo
+   Burdfield-Steel, Emily
+   Valencia, Lina M.
+   Ringler, Eva
+   Rada, Marco
+   Melendez-Ackerman, Elvia
+   Botero, Carlos A.
+   Estrada-Villegas, Sergio
+   Orizaola, German
+   Pinto, Brendan J.
+   Gonzalez-Bellido, Paloma
+   Hunter, Kimberly L.
+   Rueda Solano, Luis Alberto
+   Gordon, Swanne
+   Guerra, Monica A.
+   Jose Albo, Maria
+   Vega-Frutis, Rocio
+   Blundo, Cecilia
+   Castaneda-Gomez, Laura
+   Donnelly, Maureen A.
+   Escobar, Betsabe D. Castro
+   Isabel Moreno, Maria
+   Crawford, Andrew J.
+   Jiggins, Chris D.
+   Roessler, Daniela C.
+   Bravo Valencia, Laura
+   Sarmiento, Carolina
+   Munoz, Karen A.
+   Galeano, Sandra P.
+   del Rosario Castaneda, Maria
+   Caro Cardenas, Cindy Jeanet
+   Zalamea, Paul-Camilo
+   Arias, Monica
+   Zank, Caroline
+   Suarez-Mayorga, Angela M.
+   Colombo, Patrick
+   Cuervo, Andres M.
+   Coriolano, Iara Reinaldo
+   de Melo, Lilian Sayuri Ouchi
+   Buitrago Cardona, Alexandra
+   Elias, Marianne
+   Gonzalez, Mabel
+   Maria Aldana, Ana
+   Gubert, Carolina
+   Luis Parra, Juan
+   Contador, Tamara
+   Coelho, Lorena
+   Trillo, Mariana
+   Bordin, Kauane
+   Zulian, Viviane
+   Moreno Arias, Rafael
+   Loretto, Matthias-Claudio
+   Alejandra Medina, Claudia
+   Lyra, Mariana L.
+   Pulido-Santacruz, Paola
+   Rosser, Neil
+   Waldron, Talia
+   Moreno Duran, Carmen Helena
+   Pizano, Camila
+   Hoedl, Walter
+   Fratani, Jessica
+   Duport Bru, Ana Sofia
+   Grosso, Jimena
+   Vera Candioti, Florencia
+   Adarve Rengifo, Isabel
+CA 254 Signatories
+TI Empowering Latina scientists
+SO SCIENCE
+LA English
+DT Letter
+C1 [Bernal, Ximena E.] Purdue Univ, Dept Life Sci, W Lafayette, IN 47906 USA.
+   [Bernal, Ximena E.] Smithsonian Trop Res Inst, Apartado 0843-03092, Balboa, Ancon, Panama.
+   [Rojas, Bibiana] Univ Jyvaskyla, Ctr Excellence Biol Interact, Dept Biol & Environm Sci, Jyvaskyla, Finland.
+   [Pinto-E, Maria Alejandra] Univ Nacl Colombia, Inst Ciencias Nat, Bogota, Colombia.
+   [Mendoza-Henao, Angela M.] Univ Nacl Autonoma Mexico, Dept Ciencias Biol, Mexico City, DF, Mexico.
+   [Herrera-Montes, Adriana; Isabel Herrera-Montes, Maria] Univ Puerto Rico, San Juan, PR USA.
+   [Caceres Franco, Andrea del Pilar] Corp Gest Ambiental Biodiversa, Santiago De Cali, Colombia.
+   [Bernal, Ximena E.] Purdue Univ, Dept Biol Sci, W Lafayette, IN 47907 USA.
+   [Bernal, Ximena E.; Chaverri, Gloriana; Warkentin, Karen M.] Smithsonian Trop Res Inst, Balboa, Ancon, Panama.
+   [Rojas, Bibiana] Univ Jyvaskyla, Jyvaskyla, Finland.
+   [Pinto-E, Maria Alejandra] Univ Nacl Colombia, Inst Ciencias Nat, Bogota, Colombia.
+   Univ Nacl Autonoma Mexico, Dept Ciencias Biol, Mexico City, DF, Mexico.
+   [Herrera-Montes, Adriana] Univ Puerto Rico, X Vittatus Project, San Juan, PR 00936 USA.
+   [Isabel Herrera-Montes, Maria] Univ Puerto Rico, San Juan, PR 00936 USA.
+   [Caceres Franco, Andrea del Pilar] Corp Gest Ambiental Biodiversa, Bogota, Colombia.
+   [Ceron-Souza, Ivania; Clavijo, Andrea P.] Corp Colombiana Invest Agropecua Agrosavia, Bogota, Colombia.
+   [Paz, Andrea] CUNY, Biol Program, New York, NY 10021 USA.
+   [Vergara, Daniela] Univ Colorado, Boulder, CO 80309 USA.
+   [Barragan Contreras, Leidy Alejandra] Univ Nacl Colombia, Inst Ciencias Nat, Bogota, Colombia.
+   [Salazar, Camilo; Sanchez, Adriana; Sanchez Herrera, Melissa; Pardo-Diaz, Carolina; Crawford, Andrew J.] Univ Rosario, Fac Ciencias Nat & Matemat, Programa Biol, Cra 24 63C-69, Bogota 111221, Colombia.
+   [Bohorquez Alonso, Martha Lucia] Univ La Laguna, Grp Invest Etol & Ecol Comportamiento, Tenerife, Spain.
+   [Olaya-Castro, Alexandra] UCL, Phys, London WC1E 6BT, England.
+   [Urbina-Cardona, Nicolas] Pontificia Univ Javeriana, Fac Rural & Environm Studies, Dept Ecol & Terr, Bogota, Colombia.
+   [Guayasamin, Juan M.; Bonaccorso, Elisa] USFQ, Colegio Ciencias Biol & Ambientales, Inst Biosfera, Lab Biol Evolut, Quito, Ecuador.
+   [Uy, Floria Mora-Kepfer] Cornell Univ, Dept Neurobiol & Behav, Ithaca, NY 14853 USA.
+   [Feris, Faride Lamadrid] Univ Sao Paulo, Inst Biociencias, Dept Fisiol, Lab Comportamiento & Fisiol Evolut, Sao Paulo, Brazil.
+   [Franco-Orozco, Barbara] Univ Udine, Dept Agr Food Environm & Animal Sci, Udine, Italy.
+   [Munoz, Martha M.] Virginia Polytech Univ, Dept Biol Sci, Blacksburg, VA 24061 USA.
+   [Patricia Rincon-Diaz, Martha] Oregon State Univ, Dept Fisheries & Wildlife, Corvallis, OR 97331 USA.
+   [Betancourth-Cundar, Mileidy; Motta-Gonzalez, Diana; Caballero, Susana J.; Crawford, Andrew J.] Univ Los Andes, Dept Biol Sci, Bogota, Colombia.
+   [Tarvin, Rebecca D.] Univ Calif Berkeley, Miller Inst Basic Res Sci, Berkeley, CA USA.
+   [Marquez, Roberto] Univ Chicago, Dept Ecol & Evolut, Chicago, IL 60637 USA.
+   [Lopez-Aguirre, Camilo] Univ New South Wales, Sch BEES, PANGEA Res Ctr, Sydney, NSW 2052, Australia.
+   [Ron, Santiago R.] Pontificia Univ Catolica Ecuador, Escuela Biol, Museo Zool, Quito, Ecuador.
+   [Ramirez, Santiago] Univ Calif Davis, Davis, CA 95616 USA.
+   [Paez-Vacas, Monica] Univ Tecnol Indoamer, Ctr Invest Biodiversidad & Cambio Climat, BioCamp, Quito, Ecuador.
+   [Gaitan-Espitia, Juan Diego] Univ Hong Kong, Sch Biol Sci, Pok Fu Lam Rd, Hong Kong, Peoples R China.
+   [Varela-Jaramillo, Andrea; Caminer Rodriguez, Marcel Adrian] Pontificia Univ Catolica Ecuador, Escuela Biol, Museo Zool, Quito, Ecuador.
+   [Sanchez-Martinez, Paola M.] Pontificia Univ Javeriana, Dept Biol, Bogota, Colombia.
+   [Garcia-Robledo, Carlos; Kuprewicz, Erin K.] Univ Connecticut, Dept Ecol & Evolutionary Biol, Storrs, CT USA.
+   [Gomez-Bahamon, Valentina] Univ Illinois, Dept Biol Sci, Chicago, IL 60680 USA.
+   [Chacon-Vargas, Katherine] Univ Massachusetts, Mol & Cellular Biol Program, Amherst, MA 01003 USA.
+   [Trillo, Alex] Gettysburg Coll, Dept Biol, Gettysburg, PA 17325 USA.
+   [Ramirez Castaneda, Valeria] Univ Barcelona, Barcelona, Spain.
+   [Buenaventura, Eliana] Leibniz Inst Evolut & Biodiversitaetsforsch, Museum Nat Kunde, Berlin, Germany.
+   [Carolina Monmany-Garzia, A.] Consejo Nacl Invest Cient & Tecn, San Miguel De Tucuman, Argentina.
+   [Calijorne Lourenco, Ana Carolina] CUNY, Dept Biol, New York, NY 10021 USA.
+   [Dick, Christopher W.] Univ Michigan, Dept Ecol & Evolut Biol, Ann Arbor, MI 48109 USA.
+   [Jose Andrade-Nunez, Maria; Colon-Pineiro, Zuania] Univ Puerto Rico, San Juan, PR 00936 USA.
+   [Carvajal Castro, Juan David] Inst Alexander Humboldt, Bogota, Colombia.
+   [Marcela Pinto, Diana; Melissa Diaz, Jhandra; Bravo Valencia, Laura] Univ Los Andes, Bogota, Colombia.
+   [Camargo-Sanabria, Angela A.] Univ Autonoma Chihuahua, Acad Catedras Conacyt, Chihuahua, Mexico.
+   [Lips, Karen R.] Univ Maryland, Dept Biol, College Pk, MD 20742 USA.
+   [Canedo, Clarissa] Univ Estado Rio de Janeiro, UFRJ, Rio De Janeiro, Brazil.
+   [Navarro-Suarez, Adriana M.] Chalmers Univ Technol, Depat Phys, Gothenburg, Sweden.
+   [Corredor, Karen] Univ Los Andes, Lab Neurociencia & Comportamiento, Bogota, Colombia.
+   [Roa-Varon, Adela] Smithsonian Inst, Nat Museum Nat Hist, Washington, DC 20560 USA.
+   [Flechas, Sandra V.] Inst Invest Recursos Biol Alexander von Humboldt, Bogota, Colombia.
+   [Andres Martinez-Lanfranco, Juan] Museo Nacl Hist Nat, Montevideo, Uruguay.
+   [Chiarioni Thomé, Maria Tereza] Univ Fed Alagoas, Maceio, Brazil.
+   [Caldwell, Michael S.] Gettysburg Coll, Dept Biol, Gothenburg, Sweden.
+   [Ballestas, Onil] IVIC, Caracas, Venezuela.
+   [Mejia M, Carolina] Univ Distrital Francisco Jose de Caldas, Bogota, Colombia.
+   [Chaverri, Gloriana] Univ Costa Rica, Golfito, Costa Rica.
+   [Rossi, Alejandra] Univ Diego Portales, Psychol, Santiago, Chile.
+   [Pimiento, Catalina] Swansea Univ, Biosci Dept, Marie Curie COFUND, Swansea, W Glam, Wales.
+   [Guerrero, Rafael F.] Indiana Univ, Dept Comp Sci, Bloomington, IN 47405 USA.
+   [Guerrero, Rafael F.] Indiana Univ, Dept Biol, Bloomington, IN USA.
+   [Warkentin, Karen M.] Boston Univ, Biol, Boston, MA 02215 USA.
+   [Montoya-Pachongo, Carolina] EMCALI EICE ESP, Dept Prod Agua Potable, Cali, Colombia.
+   [Alvarez, Silvia J.; Gonzalez-Duran, Gustavo] Wildlife Conservat Soci, Cali, Colombia.
+   [Anganoy-Criollo, Marvin] Univ Sao Paulo, Inst Biociencias, Dept Zool, Sao Paulo, Brazil.
+   [Martinez-Habibe, Maria Cristina] Univ Norte, Dept Quim & Biol, Barranquilla, Colombia.
+   [Martinez-Habibe, Maria Cristina] San Diego State Univ, Dept Quim & Biol, Riverside, CA USA.
+   [Ramirez, Juan P.] Univ Calif Riverside, Riverside, CA 92521 USA.
+   [Burrowes, Patricia] Univ Puerto Rico, Biol, Rio Piedras, PR USA.
+   [Catenazzi, Alessandro] Florida Int Univ, Dept Biol Sci, Miami, FL 33199 USA.
+   [Targino, Mariane] Univ Fed Rio De Janeiro, Museu Nacl, Dept Vertebrados, Rio De Janeiro, Brazil.
+   [Velez, Alejandro] San Francisco State Univ, Dept Biol, San Francisco, CA 94132 USA.
+   [Vargas, Oscar M.] Univ Calif Santa Cruz, Dept Ecol & Evolut, Santa Cruz, CA USA.
+   [Zapata, Felipe] Univ Calif Los Angeles, Dept Ecol & Evolut Biol, Los Angeles, CA USA.
+   [Waltrick, Camilla Spengler] Univ Reg Blumenau, Dept Anim Biol, Blumenau, Santa Catarina, Brazil.
+   [Ceron, Karoline] Univ Fed Mato Grosso do Sul, Dept Zool, Campo Grande, Brazil.
+   [Segovia Salcedo, Claudia] Univ Fuerzas Armadas ESPE, Dept Life Sci & Agr, Sangolqui, Ecuador.
+   [Silva-Velasco, Martha] Corp Biodiversa, Cali, Colombia.
+   [Ochoa-Herrera, Valeria] USFQ, Inst Biosfera, Colegio Ciencias & Ingn, Quito, Ecuador.
+   [Medina, Iliana] Univ Melbourne, Sch BioSci, Melbourne, Vic, Australia.
+   [Narins, Peter M.] Univ Calif Los Angeles, Dept Integrat Biol & Physiol, Los Angeles, CA USA.
+   [Alves Saccol, Suelen da Silva] Univ Fed Santa Maria, Dept Ecol & Evolucao, Santa Maria, RS, Brazil.
+   [de Castro Godinho, Marcela Brasil] Univ Fed ABC, Ctr Ciencias Nat & Humanas, Sao Bernardo Do Campo, Brazil.
+   [Velasquez Escobar, Beatriz Eugenia] Univ Los Andes, Bogota, Colombia.
+   [Vianna, Juliana A.] Univ Nacl Autonoma Mexico, Ctr Ciencias Atmosfera, Mexico City, DF, Mexico.
+   [Lomascolo, Silvia] Consejo Nacl Invest Cient & Tecn, San Miguel De Tucuman, Argentina.
+   [Hoke, Kim] Colorado State Univ, Dept Biol, Ft Collins, CO 80523 USA.
+   [Almeida-Santos, Patricia] Univ Estado Rio De Janeiro, Dept Ecol, Rio De Janeiro, Brazil.
+   [Paola Ferraro, Daiana] Consejo Nacl Invest Cient & Tecn, Buenos Aires, DF, Argentina.
+   [Araujo-Vieira, Katyuscia] Consejo Nacl Invest Cient & Tecn, Museo Argentino Ciencias Nat Bernardino Rivadavia, Buenos Aires, DF, Argentina.
+   [da Rocha, Sabine Borges] Univ Fed Mato Grosso do Sul, Dept Ecol & Conservacao, Campo Grande, Brazil.
+   [Torres, Maria Fernanda; Bacon, Christine; Guedes, Thais] Univ Gothenburg, Gothenburg, Sweden.
+   [Torres, Maria Fernanda; Bacon, Christine; Guedes, Thais] Gothenburg Global Biodivers Ctr, Gothenburg, Sweden.
+   [Daniel Cadena, Carlos] Univ Los Andes, Dept Ciencias Biol, Bogota, Colombia.
+   [Collevatti, Rosane Garcia] Univ Fed Goias, Inst Ciencias Biol, Goiania, Go, Brazil.
+   [Vasconcellos, Mariana Mira] CUNY, New York, NY 10021 USA.
+   [Recart, Wilnelia; Valdez-Ward, Evelyn] Univ Calif Irvine, Dept Ecol & Evolut Biol, Irvine, CA 92717 USA.
+   [Mitchell Aide, T.] Univ Puerto Rico Rio Piedras, Dept Biol, San Juan, PR 00931 USA.
+   [Jeckel, Adriana Moriguchi] Univ Sao Paulo, Dept Zool, Sao Paulo, SP, Brazil.
+   [Diele-Viegas, Luisa Maria] Univ Estado Rio De Janeiro, Dept Ecol, Rio De Janeiro, Brazil.
+   [Calijorne Lourenco, Ana Carolina; Montesinos, Rachel] Univ Estadual Minas Gerais, Passos, Brazil.
+   [Santos, Danusy Lopes] Univ Estadual Paulista, UNESP, Sao Jose Do Rio Preto, SP, Brazil.
+   [Mendes, Roberta Graboski; Silva, Fernanda Magalhaes] Museu Paraense Emilio Goeldi, Belem, Para, Brazil.
+   [Fusinatto, Luciana Ardenghi] Univ Estad Rio De Janeiro, Rio De Janeiro, Brazil.
+   [Rodriguez Brenes, Sofía] Org Trop Studies, Montes De Oca, Costa Rica.
+   [Narvaez, Andrea E.] Univ Guayaquil, Escuela Biol, Guayaquil, Ecuador.
+   [Zina, Juliana] Univ Estadual Sudoeste Bahia, Jequie, Brazil.
+   [Calderon-Espinosa, Martha L.] Univ Nacl Colombia, Inst Ciencias Nat, Bogota, Colombia.
+   [Abadie, Michelle] Univ Fed Rio Grande do Sul, Porto Alegre, RS, Brazil.
+   [Maldonado-Chaparro, Adriana] Max Planck Inst Ornithol, Constance, Germany.
+   [Cespedes Arias, Laura N.] Invest Conservac Neotropi, Bogota, Colombia.
+   [Fenker, Jessica] Australian Natl Univ, Div Ecol & Evolut, Canberra, ACT, Australia.
+   [Brunes, Tuliana Oliveira; Friol, Natalia Rizzo; Damasceno, Roberta Pacheco; Rada, Marco] Univ Sao Paulo, Sao Paulo, Brazil.
+   [Ferreira Lantyer Silva, Amanda Santiago] Univ Estadual Paulista Julio Mesquita, Araraquara, Brazil.
+   [Vallejos, Johana Goyes] Univ Kansas, Biodivers Inst, Lawrence, KS 66045 USA.
+   [Costa Rodrigues, Ana Paula V.] Univ Estado Mato Grosso, Caceres, Brazil.
+   [Herrera-Alvarez, Santiago] Univ Chicago, Dept Ecol & Evolut, 940 E 57Th St, Chicago, IL 60637 USA.
+   [de Souza, Eletra] Univ Estadual Paulista, Lab Ecol & Evolucao, Sao Paulo, SP, Brazil.
+   [Araujo, Olivia G. S.] Univ Estadual Paulista, Sao Paulo, Brazil.
+   [Citeli, Nathalie Q. K.] Univ Brasilia, Brasilia, DF, Brazil.
+   [Ruggeri, Joice] Univ Estadual Campinas, Sao Paulo, Brazil.
+   [Fierro-Calderon, Eliana] Asociac Calidris, Cali, Colombia.
+   [Acevedo-Charry, Orlando] Inst Invest Recursos Biol Alexander von Humboldt, Villa De Leyva, Colombia.
+   [Barato, Paola] CORPAVET, Bogota, Colombia.
+   [Mazzini, Flavia] Univ Nacl Jujuy, Fac Ciencias Agr, Ctr Estudios Terr Ambientales & Sociales, San Salvador De Jujuy, Argentina.
+   [Beltran, Ivan] Macquarie Univ, Dept Biol Sci, Sydney, Australia.
+   [Alejandra Meneses-Giorgi, Maria] Univ Los Andes, Dept Ciencias Biol, Biol, Bogota, Colombia.
+   [Jerez, Adriana] Univ Nacl Colombia, Dept Biol, Bogota, Colombia.
+   [Neira Jimenez, Carolina] Univ Nacl Colombia, Dept Matemat, Bogota, Colombia.
+   [Dantas, Gisele P. M.; Nascimento, Luciana Barreto] Pontificia Univ Catolica Minas Gerais, Dept Ciencias Biol & Saude, Belo Horizonte, MG, Brazil.
+   [Henao Sepulveda, A. Carolina; Wolff, Marta] Univ Antioquia, Fac Ciencias Exactas & Nat, Inst Biol, Medellin, Colombia.
+   [Quinones-Lebron, Shakira G.] ZRC SAZU, Biol Inst Jovan Hadiz, Ljubljana, Slovenia.
+   [Bressan, Raissa Fries] Univ Fed Rio Grande do Sul, Programa Pos Grad Biol Anim, Porto Alegre, RS, Brazil.
+   Univ Nacl Cordoba, CONICET, Buenos Aires, DF, Argentina.
+   [Gomez, Camila] Cornell Lab of Ornithol, Ithaca, NY USA.
+   [Gomez, Camila] Invest Conservac Neotrop, Bogota, Colombia.
+   [Esquivel Dobles, Carolina] Univ Nacl Costa Rica, Escuela Ciencias Biol, Heredia, Costa Rica.
+   [Bloch, Natasha] Univ Los Andes, Dept Ingn Biomed, Bogota, Colombia.
+   [Stynoski, Jennifer L.] Univ Costa Rica, Inst Clodomiro Picado, San Jose, Costa Rica.
+   [Stynoski, Jennifer L.] Univ Costa Rica, Escuela Biol, San Jose, Costa Rica.
+   [Arango, Daniel] NIH, Bldg 10, Bethesda, MD 20892 USA.
+   [Marisol Gonzalez, Tania] Univ Nacl Colombia, Lab Ecol Paisaje & Modelacion Ecosistemas, ECOLMOD, Bogota, Colombia.
+   [Luque Moreno, Francisco] Univ Nacl Colombia, Bogota, Colombia.
+   [Taylor, Ryan] Salisbury Univ, Salisbury, MD USA.
+   [Lawrence, J. P.] Univ Calif Irvine, Irvine, CA USA.
+   [Ortiz-Barrientos, Daniel] Univ Calif Irvine, Dept Ecol & Evolut Biol, Irvine, CA 92717 USA.
+   [Briscoe, Adriana Darielle Mejia] Univ Queensland, Sch Biol Sci, St Lucia, Qld, Australia.
+   [Pasukonis, Andrius] Stanford Univ, Stanford, CA 94305 USA.
+   [Cecilia Dalton, Maria] Univ Buenos Aires, Buenos Aires, DF, Argentina.
+   [Proehl, Heike] Vet Univ Hannover, Hannover, Germany.
+   [Andrea Rodriguez, Sabrina] Univ La Plata, La Plata, Buenos Aires, Argentina.
+   [Bianca Bonaparte, Eugenia] Univ Nacl Cordoba, Misiones, Argentina.
+   [Bianca Bonaparte, Eugenia] Consejo Nacl Invest Cient & Tecn, Misiones, Argentina.
+   [Molina Escobar, Jorge Alberto] Univ Los Andes, Dept Ciencias Biol, Bogota, Colombia.
+   [Brown, Jason L.] Southern Illinois Univ, Carbondale, IL 62901 USA.
+   [Yeager, Justin] Univ Las Amer, Quito, Ecuador.
+   [Kikuchi, David] Univ Arizona, Tucson, AZ USA.
+   [Ringler, Max; Loretto, Matthias-Claudio] Univ Vienna, Vienna, Austria.
+   [Duran, Linda Hernandez] James Cook Univ, Cairns, Australia.
+   [Schulte, Lisa M.] Goethe Univ Frankfurt, Frankfurt, Germany.
+   [Vaira, Marcos; Pereyra, Laura; Jose Salica, María; Soledad Gaston, Maria] Consejo Nacl Invest Cient & Tecn, UNJu, Inst Ecorreg Andinas, San Salvador De Jujuy, Argentina.
+   [Varga, Sandra] Univ Lincoln, Sch Life Sci, Lincoln LN6 7TS, England.
+   [Eguren, Antonieta] WCS Chile, Santiago, Chile.
+   [Grattarola, Florencia] Univ Lincoln, Lincoln, England.
+   [Bernal, Moises A.] SUNY Buffalo, Biol Sci, Buffalo, NY USA.
+   [Ortega Chinchilla, Jesus Eduardo] Univ Sao Paulo, LEFE, Sao Paulo, Brazil.
+   [Burdfield-Steel, Emily] Univ Amsterdam, Inst Biodivers & Ecosyst Dynam, Amsterdam, Netherlands.
+   [Ringler, Eva] Univ Vet Med Vienna, Vienna, Austria.
+   [Melendez-Ackerman, Elvia] Univ Puerto Rico, Dept Environm Sci, Rio Piedras, PR USA.
+   [Botero, Carlos A.; Gordon, Swanne] Washington Univ, Dept Biol, Campus Box 1137, St Louis, MO 63130 USA.
+   [Estrada-Villegas, Sergio; Pinto, Brendan J.] Marquette Univ, Milwaukee, WI 53233 USA.
+   [Estrada-Villegas, Sergio; Sarmiento, Carolina; Zalamea, Paul-Camilo] Smithsonian Trop Rese Inst, Panama City, Panama.
+   [Orizaola, German] Univ Oviedo, Zool Unit, Oviedo, Spain.
+   [Orizaola, German] Univ Oviedo, Res Unit, UMIB, Oviedo, Spain.
+   [Gonzalez-Bellido, Paloma] Univ Minnesota, Dept Ecol Evolut & Behav, Minneapolis, MN 55455 USA.
+   [Hunter, Kimberly L.] Salisbury Univ, Dept Biol Sci, Salisbury, MD USA.
+   [Rueda Solano, Luis Alberto] Univ Magdalena, Grp Invest Biodiversidad & Ecol Aplicada, Santa Marta, Colombia.
+   [Guerra, Monica A.] Univ Tecn Particular Loja, Dept Ciencias Biol, Loja, Ecuador.
+   [Jose Albo, Maria] Inst Invest Biol Clemente Estable, Dept Ecol & Biol Evolut, Montevideo, Uruguay.
+   [Vega-Frutis, Rocio] Univ Autonoma Nayarit, Programa Acad Biol, Tepic, Mexico.
+   [Blundo, Cecilia] UNT, CONICET, Inst Ecol Reg, San Miguel De Tucuman, Argentina.
+   [Castaneda-Gomez, Laura] Western Sydney Univ, Hawkesbury Inst Environm, Sydney, NSW, Australia.
+   [Donnelly, Maureen A.] Florida Int Univ, Coll Arts Sci & Educ, Grad Studies, Miami, FL 33199 USA.
+   [Escobar, Betsabe D. Castro] Univ Calif Berkeley, Dept Integrat Biol, Berkeley, CA 94720 USA.
+   [Jiggins, Chris D.] Univ Cambridge, Dept Zool, Downing St, Cambridge CB2 3EJ, England.
+   [Roessler, Daniela C.] Trier Univ, Dept Biogeog, Trier, Germany.
+   [Munoz, Karen A.] Univ Amsterdam, IBED, Amsterdam, Netherlands.
+   [Arias, Monica] Ctr Ecol Fonct & Evolut, Montpellier, France.
+   [Zank, Caroline] Inst Curicaca, Rio Grande Do Sul, Brazil.
+   [Cuervo, Andres M.] Univ Nacl Colombia, Inst Ciencias Nat, Bogota, Colombia.
+   [Coriolano, Iara Reinaldo] Univ Fed Rio Grande do Sul, Dept Ecol, Porto Alegre, RS, Brazil.
+   [de Melo, Lilian Sayuri Ouchi] CUNY, Dept Biol, Newark, NY USA.
+   [Buitrago Cardona, Alexandra; Alejandra Medina, Claudia; Pulido-Santacruz, Paola; Waldron, Talia] Inst Alexander von Humboldt, Villa De Leyva 257, Colombia.
+   [Elias, Marianne] MNHN, Inst Systemat, Evolut, Biodiversite, Paris, France.
+   [Gonzalez, Mabel] Univ Los Andes, Chem Dept, Lab Adv Analyt Techn Nat Prod, Bogota, Colombia.
+   [Maria Aldana, Ana] Univ Rosario, Bogota, Colombia.
+   [Gubert, Carolina] Florey Inst Neurosci & Mental Hlth, Parkville, Vic, Australia.
+   [Luis Parra, Juan] Univ Antioquia, Medellin, Colombia.
+   [Contador, Tamara] Univ Magallanes, Punta Arenas, Chile.
+   [Coelho, Lorena; Trillo, Mariana] Inst Invest Biol Clemente Estable, Dept Ecol & Biol Evolut, Montevideo, Uruguay.
+   [Bordin, Kauane] Univ Fed Rio Grande do Sul, Porto Alegre, RS, Brazil.
+   [Zulian, Viviane] Univ Fed Rio Grande do Sul, Ecol Dept, Porto Alegre, RS, Brazil.
+   [Lyra, Mariana L.] Univ Estadual Paulista, Campus Rio Claro, Rio Claro, SP, Brazil.
+   [Rosser, Neil] Harvard Univ, Organism & Evolutionary Biol, Cambridge, MA 02138 USA.
+   [Moreno Duran, Carmen Helena] Univ Distrital Francisco Jose Caldas, Bogota, Colombia.
+   [Pizano, Camila] Univ Icesi, Dept Biol, Cali, Colombia.
+   [Hoedl, Walter] Univ Wien, Dept Integrat Zool, Vienna, Austria.
+   [Fratani, Jessica; Duport Bru, Ana Sofia; Grosso, Jimena; Vera Candioti, Florencia] Consejo Nacl Invest Cient & Tecn, Fdn Miguel Lillo, Unidad Ejecutora Lillo, San Miguel De Tucuman, Tucuman, Argentina.
+   [Adarve Rengifo, Isabel] Univ EAFIT, Medellin, Colombia.
+C3 Purdue University System; Purdue University West Lafayette Campus;
+   Purdue University; Smithsonian Institution; Smithsonian Tropical
+   Research Institute; University of Jyvaskyla; Universidad Nacional de
+   Colombia; Universidad Nacional Autonoma de Mexico; University of Puerto
+   Rico; Purdue University System; Purdue University; Purdue University
+   West Lafayette Campus; Smithsonian Institution; Smithsonian Tropical
+   Research Institute; University of Jyvaskyla; Universidad Nacional de
+   Colombia; Universidad Nacional Autonoma de Mexico; University of Puerto
+   Rico; University of Puerto Rico; Corporacion Colombiana de Investigacion
+   Agropecuaria, AGROSAVIA; City University of New York (CUNY) System;
+   University of Colorado System; University of Colorado Boulder;
+   Universidad Nacional de Colombia; Universidad del Rosario; Universidad
+   de la Laguna; University of London; University College London;
+   Pontificia Universidad Javeriana; Universidad San Francisco de Quito;
+   Cornell University; Universidade de Sao Paulo; University of Udine;
+   Virginia Polytechnic Institute & State University; Oregon State
+   University; Universidad de los Andes (Colombia); University of
+   California System; University of California Berkeley; University of
+   Chicago; University of New South Wales Sydney; Pontificia Universidad
+   Catolica del Ecuador; University of California System; University of
+   California Davis; University of Hong Kong; Pontificia Universidad
+   Catolica del Ecuador; Pontificia Universidad Javeriana; University of
+   Connecticut; University of Illinois System; University of Illinois
+   Chicago; University of Illinois Chicago Hospital; University of
+   Massachusetts System; University of Massachusetts Amherst; Gettysburg
+   College; University of Barcelona; Leibniz Institut fur Evolutions und
+   Biodiversitatsforschung; Consejo Nacional de Investigaciones Cientificas
+   y Tecnicas (CONICET); City University of New York (CUNY) System;
+   University of Michigan System; University of Michigan; University of
+   Puerto Rico; Universidad de los Andes (Colombia); University System of
+   Maryland; University of Maryland College Park; Universidade do Estado do
+   Rio de Janeiro; Universidade Federal do Rio de Janeiro; Chalmers
+   University of Technology; Universidad de los Andes (Colombia);
+   Smithsonian Institution; Smithsonian National Museum of Natural History;
+   Alliance; International Center for Tropical Agriculture - CIAT;
+   Universidade Federal de Alagoas; Venezuelan Institute Science Research;
+   Universidad Distrital Francisco Jose de Caldas; Universidad Costa Rica;
+   University Diego Portales; Swansea University; Indiana University
+   System; Indiana University Bloomington; Indiana University System;
+   Indiana University Bloomington; Boston University; Universidade de Sao
+   Paulo; Universidad del Norte Colombia; California State University
+   System; San Diego State University; University of California System;
+   University of California Riverside; State University System of Florida;
+   Florida International University; Universidade Federal do Rio de
+   Janeiro; California State University System; San Francisco State
+   University; University of California System; University of California
+   Santa Cruz; University of California System; University of California
+   Los Angeles; Universidade Regional de Blumenau (FURB); Universidade
+   Federal de Mato Grosso do Sul; Escuela Politecnica Superior del
+   Ejercito; Universidad San Francisco de Quito; University of Melbourne;
+   University of California System; University of California Los Angeles;
+   Universidade Federal de Santa Maria (UFSM); Universidad de los Andes
+   (Colombia); Universidad Nacional Autonoma de Mexico; Consejo Nacional de
+   Investigaciones Cientificas y Tecnicas (CONICET); Colorado State
+   University; Universidade do Estado do Rio de Janeiro; Consejo Nacional
+   de Investigaciones Cientificas y Tecnicas (CONICET); Museo Argentino de
+   Ciencias Naturales Bernardino Rivadavia (MACN); Consejo Nacional de
+   Investigaciones Cientificas y Tecnicas (CONICET); Universidade Federal
+   de Mato Grosso do Sul; University of Gothenburg; University of
+   Gothenburg; Universidad de los Andes (Colombia); Universidade Federal de
+   Goias; City University of New York (CUNY) System; University of
+   California System; University of California Irvine; University of Puerto
+   Rico; University of Puerto Rico Rio Piedras; Universidade de Sao Paulo;
+   Universidade do Estado do Rio de Janeiro; Universidade Estadual
+   Paulista; Museu Paraense Emilio Goeldi; Universidade do Estado do Rio de
+   Janeiro; Universidade Estadual do Sudoeste da Bahia; Universidad
+   Nacional de Colombia; Universidade Federal do Rio Grande do Sul; Max
+   Planck Society; Australian National University; Universidade de Sao
+   Paulo; Universidade Estadual Paulista; University of Kansas;
+   Universidade do Estado de Mato Grosso; University of Chicago;
+   Universidade Estadual Paulista; Universidade Estadual Paulista;
+   Universidade de Brasilia; Universidade Estadual de Campinas; Alliance;
+   International Center for Tropical Agriculture - CIAT; Macquarie
+   University; Universidad de los Andes (Colombia); Universidad Nacional de
+   Colombia; Universidad Nacional de Colombia; Pontificia Universidade
+   Catolica de Minas Gerais; Universidad de Antioquia; Slovenian Academy of
+   Sciences & Arts (SASA); Universidade Federal do Rio Grande do Sul;
+   Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET);
+   National University of Cordoba; Universidad Nacional Costa Rica;
+   Universidad de los Andes (Colombia); Universidad Costa Rica; Universidad
+   Costa Rica; National Institutes of Health (NIH) - USA; Universidad
+   Nacional de Colombia; Universidad Nacional de Colombia; University
+   System of Maryland; Salisbury University; University of California
+   System; University of California Irvine; University of California
+   System; University of California Irvine; University of Queensland;
+   Stanford University; University of Buenos Aires; University of
+   Veterinary Medicine Hannover; National University of La Plata; National
+   University of Cordoba; Consejo Nacional de Investigaciones Cientificas y
+   Tecnicas (CONICET); Universidad de los Andes (Colombia); Southern
+   Illinois University System; Southern Illinois University; Universidad de
+   Las Americas - Ecuador; University of Arizona; University of Vienna;
+   James Cook University; Goethe University Frankfurt; Consejo Nacional de
+   Investigaciones Cientificas y Tecnicas (CONICET); University of Lincoln;
+   University of Lincoln; State University of New York (SUNY) System; State
+   University of New York (SUNY) Buffalo; Universidade de Sao Paulo;
+   University of Amsterdam; University of Veterinary Medicine Vienna;
+   University of Puerto Rico; University of Puerto Rico Rio Piedras;
+   Washington University (WUSTL); Marquette University; University of
+   Oviedo; University of Oviedo; University of Minnesota System; University
+   of Minnesota Twin Cities; University System of Maryland; Salisbury
+   University; Universidad del Magdalena; Universidad Tecnica Particular de
+   Loja; Instituto de Investigaciones Biologicas Clemente Estable Uruguay;
+   Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET);
+   Universidad Nacional de Tucuman; Western Sydney University; State
+   University System of Florida; Florida International University;
+   University of California System; University of California Berkeley;
+   University of Cambridge; Universitat Trier; University of Amsterdam;
+   Universite PSL; Ecole Pratique des Hautes Etudes (EPHE); Institut Agro;
+   Montpellier SupAgro; CIRAD; Centre National de la Recherche Scientifique
+   (CNRS); Institut de Recherche pour le Developpement (IRD); Universite
+   Paul-Valery; Universite de Montpellier; Universidad Nacional de
+   Colombia; Universidade Federal do Rio Grande do Sul; City University of
+   New York (CUNY) System; Museum National d'Histoire Naturelle (MNHN);
+   Universidad de los Andes (Colombia); Universidad del Rosario; Florey
+   Institute of Neuroscience & Mental Health; Universidad de Antioquia;
+   Universidad de Magallanes; Instituto de Investigaciones Biologicas
+   Clemente Estable Uruguay; Universidade Federal do Rio Grande do Sul;
+   Universidade Federal do Rio Grande do Sul; Universidade Estadual
+   Paulista; Harvard University; Universidad Distrital Francisco Jose de
+   Caldas; Universidad ICESI; University of Vienna; Consejo Nacional de
+   Investigaciones Cientificas y Tecnicas (CONICET); Miguel Lillo
+   Foundation; Universidad EAFIT
+RP Bernal, XE (corresponding author), Purdue Univ, Dept Life Sci, W Lafayette, IN 47906 USA.; Bernal, XE (corresponding author), Smithsonian Trop Res Inst, Apartado 0843-03092, Balboa, Ancon, Panama.
+EM xbernal@purdue.edu
+RI Chaverri, Gloriana/J-4798-2012; Martínez-Habibe, Maria/AGE-5890-2022;
+   Bacon, Christine/AAD-3283-2019; Paez, Monica/ADW-0690-2022; Pardo-Diaz,
+   Carolina/C-7936-2016; Navarro-Suarez, Adriana/AAB-2242-2020; Muñoz,
+   Karen/JQW-4678-2023; Moriguchi Jeckel, Adriana/ABE-4329-2021; Canedo,
+   Clarissa/JQW-0608-2023; Albo, Maria/AAH-6703-2021; Duran,
+   Andrea/JFB-4891-2023; Monmany-Garzia, A. Carolina/M-1533-2019;
+   Acevedo-Charry, Orlando/ABA-6574-2020; Schulte, Lisa
+   Maria/AAG-1712-2021; Jiggins, Chris D/B-9960-2008; Catenazzi,
+   Alessandro/C-8615-2009; Vasconcellos, Mariana Mira/L-4712-2016; Ruggeri,
+   Joice/F-7745-2015; Bloch, Natasha I/HTR-4737-2023; Urbina-Cardona, J.
+   Nicolas/B-5447-2008; Arango, Daniel/O-9270-2016; Citeli,
+   Nathalie/AAZ-1350-2021; Bordin, Kauane Maiara/V-6640-2019; C,
+   Salazar/A-1647-2010; Bernal, Moises A/D-9006-2012; Buenaventura,
+   Eliana/E-5400-2015; Brunes, Tuliana O./L-7916-2013; Jiggins,
+   Chris/T-4296-2019; Guarnizo, Carlos E/A-6383-2011; Zina,
+   Juliana/G-6202-2012; Gubert, Carolina/AAY-4428-2020; Ortiz-Barrientos,
+   Daniel/N-3294-2019; Feris, Faride Lamadrid/Z-1072-2019; Damasceno,
+   Roberta P/L-7629-2014; Wolff, Marta/AAF-9072-2019; Contador,
+   Tamara/AAC-2161-2021; Beltrán, Iván/M-4247-2019; Vianna, Juliana
+   A/E-9847-2015; Paz, Andrea/W-1068-2019; Lyra, Mariana Lucio/O-6405-2014;
+   Canedo, Clarissa/C-5657-2014; Pizano, Camila/AAM-9324-2021;
+   Mendoza-Henao, Angela M/D-6346-2013; Rada, Marco/F-9306-2015; Chiu,
+   Serena/JMC-3005-2023; Moriguchi Jeckel, Adriana/HTR-1852-2023; Briscoe,
+   Adriana/E-8963-2010; Gaitan-Espitia, Juan Diego/A-9945-2012; Schulte,
+   Lisa M./AAL-4579-2020; Torres Jimenez, Maria Fernanda/ABF-2304-2020;
+   Arias, Rina Mazuera/E-9806-2018; Duran, Carmen/HLQ-0551-2023;
+   Collevatti, Rosane/D-8673-2013; Rojas, Bibiana/M-2331-2019;
+   Ochoa-Herrera, Valeria/ABB-5060-2020; Ron, Santiago R/J-4203-2019;
+   Ceron, Karoline/N-1788-2019; Fapesp, Biota/F-8655-2017; Sánchez
+   Guerrero, Adriana/HNP-3274-2023; Orizaola, Germán/A-5217-2008;
+   Anganoy-Criollo, Marvin/ABE-4360-2021; Lourenço, Ana Carolina C
+   Calijorne/O-8796-2015
+OI Chaverri, Gloriana/0000-0002-1155-432X; Bacon,
+   Christine/0000-0003-2341-2705; Paez, Monica/0000-0003-2259-9619;
+   Pardo-Diaz, Carolina/0000-0002-7259-1183; Navarro-Suarez,
+   Adriana/0000-0002-9984-1947; Moriguchi Jeckel,
+   Adriana/0000-0002-6922-2985; Canedo, Clarissa/0000-0003-0637-4663; Albo,
+   Maria/0000-0003-4332-7612; Monmany-Garzia, A.
+   Carolina/0000-0003-0240-719X; Acevedo-Charry,
+   Orlando/0000-0003-4964-8994; Schulte, Lisa Maria/0000-0001-5863-1057;
+   Jiggins, Chris D/0000-0002-7809-062X; Catenazzi,
+   Alessandro/0000-0002-3650-4783; Vasconcellos, Mariana
+   Mira/0000-0002-3175-2649; Ruggeri, Joice/0000-0001-8307-6067;
+   Urbina-Cardona, J. Nicolas/0000-0002-4174-8467; Arango,
+   Daniel/0000-0001-9523-830X; Citeli, Nathalie/0000-0003-1587-9380;
+   Bordin, Kauane Maiara/0000-0003-3871-6293; C,
+   Salazar/0000-0001-9217-6588; Buenaventura, Eliana/0000-0002-5265-815X;
+   Brunes, Tuliana O./0000-0002-3665-030X; Jiggins,
+   Chris/0000-0002-7809-062X; Guarnizo, Carlos E/0000-0001-7324-1241;
+   Ortiz-Barrientos, Daniel/0000-0002-7493-416X; Feris, Faride
+   Lamadrid/0000-0002-8681-7390; Damasceno, Roberta P/0000-0003-2948-9826;
+   Contador, Tamara/0000-0002-0250-9877; Beltrán, Iván/0000-0003-4439-8391;
+   Vianna, Juliana A/0000-0003-2330-7825; Paz, Andrea/0000-0001-6484-1210;
+   Lyra, Mariana Lucio/0000-0002-7863-4965; Canedo,
+   Clarissa/0000-0003-0637-4663; Pizano, Camila/0000-0003-4124-1348;
+   Mendoza-Henao, Angela M/0000-0002-6752-9238; Moriguchi Jeckel,
+   Adriana/0000-0002-6922-2985; Briscoe, Adriana/0000-0001-8514-4983;
+   Gaitan-Espitia, Juan Diego/0000-0001-8781-5736; Torres Jimenez, Maria
+   Fernanda/0000-0002-7177-4164; Arias, Rina Mazuera/0000-0002-9888-5833;
+   Collevatti, Rosane/0000-0002-3733-7059; Rojas,
+   Bibiana/0000-0002-6715-7294; Ochoa-Herrera, Valeria/0000-0002-3826-2079;
+   Ron, Santiago R/0000-0001-6300-9350; Ceron,
+   Karoline/0000-0003-2354-3756; Fapesp, Biota/0000-0002-9887-8449;
+   Orizaola, Germán/0000-0002-6748-966X; Anganoy-Criollo,
+   Marvin/0000-0002-8497-822X; Borges da Rocha, Sabine/0000-0002-6001-7344;
+   Rosser, Neil/0000-0001-7796-2548; Colon-Pineiro,
+   Zuania/0000-0003-0508-2538; Gonzalez, Mabel/0000-0003-4649-2963; Uy,
+   Floria/0000-0002-2918-0418; Fenker, Jessica/0000-0002-7430-3886
+NR 12
+TC 8
+Z9 10
+U1 1
+U2 1
+PU AMER ASSOC ADVANCEMENT SCIENCE
+PI WASHINGTON
+PA 1200 NEW YORK AVE, NW, WASHINGTON, DC 20005 USA
+SN 0036-8075
+EI 1095-9203
+J9 SCIENCE
+JI Science
+PD FEB 22
+PY 2019
+VL 363
+IS 6429
+BP 825
+EP 826
+DI 10.1126/science.aaw6004
+PG 2
+WC Multidisciplinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Science & Technology - Other Topics
+GA HM3PS
+UT WOS:000459387100031
+PM 30792295
+DA 2024-02-08
+ER

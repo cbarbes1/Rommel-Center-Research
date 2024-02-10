@@ -10,6 +10,7 @@ This script contains a class that has various utility methods that will be used 
 
 class utilities():
     def __init__(self):
+        # regular expressions used to extracting the corresponding features from a document
         self.author_regex = r'AF\s(.+?)(?=\nTI)'
         self.title_regex = r'TI\s(.+?)(?=\nSO)'
         self.abstract_regex = r'AB\s(.+?)(?=\nC1)'
@@ -52,62 +53,126 @@ class utilities():
             else:
                 raise ValueError(f"Unknown attribute: '{attribute}' requested.")
         return attribute_results
-      
+    
+    def sanitize_filename(self, text, max_length=100):
+        """
+        Sanitizes a string for use as part of a file name.
+        
+        Args:
+            text (str): The text to sanitize.
+            max_length (int): The maximum allowed length of the sanitized string.
+        
+        Returns:
+            str: A sanitized string safe for use in a file name.
+        """
+        print(f"Text = {text}")
+        # Remove any potential HTML tags
+        text = re.sub('<[^>]+>', '', text)
+        
+        # Replace invalid filename characters with underscores
+        invalid_chars = r'[<>:"/\\|?*\n]+'
+        sanitized = re.compile(invalid_chars).sub('_', text)
+        
+        # Truncate to avoid excessively long file names
+        return sanitized[:max_length]
+    
     def get_file_name(self, author, title):
         """
-        Arguments:
-            Author: authors name for entry
-            Title: title for the entry
+        Constructs a filename using the first author's name and the title of an entry.
             
-        Author and title can be obtained by calling the get_attribute() function and passing in author and title as the attribute
+        Parameters:
+            author (str): The author(s) of the entry.
+            title (str): The title of the entry.
+            
         Returns:
-            What to name file
+            str: A sanitized and formatted filename.
         """
-        return f"Author:{author}_Title:{title}.txt"
+        print(f"file name author: {author}")
+        print(f"filename title: {title}")
+        # split author string on newline and take the first author only
+        first_author = author.split('\n')[0].strip()
+        print(f"filename first_author: {first_author}")
+        # sanitize and truncate the first authors name and title
+        sanitized_author = self.sanitize_filename(first_author)
+        print("check")
+        sanitized_title = self.sanitize_filename(title)
+
+        # construct file name
+        file_name = f"Author:{sanitized_author}_Title:{sanitized_title}.txt"
+        # return formatted file name
+        return file_name[:255]
     
     def get_output_dir(self, path=None):
-        # if no path is provided path is made to be the current directory
+        """
+        Ensures the output directory exists, creating it if necessary.
+        
+        Parameters:
+            path (str, optional): The path to the output directory. Defaults to the current working directory if None.
+        
+        Returns:
+            str: The path to the output directory.
+        """
+        # Use current working directory if no path is provided
         if path == "None":
             # return current working directory
             return os.getcwd()
         
-        # check if provided path exists
+        # Create the directory if it doesn't exist
         if not os.path.exists(path):
-            # if it doesn't exist, create the directory and any intermediate directories
             os.makedirs(path, exist_ok=True)
         return path
     
     def splitter(self, path_to_file):
         """
-        Splits the document into individual entries based on a specified delimiter or pattern, and then calls the
-        'make_file' method from the utilities object on each entry to create a separate .txt file for each paper entry.
+        Splits a document into individual entries based on a specified delimiter.
+        
+        Parameters:
+            path_to_file (str): The path to the the document to be split
+        
+        Returns:
+            list: A list of strings, each representing an individual entry from the document.
         """
+        # Read entire document into memory
         with open(path_to_file, 'r', encoding='utf-8') as file:
             file_content = file.read()
+            
+        # Split the document into entries based on the end record delimiter
         splits = re.split(self.end_record_regex, file_content)
-        # filter out empty entries
+        
+        # filter out any empty strings that may result from splitting
         splits = [split + 'DA 2024-02-08\nER' for split in splits if split.strip()] # re-add delimiter for completeness if needed 
         return splits
       
     def make_files(self, path_to_file, output_dir):
         """
-        Arguments:
-            file: full text file with all metadata for all entries
-            output_dir: path to directory for which file should be saved in
+        Splits a document into individual entries and creates a separate file for each entry in the specified output directory.
+        
+        Parameters:
+            path_to_file (str): The path to the full text file containing all metadata for the entries.
+            output_dir (str): The path to the directory where the individual entry files should be saved.
+        
         Returns:
-            A dictionary who's key is the number of the entry (1-654), value is the path to that file
-        Calls split to split the file up into chunks and makes each chunk it's own file and puts them into a dictionary as an entry
+            file_paths: A dictionary where each key is the number of the entry (starting from 1) and each value is the path to the corresponding file.
+        
+        This method first splits the document into individual entries using the `splitter` method. 
+        It then iterates over each entry, extracts the necessary attributes to form a filename, 
+        ensures the output directory exists, and writes each entry's content to a new file in the output directory.
+        Then returns the file_paths dictionary to make referencing any specific document later easier
         """
         splits = self.splitter(path_to_file)
-        file_paths = {} # to keep track of created files and their paths
+        
+        # dictionary to keep track of created files and their paths
+        file_paths = {}
         
         for index, split in enumerate(splits, start=1):
-            # Get attributes to form filename
+            # Extract attributes to form filename
             attributes = self.get_attributes(split, ['author', 'title'])
             author = attributes['author'][1] if attributes['author'][0] else 'Unknown'
             title = attributes['title'][1] if attributes['title'][0] else 'Unkown'
+            print(f"author: {author}")
+            print(f"title: {title}")
             
-            # construct file name
+            # Construct file name
             file_name = self.get_file_name(author, title)
             
             # Ensure output directory exists
@@ -115,15 +180,16 @@ class utilities():
             
             # Construct full path for new file
             path = os.path.join(save_in_dir, file_name)
+
+            # Check if file already exists to avoid duplicates/overwriting
+            if not os.path.exists(path):
+            # Write the entry's contents to the new file
+                with open(path, 'w') as new_file:
+                    new_file.write(split)
             
-            # Write entry contents to new file
-            with open(path, 'w') as new_file:
-                new_file.write(split)
-                
-            file_paths[index] = path # track created file
+                # Track the created file
+                file_paths[index] = path
+            else:
+                print(f"File {path} already exists. Skipping.")
             
         return file_paths
-            
-            
-            
-    

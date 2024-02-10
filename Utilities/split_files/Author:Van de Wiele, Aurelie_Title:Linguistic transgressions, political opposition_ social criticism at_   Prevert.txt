@@ -1,0 +1,37 @@
+PT J
+AU Van de Wiele, A
+AF Van de Wiele, Aurelie
+TI Linguistic transgressions, political opposition: social criticism at
+   Prevert
+SO FRENCH REVIEW
+LA French
+DT Article
+C1 [Van de Wiele, Aurelie] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Van de Wiele, A (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 21
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AMER ASSOC TEACHERS FRENCH
+PI CARBONDALE
+PA MAILCODE 4510, SOUTHERN ILLINOIS UNIV, CARBONDALE, IL 62901-4510 USA
+SN 0016-111X
+EI 2329-7131
+J9 FR REV
+JI Fr. Rev.
+PD DEC
+PY 2018
+VL 92
+IS 2
+BP 95
+EP 104
+PG 10
+WC Literature, Romance
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Literature
+GA HE0CC
+UT WOS:000452933400008
+DA 2024-02-08
+ER

@@ -1,0 +1,88 @@
+PT J
+AU West, TAP
+   Grogan, KA
+   Swisher, ME
+   Caviglia-Harris, JL
+   Sills, E
+   Harris, D
+   Roberts, D
+   Putz, FE
+AF West, Thales A. P.
+   Grogan, Kelly A.
+   Swisher, Marilyn E.
+   Caviglia-Harris, Jill L.
+   Sills, Erin
+   Harris, Daniel
+   Roberts, Dar
+   Putz, Francis E.
+TI A hybrid optimization-agent-based model of REDD plus payments to
+   households on an old deforestation frontier in the Brazilian Amazon
+SO ENVIRONMENTAL MODELLING & SOFTWARE
+LA English
+DT Article
+DE REDD; Payments for environmental services; Land-use/cover change;
+   Agent-based modeling; Farm household; Optimal control
+ID LAND-COVER CHANGE; COUPLED HUMAN; NATURAL SYSTEMS; AVOIDED
+   DEFORESTATION; CARBON EMISSIONS; TROPICAL DEFORESTATION; FOREST
+   CONSERVATION; PROXIMATE CAUSES; DECISION-MAKING; DYNAMICS
+AB REDD+ was initially conceived of as a multi-level carbon-based payment for environmental services (PES). It is still often assumed to be a cost-effective climate change mitigation strategy, but this assumption is mostly based on theoretical studies and static opportunity cost calculations. We used spatial and socioeconomic datasets from an Amazonian deforestation frontier in Brazil to construct a simulation model of REDD + payments to households that can be used to assess REDD + interventions. Our SimREDD + model consists of dynamic optimization and land-use/cover change allocation sub-models built into an agent-based model platform. The model assumes that households maximize profit under perfect market conditions and calculates the optimal household land-use/cover configuration at equilibrium under a given REDD + PES scenario. These scenarios include PES based on (1) forest area and (2) carbon stocks. Insights gained from simulations under different conditions can assist in the design of more effective, efficient, and equitable REDD + programs. (c) 2017 Elsevier Ltd. All rights reserved.
+C1 [West, Thales A. P.] Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32641 USA.
+   [Grogan, Kelly A.] Univ Florida, Food & Resource Econ Dept, Gainesville, FL 32641 USA.
+   [Swisher, Marilyn E.] Univ Florida, Family Youth & Community Sci Dept, Gainesville, FL 32641 USA.
+   [Caviglia-Harris, Jill L.] Salisbury Univ, Econ & Finance Dept, Salisbury, MD 21801 USA.
+   [Sills, Erin] North Carolina State Univ, Dept Forestry & Environm Resources, Raleigh, NC 27695 USA.
+   [Harris, Daniel] Salisbury Univ, Dept Geog & Geosci, Salisbury, MD 21801 USA.
+   [Roberts, Dar] Univ Calif Santa Barbara, Dept Geog, Santa Barbara, CA 93106 USA.
+   [Putz, Francis E.] Univ Florida, Dept Biol, Gainesville, FL 32641 USA.
+C3 State University System of Florida; University of Florida; State
+   University System of Florida; University of Florida; State University
+   System of Florida; University of Florida; University System of Maryland;
+   Salisbury University; North Carolina State University; University System
+   of Maryland; Salisbury University; University of California System;
+   University of California Santa Barbara; State University System of
+   Florida; University of Florida
+RP West, TAP (corresponding author), Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32641 USA.
+EM thaleswest@gmail.com
+RI ; West, Thales A. P./V-2628-2017
+OI Caviglia-Harris, Jill/0000-0001-7860-4857; West, Thales A.
+   P./0000-0003-3896-6516; Sills, Erin/0000-0001-8289-0489
+FU National Science Foundation [SES-0752936\]; Brazilian National Counsel
+   of Technological and Scientific Development (CNPq) [201138/2012-3];
+   William C. and Bertha M. Cornett Fellowship; University of Florida;
+   World Wildlife Fund's Prince Bernhard Scholarship for Nature
+   Conservation
+FX This research was funded by the National Science Foundation (grant
+   SES-0752936\). Additional funds to the first author were provided by the
+   Brazilian National Counsel of Technological and Scientific Development
+   (CNPq; grant 201138/2012-3), the William C. and Bertha M. Cornett
+   Fellowship and the Tropical Conservation and Development Graduate
+   Assistantship at the University of Florida, and the World Wildlife
+   Fund's Prince Bernhard Scholarship for Nature Conservation.
+NR 113
+TC 17
+Z9 19
+U1 4
+U2 37
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 1364-8152
+EI 1873-6726
+J9 ENVIRON MODELL SOFTW
+JI Environ. Modell. Softw.
+PD FEB
+PY 2018
+VL 100
+BP 159
+EP 174
+DI 10.1016/j.envsoft.2017.11.007
+PG 16
+WC Computer Science, Interdisciplinary Applications; Engineering,
+   Environmental; Environmental Sciences; Water Resources
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Computer Science; Engineering; Environmental Sciences & Ecology; Water
+   Resources
+GA FV8GM
+UT WOS:000424824200013
+DA 2024-02-08
+ER

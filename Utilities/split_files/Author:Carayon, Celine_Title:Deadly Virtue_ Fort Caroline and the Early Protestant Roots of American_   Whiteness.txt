@@ -1,0 +1,38 @@
+PT J
+AU Carayon, C
+AF Carayon, Celine
+TI Deadly Virtue: Fort Caroline and the Early Protestant Roots of American
+   Whiteness
+SO AMERICAN HISTORICAL REVIEW
+LA English
+DT Book Review
+C1 [Carayon, Celine] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Carayon, C (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 0002-8762
+EI 1937-5239
+J9 AM HIST REV
+JI Am. Hist. Rev.
+PD DEC
+PY 2021
+VL 126
+IS 4
+BP 1646
+EP 1647
+DI 10.1093/ahr/rhab630
+PG 2
+WC History
+WE Social Science Citation Index (SSCI); Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC History
+GA YW7GU
+UT WOS:000753584200045
+DA 2024-02-08
+ER

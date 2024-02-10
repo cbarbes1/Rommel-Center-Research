@@ -1,0 +1,39 @@
+PT J
+AU Caballero, G
+AF Caballero, Guillermo
+TI Toward Intersectionality, A Review
+SO JOURNAL OF WOMEN POLITICS & POLICY
+LA English
+DT Book Review
+C1 [Caballero, Guillermo] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Caballero, G (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 10
+TC 0
+Z9 0
+U1 0
+U2 2
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 1554-477X
+EI 1554-4788
+J9 J WOMEN POLIT POLICY
+JI J. Women Polit. Policy
+PD JAN 2
+PY 2022
+VL 43
+IS 1
+SI SI
+BP 107
+EP 111
+DI 10.1080/1554477X.2022.2007468
+EA DEC 2021
+PG 5
+WC Political Science; Women's Studies
+WE Social Science Citation Index (SSCI)
+SC Government & Law; Women's Studies
+GA YH7JB
+UT WOS:000728634800001
+DA 2024-02-08
+ER

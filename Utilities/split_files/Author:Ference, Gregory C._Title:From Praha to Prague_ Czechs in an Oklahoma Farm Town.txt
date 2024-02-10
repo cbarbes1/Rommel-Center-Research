@@ -1,0 +1,37 @@
+PT J
+AU Ference, GC
+AF Ference, Gregory C.
+TI From Praha to Prague: Czechs in an Oklahoma Farm Town
+SO JOURNAL OF AMERICAN ETHNIC HISTORY
+LA English
+DT Book Review
+C1 [Ference, Gregory C.] Salisbury Univ, Hist, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Ference, GC (corresponding author), Salisbury Univ, Hist, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU UNIV ILLINOIS PRESS
+PI CHAMPAIGN
+PA 1325 S OAK ST, CHAMPAIGN, IL 61820-6903 USA
+SN 0278-5927
+EI 1936-4695
+J9 J AM ETHNIC HIST
+JI J. Am. Ethn. Hist.
+PD FAL
+PY 2018
+VL 38
+IS 1
+BP 89
+EP 90
+DI 10.5406/jamerethnhist.38.1.0089
+PG 4
+WC Ethnic Studies; History
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Ethnic Studies; History
+GA GX6NJ
+UT WOS:000447878600010
+DA 2024-02-08
+ER

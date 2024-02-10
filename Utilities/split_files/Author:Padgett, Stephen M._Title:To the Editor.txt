@@ -1,0 +1,40 @@
+PT J
+AU Padgett, SM
+AF Padgett, Stephen M.
+TI To the Editor
+SO NURSING OUTLOOK
+LA English
+DT Letter
+C1 [Padgett, Stephen M.] Salisbury Univ, Sch Nursing, Coll Hlth & Human Serv, 1101 Camden Ave, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Padgett, SM (corresponding author), Salisbury Univ, Sch Nursing, Coll Hlth & Human Serv, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM smpadgett@salisbury.edu
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0029-6554
+EI 1528-3968
+J9 NURS OUTLOOK
+JI Nurs. Outlook
+PD JUL-AUG
+PY 2022
+VL 70
+IS 4
+BP 556
+EP 556
+DI 10.1016/j.outlook.2022.03.007
+EA AUG 2022
+PG 1
+WC Nursing
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Nursing
+GA 5A3PL
+UT WOS:000862801700003
+PM 35491269
+DA 2024-02-08
+ER

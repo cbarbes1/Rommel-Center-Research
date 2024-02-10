@@ -1,0 +1,63 @@
+PT J
+AU Mann, HR
+   Rowe, E
+   Selfridge, J
+   Price, DL
+AF Mann, Hunter R.
+   Rowe, Emily
+   Selfridge, Jennifer
+   Price, Dana L.
+TI Leaf Litter and Arboreal Ants (Hymenoptera: Formicidae) in a
+   Mid-Atlantic Forest
+SO NORTHEASTERN NATURALIST
+LA English
+DT Article
+ID ESTIMATING SPECIES RICHNESS; RAIN-FOREST; SAMPLING METHODS; WOODLAND
+   ANTS; BIODIVERSITY; ASSEMBLAGES; SCALE; DIVERSITY; MARYLAND;
+   HETEROGENEITY
+AB The majority of ant diversity studies have been conducted in the tropics, but the number of studies conducted in temperate regions, like the US, is on the rise. Our research measured the richness and diversity of ants (Hymenoptera: Formicidae) in a coastal, temperate forest of Maryland. We collected leaf litter along twenty-four 100-m transects during May, July, and September of 2015 and measured litter depth and mass to determine if there was a relationship with ant abundance (density). We used Berlese funnels to collect 14 ant species (4208 individuals; n = 144 samples). Neither leaf-litter depth nor mass had an impact on ant abundance or species richness. We used aspirators and hand-collection methods to examine arboreal-ant foraging preference on deciduous and coniferous trees. Total species richness for both tree types was 21; we collected 19 species from deciduous trees and 17 from coniferous trees. Four species detected on deciduous trees were not present on conifers, and 2 species from conifers were not observed on deciduous trees. We observed higher abundances on deciduous trees (P = 0.016) and detected a preference for larger trees. We provide suggestions for conservation efforts for the coastal forests of Maryland, and our study contributes to the growing species inventory of ants on Maryland's eastern shore.
+C1 [Mann, Hunter R.; Rowe, Emily; Price, Dana L.] Univ Salisbury, 1101 Camden Ave, Salisbury, MD 21801 USA.
+   [Selfridge, Jennifer] Maryland Dept Nat Resources, 909 Wye Mills Rd, Wye Mills, MD 21679 USA.
+C3 University System of Maryland; Salisbury University
+RP Price, DL (corresponding author), Univ Salisbury, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM dlprice@salisbury.edu
+FU Salisbury University; Guerrieri undergraduate summer fellowship; Henson
+   undergraduate research grant
+FX We thank a number of people who were critical to the completion of this
+   project, including Mallory Hagadorn, for help with the collection of
+   ants; Roman Jesien and John LaPolla, for their initial help with project
+   design; and John also for his comments regarding this manuscript. We are
+   grateful to John Moulis for providing us with permits for ant collection
+   in the E.A. Vaughn WMA, Tim Foard for his help with ant identifications,
+   and Eric Leibgold for his suggestions and comments regarding the final
+   report. This research would not have been possible without support and
+   funding provided by Salisbury University, including a Guerrieri
+   undergraduate summer fellowship for Emily Rowe, graduate research and
+   presentation awards, and a Henson undergraduate research grant.
+NR 56
+TC 3
+Z9 3
+U1 0
+U2 9
+PU HUMBOLDT FIELD RESEARCH INST
+PI STEUBEN
+PA PO BOX 9, STEUBEN, ME 04680-0009 USA
+SN 1092-6194
+EI 1938-5307
+J9 NORTHEAST NAT
+JI Northeast. Nat
+PD JUN
+PY 2018
+VL 25
+IS 2
+BP 341
+EP 354
+DI 10.1656/045.025.0217
+PG 14
+WC Biodiversity Conservation; Ecology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA GK7UX
+UT WOS:000436417100017
+DA 2024-02-08
+ER

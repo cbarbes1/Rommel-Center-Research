@@ -1,0 +1,39 @@
+PT J
+AU Martino, A
+AF Martino, Andrew
+TI The Lying Life of Adults
+SO WORLD LITERATURE TODAY
+LA English
+DT Book Review
+C1 [Martino, Andrew] Salisbury Univ, Honors Coll, Salisbury, MD 21801 USA.
+   [Martino, Andrew] Salisbury Univ, Honors Coll, English, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University; University System
+   of Maryland; Salisbury University
+RP Martino, A (corresponding author), Salisbury Univ, Honors Coll, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU UNIV OKLAHOMA PRESS
+PI NORMAN
+PA UNIVERSITY PRESS BUILDING, 1005 ASP AVE, NORMAN, OK 73019 USA
+SN 0196-3570
+EI 1945-8134
+J9 WORLD LITERATURE TOD
+JI World Lit. Today
+PD FAL
+PY 2020
+VL 94
+IS 4
+BP 78
+EP 79
+DI 10.7588/worllitetoda.94.4.0077
+PG 2
+WC Literature
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Literature
+GA OH5QO
+UT WOS:000582639800036
+DA 2024-02-08
+ER

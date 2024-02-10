@@ -1,0 +1,42 @@
+PT J
+AU Nalesnik, A
+   Erickson, L
+AF Nalesnik, Allison
+   Erickson, Les
+TI Analysis of Published PCR Primers to Determine Sex of Industrial Hemp
+   Seedlings
+SO FASEB JOURNAL
+LA English
+DT Meeting Abstract
+CT Annual Meeting on Experimental Biology
+CY APR 04-07, 2020
+CL San Diego, CA
+SP Amer Assoc Anatomists, Amer Physiol Soc, Amer Soc Biochem & Mol Biol, Amer Soc Investigat Pathol, Amer Soc Nutr, Amer Soc Pharmacol & Expt Therapeut
+C1 [Nalesnik, Allison; Erickson, Les] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+NR 0
+TC 0
+Z9 0
+U1 1
+U2 3
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0892-6638
+EI 1530-6860
+J9 FASEB J
+JI Faseb J.
+PD APR
+PY 2020
+VL 34
+SU S1
+DI 10.1096/fasebj.2020.34.s1.08695
+PG 1
+WC Biochemistry & Molecular Biology; Biology; Cell Biology
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Biochemistry & Molecular Biology; Life Sciences & Biomedicine - Other
+   Topics; Cell Biology
+GA MG4SK
+UT WOS:000546023101452
+DA 2024-02-08
+ER

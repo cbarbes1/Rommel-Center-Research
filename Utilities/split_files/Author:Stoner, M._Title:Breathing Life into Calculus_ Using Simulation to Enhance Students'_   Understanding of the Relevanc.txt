@@ -1,0 +1,41 @@
+PT J
+AU Stoner, M
+   Joyner, RL
+AF Stoner, M.
+   Joyner, R. L.
+TI Breathing Life into Calculus: Using Simulation to Enhance Students'
+   Understanding of the Relevance of Calculus to Physiology
+SO AMERICAN JOURNAL OF RESPIRATORY AND CRITICAL CARE MEDICINE
+LA English
+DT Meeting Abstract
+CT Virtual International Conference of the American-Thoracic-Society
+CY AUG 05-10, 2020
+CL ELECTR NETWORK
+SP Amer Thorac Soc
+C1 [Stoner, M.] Salisbury Univ, Math & Comp Sci, Salisbury, MD USA.
+   [Joyner, R. L.] Peninsula Reg Med Ctr, Richard A Henson Res Inst, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+EM mastoner@salisbury.edu
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 1
+PU AMER THORACIC SOC
+PI NEW YORK
+PA 25 BROADWAY, 18 FL, NEW YORK, NY 10004 USA
+SN 1073-449X
+EI 1535-4970
+J9 AM J RESP CRIT CARE
+JI Am. J. Respir. Crit. Care Med.
+PY 2020
+VL 201
+MA A1411
+PG 2
+WC Critical Care Medicine; Respiratory System
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC General & Internal Medicine; Respiratory System
+GA MV5JG
+UT WOS:000556393500407
+DA 2024-02-08
+ER

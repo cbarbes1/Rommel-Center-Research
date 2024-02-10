@@ -1,0 +1,52 @@
+PT J
+AU Insley, CR
+   Muller, SM
+   Schneider, SR
+   Coale, W
+AF Insley, Carlton R., III
+   Muller, Susan M.
+   Schneider, Sidney R.
+   Coale, William
+TI Program Directors' Perspectives On Coaes-mediated Caahep Accreditation
+   For The Exercise Sciences
+SO MEDICINE AND SCIENCE IN SPORTS AND EXERCISE
+LA English
+DT Meeting Abstract
+CT Annual Meeting of the American-College-of-Sports-Medicine (ACSM)
+CY MAY 28-JUN 01, 2019
+CL Orlando, FL
+SP Amer Coll Sports Med
+C1 [Insley, Carlton R., III; Muller, Susan M.; Schneider, Sidney R.] Salisbury Univ, Salisbury, MD USA.
+   [Coale, William] Comm Accreditat Exercise Sci, Indianapolis, IN USA.
+C3 University System of Maryland; Salisbury University
+EM rcinsley@salisbury.edu
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU LIPPINCOTT WILLIAMS & WILKINS
+PI PHILADELPHIA
+PA TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA
+SN 0195-9131
+EI 1530-0315
+J9 MED SCI SPORT EXER
+JI Med. Sci. Sports Exerc.
+PD JUN
+PY 2019
+VL 51
+IS 6
+SU S
+MA 3142
+BP 870
+EP 871
+DI 10.1249/01.mss.0000563100.91656.a0
+PG 2
+WC Sport Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Sport Sciences
+GA IR8AG
+UT WOS:000481662803334
+OA Bronze
+DA 2024-02-08
+ER

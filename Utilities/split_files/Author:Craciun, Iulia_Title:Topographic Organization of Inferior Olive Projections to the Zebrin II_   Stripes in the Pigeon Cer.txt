@@ -1,0 +1,61 @@
+PT J
+AU Craciun, I
+   Gutiérrez-Ibáñez, C
+   Corfield, JR
+   Hurd, PL
+   Wylie, DR
+AF Craciun, Iulia
+   Gutierrez-Ibanez, Cristian
+   Corfield, Jeremy R.
+   Hurd, Peter L.
+   Wylie, Douglas R.
+TI Topographic Organization of Inferior Olive Projections to the Zebrin II
+   Stripes in the Pigeon Cerebellar Uvula
+SO FRONTIERS IN NEUROANATOMY
+LA English
+DT Article
+DE cerebellum; inferior olive; uvula; climbing fiber; optic flow; zebrin
+   II; aldolase C
+ID CLIMBING FIBER PROJECTIONS; PURKINJE-CELL COMPARTMENTS; ALDOLASE-C
+   COMPARTMENTS; FUNCTIONAL-ORGANIZATION; ANTIGENIC COMPARTMENTATION; RAT
+   CEREBELLUM; COLUMBA-LIVIA; MOSSY FIBERS; VESTIBULOCEREBELLAR NEURONS;
+   OPTOKINETIC STIMULATION
+AB This study was aimed at mapping the organization of the projections from the inferior olive (IO) to the ventral uvula in pigeons. The uvula is part of the vestibulocerebellum (VbC), which is involved in the processing of optic flow resulting from self-motion. As in other areas of the cerebellum, the uvula is organized into sagittal zones, which is apparent with respect to afferent inputs, the projection patterns of Purkinje cell (PC) efferents, the response properties of PCs and the expression of molecular markers such as zebrin II (ZII). ZII is heterogeneously expressed such that there are sagittal stripes of PCs with high ZII expression (ZII+), alternating with sagittal stripes of PCs with little to no ZII expression (ZII). We have previously demonstrated that a ZII+/- stripe pair in the uvula constitutes a functional unit, insofar as the complex spike activity (CSA) of all PCs within a ZII+/- stripe pair respond to the same type of optic flow stimuli. In the present study we sought to map the climbing fiber (CF) inputs from the IO to the ZII+ and ZII- stripes in the uvula. We injected fluorescent Cholera Toxin B (CTB) of different colors (red and green) into ZII+ and ZII- bands of functional stripe pair. Injections in the ZII+ and ZII- bands resulted in retrograde labeling of spatially separate, but adjacent regions in the IO. Thus, although a ZII+/- stripe pair represents a functional unit in the pigeon uvula, CF inputs to the ZII+ and ZII- stripes of a unit arise from separate regions of the IO.
+C1 [Craciun, Iulia; Gutierrez-Ibanez, Cristian; Hurd, Peter L.; Wylie, Douglas R.] Univ Alberta, Neurosci & Mental Hlth Inst, Edmonton, AB, Canada.
+   [Corfield, Jeremy R.] Salisbury Univ, Dept Biol Sci, Salisbury, MD USA.
+C3 University of Alberta; University System of Maryland; Salisbury
+   University
+RP Wylie, DR (corresponding author), Univ Alberta, Neurosci & Mental Hlth Inst, Edmonton, AB, Canada.
+EM dwylie@ualberta.ca
+FU Canadian Institutes of Health Research (CIHR); Natural Sciences and
+   Engineering Research Council of Canada (NSERC); NSERC
+FX This research was supported by funding to DRW from the Canadian
+   Institutes of Health Research (CIHR) and the Natural Sciences and
+   Engineering Research Council of Canada (NSERC). IC was supported by a
+   graduate scholarship from NSERC.
+NR 79
+TC 4
+Z9 4
+U1 0
+U2 2
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 1662-5129
+J9 FRONT NEUROANAT
+JI Front. Neuroanat.
+PD MAR 15
+PY 2018
+VL 12
+AR 18
+DI 10.3389/fnana.2018.00018
+PG 13
+WC Anatomy & Morphology; Neurosciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Anatomy & Morphology; Neurosciences & Neurology
+GA FZ3XN
+UT WOS:000427524800001
+PM 29599710
+OA gold, Green Published
+DA 2024-02-08
+ER

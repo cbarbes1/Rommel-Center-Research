@@ -1,0 +1,35 @@
+PT J
+AU Walker, E
+AF Walker, Elsie
+TI Sonatas, Screams, and Silence: Music and Sound in the Films of Ingmar
+   Bergman
+SO BACH
+LA English
+DT Book Review
+C1 [Walker, Elsie] Salisbury Univ, Cinema Studies, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Walker, E (corresponding author), Salisbury Univ, Cinema Studies, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU RIEMENSCHNEIDER BACH INST
+PI BEREA
+PA BALDWIN-WALLACE COLLEGE 275 EASTLAND ROAD, BEREA, OH 44017-2088 USA
+SN 0005-3600
+J9 BACH
+JI Bach
+PY 2019
+VL 50
+IS 2
+BP 303
+EP 307
+PG 5
+WC Music
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Music
+GA JC2KN
+UT WOS:000489106000006
+DA 2024-02-08
+ER

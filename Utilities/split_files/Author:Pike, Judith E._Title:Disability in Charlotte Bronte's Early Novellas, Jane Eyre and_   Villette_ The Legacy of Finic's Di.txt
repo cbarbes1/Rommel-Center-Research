@@ -1,0 +1,40 @@
+PT J
+AU Pike, JE
+AF Pike, Judith E.
+TI Disability in Charlotte Bronte's Early Novellas, <i>Jane Eyre</i> and
+   <i>Villette</i>: The Legacy of Finic's Disabled and Racialized Body
+SO BRONTE STUDIES
+LA English
+DT Article
+DE Charlotte Bronte; disability; Jane Eyre; Villette; Walter Scott
+AB In The Foundling (1833), Charlotte Bronte introduces Finic as a 'deaf-mute' dwarf whose body acts as a microcosm of nineteenth-century views on disability and race. Influenced by Sir Walter Scott's The Black Dwarf, Charlotte Bronte renders her dwarf deaf, and then in A Leaf from an Unopened Volume (1834) she links his disabilities to miscegenation. Whereas Finic's disabled body is portrayed as abject, Charlotte Bronte elevates other physical disabilities, such as the storyteller's club feet, for his disability connects him to Byron and Scott. Representations of disability in Charlotte Bronte's juvenilia also inform her later portrayals of disability in Jane Eyre and Villette.
+C1 [Pike, Judith E.] Salisbury Univ, English, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Pike, JE (corresponding author), Salisbury Univ, English, Salisbury, MD 21801 USA.
+EM jepike@salisbury.edu
+NR 36
+TC 3
+Z9 6
+U1 0
+U2 4
+PU ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 1474-8932
+EI 1745-8226
+J9 BRONTE STUD
+JI Bronte Stud.
+PY 2018
+VL 43
+IS 2
+BP 114
+EP 124
+DI 10.1080/14748932.2018.1425036
+PG 11
+WC Literature, British Isles
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Literature
+GA GM3BO
+UT WOS:000437972000003
+DA 2024-02-08
+ER

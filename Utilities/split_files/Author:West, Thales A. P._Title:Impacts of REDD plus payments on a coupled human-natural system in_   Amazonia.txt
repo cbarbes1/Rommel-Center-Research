@@ -1,0 +1,90 @@
+PT J
+AU West, TAP
+   Grogan, KA
+   Swisher, ME
+   Caviglia-Harris, JL
+   Sills, EO
+   Roberts, DA
+   Harris, D
+   Putz, FE
+AF West, Thales A. P.
+   Grogan, Kelly A.
+   Swisher, Marilyn E.
+   Caviglia-Harris, Jill L.
+   Sills, Erin O.
+   Roberts, Dar A.
+   Harris, Daniel
+   Putz, Francis E.
+TI Impacts of REDD plus payments on a coupled human-natural system in
+   Amazonia
+SO ECOSYSTEM SERVICES
+LA English
+DT Article
+DE Payments for environmental services; Land-use/cover change modeling;
+   Agent-based modeling; Natural resource economics; Deforestation
+ID LAND-COVER CHANGE; FOREST CONSERVATION; AVOIDED DEFORESTATION; POVERTY
+   ALLEVIATION; ECOSYSTEM SERVICES; BRAZILIAN AMAZON; CARBON EMISSIONS;
+   FRONTIER; COSTS; EXPLORATION
+AB We used a hybrid optimization-agent-based model to simulate REDD + (Reduced Emissions from Deforestation and forest Degradation in combination with conservation, sustainable forest management, and enhancement of forest carbon stocks) payment scenarios to farm households in the old deforestation frontier of Rondonia, Brazil. Payments varied from $5 to $30 per ton of net CO2 either not emitted or removed from the atmosphere relative to a baseline scenario. The impacts of REDD+ were assessed as changes in land use/cover, net CO2 emissions, program costs, community welfare, and agricultural production. Our results suggest that interventions aimed at zero gross deforestation would require unrealistically large annual disbursements. In contrast, zero net carbon emissions can be achieved at approximately two-thirds the cost with reduced impacts on food production. Overall, simulated payments increased inequality among households, which conflicts with desired REDD + outcomes. Results suggest that REDD + might be more successful solely as a climate change mitigation mechanism as opposed to a complex multi-objective development program.
+C1 [West, Thales A. P.] Univ Bonn, Ctr Dev Res ZEF, D-53113 Bonn, Germany.
+   [West, Thales A. P.] Univ Florida, Sch Nat Resources & Environm, Gainesville, FL 32611 USA.
+   [Grogan, Kelly A.] Univ Florida, Food & Resource Econ Dept, Gainesville, FL 32611 USA.
+   [Swisher, Marilyn E.] Univ Florida, Family Youth & Community Sci Dept, Gainesville, FL 32611 USA.
+   [Caviglia-Harris, Jill L.] Salisbury Univ, Econ & Finance Dept, Salisbury, MD 21801 USA.
+   [Caviglia-Harris, Jill L.] Salisbury Univ, Environm Studies Dept, Salisbury, MD 21801 USA.
+   [Sills, Erin O.] North Carolina State Univ, Dept Forestry & Environm Resources, Raleigh, NC 27695 USA.
+   [Roberts, Dar A.] Univ Calif Santa Barbara, Dept Geog, Santa Barbara, CA 93106 USA.
+   [Harris, Daniel] Salisbury Univ, Dept Geog & Geosci, Salisbury, MD 21801 USA.
+   [Putz, Francis E.] Univ Florida, Dept Biol, Gainesville, FL 32611 USA.
+C3 University of Bonn; State University System of Florida; University of
+   Florida; State University System of Florida; University of Florida;
+   State University System of Florida; University of Florida; University
+   System of Maryland; Salisbury University; University System of Maryland;
+   Salisbury University; North Carolina State University; University of
+   California System; University of California Santa Barbara; University
+   System of Maryland; Salisbury University; State University System of
+   Florida; University of Florida
+RP West, TAP (corresponding author), Univ Bonn, Ctr Dev Res ZEF, D-53113 Bonn, Germany.
+EM thaleswest@gmail.com
+RI Mokhtara, Charafeddine/ACV-5174-2022; West, Thales A. P./V-2628-2017
+OI Caviglia-Harris, Jill/0000-0001-7860-4857; West, Thales A.
+   P./0000-0003-3896-6516; Sills, Erin/0000-0001-8289-0489
+FU National Science Foundation [SES-0752936]; Brazilian National Counsel of
+   Technological and Scientific Development (CNPq) [201138/2012-3]; William
+   C. and Bertha M. Cornett Fellowship; Tropical Conservation and
+   Development Graduate Assistantship at the University of Florida; WWF
+   Prince Bernhard Scholarship for Nature Conservation
+FX This research was funded in part by the National Science Foundation
+   (grant SES-0752936). Additional funds to the first author were provided
+   by the Brazilian National Counsel of Technological and Scientific
+   Development (CNPq; grant 201138/2012-3), a William C. and Bertha M.
+   Cornett Fellowship, a Tropical Conservation and Development Graduate
+   Assistantship at the University of Florida, and the WWF Prince Bernhard
+   Scholarship for Nature Conservation.
+NR 88
+TC 15
+Z9 15
+U1 2
+U2 49
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2212-0416
+J9 ECOSYST SERV
+JI Ecosyst. Serv.
+PD OCT
+PY 2018
+VL 33
+BP 68
+EP 76
+DI 10.1016/j.ecoser.2018.08.008
+PN A
+PG 9
+WC Ecology; Environmental Sciences; Environmental Studies
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Environmental Sciences & Ecology
+GA GU1GQ
+UT WOS:000445007300007
+OA hybrid
+DA 2024-02-08
+ER

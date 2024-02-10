@@ -1,0 +1,69 @@
+PT J
+AU Mullan, K
+   Sills, E
+   Pattanayak, SK
+   Caviglia-Harris, J
+AF Mullan, Katrina
+   Sills, Erin
+   Pattanayak, Subhrendu K.
+   Caviglia-Harris, Jill
+TI Converting Forests to Farms: The Economic Benefits of Clearing Forests
+   in Agricultural Settlements in the Amazon
+SO ENVIRONMENTAL & RESOURCE ECONOMICS
+LA English
+DT Article
+DE Brazil; Deforestation; Welfare; Agrarian settlement; Dynamic panel
+ID LAND-COVER CHANGE; BRAZILIAN AMAZON; PANEL-DATA; DEFORESTATION; LESSONS;
+   EXPANSION; MIGRATION; RONDONIA; FRONTIER; INSTRUMENTS
+AB Agricultural expansion into tropical forests is believed to bring local economic benefits at the expense of global environmental costs. The resulting tension is reflected in Brazilian government policy. The national agrarian reform program has settled farm families in the Amazon region since the 1970s, with the expectation that they will clear forests in order to farm the land. On the other hand, recent Brazilian policy initiatives seek to reduce deforestation to mitigate climate change. We contribute to the policy debate that surrounds these dual goals for the Amazon by estimating the marginal effects of new agricultural land on the full income and assets of farm settlers over a 13-year period from 1996 to 2009. Using micro panel data from agrarian settlements where forest was being rapidly cleared, and controlling for factors that would otherwise confound the relationship, we estimate the effect of converting forest to agriculture on total household income to estimate the opportunity cost of conserving forest. Our measure of income reflects any re-allocation of resources by utility maximizing households and any productivity effects due to loss of forest ecosystem services. The estimated effect of new agricultural land on income is positive, but small relative to the income per hectare of previously cleared land. However, we show that income increases investment in physical assets, which raises households' income generating capacity and future accumulation of assets. Thus, while there is only a small immediate income gain from clearing more forest, the long-term effects on wealth are still substantial. This demonstrates that given the right conditions, conversion of forest to agricultural land can be an impetus for asset accumulation by smallholders. It also highlights the importance of considering the indirect and long-term welfare benefits of new agricultural land when assessing the opportunity costs of forest conservation.
+C1 [Mullan, Katrina] Univ Montana, Dept Econ, Missoula, MT 59812 USA.
+   [Sills, Erin] North Carolina State Univ, Dept Forestry & Environm Resources, Raleigh, NC 27695 USA.
+   [Pattanayak, Subhrendu K.] Duke Univ, Sanford Sch Publ Policy, Durham, NC 27701 USA.
+   [Caviglia-Harris, Jill] Salisbury Univ, Econ & Finance Dept, Salisbury, MD 21804 USA.
+   [Caviglia-Harris, Jill] Salisbury Univ, Environm Studies Dept, Salisbury, MD 21804 USA.
+C3 University of Montana System; University of Montana; North Carolina
+   State University; Duke University; University System of Maryland;
+   Salisbury University; University System of Maryland; Salisbury
+   University
+RP Mullan, K (corresponding author), Univ Montana, Dept Econ, Missoula, MT 59812 USA.
+EM katrina.mullan@umontana.edu; sills@nscu.edu;
+   subhrendu.pattanayak@duke.edu; jlcaviglia-harris@salisbury.edu
+OI Sills, Erin/0000-0001-8289-0489; Caviglia-Harris,
+   Jill/0000-0001-7860-4857
+FU National Science Foundation [SES-0752936, SES-0452852, SES-0076549]
+FX This research was funded by the National Science Foundation, under
+   Grants SES-0752936, SES-0452852, SES-0076549. We thank Dan Harris of
+   Salisbury University for providing the figures, GIS analysis, and the
+   land cover variables, and Dar Roberts at the University of California,
+   Santa Barbara for providing the land cover classifications. A majority
+   of the primary source data used in the analysis can be found at the
+   archive of social science data for research and instruction at the
+   Inter-university Consortium for Political and Social Research of the
+   University of Michigan. All location identifiers have been removed.
+NR 73
+TC 15
+Z9 15
+U1 1
+U2 33
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0924-6460
+EI 1573-1502
+J9 ENVIRON RESOUR ECON
+JI Environ. Resour. Econ.
+PD OCT
+PY 2018
+VL 71
+IS 2
+BP 427
+EP 455
+DI 10.1007/s10640-017-0164-1
+PG 29
+WC Economics; Environmental Studies
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Environmental Sciences & Ecology
+GA GT4DJ
+UT WOS:000444453900006
+DA 2024-02-08
+ER

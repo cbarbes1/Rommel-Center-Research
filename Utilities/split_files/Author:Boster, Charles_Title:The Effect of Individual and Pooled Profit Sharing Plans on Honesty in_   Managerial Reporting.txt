@@ -1,0 +1,68 @@
+PT J
+AU Boster, C
+   Majerczyk, M
+   Tian, Y
+AF Boster, Charles
+   Majerczyk, Michael
+   Tian, Yu
+TI The Effect of Individual and Pooled Profit Sharing Plans on Honesty in
+   Managerial Reporting
+SO CONTEMPORARY ACCOUNTING RESEARCH
+LA English
+DT Article
+ID SOCIAL NORMS; INCENTIVES; BEHAVIOR; PRODUCTIVITY; SETTINGS; DECISION;
+   COSTS
+AB Many organizations offer profit sharing plans to motivate increased effort and goal congruence. However, an unintended consequence of such plans may be to reduce honesty in managerial reporting. We investigate two commonly observed profit sharing plans (individual and pooled) in a laboratory experiment where multiple agents with private cost information submit budget requests to an employer. Consistent with our prediction based on crowding theory, our findings suggest that honesty is reduced in the presence of an individual profit sharing plan. However, when a pooled profit sharing plan is used, the adverse effects on honesty are partially mitigated. Our results suggest that an unintended consequence of profit sharing (decreased honesty) can be mitigated through interdependency from pooled plans. The results have practical implications, given that organizations have flexibility in establishing both the size and scope of their profit sharing plans. Our study also contributes to our understanding of reporting behavior, particularly in multi-agent settings.
+   L'incidence des regimes d'interessement individuels et collectifs sur l'honnetete des gestionnaires dans la communication d'information Maintes organisations proposent des regimes d'interessement afin de stimuler le rendement et de favoriser la convergence des efforts. Ces regimes peuvent cependant avoir pour consequence indesirable d'alterer l'honnetete des gestionnaires dans la communication d'information. Les auteurs etudient deux types de regimes d'interessement d'utilisation courante (individuels et collectifs) dans une experience en laboratoire oU plusieurs mandataires detenant de l'information privilegiee sur les couts soumettent des demandes de credits budgetaires a un employeur. Conformement a l'hypothese des auteurs fondee sur la theorie de l'effet de groupe, leurs constatations semblent indiquer que l'honnetete est alteree en presence d'un regime d'interessement individuel. Toutefois, dans le cas d'un regime d'interessement collectif, les repercussions defavorables de l'interessement sur l'honnetete sont en partie attenuees. Les resultats de l'etude permettent de croire qu'une consequence indesirable de l'interessement (alteration de l'honnetete) peut etre attenuee grace a l'interdependance que supposent les regimes collectifs. Ces resultats ont des retombees sur le plan pratique, compte tenu de la flexibilite dont jouissent les organisations dans le choix de l'importance et de la portee de leurs regimes d'interessement. L'etude nous aide egalement a mieux comprendre le comportement en matiere de communication d'information, en particulier dans les situations faisant intervenir plusieurs mandataires.
+C1 [Boster, Charles] Salisbury Univ, Salisbury, MD USA.
+   [Majerczyk, Michael] Georgia State Univ, Atlanta, GA 30303 USA.
+   [Tian, Yu] Univ Cent Florida, Orlando, FL 32816 USA.
+C3 University System of Maryland; Salisbury University; University System
+   of Georgia; Georgia State University; State University System of
+   Florida; University of Central Florida
+RP Majerczyk, M (corresponding author), Georgia State Univ, Atlanta, GA 30303 USA.
+EM mmajerczyk@gsu.edu
+OI Boster, Charles/0000-0002-5018-0121
+FU Kenneth G. Dixon School of Accounting at the University of Central
+   Florida; Salisbury University
+FX Accepted by R. Lynn Hannan. We are grateful to Lynn Hannan and our two
+   anonymous reviewers for their helpful comments and guidance. We also
+   acknowledge helpful comments and suggestions from Vicky Arnold, Kristina
+   Demek, Jeremy Douthit, Erin Hamilton, Khim Kelly, Jason Kuang, Justin
+   Leiby, Jeremy Lill, Kelvin Liu, Melayne McInnes, Andrew Newman, Bernhard
+   Reichert, Steve Sutton, Bryan Stikeleather, Ivo Tafkov, Brad Tuttle,
+   Kathleen Whitcomb, James Wilhelm, Alex Woods, Flora Zhou, and workshop
+   participants at the College of Charleston, the University of Central
+   Florida, the University of South Carolina, 2013 ABO conference, 2014
+   Florida Accounting Symposium, and 2015 MAS conference. We thank the
+   Kenneth G. Dixon School of Accounting at the University of Central
+   Florida and Salisbury University for financial support. We also thank
+   the Experimental Economics Center in the Andrew Young School of Policy
+   Studies at Georgia State University for lab resources.
+NR 53
+TC 3
+Z9 3
+U1 2
+U2 26
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0823-9150
+EI 1911-3846
+J9 CONTEMP ACCOUNT RES
+JI Contemp. Account. Res.
+PD SUM
+PY 2018
+VL 35
+IS 2
+BP 696
+EP 715
+DI 10.1111/1911-3846.12400
+PG 20
+WC Business, Finance
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA GO9GF
+UT WOS:000440413200005
+DA 2024-02-08
+ER

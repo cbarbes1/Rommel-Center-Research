@@ -1,0 +1,171 @@
+PT J
+AU Skinner, J
+   Covey, KR
+   Bender, CF
+   Rivera, N
+   De Lee, N
+   Souto, D
+   Chojnowski, D
+   Troup, N
+   Badenes, C
+   Bizyaev, D
+   Blake, CH
+   Burgasser, A
+   Cañas, C
+   Carlberg, J
+   Chew, YGM
+   Deshpande, R
+   Fleming, SW
+   Fernández-Trincado, JG
+   García-Hernández, DA
+   Hearty, F
+   Kounkel, M
+   Longa-Peñe, P
+   Mahadevan, S
+   Majewski, SR
+   Minniti, D
+   Nidever, D
+   Oravetz, A
+   Pan, KK
+   Stassun, K
+   Terrien, R
+   Zamora, O
+AF Skinner, Jacob
+   Covey, Kevin R.
+   Bender, Chad F.
+   Rivera, Noah
+   De Lee, Nathan
+   Souto, Diogo
+   Chojnowski, Drew
+   Troup, Nicholas
+   Badenes, Carles
+   Bizyaev, Dmitry
+   Blake, Cullen H.
+   Burgasser, Adam
+   Canas, Caleb
+   Carlberg, Joleen
+   Maqueo Chew, Yilen Gomez
+   Deshpande, Rohit
+   Fleming, Scott W.
+   Fernandez-Trincado, J. G.
+   Garcia-Hernandez, D. A.
+   Hearty, Fred
+   Kounkel, Marina
+   Longa-Pene, Penelope
+   Mahadevan, Suvrath
+   Majewski, Steven R.
+   Minniti, Dante
+   Nidever, David
+   Oravetz, Audrey
+   Pan, Kaike
+   Stassun, Keivan
+   Terrien, Ryan
+   Zamora, Olga
+TI Forty-four New and Known M-dwarf Multiples in the SDSS-III/APOGEE
+   M-dwarf Ancillary Science Sample
+SO ASTRONOMICAL JOURNAL
+LA English
+DT Article
+DE binaries: close; binaries: general; binaries: spectroscopic; stars:
+   formation; stars: low-mass
+ID LOW-MASS STARS; SPECTROSCOPIC BINARIES; STELLAR; VELOCITIES; TELESCOPE;
+   SPECTRA; CATALOG; SYSTEMS; TODCOR
+AB Binary stars make up a significant portion of all stellar systems. Consequently, an understanding of the bulk properties of binary stars is necessary for a full picture of star formation. Binary surveys indicate that both multiplicity fraction and typical orbital separation increase as functions of primary mass. Correlations with higher-order architectural parameters such as mass ratio are less well constrained. We seek to identify and characterize double-lined spectroscopic binaries (SB2s) among the 1350 M-dwarf ancillary science targets with APOGEE spectra in the SDSS-III Data Release 13. We measure the degree of asymmetry in the APOGEE pipeline crosscorrelation functions (CCFs) and use those metrics to identify a sample of 44 high-likelihood candidate SB2s. At least 11 of these SB2s are known, having been previously identified by Deshpande et al. and/or El-Badry et al. We are able to extract radial velocities (RVs) for the components of 36 of these systems from their CCFs. With these RVs, we measure mass ratios for 29 SB2s and five SB3s. We use Bayesian techniques to fit maximum-likelihood (but still preliminary) orbits for four SB2s with eight or more distinct APOGEE observations. The observed (but incomplete) mass-ratio distribution of this sample rises quickly toward unity. Two-sided Kolmogorov-Smirnov tests find probabilities of 18.3% and 18.7%, demonstrating that the mass-ratio distribution of our sample is consistent with those measured by Pourbaix et al. and Fernandez et al., respectively.
+C1 [Skinner, Jacob; Covey, Kevin R.; Kounkel, Marina] Western Washington Univ, Dept Phys & Astron, Bellingham, WA 98225 USA.
+   [Bender, Chad F.; Rivera, Noah] Univ Arizona, Dept Astron, Tucson, AZ 85721 USA.
+   [Bender, Chad F.; Rivera, Noah] Univ Arizona, Steward Observ, Tucson, AZ 85721 USA.
+   [De Lee, Nathan] Northern Kentucky Univ, Dept Phys Geol & Engn Technol, Highland Hts, KY 41099 USA.
+   [De Lee, Nathan] Vanderbilt Univ, Dept Phys & Astron, Nashville, TN 37235 USA.
+   [Souto, Diogo] Observat Nacl, Rua Gen Jose Cristino 77, BR-20921400 Rio De Janeiro, RJ, Brazil.
+   [Chojnowski, Drew; Bizyaev, Dmitry; Oravetz, Audrey; Pan, Kaike] Apache Point Observ, POB 59, Sunspot, NM 88349 USA.
+   [Chojnowski, Drew; Bizyaev, Dmitry; Oravetz, Audrey; Pan, Kaike] New Mexico State Univ, POB 59, Sunspot, NM 88349 USA.
+   [Troup, Nicholas] Salisbury Univ, Dept Phys, 1101 Camden Ave, Salisbury, MD 21801 USA.
+   [Badenes, Carles] Univ Pittsburgh, Dept Phys & Astron, Allen Hall 3941,OHara St, Pittsburgh, PA 15260 USA.
+   [Blake, Cullen H.] Univ Penn, Dept Phys & Astron, 209 South 33rd St, Philadelphia, PA 19104 USA.
+   [Burgasser, Adam] Univ Calif San Diego, Ctr Astrophys & Space Sci, La Jolla, CA 92093 USA.
+   [Canas, Caleb; Deshpande, Rohit; Hearty, Fred; Mahadevan, Suvrath] Dept Astron & Astrophys, 525 Davey Lab, University Pk, PA 16802 USA.
+   [Carlberg, Joleen; Fleming, Scott W.] Space Telescope Sci Inst, Baltimore, MD 21218 USA.
+   [Maqueo Chew, Yilen Gomez] Univ Nacl Autonoma Mexico, Inst Astron, Ciudad Univ, Mexico City 04510, DF, Mexico.
+   [Fernandez-Trincado, J. G.] Univ Concepcion, Dept Astron, Casilla 160-C, Concepcion, Chile.
+   [Fernandez-Trincado, J. G.] Univ Bourgogne Franche Comte, Inst Utinam, CNRS, UMR6213,OSU THETA,Observat Besancon, BP 1615, F-25010 Besancon, France.
+   [Garcia-Hernandez, D. A.; Zamora, Olga] IAC, Via Lactea S-N, E-38205 Tenerife, Spain.
+   [Garcia-Hernandez, D. A.; Zamora, Olga] ULL, Dept Astrofis, E-38206 Tenerife, Spain.
+   [Longa-Pene, Penelope] Fac Cienc Basicas, Unidad Astron, Ave Angamos 601, Antofagasta 1270300, Chile.
+   [Majewski, Steven R.] Univ Virginia, Dept Astron, Charlottesville, VA 22904 USA.
+   [Minniti, Dante] Pontificia Univ Catolica Chile, Inst Astrofs, Av Vicuna Mackenna 4860, Santiago 7820436, Chile.
+   [Nidever, David] Montana State Univ, Dept Phys, Bozeman, MT 59717 USA.
+   [Stassun, Keivan] Vanderbilt Univ, Dept Phys & Astron, VU Stn 1807, Nashville, TN 37235 USA.
+   [Terrien, Ryan] Carleton Coll, Dept Phys & Astron, Northfield, MN 55057 USA.
+C3 Western Washington University; University of Arizona; University of
+   Arizona; Northern Kentucky University; Vanderbilt University; New Mexico
+   State University; University System of Maryland; Salisbury University;
+   Pennsylvania Commonwealth System of Higher Education (PCSHE); University
+   of Pittsburgh; University of Pennsylvania; University of California
+   System; University of California San Diego; Space Telescope Science
+   Institute; Universidad Nacional Autonoma de Mexico; Universidad de
+   Concepcion; Centre National de la Recherche Scientifique (CNRS); CNRS -
+   National Institute for Earth Sciences & Astronomy (INSU); Universite de
+   Franche-Comte; Instituto de Astrofisica de Canarias; Universidad de la
+   Laguna; University of Virginia; Pontificia Universidad Catolica de
+   Chile; Montana State University System; Montana State University
+   Bozeman; Vanderbilt University; Carleton College
+RP Skinner, J (corresponding author), Western Washington Univ, Dept Phys & Astron, Bellingham, WA 98225 USA.
+EM skinnej3@wwu.edu; kevin.covey@wwu.edu; cbender@email.arizona.edu
+RI Minniti, Dante/AAD-7251-2021; Zamora, Olga/M-1776-2014; Bender, Chad
+   F/D-4719-2012; Souto, Diogo/AAU-9365-2020; Garcia-Hernandez, Domingo
+   Anibal/AAB-9084-2019; Souto, Diogo/M-7745-2017; Covey,
+   Kevin/AAE-3599-2020
+OI Minniti, Dante/0000-0002-7064-099X; Zamora, Olga/0000-0003-2100-1638;
+   Souto, Diogo/0000-0002-7883-5425; Garcia-Hernandez, Domingo
+   Anibal/0000-0002-1693-2721; Souto, Diogo/0000-0002-7883-5425; Covey,
+   Kevin/0000-0001-6914-7797; Troup, Nicholas/0000-0003-3248-3097; De Lee,
+   Nathan/0000-0002-3657-0705; Badenes, Carles/0000-0003-3494-343X;
+   Burgasser, Adam J./0000-0002-6523-9536; Blake,
+   Cullen/0000-0002-6096-1749; Fernandez Trincado, Jose
+   Gregorio/0000-0003-3526-5052; Bizyaev, Dmitry/0000-0002-3601-133X;
+   Stassun, Keivan/0000-0002-3481-9052; Mahadevan,
+   Suvrath/0000-0001-9596-7983
+FU NSF [AST-1449476, AST-1517592, AST-1616684]; Research Corporation via a
+   Time Domain Astrophysics Scialog award; Alfred P. Sloan Foundation;
+   National Science Foundation; U.S. Department of Energy Office of
+   Science; Ramon y Cajal fellowship [RYC-2013-14182]; Spanish Ministry of
+   Economy and Competitiveness (MINECO) [AYA-2014-58082-P]
+FX J.S., K.R.C., and M.K. acknowledge support provided by the NSF through
+   grant AST-1449476 and from the Research Corporation via a Time Domain
+   Astrophysics Scialog award. C.F.B. and N.R. acknowledge support provided
+   by the NSF through grant AST-1517592. N.D. acknowledges support for this
+   work from the NSF through grant AST-1616684.; Funding for SDSS-III has
+   been provided by the Alfred P. Sloan Foundation, the Participating
+   Institutions, the National Science Foundation, and the U.S. Department
+   of Energy Office of Science. The SDSS-III website is.
+   http://www.sdss3.org/.; DAGH was funded by Ramon y Cajal fellowship
+   number RYC-2013-14182. DAGH and OZ acknowledge support provided by the
+   Spanish Ministry of Economy and Competitiveness (MINECO) under grant
+   AYA-2014-58082-P.
+NR 65
+TC 8
+Z9 9
+U1 0
+U2 3
+PU IOP Publishing Ltd
+PI BRISTOL
+PA TEMPLE CIRCUS, TEMPLE WAY, BRISTOL BS1 6BE, ENGLAND
+SN 0004-6256
+EI 1538-3881
+J9 ASTRON J
+JI Astron. J.
+PD AUG
+PY 2018
+VL 156
+IS 2
+AR 45
+DI 10.3847/1538-3881/aac9c2
+PG 16
+WC Astronomy & Astrophysics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Astronomy & Astrophysics
+GA GM1VO
+UT WOS:000437861600002
+OA Bronze, Green Submitted, Green Published
+DA 2024-02-08
+ER

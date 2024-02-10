@@ -1,0 +1,43 @@
+PT J
+AU Price, DL
+   Rowe, E
+   Mann, H
+AF Price, Dana L.
+   Rowe, Emily
+   Mann, Hunter
+TI Ants (Hymenoptera: Formicidae) Attracted to Baits in the E. A. Vaughn
+   Wildlife Management Area, Worcester Co., Maryland
+SO PROCEEDINGS OF THE ENTOMOLOGICAL SOCIETY OF WASHINGTON
+LA English
+DT Editorial Material
+ID GUILD
+C1 [Price, Dana L.; Rowe, Emily; Mann, Hunter] Salisbury Univ, Dept Biol Sci, 1101 Camden Ave, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Price, DL (corresponding author), Salisbury Univ, Dept Biol Sci, 1101 Camden Ave, Salisbury, MD 21801 USA.
+EM dlprice@salisbury.edu
+NR 16
+TC 0
+Z9 0
+U1 0
+U2 1
+PU ENTOMOL SOC WASHINGTON
+PI WASHINGTON
+PA SMITHSONIAN INSTITUTION DEPT ENTOMOLOGY, WASHINGTON, DC 20560 USA
+SN 0013-8797
+J9 P ENTOMOL SOC WASH
+JI Proc. Entomol. Soc. Wash.
+PD OCT
+PY 2020
+VL 122
+IS 4
+BP 1022
+EP 1025
+DI 10.4289/0013-8797.122.4.1022
+PG 4
+WC Entomology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Entomology
+GA ON5NN
+UT WOS:000586747600026
+DA 2024-02-08
+ER

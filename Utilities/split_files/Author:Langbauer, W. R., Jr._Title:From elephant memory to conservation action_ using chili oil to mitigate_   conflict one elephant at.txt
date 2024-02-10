@@ -1,0 +1,61 @@
+PT J
+AU Langbauer, WR
+   Karidozo, M
+   Madden, M
+   Parry, R
+   Koehler, S
+   Fillebrown, J
+   Wehlan, T
+   Osborn, F
+   Presotto, A
+AF Langbauer, W. R., Jr.
+   Karidozo, M.
+   Madden, M.
+   Parry, R.
+   Koehler, S.
+   Fillebrown, J.
+   Wehlan, T.
+   Osborn, F.
+   Presotto, A.
+TI From elephant memory to conservation action: using chili oil to mitigate
+   conflict one elephant at a time
+SO ANIMAL CONSERVATION
+LA English
+DT Editorial Material
+C1 [Langbauer, W. R., Jr.; Karidozo, M.; Osborn, F.] Connected Conservat, Victoria Falls, Zimbabwe.
+   [Madden, M.] Univ Georgia, Dept Geog, Athens, GA 30602 USA.
+   [Parry, R.] Victoria Falls Wildlife Trust, Victoria Falls, Zimbabwe.
+   [Koehler, S.; Fillebrown, J.; Wehlan, T.; Presotto, A.] Salisbury Univ, Dept Geog & Geosci, Salisbury, MD USA.
+C3 University System of Georgia; University of Georgia; University System
+   of Maryland; Salisbury University
+RP Langbauer, WR (corresponding author), 1494 North Hixville Rd, Dartmouth, MA 02747 USA.
+EM dr.wrl@mac.com
+NR 7
+TC 1
+Z9 2
+U1 1
+U2 7
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1367-9430
+EI 1469-1795
+J9 ANIM CONSERV
+JI Anim. Conserv.
+PD JUN
+PY 2022
+VL 25
+IS 3
+BP 323
+EP 324
+DI 10.1111/acv.12747
+EA NOV 2021
+PG 2
+WC Biodiversity Conservation; Ecology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biodiversity & Conservation; Environmental Sciences & Ecology
+GA 2J3BK
+UT WOS:000718929800001
+OA Green Submitted
+DA 2024-02-08
+ER

@@ -1,0 +1,60 @@
+PT J
+AU Ghaffari, M
+   Sadeghiyan, S
+   Faramarzi, M
+   Moghaddam, M
+   Baghurst, T
+AF Ghaffari, Mehdi
+   Sadeghiyan, Sajedeh
+   Faramarzi, Mohammad
+   Moghaddam, Masoud
+   Baghurst, Timothy
+TI The effect of aerobic exercise on metabolic parameters of patients with
+   non-alcoholic fatty liver disease: systematic review and meta-analysis
+SO JOURNAL OF SPORTS MEDICINE AND PHYSICAL FITNESS
+LA English
+DT Review
+DE Endurance training; Non-alcoholic fatty liver disease; Insulin
+ID LIFE-STYLE MODIFICATION; RESISTANCE EXERCISE; WEIGHT-LOSS; RISK; NAFLD
+AB INTRODUCTION: The aim of this study was to determine and evaluate the effect of aerobic exercise on fasting blood glucose, Insulin, Insulin resistance, Glycosylated hemoglobin (Hemoglobin A1C), Lipid profile as important indicators of non-alcoholic fatty liver disease. EVIDENCE ACQUISITION: This research is a systematic review and meta-analysis that was conducted in 2021. For the present study, databas-es, ScienceDirect, PubMed, Scopus, science of Web, SID, Magiran and Google Scholar from 2010 to 2021, were searched along with keywords. After the initial screening, the full text of the articles was evaluated and the articles that met the inclusion criteria were analyzed. A total of 120 articles were reviewed, of which 16 articles met the criteria for entering the systematic review and meta-analysis. Accordingly, 710 people with fatty liver disease were divided into two groups of control and experimental group of 307 and 403 people, respectively. The mean age of the subjects in the present study was 52 +/- 10 years. The intervention effects were evaluated using the mean difference (MD) and the random effects model. Data were analyzed using effect size tests, bias analysis and heterogeneity analysis and by STATA software. EVIDENCE SYNTHESIS: Meta-analysis results indicated that endurance training in general significantly reduced glucose levels (P=0.004, SDM=-0.26, SE=0.09), insulin (P=0.01, SDM=-0.29, SE=0.11), HOMA-IR (P=0.01, SDM=-0.28, SE=0.11), Hba1c (P=0.001, SDM=-0.33, SE=0.12), triglycerides (P=0.02, SDM=-0.31, SE=0.13) and LDL (P=0.03, SDM=-0.21, SE=0.1). CONCLUSIONS: The results of meta-analysis did not show a significant effect on HDL levels after aerobic exercise in patients with fatty liver (P=0.97, SDM=0, SE=0.09). Endurance training improves the levels of glucose, insulin, Hba1c, Homa-IR, triglyceride, and LDL; although, there was no significant change in HDL levels due to endurance training. However, there is still a need for further research in this area.
+C1 [Ghaffari, Mehdi; Sadeghiyan, Sajedeh] Shahrekord Univ, Dept Sport Sci, Shahrekord, Iran.
+   [Faramarzi, Mohammad] Univ Isfahan, Fac Sport Sci, Dept Exercise Physiol, Esfahan, Iran.
+   [Moghaddam, Masoud] Salisbury Univ, Coll Hlth & Human Serv, Sch Hlth Sci, Salisbury, MD USA.
+   [Baghurst, Timothy] Florida State Univ, Coll Educ, Interdisciplinary Ctr Athlet Coaching, Tallahassee, FL USA.
+C3 Shahrekord University; University of Isfahan; University System of
+   Maryland; Salisbury University; State University System of Florida;
+   Florida State University
+RP Ghaffari, M (corresponding author), Shahrekord Univ, Dept Sport Sci, Shahrekord, Iran.
+EM ghafari.mehdi@gmail.com
+FU Vice Chancellor for Research of Shahrekord University [2020F3/99]
+FX This research was funded by the Vice Chancellor for Research of
+   Shahrekord University (No.2020F3/99).
+NR 35
+TC 2
+Z9 2
+U1 2
+U2 6
+PU EDIZIONI MINERVA MEDICA
+PI TURIN
+PA CORSO BRAMANTE 83-85 INT JOURNALS DEPT., 10126 TURIN, ITALY
+SN 0022-4707
+EI 1827-1928
+J9 J SPORT MED PHYS FIT
+JI J. Sports Med. Phys. Fit.
+PD JAN
+PY 2023
+VL 63
+IS 1
+BP 178
+EP 187
+DI 10.23736/S0022-4707.22.13801-6
+PG 10
+WC Sport Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Sport Sciences
+GA 9J1DE
+UT WOS:000939935900022
+PM 35816139
+OA Green Submitted
+DA 2024-02-08
+ER

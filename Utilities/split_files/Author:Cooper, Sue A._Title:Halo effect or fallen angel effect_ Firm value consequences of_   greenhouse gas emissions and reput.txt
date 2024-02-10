@@ -1,0 +1,59 @@
+PT J
+AU Cooper, SA
+   Raman, KK
+   Yin, J
+AF Cooper, Sue A.
+   Raman, K. K.
+   Yin, Jennifer
+TI Halo effect or fallen angel effect? Firm value consequences of
+   greenhouse gas emissions and reputation for corporate social
+   responsibility
+SO JOURNAL OF ACCOUNTING AND PUBLIC POLICY
+LA English
+DT Article
+DE Greenhouse gas emissions; Corporate social responsibility; Greenwashing;
+   Firm value
+ID FINANCIAL PERFORMANCE; MANAGEMENT
+AB Greenhouse gas (GHG) emissions are perceived to have negative consequences for society at large by contributing to potential climate change and represent a potential cash drain from firms from exposure to future regulatory, abatement, and compliance costs. Beginning in 2010, US companies are required to report their GHG emissions to the Environmental Protection Agency (EPA). We utilize these data for 2010-2014 to examine whether the possible adverse firm value impact of these GHG emissions is alleviated or exacerbated by the firm's reputation for corporate social responsibility. Our findings suggest that there is no halo effect, i.e., a firm's reputation for social responsibility (as reflected in its CSR score) does not protect the firm from the adverse firm value effects of GHG emissions. Rather, our findings suggest a fallen angel effect, i.e., for any given level of GHG emissions, the higher the firm's CSR score, the greater the adverse impact on firm value. In other words, the decline in firm value due to the adverse impact of GHG emissions is compounded by the hit to the firm's reputation for corporate social performance. Our paper contributes to the sparse prior US literature on the firm value effects of GHG emissions. Further, by providing scholarly evidence on the existence of a fallen angel effect, our findings suggest that boards and managers of firms that provide voluntary CSR disclosures cannot afford to be complacent about their GHG emissions.
+C1 [Cooper, Sue A.] Salisbury Univ, Perdue Sch Business, Dept Accounting & Legal Studies, Salisbury, MD 21801 USA.
+   [Raman, K. K.; Yin, Jennifer] Univ Texas San Antonio, Dept Accounting, San Antonio, TX USA.
+C3 University System of Maryland; Salisbury University; University of Texas
+   System; University of Texas at San Antonio (UTSA)
+RP Cooper, SA (corresponding author), Salisbury Univ, Perdue Sch Business, Dept Accounting & Legal Studies, Salisbury, MD 21801 USA.
+EM sacooper@salisbury.edu
+RI Cooper, Sue/JBJ-2311-2023
+FU Ramsdell Chair for Accounting at The University of Texas at San Antonio
+FX We acknowledge helpful comments from the editors, two anonymous
+   reviewers, participants at the 2016 American Accounting Association
+   Annual Meeting, 2016 Canadian Academic Accounting Association Annual
+   Meeting, and The University of Texas at San Antonio workshop. Authors'
+   names are listed alphabetically. K.K. Raman acknowledges support from
+   the Ramsdell Chair for Accounting at The University of Texas at San
+   Antonio.
+NR 42
+TC 48
+Z9 52
+U1 8
+U2 83
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0278-4254
+EI 1873-2070
+J9 J ACCOUNT PUBLIC POL
+JI J. Account. Public Policy
+PD MAY-JUN
+PY 2018
+VL 37
+IS 3
+BP 226
+EP 240
+DI 10.1016/j.jaccpubpol.2018.04.003
+PG 15
+WC Business, Finance; Public Administration
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Public Administration
+GA GJ1RQ
+UT WOS:000435045800003
+DA 2024-02-08
+ER

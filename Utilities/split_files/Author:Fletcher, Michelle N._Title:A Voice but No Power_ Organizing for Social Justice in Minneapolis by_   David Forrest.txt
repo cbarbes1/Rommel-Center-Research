@@ -1,0 +1,40 @@
+PT J
+AU Fletcher, MN
+AF Fletcher, Michelle N.
+TI A Voice but No Power: Organizing for Social Justice in Minneapolis by
+   David Forrest
+SO POLITICAL SCIENCE QUARTERLY
+LA English
+DT Book Review
+C1 [Fletcher, Michelle N.] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Fletcher, MN (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+OI Fletcher, Michelle/0000-0003-0119-3089
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 0032-3195
+EI 1538-165X
+J9 POLIT SCI QUART
+JI Polit. Sci. Q.
+PD NOV 30
+PY 2023
+VL 138
+IS 4
+BP 598
+EP 600
+DI 10.1093/psquar/qqad084
+EA SEP 2023
+PG 3
+WC Political Science
+WE Social Science Citation Index (SSCI)
+SC Government & Law
+GA Z0GM7
+UT WOS:001073415000001
+DA 2024-02-08
+ER

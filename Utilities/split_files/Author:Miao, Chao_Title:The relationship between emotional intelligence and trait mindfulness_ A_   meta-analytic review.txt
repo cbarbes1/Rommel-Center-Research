@@ -1,0 +1,52 @@
+PT J
+AU Miao, C
+   Humphrey, RH
+   Qian, SS
+AF Miao, Chao
+   Humphrey, Ronald H.
+   Qian, Shanshan
+TI The relationship between emotional intelligence and trait mindfulness: A
+   meta-analytic review
+SO PERSONALITY AND INDIVIDUAL DIFFERENCES
+LA English
+DT Review
+DE Emotional intelligence; Mindfulness; Meta-analysis
+ID DISPOSITIONAL MINDFULNESS; PERCEIVED STRESS; JOB-SATISFACTION;
+   SELF-EFFICACY; PERFORMANCE; LEADER; BEHAVIOR; VALIDATION; INTENTIONS;
+   INVENTORY
+AB According to theory, emotional intelligence (EI) and trait mindfulness should be positively associated with each other; nevertheless, the reported effect sizes of this relationship were mixed across studies. This meta-analysis was done to clarify this line of research. The analysis found that (1) EI had a statistically significant association with trait mindfulness (overall EI: <(<(rho)over bar>)over cap> = 0.48; self-report EI: <(<(rho)over bar>)over cap> = 0.48; mixed EI: <(<(rho)over bar>)over cap> = 0.49); (2) gender did not moderate the relationship between EI and trait mindfulness; (3) age was a statistically significant moderator of the relationship between EI and trait mindfulness (the association was stronger for older subjects); and (4) the type of scale used was a statistically significant moderator of the relationship between EI and trait mindfulness (FFMQ: <(<(rho)over bar>)over cap> = 0.72; FMI: <(<(rho)over bar>)over cap> = 0.79; MAAS: <(<(rho)over bar>)over cap> = 0.38; other scales: <(<(rho)over bar>)over cap> = 0.60).
+C1 [Miao, Chao] Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+   [Humphrey, Ronald H.] Univ Lancaster, Management Sch, Dept Leadership & Management, Lancaster LA1 4YX, England.
+   [Qian, Shanshan] Towson Univ, Coll Business & Econ, Dept Management, Towson, MD 21252 USA.
+C3 University System of Maryland; Salisbury University; Lancaster
+   University; University System of Maryland; Towson University
+RP Miao, C (corresponding author), Salisbury Univ, Franklin P Perdue Sch Business, Dept Management & Mkt, Salisbury, MD 21801 USA.
+EM cxmiao@salisbury.edu; r.humphrey@lancaster.ac.uk; sqian@towson.edu
+OI Humphrey, Ronald/0000-0002-7266-9702
+NR 73
+TC 30
+Z9 52
+U1 3
+U2 80
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0191-8869
+EI 1873-3549
+J9 PERS INDIV DIFFER
+JI Pers. Individ. Differ.
+PD DEC 1
+PY 2018
+VL 135
+BP 101
+EP 107
+DI 10.1016/j.paid.2018.06.051
+PG 7
+WC Psychology, Social
+WE Social Science Citation Index (SSCI)
+SC Psychology
+GA GV5LY
+UT WOS:000446144900015
+OA Green Accepted
+DA 2024-02-08
+ER

@@ -1,0 +1,37 @@
+PT J
+AU Martino, A
+AF Martino, Andrew
+TI A Girl Returned
+SO WORLD LITERATURE TODAY
+LA English
+DT Book Review
+C1 [Martino, Andrew] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Martino, A (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU UNIV OKLAHOMA PRESS
+PI NORMAN
+PA UNIVERSITY PRESS BUILDING, 1005 ASP AVE, NORMAN, OK 73019 USA
+SN 0196-3570
+EI 1945-8134
+J9 WORLD LITERATURE TOD
+JI World Lit. Today
+PD FAL
+PY 2019
+VL 93
+IS 4
+BP 101
+EP 102
+DI 10.7588/worllitetoda.93.4.0101
+PG 4
+WC Literature
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Literature
+GA JE8JU
+UT WOS:000490936900054
+DA 2024-02-08
+ER

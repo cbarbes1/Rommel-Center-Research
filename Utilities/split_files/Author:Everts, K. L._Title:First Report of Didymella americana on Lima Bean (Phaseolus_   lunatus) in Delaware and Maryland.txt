@@ -1,0 +1,55 @@
+PT J
+AU Everts, KL
+   Walter, TL
+   Johnson, Y
+   Ash, A
+   Thomas, L
+   Koyal, D
+AF Everts, K. L.
+   Walter, T. L.
+   Johnson, Y.
+   Ash, A.
+   Thomas, L.
+   Koyal, D.
+TI First Report of <i>Didymella americana</i> on Lima Bean (<i>Phaseolus
+   lunatus</i>) in Delaware and Maryland
+SO PLANT DISEASE
+LA English
+DT News Item
+DE pathogen detection; vegetables; fungi; field crops; oilseeds and legumes
+C1 [Everts, K. L.; Walter, T. L.; Johnson, Y.] Univ Maryland, Dept Plant Sci & Landscape Architecture, Lower Eastern Shore Res & Educ Ctr, Salisbury, MD 21801 USA.
+   [Ash, A.] Univ Delaware, Newark, DE 19716 USA.
+   [Thomas, L.] Salisbury Univ, Salisbury, MD 21801 USA.
+   [Koyal, D.] Delmar High Sch, Delmar, DE 19940 USA.
+C3 University of Delaware; University System of Maryland; Salisbury
+   University
+RP Everts, KL (corresponding author), Univ Maryland, Dept Plant Sci & Landscape Architecture, Lower Eastern Shore Res & Educ Ctr, Salisbury, MD 21801 USA.
+OI Everts, Kathryne/0000-0002-5482-8466
+NR 3
+TC 2
+Z9 3
+U1 1
+U2 7
+PU AMER PHYTOPATHOLOGICAL SOC
+PI ST PAUL
+PA 3340 PILOT KNOB ROAD, ST PAUL, MN 55121 USA
+SN 0191-2917
+EI 1943-7692
+J9 PLANT DIS
+JI PLANT DIS.
+PD JUN
+PY 2020
+VL 104
+IS 6
+BP 1860
+EP 1860
+DI 10.1094/PDIS-12-19-2614-PDN
+PG 1
+WC Plant Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Plant Sciences
+GA LR6XU
+UT WOS:000535836200054
+OA hybrid
+DA 2024-02-08
+ER

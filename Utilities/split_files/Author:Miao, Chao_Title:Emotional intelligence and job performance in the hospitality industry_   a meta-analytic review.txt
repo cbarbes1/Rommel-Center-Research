@@ -1,0 +1,59 @@
+PT J
+AU Miao, C
+   Humphrey, RH
+   Qian, SS
+AF Miao, Chao
+   Humphrey, Ronald H.
+   Qian, Shanshan
+TI Emotional intelligence and job performance in the hospitality industry:
+   a meta-analytic review
+SO INTERNATIONAL JOURNAL OF CONTEMPORARY HOSPITALITY MANAGEMENT
+LA English
+DT Review
+DE Emotional intelligence; Meta-analysis; Job performance; Hospitality
+   industry
+ID HOTEL EMPLOYEES; ENTREPRENEURSHIP EDUCATION; COGNITIVE INTELLIGENCE;
+   AUTHENTIC LEADERSHIP; SERVICE PERFORMANCE; GENDER-DIFFERENCES;
+   TASK-PERFORMANCE; CASINO HOSTS; TOUR GUIDES; SATISFACTION
+AB Purpose - Hospitality workers are emotional labor workers because they must display appropriate emotions to their customers to provide outstanding service. Emotional intelligence (EI) helps employees regulate their emotions and display appropriate emotions, and hence should help hospitality workers provide outstanding service. However, the strength of the relationship between EI and hospitality workers' job performance substantially varied across studies. Hence, the purpose of the present study is to clarify the mixed findings and to examine if EI can improve hospitality workers' job performance.
+   Design/methodology/approach - A meta-analysis was performed to investigate the relationship between EI and hospitality workers' job performance as well as the moderators which condition this relationship.
+   Findings - The present meta-analysis indicated that EI is positively related to hospitality workers' job performance ((sic)= 0.54); the relationship between EI and hospitality workers' job performance is stronger when the percentage of married subjects is low and in feminine cultures; and this relationship does not differ between maledominated and female-dominated studies, across educational levels, between collectivistic and individualistic cultures, between lowand high power distance cultures and between lowand high uncertainty avoidance cultures.
+   Research limitations/implications - This study uncovers theoretically important moderators that contribute to cross-cultural research, work-family literature and gender-related literature in hospitality research.
+   Originality/value - The present study builds a theoretical foundation and performs a meta-analysis to elucidate the relationship between EI and hospitality workers' job performance and to identify the moderators which condition this relationship.
+C1 [Miao, Chao] Salisbury Univ, Dept Management & Mkt, Franklin P Perdue Sch Business, Salisbury, MD 21801 USA.
+   [Humphrey, Ronald H.] Univ Lancaster, Management Sch, Dept Entrepreneurship & Strategy, Lancaster, England.
+   [Qian, Shanshan] Towson Univ, Dept Management, Coll Business & Econ, Towson, MD USA.
+C3 University System of Maryland; Salisbury University; Lancaster
+   University; University System of Maryland; Towson University
+RP Miao, C (corresponding author), Salisbury Univ, Dept Management & Mkt, Franklin P Perdue Sch Business, Salisbury, MD 21801 USA.
+EM cxmiao@salisbury.edu
+OI Humphrey, Ronald/0000-0002-7266-9702
+NR 107
+TC 21
+Z9 21
+U1 19
+U2 107
+PU EMERALD GROUP PUBLISHING LTD
+PI Leeds
+PA floor 5, Northspring 21-23 Wellington Street, Leeds, W YORKSHIRE,
+   ENGLAND
+SN 0959-6119
+EI 1757-1049
+J9 INT J CONTEMP HOSP M
+JI Int. J. Contemp. Hosp. Manag.
+PY 2021
+VL 33
+IS 8
+BP 2632
+EP 2652
+DI 10.1108/IJCHM-04-2020-0323
+EA JUN 2021
+PG 21
+WC Hospitality, Leisure, Sport & Tourism; Management
+WE Social Science Citation Index (SSCI)
+SC Social Sciences - Other Topics; Business & Economics
+GA ZB7FR
+UT WOS:000669515300001
+OA Green Accepted
+DA 2024-02-08
+ER

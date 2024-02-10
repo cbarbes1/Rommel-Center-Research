@@ -1,0 +1,33 @@
+PT J
+AU McElroy, H
+AF McElroy, Honor
+TI The Anti-Racist Writing Workshop: How to Decolonize the Creative
+   Classroom
+SO JOURNAL OF LANGUAGE AND LITERACY EDUCATION
+LA English
+DT Book Review
+C1 [McElroy, Honor] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP McElroy, H (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 2
+TC 0
+Z9 0
+U1 0
+U2 0
+PU UNIV GEORGIA, COLL EDUCATION
+PI ATHENS
+PA 427 TUCKER HALL, ATHENS, GA 30602 USA
+SN 1559-9035
+J9 J LANG LIT EDUC
+JI J. Lan. Lit. Educ.
+PY 2022
+VL 18
+IS 2
+PG 5
+WC Language & Linguistics
+WE Emerging Sources Citation Index (ESCI)
+SC Linguistics
+GA K2YI1
+UT WOS:001015142100011
+DA 2024-02-08
+ER

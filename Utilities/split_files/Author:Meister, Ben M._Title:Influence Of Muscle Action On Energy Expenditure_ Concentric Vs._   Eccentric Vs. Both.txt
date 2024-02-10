@@ -1,0 +1,69 @@
+PT J
+AU Meister, BM
+   Valenti, ZJ
+   Lynch, CE
+   Revel, CB
+   Schwartz, AC
+   Quarantillo, ME
+   Guarnera, SR
+   Fountain, WA
+   Carlini, NA
+   Lynch, KE
+   Lindner, NC
+   Naboulsi, AL
+   Paco, PJ
+   Mazzetti, SA
+AF Meister, Ben M.
+   Valenti, Zackary J.
+   Lynch, Colleen E.
+   Revel, Cody B.
+   Schwartz, Alison C.
+   Quarantillo, Michael E.
+   Guarnera, Samantha R.
+   Fountain, William A.
+   Carlini, Nicholas A.
+   Lynch, Kerry E.
+   Lindner, Nicole C.
+   Naboulsi, Amar L.
+   Paco, Paola J.
+   Mazzetti, Scott A.
+TI Influence Of Muscle Action On Energy Expenditure: Concentric Vs.
+   Eccentric Vs. Both
+SO MEDICINE AND SCIENCE IN SPORTS AND EXERCISE
+LA English
+DT Meeting Abstract
+CT Annual Meeting of the American-College-of-Sports-Medicine (ACSM)
+CY MAY 29-JUN 02, 2018
+CL Minneapolis, MN
+SP Amer Coll Sports Med
+C1 [Meister, Ben M.; Valenti, Zackary J.; Lynch, Colleen E.; Revel, Cody B.; Schwartz, Alison C.; Quarantillo, Michael E.; Guarnera, Samantha R.; Fountain, William A.; Carlini, Nicholas A.; Lynch, Kerry E.; Lindner, Nicole C.; Naboulsi, Amar L.; Paco, Paola J.; Mazzetti, Scott A.] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+RI Meister, Ben/AAA-2591-2022
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU LIPPINCOTT WILLIAMS & WILKINS
+PI PHILADELPHIA
+PA TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA
+SN 0195-9131
+EI 1530-0315
+J9 MED SCI SPORT EXER
+JI Med. Sci. Sports Exerc.
+PD MAY
+PY 2018
+VL 50
+IS 5
+SU 1
+MA 3309
+BP 820
+EP 820
+PG 1
+WC Sport Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Sport Sciences
+GA HJ0RR
+UT WOS:000456870503470
+DA 2024-02-08
+ER

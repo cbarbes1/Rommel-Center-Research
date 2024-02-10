@@ -1,0 +1,37 @@
+PT J
+AU Gonzalez, A
+AF Gonzalez, Aston
+TI Colored Conventions Project
+SO JOURNAL OF AMERICAN HISTORY
+LA English
+DT Book Review
+C1 [Gonzalez, Aston] Salisbury Univ, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Gonzalez, A (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS INC
+PI CARY
+PA JOURNALS DEPT, 2001 EVANS RD, CARY, NC 27513 USA
+SN 0021-8723
+EI 1945-2314
+J9 J AM HIST
+JI J. Am. Hist.
+PD MAR
+PY 2021
+VL 107
+IS 4
+BP 1060
+EP 1062
+DI 10.1093/jahist/jaaa568
+PG 3
+WC History
+WE Social Science Citation Index (SSCI); Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC History
+GA XM1IH
+UT WOS:000728588700001
+DA 2024-02-08
+ER

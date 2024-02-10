@@ -1,0 +1,70 @@
+PT J
+AU Caviglia-Harris, JL
+AF Caviglia-Harris, Jill L.
+TI Agricultural innovation and climate change policy in the Brazilian
+   Amazon: Intensification practices and the derived demand for pasture
+SO JOURNAL OF ENVIRONMENTAL ECONOMICS AND MANAGEMENT
+LA English
+DT Article
+DE Deforestation; Agricultural intensification; Climate change; Cattle;
+   Pasture; Brazilian Amazon
+ID LAND-USE; TECHNOLOGY ADOPTION; SECONDARY FOREST; COVER CHANGE;
+   DEFORESTATION; RONDONIA; MANAGEMENT; EFFICIENCY; BEEF
+AB Tropical deforestation in Brazil is a major source of greenhouse gas emissions that contribute to climate change. Brazil has taken several steps to reduce emissions associated with deforestation including the development of policies to promote and reward cattle ranching intensification. Intensification practices are hypothesized to reduce the conversion of tropical forests while simultaneously increasing the productivity of ranching on current pasture lands. This paper assesses the impact of intensification on the demand for productive land. A theoretical model of land use, which considers the degree of intensification in the estimation of the derived demand for pasture, is tested with data from small-scale landowners who operate dairy farms and calving operations in the greater Ouro Preto do Oeste region of Rondonia. Results suggest different trajectories for beef and dairy production. The intensification of cattle production exhibits a nonlinear relationship with the demand for productive land: first as farms become more intensive the demand for newly cleared land increases, but then decreases with further intensification. The results are different for dairy intensification, which is found to be correlated with reduced deforestation. Findings suggest that the reliance on policies that promote intensification can be a risky way of achieving climate change objectives. (C) 2018 Elsevier Inc. All rights reserved.
+C1 [Caviglia-Harris, Jill L.] Salisbury Univ, Econ & Finance Dept, Salisbury, MD 21801 USA.
+   [Caviglia-Harris, Jill L.] Salisbury Univ, Dept Environm Studies, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University; University System
+   of Maryland; Salisbury University
+RP Caviglia-Harris, JL (corresponding author), Salisbury Univ, Econ & Finance Dept, Salisbury, MD 21801 USA.
+EM jlcaviglia-harris@salisbury.edu
+OI Caviglia-Harris, Jill/0000-0001-7860-4857
+FU National Science Foundation [SES-0752936, SES-0452852, SES-0076549];
+   National Security Education Program; Organization of American States;
+   Institute for the Study of World Politics; McClure Fund Foundation
+FX This research was funded by the National Science Foundation
+   (SES-0752936). Thank you to our survey team: Rafael Alves da Silva,
+   Anderson Boina, Alexsandro de Oliveira, Laize Sampaio Chagas e Silva,
+   Maria Eliza Cota e Souza, Luzia Correa Dias, Liege Gehm, Juliana
+   Gragnani, Julia Faro, Tania Cloilde R. Luz, Ivone Holz Seidel, and
+   Priscilla Souza for their tireless efforts to complete the household
+   surveys as well as the local residents of Ouro Preto do Oeste for their
+   participation. Thank you to Katrina Mullan and Erin Sills for their
+   oversight of the survey; Dan Harris, Suzanne McArdle, Brian Klitch, and
+   Patrick Wright for their collection of the GIS data; Dar Roberts for
+   processing the remote sensing data and to Charlie MacIntyre for field
+   assistance. Previous rounds of data collection were supported by the
+   National Science Foundation, SES-0452852 in 2005, SES-0076549 in 2000,
+   and the National Security Education Program, the Organization of
+   American States, the Institute for the Study of World Politics, and the
+   McClure Fund Foundation in 1996. A majority, if not all, of the data
+   used in the analysis can be found at the archive of social science data
+   for research and instruction at the Inter-university Consortium for
+   Political and Social Research of the University of Michigan. All
+   location identifiers have been removed.
+NR 63
+TC 17
+Z9 18
+U1 3
+U2 38
+PU ACADEMIC PRESS INC ELSEVIER SCIENCE
+PI SAN DIEGO
+PA 525 B ST, STE 1900, SAN DIEGO, CA 92101-4495 USA
+SN 0095-0696
+EI 1096-0449
+J9 J ENVIRON ECON MANAG
+JI J.Environ.Econ.Manage.
+PD JUL
+PY 2018
+VL 90
+BP 232
+EP 248
+DI 10.1016/j.jeem.2018.06.006
+PG 17
+WC Business; Economics; Environmental Studies
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Environmental Sciences & Ecology
+GA GQ6SA
+UT WOS:000441854200013
+OA hybrid
+DA 2024-02-08
+ER

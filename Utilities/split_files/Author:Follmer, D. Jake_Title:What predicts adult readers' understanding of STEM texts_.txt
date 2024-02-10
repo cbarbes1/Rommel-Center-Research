@@ -1,0 +1,71 @@
+PT J
+AU Follmer, DJ
+   Fang, SY
+   Clariana, RB
+   Meyer, BJF
+   Li, P
+AF Follmer, D. Jake
+   Fang, Shin-Yi
+   Clariana, Roy B.
+   Meyer, Bonnie J. F.
+   Li, Ping
+TI What predicts adult readers' understanding of STEM texts?
+SO READING AND WRITING
+LA English
+DT Article
+DE Reading comprehension; Expository text; Science text; STEM; Reader
+   characteristics; Mechanical turk
+ID READING-COMPREHENSION; COH-METRIX; MECHANICAL TURK; PRIOR KNOWLEDGE;
+   QUALITY; RECALL; MEMORY
+AB The current study examined the relations among key variables that underlie reading comprehension of expository science texts in a diverse population of adult native English readers. Using Mechanical Turk to sample a range of adult readers, the study also examined the effect of text presentation on readers' comprehension and knowledge structure established after reading. In Study 1, ratings of situational interest, select reading background variables, and select measures of readers' knowledge structure accounted for significant variance in comprehension. In Study 2, the knowledge structure metrics of primacy, recency, and node degree as well as several text ratings were found to be comparable across text presentation formats. Participants who read the text sentence-by-sentence obtained higher scores on measures of comprehension and provided higher ratings of situational interest than those who received the whole paragraph text at once. Knowledge structure measures for the sentence-by-sentence and paragraph formats were similar (68% overlap). We discuss implications for future research examining factors that underlie the successful comprehension of science texts.
+C1 [Follmer, D. Jake] Salisbury Univ, Sch Educ, Salisbury, MD 21801 USA.
+   [Fang, Shin-Yi; Li, Ping] Penn State Univ, Dept Psychol, University Pk, PA 16802 USA.
+   [Clariana, Roy B.] Penn State Univ, Dept Learning & Performance Syst, University Pk, PA 16802 USA.
+   [Meyer, Bonnie J. F.] Penn State Univ, Dept Educ Psychol Counseling & Special Educ, University Pk, PA 16802 USA.
+C3 University System of Maryland; Salisbury University; Pennsylvania
+   Commonwealth System of Higher Education (PCSHE); Pennsylvania State
+   University; Pennsylvania State University - University Park;
+   Pennsylvania Commonwealth System of Higher Education (PCSHE);
+   Pennsylvania State University; Pennsylvania State University -
+   University Park; Pennsylvania Commonwealth System of Higher Education
+   (PCSHE); Pennsylvania State University; Pennsylvania State University -
+   University Park
+RP Li, P (corresponding author), Penn State Univ, Dept Psychol, University Pk, PA 16802 USA.
+EM pul8@psu.edu
+RI Clariana, Roy/AAF-9588-2021
+OI Clariana, Roy/0000-0001-9374-0064; Follmer, D. Jake/0000-0001-7694-9683;
+   Li, Ping/0000-0002-3314-943X
+FU National Science Foundation [BCS-1533625]; Direct For Social, Behav &
+   Economic Scie; Division Of Behavioral and Cognitive Sci [1533625]
+   Funding Source: National Science Foundation
+FX This research was supported by a grant from the National Science
+   Foundation (BCS-1533625). Any opinions expressed in this article are
+   those of the authors and do not necessarily reflect the views of the
+   National Science Foundation.
+NR 70
+TC 14
+Z9 18
+U1 2
+U2 20
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0922-4777
+EI 1573-0905
+J9 READ WRIT
+JI Read. Writ.
+PD JAN
+PY 2018
+VL 31
+IS 1
+BP 185
+EP 214
+DI 10.1007/s11145-017-9781-x
+PG 30
+WC Education & Educational Research; Psychology, Educational
+WE Social Science Citation Index (SSCI)
+SC Education & Educational Research; Psychology
+GA FR9JP
+UT WOS:000419390200009
+DA 2024-02-08
+ER

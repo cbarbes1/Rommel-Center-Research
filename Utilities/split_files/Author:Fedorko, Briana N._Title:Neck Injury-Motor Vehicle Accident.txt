@@ -1,0 +1,44 @@
+PT J
+AU Fedorko, BN
+   Fedorko, BF
+AF Fedorko, Briana N.
+   Fedorko, Brent F.
+TI Neck Injury-Motor Vehicle Accident
+SO MEDICINE & SCIENCE IN SPORTS & EXERCISE
+LA English
+DT Meeting Abstract
+CT 67th Annual Meeting of the American-College-of-Sports-Medicine (ACSM)
+CY 2020
+CL ELECTR NETWORK
+SP Amer Coll Sports Med
+C1 [Fedorko, Briana N.] Pivot Phys Therapy, Cambridge, MD USA.
+   [Fedorko, Brent F.] Salisbury Univ, Salisbury, MD USA.
+C3 University System of Maryland; Salisbury University
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 1
+PU LIPPINCOTT WILLIAMS & WILKINS
+PI PHILADELPHIA
+PA TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA
+SN 0195-9131
+EI 1530-0315
+J9 MED SCI SPORT EXER
+JI Med. Sci. Sports Exerc.
+PD JUL
+PY 2020
+VL 52
+IS 7
+SU S
+MA 3144
+BP 863
+EP 863
+PG 1
+WC Sport Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Sport Sciences
+GA OS2VX
+UT WOS:000590026303412
+DA 2024-02-08
+ER

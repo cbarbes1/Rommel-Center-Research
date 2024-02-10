@@ -1,0 +1,55 @@
+PT J
+AU Lee, SY
+   Hamilton, S
+   Barbier, EB
+   Primavera, J
+   Lewis, RR
+AF Lee, Shing Yip
+   Hamilton, Stu
+   Barbier, Edward B.
+   Primavera, Jurgenne
+   Lewis, Roy R., III
+TI Better restoration policies are needed to conserve mangrove ecosystems
+SO NATURE ECOLOGY & EVOLUTION
+LA English
+DT Editorial Material
+ID MANAGEMENT
+C1 [Lee, Shing Yip] Chinese Univ Hong Kong, Hong Kong, Peoples R China.
+   [Hamilton, Stu] Salisbury Univ, Salisbury, MD USA.
+   [Barbier, Edward B.] Colorado State Univ, Ft Collins, CO 80523 USA.
+   [Primavera, Jurgenne] Zool Soc London, Iloilo, Philippines.
+   [Lewis, Roy R., III] Coastal Resources Grp Inc, Salt Springs, FL USA.
+C3 Chinese University of Hong Kong; University System of Maryland;
+   Salisbury University; Colorado State University
+RP Lee, SY (corresponding author), Chinese Univ Hong Kong, Hong Kong, Peoples R China.
+EM joesylee@cuhk.edu.hk
+RI Hamilton, Stuart E./A-4297-2013; Lee, Joe S. Y./B-9185-2008
+OI Hamilton, Stuart E./0000-0001-8114-7247; Lee, Joe S.
+   Y./0000-0001-9336-2323
+NR 14
+TC 140
+Z9 148
+U1 15
+U2 112
+PU NATURE PUBLISHING GROUP
+PI LONDON
+PA MACMILLAN BUILDING, 4 CRINAN ST, LONDON N1 9XW, ENGLAND
+SN 2397-334X
+J9 NAT ECOL EVOL
+JI Nat. Ecol. Evol.
+PD JUN
+PY 2019
+VL 3
+IS 6
+BP 870
+EP 872
+DI 10.1038/s41559-019-0861-y
+PG 3
+WC Ecology; Evolutionary Biology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Environmental Sciences & Ecology; Evolutionary Biology
+GA IC4EI
+UT WOS:000470917200005
+PM 31036899
+DA 2024-02-08
+ER

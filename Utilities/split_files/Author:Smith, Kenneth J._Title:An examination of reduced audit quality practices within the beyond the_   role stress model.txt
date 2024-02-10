@@ -1,0 +1,54 @@
+PT J
+AU Smith, KJ
+   Emerson, DJ
+   Boster, CR
+AF Smith, Kenneth J.
+   Emerson, David J.
+   Boster, Charles R.
+TI An examination of reduced audit quality practices within the beyond the
+   role stress model
+SO MANAGERIAL AUDITING JOURNAL
+LA English
+DT Article
+DE Burnout; Job satisfaction; Turnover intentions; Reduced audit quality
+   practices; Role stressors
+ID TIME BUDGET PRESSURE; ROLE-CONFLICT; TURNOVER; AMBIGUITY; VARIABLES;
+   BURNOUT; CONSEQUENCES; PERSONALITY; PERFORMANCE; COMMITMENT
+AB Purpose The purpose of this paper is to investigate the role stress model originally developed by Fogarty et al. (2000) using more refined measures, a context-specific performance metric and a targeted respondent group. The investigation uses a sample of working professional auditors to investigate the associations between job stressors, burnout and job outcomes using an industry-specific measure of job performance.
+   Design/methodology/approach The analyses use structural equations modeling procedures to examine a model that postulates that burnout will mediate the relations between job stressors and job outcomes. The data for the study come from 293 survey instruments completed by auditors working at the offices of 11 public accounting firms. A parsimonious job satisfaction scale based on Churchill et al.'s (1985) 27-item scale is developed using classical test-item analysis and is incorporated into the analysis.
+   Findings The results suggest three significant items of note. First, although prior research has found that burnout partially mediates relations between job stressors and job outcomes, this study shows that burnout fully mediates these associations. Second, the study provides support for the reduced audit quality practices (RAQP) scale as an audit-specific construct for job performance. Finally, results show that the 27-item job satisfaction scale can successfully be reduced to a six-item scale.
+   Research limitations/implications While this study is subject to the limitations inherent to all cross-sectional studies that use self-report instruments, the results further the knowledge related to the role stress paradigm in auditor work settings.
+   Practical implications This study's findings provides a cogent argument for human resource managers at public accounting firms to monitor staff burnout levels and implement interventional strategies (Jones III et al., 2010) when these levels become excessive. Efforts to mitigate staff burnout levels may decrease the likelihood of staff engagement in dysfunctional audit practices and the associated costs to the firm and the individual(s) involved.
+   Originality/value The findings also demonstrate the superiority of the RAQP scale in terms of explaining variance in auditor performance when compared to the modified performance measures utilized in prior research.
+C1 [Smith, Kenneth J.; Emerson, David J.; Boster, Charles R.] Salisbury Univ, Perdue Sch Business, Dept Accounting & Legal Studies, Salisbury, MD 21801 USA.
+C3 University System of Maryland; Salisbury University
+RP Smith, KJ (corresponding author), Salisbury Univ, Perdue Sch Business, Dept Accounting & Legal Studies, Salisbury, MD 21801 USA.
+EM kjsmith@salisbury.edu
+RI Smith, Kenneth/HOH-9815-2023; Emerson, David/R-9940-2019
+OI Emerson, David/0000-0002-8405-9223; Boster, Charles/0000-0002-5018-0121
+NR 94
+TC 12
+Z9 17
+U1 4
+U2 24
+PU EMERALD GROUP PUBLISHING LTD
+PI BINGLEY
+PA HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
+SN 0268-6902
+EI 1758-7735
+J9 MANAG AUDIT J
+JI Manag. Audit. J.
+PY 2018
+VL 33
+IS 8-9
+BP 736
+EP 759
+DI 10.1108/MAJ-07-2017-1611
+PG 24
+WC Business, Finance; Management
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA HC1CT
+UT WOS:000451537500005
+DA 2024-02-08
+ER

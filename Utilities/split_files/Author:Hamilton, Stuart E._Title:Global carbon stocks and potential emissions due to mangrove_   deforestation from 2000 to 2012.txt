@@ -1,0 +1,51 @@
+PT J
+AU Hamilton, SE
+   Friess, DA
+AF Hamilton, Stuart E.
+   Friess, Daniel A.
+TI Global carbon stocks and potential emissions due to mangrove
+   deforestation from 2000 to 2012
+SO NATURE CLIMATE CHANGE
+LA English
+DT Article
+ID FOREST-COVER; BLUE CARBON; BASE-LINE; PATTERNS; BIOMASS; MAP
+AB Mangrove forests store high densitie of organic carbon, which, when coupled with high rates of deforestation, means that mangroves have the potential to contribute substantially to carbon emissions. Consequently, mangroves are strong candidates for inclusion in nationally determined contributions (NDCs) to the United Nations Framework Convention on Climate Change (UNFCCC), and payments for ecosystem services (PES) programmes that financially incentivize the conservation of forested carbon stocks. This study quantifies annual mangrove carbon stocks from 2000 to 2012 at the global, national and sub-national levels, and global carbon emissions resulting from deforestation over the same time period. Globally, mangroves stored 4.19 Pg of carbon in 2012, with Indonesia, Brazil, Malaysia and Papua New Guinea accounting for more than 50% of the global stock. 2.96 Pg of the global carbon stock is contained within the soil and 1.23 Pg in the living biomass. Two percent of global mangrove carbon was lost between 2000 and 2012, equivalent to a maximum potential of 316,996,250 t of CO2 emissions.
+C1 [Hamilton, Stuart E.] Salisbury Univ, Dept Geog & Geosci, Salisbury, MD 21801 USA.
+   [Friess, Daniel A.] Natl Univ Singapore, Dept Geog, Singapore, Singapore.
+C3 University System of Maryland; Salisbury University; National University
+   of Singapore
+RP Hamilton, SE (corresponding author), Salisbury Univ, Dept Geog & Geosci, Salisbury, MD 21801 USA.
+EM sehamilton@salisbury.edu
+RI Friess, Daniel/HJY-2143-2023; Friess, Dan/G-2056-2011; Hamilton, Stuart
+   E./A-4297-2013
+OI Friess, Daniel/0000-0002-3087-5233; Hamilton, Stuart
+   E./0000-0001-8114-7247
+NR 49
+TC 191
+Z9 202
+U1 20
+U2 303
+PU NATURE PORTFOLIO
+PI BERLIN
+PA HEIDELBERGER PLATZ 3, BERLIN, 14197, GERMANY
+SN 1758-678X
+EI 1758-6798
+J9 NAT CLIM CHANGE
+JI Nat. Clim. Chang.
+PD MAR
+PY 2018
+VL 8
+IS 3
+BP 240
+EP +
+DI 10.1038/s41558-018-0090-4
+PG 7
+WC Environmental Sciences; Environmental Studies; Meteorology & Atmospheric
+   Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Environmental Sciences & Ecology; Meteorology & Atmospheric Sciences
+GA FX7YW
+UT WOS:000426308500022
+OA Green Submitted
+DA 2024-02-08
+ER

@@ -1,4 +1,4 @@
-from utilities import utilities
+#from utilities import utilities
 import re
 import os
 
@@ -16,7 +16,7 @@ class splitter():
             path_to_file (str): The path to the file containing WoS metadata for papers
         """
         self.path_to_file = path_to_file
-        self.utilities = utilities()
+        #self.utilities = utilities()
         self.file = None
     
     def __enter__(self):
@@ -52,5 +52,5 @@ class splitter():
         with open(self.path_to_file, 'r') as file:
             content = file.read()
         
-        entries = 
+        #entries = 
         
