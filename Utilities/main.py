@@ -35,7 +35,7 @@ def load_and_print_entry(entry_number):
       
 if __name__ == "__main__":
     # If commented out, uncomment the below line if you need to run the script to make files again
-    #main()
+    main()
     
     # If commented out, uncomment the line below to load and print a specific entry without rerunning the entire program
     for i in range(1, 655):

@@ -1,0 +1,57 @@
+digraph G {
+concentrate=true;
+splines="ortho";
+rankdir="LR";
+subgraph legend{
+    rank = min;
+    label = "legend";
+    Legend [shape=none, margin=0, label = <
+        <table cellspacing="0" cellpadding="0" border="1"><tr><td>Code2flow Legend</td></tr><tr><td>
+        <table cellspacing="0">
+        <tr><td>Regular function</td><td width="50px" bgcolor='#cccccc'></td></tr>
+        <tr><td>Trunk function (nothing calls this)</td><td bgcolor='#966F33'></td></tr>
+        <tr><td>Leaf function (this calls nothing else)</td><td bgcolor='#6db33f'></td></tr>
+        <tr><td>Function call</td><td><font color='black'>&#8594;</font></td></tr>
+        </table></td></tr></table>
+        >];
+}node_9141d482 [label="0: (global)()" name="main::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_ce73492d [label="23: load_and_print_entry()" name="main::load_and_print_entry" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_381494ab [label="4: main()" name="main::main" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_ff552dd5 [label="12: __init__()" name="utilities::utilities.__init__" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_4bcbf66a [label="20: get_attributes()" name="utilities::utilities.get_attributes" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_c1e93f88 [label="79: get_file_name()" name="utilities::utilities.get_file_name" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_31ae4093 [label="105: get_output_dir()" name="utilities::utilities.get_output_dir" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_86c38449 [label="146: make_files()" name="utilities::utilities.make_files" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_51398051 [label="57: sanitize_filename()" name="utilities::utilities.sanitize_filename" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_60927455 [label="125: splitter()" name="utilities::utilities.splitter" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_9141d482 -> node_ce73492d [color="#56B4E9" penwidth="2"];
+node_9141d482 -> node_381494ab [color="#56B4E9" penwidth="2"];
+node_381494ab -> node_ff552dd5 [color="#009E73" penwidth="2"];
+node_381494ab -> node_86c38449 [color="#009E73" penwidth="2"];
+node_c1e93f88 -> node_51398051 [color="#000000" penwidth="2"];
+node_c1e93f88 -> node_51398051 [color="#000000" penwidth="2"];
+node_86c38449 -> node_4bcbf66a [color="#E69F00" penwidth="2"];
+node_86c38449 -> node_c1e93f88 [color="#E69F00" penwidth="2"];
+node_86c38449 -> node_31ae4093 [color="#E69F00" penwidth="2"];
+node_86c38449 -> node_60927455 [color="#E69F00" penwidth="2"];
+subgraph cluster_90af78f8 {
+    node_381494ab node_ce73492d node_9141d482;
+    label="File: main";
+    name="main";
+    style="filled";
+    graph[style=dotted];
+};
+subgraph cluster_4cd78c00 {
+    label="File: utilities";
+    name="utilities";
+    style="filled";
+    graph[style=dotted];
+    subgraph cluster_d0b9fbb7 {
+        node_ff552dd5 node_4bcbf66a node_51398051 node_c1e93f88 node_31ae4093 node_60927455 node_86c38449;
+        label="Class: utilities";
+        name="utilities";
+        style="filled";
+        graph[style=dotted];
+    };
+};
+}
