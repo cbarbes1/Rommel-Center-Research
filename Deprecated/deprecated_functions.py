@@ -20,7 +20,7 @@ class DeprecatedFunctions:
             tuple: A tuple where the first element is a boolean indicating if the author was found,
                 and the second element is the author itself if found, or None otherwise.
         """
-        match = re.search(self.author_regex, entry, re.DOTALL)
+        match = re.search(self.author_pattern, entry, re.DOTALL)
         if match:
             return True, match.group(1).strip()
         return False, None
@@ -36,7 +36,7 @@ class DeprecatedFunctions:
             tuple: A tuple where the first element is a boolean indicating if the title was found,
                 and the second element is the title itself if found, or None otherwise.
         """
-        match = re.search(self.title_regex, entry, re.DOTALL)
+        match = re.search(self.title_pattern, entry, re.DOTALL)
         if match:
             return True, match.group(1).strip()
         return False, None
@@ -52,7 +52,7 @@ class DeprecatedFunctions:
             tuple: A tuple where the first element is a boolean indicating if the abstract was found,
                 and the second element is the abstract itself if found, or None otherwise.
         """
-        match = re.search(self.abstract_regex, entry, re.DOTALL)
+        match = re.search(self.abstract_pattern, entry, re.DOTALL)
         if match:
             return True, match.group(1).strip()
         return False, None

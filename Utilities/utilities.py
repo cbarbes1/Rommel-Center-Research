@@ -8,15 +8,16 @@ import warnings
 This script contains a class that has various utility methods that will be used for many purposes throughout the project
 """
 
-class utilities():
+class Utilities():
+    MAX_FILENAME_LENGTH = 255
     def __init__(self):
         # regular expressions used to extracting the corresponding features from a document
-        self.author_regex = r'AF\s(.+?)(?=\nTI)'
-        self.title_regex = r'TI\s(.+?)(?=\nSO)'
-        self.abstract_regex = r'AB\s(.+?)(?=\nC1)'
-        self.end_record_regex = r'DA \d{4}-\d{2}-\d{2}\nER\n?'
+        self.author_pattern = re.compile(r'AF\s(.+?)(?=\nTI)', re.DOTALL)
+        self.title_pattern = re.compile(r'TI\s(.+?)(?=\nSO)', re.DOTALL)
+        self.abstract_pattern = re.compile(r'AB\s(.+?)(?=\nC1)', re.DOTALL)
+        self.end_record_pattern = re.compile(r'DA \d{4}-\d{2}-\d{2}\nER\n?', re.DOTALL)
          
-    def get_attributes(self, split, attributes):
+    def get_attributes(self, entry_text, attributes):
         """
         Extracts specified attributes from the article entry, returns them in a dictionary,
         and warns about missing or invalid attributes.
@@ -33,17 +34,17 @@ class utilities():
         """
         
         attribute_patterns = {
-            'author': (self.author_regex, re.DOTALL),
-            'title': (self.title_regex, re.DOTALL),
-            'abstract': (self.abstract_regex, re.DOTALL),
-            'end_record': (self.end_record_regex, re.DOTALL),
+            'author': self.author_pattern,
+            'title': self.title_pattern,
+            'abstract': self.abstract_pattern,
+            'end_record': self.end_record_pattern,
         }
         
         attribute_results = {}
         for attribute in attributes:
             if attribute in attribute_patterns:
-                pattern, flags = attribute_patterns[attribute]
-                match = re.search(pattern, split, flags)
+                pattern = attribute_patterns[attribute]
+                match = re.search(pattern, entry_text)
                 if match:
                     attribute_results[attribute] = (True, match.group(1).strip())
                 else:
@@ -53,13 +54,13 @@ class utilities():
                 raise ValueError(f"Unknown attribute: '{attribute}' requested.")
         return attribute_results
     
-    def sanitize_filename(self, text, max_length=100):
+    def sanitize_filename(self, text, max_length=MAX_FILENAME_LENGTH):
         """
         Sanitizes a string for use as part of a file name.
         
         Args:
             text (str): The text to sanitize.
-            max_length (int): The maximum allowed length of the sanitized string.
+            max_length (int): The maximum allowed length of the sanitized string. If nothing is provided defaults to MAX_FILENAME_LENGTH
         
         Returns:
             str: A sanitized string safe for use in a file name.
@@ -110,7 +111,7 @@ class utilities():
             str: The path to the output directory.
         """
         # Use current working directory if no path is provided
-        if path == "None":
+        if path is None:
             # return current working directory
             return os.getcwd()
         
@@ -134,7 +135,8 @@ class utilities():
             file_content = file.read()
             
         # Split the document into entries based on the end record delimiter
-        splits = re.split(self.end_record_regex, file_content)
+        #splits = re.split(self.end_record_pattern, file_content)
+        splits = self.end_record_pattern.split(file_content)
         
         # filter out any empty strings that may result from splitting
         splits = [split + 'DA 2024-02-08\nER' for split in splits if split.strip()] # re-add delimiter for completeness if needed 
