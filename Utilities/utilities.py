@@ -2,7 +2,7 @@ import re
 import os
 import warnings
 
-#TODO: Update comments and make documentation on the class and it's methods
+#TODO: make documentation on the class and it's methods
 
 """
 This script contains a class that has various utility methods that will be used for many purposes throughout the project
@@ -15,8 +15,7 @@ class utilities():
         self.title_regex = r'TI\s(.+?)(?=\nSO)'
         self.abstract_regex = r'AB\s(.+?)(?=\nC1)'
         self.end_record_regex = r'DA \d{4}-\d{2}-\d{2}\nER\n?'
-        
-    # TODO: look at functionality here as it may not be working as intended 
+         
     def get_attributes(self, split, attributes):
         """
         Extracts specified attributes from the article entry, returns them in a dictionary,
@@ -65,7 +64,7 @@ class utilities():
         Returns:
             str: A sanitized string safe for use in a file name.
         """
-        print(f"Text = {text}")
+        
         # Remove any potential HTML tags
         text = re.sub('<[^>]+>', '', text)
         
@@ -87,14 +86,12 @@ class utilities():
         Returns:
             str: A sanitized and formatted filename.
         """
-        print(f"file name author: {author}")
-        print(f"filename title: {title}")
+        
         # split author string on newline and take the first author only
         first_author = author.split('\n')[0].strip()
-        print(f"filename first_author: {first_author}")
+        
         # sanitize and truncate the first authors name and title
         sanitized_author = self.sanitize_filename(first_author)
-        print("check")
         sanitized_title = self.sanitize_filename(title)
 
         # construct file name
@@ -169,8 +166,6 @@ class utilities():
             attributes = self.get_attributes(split, ['author', 'title'])
             author = attributes['author'][1] if attributes['author'][0] else 'Unknown'
             title = attributes['title'][1] if attributes['title'][0] else 'Unkown'
-            print(f"author: {author}")
-            print(f"title: {title}")
             
             # Construct file name
             file_name = self.get_file_name(author, title)
