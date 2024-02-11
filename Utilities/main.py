@@ -1,11 +1,11 @@
-from utilities import utilities
+from utilities import Utilities
 import json
 
 def main():
     path_to_file = 'savedrecs.txt'
-    output_dir = './split_files'
+    output_dir = './test'
     
-    utils = utilities()
+    utils = Utilities()
     
     file_paths = utils.make_files(path_to_file=path_to_file, output_dir=output_dir)
     
@@ -38,6 +38,6 @@ if __name__ == "__main__":
     main()
     
     # If commented out, uncomment the line below to load and print a specific entry without rerunning the entire program
-    for i in range(1, 655):
-        load_and_print_entry(i)
-        print('\n')
+    #for i in range(1, 655):
+     #   load_and_print_entry(i)
+      #  print('\n')

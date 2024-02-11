@@ -51,13 +51,13 @@ def extract_doi(citations):
         If the doi doesn't exist adds the citation to the doi_not_found list
         Function returns a tuple of the two lists
     """
-    doi_regex = r"10.\d{4,9}/[-._;()/:A-Za-z0-9]+"
+    doi_pattern = r"10.\d{4,9}/[-._;()/:A-Za-z0-9]+"
 
     dois = []
     doi_not_found = []
 
     for citation in citations:
-        match = re.search(doi_regex, citation, re.IGNORECASE)
+        match = re.search(doi_pattern, citation, re.IGNORECASE)
         if match != None:
             # match.group() returns the entire string re.search matched
             dois.append(match.group())

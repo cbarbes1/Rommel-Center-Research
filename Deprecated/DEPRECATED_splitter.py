@@ -1,4 +1,4 @@
-#from utilities import utilities
+#from Utilities import Utilities
 import re
 import os
 
@@ -10,13 +10,13 @@ over the past 5 years. It splits by entry.
 class splitter():
     def __init__(self, path_to_file):
         """
-        Initializes the splitter object with the path to the text file, and creates a utilities object needed for certain uses of the class
+        Initializes the splitter object with the path to the text file, and creates a Utilities object needed for certain uses of the class
         
         Arguments:
             path_to_file (str): The path to the file containing WoS metadata for papers
         """
         self.path_to_file = path_to_file
-        #self.utilities = utilities()
+        #self.Utilities = Utilities()
         self.file = None
     
     def __enter__(self):
@@ -47,7 +47,7 @@ class splitter():
     def split(self):
         """
         Splits the document into individual entries based on a specified delimiter or pattern, and then calls the
-        'make_file' method from the utilities object on each entry to create a separate .txt file for each paper entry.
+        'make_file' method from the Utilities object on each entry to create a separate .txt file for each paper entry.
         """
         with open(self.path_to_file, 'r') as file:
             content = file.read()
