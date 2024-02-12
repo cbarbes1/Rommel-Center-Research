@@ -16,7 +16,10 @@ class Utilities():
         self.title_pattern = re.compile(r'TI\s(.+?)(?=\nSO)', re.DOTALL)
         self.abstract_pattern = re.compile(r'AB\s(.+?)(?=\nC1)', re.DOTALL)
         self.end_record_pattern = re.compile(r'DA \d{4}-\d{2}-\d{2}\nER\n?', re.DOTALL)
-         
+        
+        # for WoS categories
+        self.wc_pattern = re.compile(r'WC\s+(.+)\n', re.DOTALL)
+        
     def get_attributes(self, entry_text, attributes):
         """
         Extracts specified attributes from the article entry, returns them in a dictionary,
@@ -141,7 +144,28 @@ class Utilities():
         # filter out any empty strings that may result from splitting
         splits = [split + 'DA 2024-02-08\nER' for split in splits if split.strip()] # re-add delimiter for completeness if needed 
         return splits
-      
+    
+    def get_wos_categories(self, path_to_entry):
+        """
+        Parameters:
+            path_to_entry (str): The path to a file
+        returns:
+            list of the categories. 
+            list is constructed so that from left to right is most inclusive to least inclusive
+            this means index 0 is the root category, index 1 first level subcategory, and so on
+            
+        Function looks through a file to find the web of science categories, storing them in
+        the categories list. Format of storing is left->right most inclusive->least inclusive
+        """
+        categories = []
+        with open(path_to_entry, 'r') as file:
+            file_content = file.read()
+        wc_match = re.search(self.wc_pattern, file_content)
+        if wc_match:
+            # split matched string by ';' and strip whitespace from each category
+            categories = [category.strip() for category in wc_match.group(1).split(';')]
+        return categories
+    
     def make_files(self, path_to_file, output_dir):
         """
         Splits a document into individual entries and creates a separate file for each entry in the specified output directory.
