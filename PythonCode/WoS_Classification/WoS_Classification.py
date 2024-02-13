@@ -11,7 +11,12 @@ class WosCategorization():
     def __init__(self):
         self.utils = Utilities()
         self.category_counts = {}
-        
+        self.author_pattern = re.compile(r"Author:(.*?)_", re.DOTALL)
+        self.article_pattern = re.compile(r"_Title:(.*?)\.txt", re.DOTALL)
+    
+    def get_category_counts(self):
+        return self.category_counts
+    
     def load_counts(self, json_file_path):
         """
         Arguments:
@@ -55,7 +60,7 @@ class WosCategorization():
         goes through each entry and processes the categories for that entry
         """
         for entry, path in entries.items():
-            print(f"Processing {entry}: {path}")
+            #print(f"Processing {entry}: {path}")
             categories_for_entry = self.utils.get_wos_categories(path)
             
             # add the processed authors and articles to corresponding sets. Avoids duplicates and allows for quick lookup time.
@@ -64,6 +69,7 @@ class WosCategorization():
             
             for category in categories_for_entry:
                 self.process_category(category, path, processed_authors, processed_articles)
+        return self.category_counts
             
     def process_category(self, category, path, processed_authors, processed_articles):
         """
@@ -81,23 +87,26 @@ class WosCategorization():
         Idea: add article if it doesn't exist. Update faculty count if they don't have work under that category yet (avoid counting the same author for each paper they have under the category)
                 doesn't count the same article more than once (this step is not as necessary, but it ensures if for some reason we have duplicate documents we don't count n-amount of duplicates)
         """
-        authors, articles = self.extract_authors_and_articles(path)
+        author, article = self.extract_authors_and_articles(path)
         
         # Initialize category in dictionary if not present
+        category = self.clean_category_name(category)
         if category not in self.category_counts:
             self.category_counts[category] = {'faculty_count':0, 
                                               'department_count':0, 
                                               'article_count':0}
-        for author in authors:
-            if author not in processed_authors:
-                self.update_faculty_count(category)
-                #TODO: in update faculty check if department exists yet if not add it
-                processed_authors.add(author)
+        if author not in processed_authors:
+            self.update_faculty_count(category)
+            #TODO: in update faculty check if department exists yet if not add it
+            processed_authors.add(author)
             
-        for article in articles:
-            if article not in processed_articles:
-                self.update_article_count(category)
-                processed_articles.add(article)
+        if article not in processed_articles:
+            self.update_article_count(category)
+            processed_articles.add(article)
+    
+    def clean_category_name(self, category):
+        cleaned_name = ' '.join(category.split())
+        return cleaned_name
     
     def update_faculty_count(self, category):
         """
@@ -143,13 +152,26 @@ class WosCategorization():
     #TODO: implement this
     def extract_authors_and_articles(self, path):
         #TODO: implement logic to extract authors and articles via looking at the json
+        author_match = self.author_pattern.search(path)
+        article_match = self.article_pattern.search(path)
+        
+        if author_match and article_match:
+            author = author_match.group(1)[1:].strip()
+            article = article_match.group(1).replace('_', ' ').strip()
+            return author, article
+        print("Extract authors and articles didn't find what it was looking for")
+        return None, None
         
 if __name__ == "__main__":
     # Load json data
     json_path = '../Utilities/file_paths.json'
+    wos_cat = WosCategorization()
     with open(json_path, 'r') as file:
         data = json.load(file)
-    wos_cat = WosCategorization()
-    wos_cat.entries_to_categorize(data)
+        #print(data)
+        wos_cat.entries_to_categorize(data)
+    
+    category_counts = wos_cat.get_category_counts()
+    print(category_counts)
     
     
