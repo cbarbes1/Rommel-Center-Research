@@ -23,7 +23,7 @@ class WosClassification():
             # ensure it's a file
             if self.check_file_status(file_path):
                 with open(file_path, 'r') as current_file:
-                    self.category_finder(current_file)
+                    self.category_finder(current_file, file_path)
             else:
                 warnings.warn(f"Warning: Could not verify file at: {file_path} as a file. Continuing to next file.")
                 continue
@@ -33,12 +33,12 @@ class WosClassification():
             return True
         return False
 
-    def category_finder(self, file):
-        for line in file:
+    def category_finder(self, current_file, file_path):
+        for line in current_file:
             if line.startswith('WC'):
                 categories = self.utils.wos_category_splitter(line)
                 self.initialize_categories(categories)
-                self.update_categories(categories)
+                self.update_category_counts_files_set(categories, file_path)
         
     def initialize_categories(self, categories):
         for category in categories:
@@ -47,10 +47,16 @@ class WosClassification():
                     'faculty_count': 0,
                     'department_count': 0,
                     'article_count': 0,
+                    'files': set(),
                 }
-       
-    def update_categories(self, categories):
-        pass
+    
+    def update_category_counts_files_set(self, categories, file_name):
+        for category in categories:
+            if category in self.category_counts:
+                self.category_counts[category]['files'].add(file_name)
+            else:
+                warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next category.")
+                continue
             
 if __name__ == "__main__":
     split_files_directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
@@ -62,3 +68,4 @@ if __name__ == "__main__":
     categories = wos.get_category_counts()
     print(categories)
 
+    
