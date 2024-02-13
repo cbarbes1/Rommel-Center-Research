@@ -23,7 +23,7 @@ class WosCategorization():
             json_file_path: str, path to json file containing category counts
         Returns:
             None
-            
+        
         Loads the counts from the json file and stores them in category_counts dictionary
         """
         try:
@@ -95,12 +95,12 @@ class WosCategorization():
             self.category_counts[category] = {'faculty_count':0, 
                                               'department_count':0, 
                                               'article_count':0}
-        if author not in processed_authors:
+        if author is not None and author not in processed_authors:
             self.update_faculty_count(category)
             #TODO: in update faculty check if department exists yet if not add it
             processed_authors.add(author)
             
-        if article not in processed_articles:
+        if article is not None and article not in processed_articles:
             self.update_article_count(category)
             processed_articles.add(article)
     
@@ -173,5 +173,3 @@ if __name__ == "__main__":
     
     category_counts = wos_cat.get_category_counts()
     print(category_counts)
-    
-    
