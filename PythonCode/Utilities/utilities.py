@@ -19,7 +19,9 @@ class Utilities():
         self.abstract_pattern = re.compile(r'AB\s(.+?)(?=\nC1)', re.DOTALL)
         self.end_record_pattern = re.compile(r'DA \d{4}-\d{2}-\d{2}\nER\n?', re.DOTALL)
         self.wc_pattern = re.compile(r'\nWC (.*)')
-        
+        #self.dept_pattern = re.compile(r'Dept (.*?),')
+        self.dept_pattern = re.compile(r'Salisbury Univ, Dept (.*?)(,|$)')
+        self.dept_pattern_alt = re.compile(r'Salisbury Univ, (.*?)(,|$)')
         # for WoS categories
         self.wc_pattern = re.compile(r'WC\s+(.+)\n', re.DOTALL)
 
@@ -31,6 +33,7 @@ class Utilities():
             'abstract': self.abstract_pattern,
             'end_record': self.end_record_pattern,
             'wc_pattern': self.wc_pattern,
+            'department': self.dept_pattern
             }
         
     def get_attributes(self, entry_text, attributes):
@@ -54,12 +57,49 @@ class Utilities():
         for attribute in attributes:
             # Check if the requested attribute is defined in the attribute patterns dictionary     
             if attribute in self.attribute_patterns:
-                # Extract the attribute and add it to results dictionary
-                attribute_results[attribute] = self.extract_attribute(attribute, entry_text)
+                if attribute == 'author':
+                    author_c1_content = self.extract_c1_content(entry_text)
+
+                    # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
+                    salisbury_authors = self.split_salisbury_authors(author_c1_content)
+                    print(f'Salisbury Authors: {salisbury_authors}')
+                    attribute_results[attribute] = (True, salisbury_authors) if salisbury_authors else (False, None)
+                
+                elif attribute == 'department':
+                    #department = self.extract_dept_name(self.extract_dept_from_c1(entry_text))
+                    department = self.extract_dept_from_c1(entry_text)
+                    print(f'Department: {department}')
+                    attribute_results[attribute] = (True, department) if department else (False, None)
+                
+                else:    
+                    # Extract the attribute and add it to results dictionary
+                    attribute_results[attribute] = self.extract_attribute(attribute, entry_text)
             else:
                 # Raise an error if an unknown attribute is requested
                 raise ValueError(f"Unknown attribute: '{attribute}' requested.")
         return attribute_results
+
+    def extract_dept_name(self, c1_tag):
+        match = self.dept_pattern.search(c1_tag)
+        print("IN THIS BITCH")
+        print(f'C1 TAG: {c1_tag}')
+        if match:
+            print(f'MATCH GROUP 1: {match.group(1)}')
+            return True, match.group(1)
+        warnings.warn("No department found in C1 tag", RuntimeWarning)
+        return False, None
+    
+    def split_salisbury_authors(self, salisbury_authors):
+        """
+        Splits the authors string at each ';' and stores the items in a list.
+
+        Parameters:
+            authors_text (str): The string containing authors separated by ';'.
+
+        Returns:
+            list: A list of authors.
+        """
+        return [salisbury_author.strip() for salisbury_author in salisbury_authors.split(';')]
 
     def extract_attribute(self, attribute, entry_text):
         """
@@ -87,6 +127,48 @@ class Utilities():
         warnings.warn(f"Attribute: '{attribute}' was not found in the entry", RuntimeWarning)
         return False, None
 
+    def extract_dept_from_c1(self, entry_text):
+        lines = entry_text.splitlines()
+        print(f'LINES: {lines}')
+        for line in lines:
+            if "Salisbury Univ" in line:
+                match = self.dept_pattern.search(line)
+                if match:
+                    return True, match.group(1)
+                else:
+                    match = self.dept_pattern_alt.search(line)
+                    if match:
+                        return True, match.group(1)
+        warnings.warn("NO DEPARTMENT FOUND IN C1 TAG", RuntimeWarning)
+        return False, None
+    
+    def extract_c1_content(self, entry_text):
+        """
+        Extracts the 'C1' content from the entry text.
+
+        Parameters:
+            entry_text (str): The text of the entry from which to extract the 'C1' content.
+
+        Returns:
+            str: The extracted 'C1' content or an empty string if not found.
+        """
+        print("\n\n")
+        print(entry_text)
+        c1_content = []
+        entry_lines = entry_text.splitlines()
+        for line in entry_lines:
+            if "Salisbury Univ" in line:
+                # Extract everything inside the brackets
+                start = line.find('[')
+                end = line.find(']')
+                if start != -1 and end != -1:
+                    c1_content.append(line[start+1:end])
+                break
+        print(f'C1 Content: {c1_content}')
+        print("\nC1 RETURN")
+        print('\n'.join(c1_content))
+        return '\n'.join(c1_content)
+    
     def wos_category_splitter(self, category_string):
         """
         Splits a string of Web of Science (WoS) categories into a list of individual categories.
