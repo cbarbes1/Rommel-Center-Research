@@ -1,7 +1,7 @@
 import re
 import os
 import warnings
-
+import time
 # TODO: make documentation on the class and it's methods
 
 """
@@ -18,12 +18,12 @@ class Utilities():
         self.title_pattern = re.compile(r'TI\s(.+?)(?=\nSO)', re.DOTALL)
         self.abstract_pattern = re.compile(r'AB\s(.+?)(?=\nC1)', re.DOTALL)
         self.end_record_pattern = re.compile(r'DA \d{4}-\d{2}-\d{2}\nER\n?', re.DOTALL)
-        self.wc_pattern = re.compile(r'\nWC (.*)')
+        #self.wc_pattern = re.compile(r'\nWC (.*)')
         #self.dept_pattern = re.compile(r'Dept (.*?),')
         self.dept_pattern = re.compile(r'Salisbury Univ, Dept (.*?)(,|$)')
         self.dept_pattern_alt = re.compile(r'Salisbury Univ, (.*?)(,|$)')
         # for WoS categories
-        self.wc_pattern = re.compile(r'WC\s+(.+)\n', re.DOTALL)
+        self.wc_pattern = re.compile(r'WC\s+(.+?)(?=\nWE)', re.DOTALL)
 
         
         # attribute patterns
@@ -77,6 +77,8 @@ class Utilities():
             else:
                 # Raise an error if an unknown attribute is requested
                 raise ValueError(f"Unknown attribute: '{attribute}' requested.")
+        print(f"\n\nFINAL ATTS: {attribute_results}\n\n")
+        #time.sleep(100)
         return attribute_results
 
     def extract_dept_name(self, c1_tag):
@@ -122,6 +124,14 @@ class Utilities():
         if match:
             if attribute == 'wc_pattern':
                 categories = self.wos_category_splitter(match.group(1).strip())
+                print(f"\n\nCATEGORIES: {categories}\n\n")
+                #time.sleep(100)
+                for i, category in enumerate(categories):    
+                    print(f"CATEGORY: {category}\n")
+                    category = re.sub(r'\s+', ' ', category)
+                    categories[i] = category
+                    print(f"CATEGORY AFTER SUB: {category}\n")
+                    #time.sleep(10)
                 return True, categories
             return True, match.group(1).strip()        
         warnings.warn(f"Attribute: '{attribute}' was not found in the entry", RuntimeWarning)
@@ -219,8 +229,9 @@ class Utilities():
         """
 
         # split author string on newline and take the first author only
-        first_author = author.split('\n')[0].strip()
+        #first_author = author.split('\n')[0].strip()
 
+        first_author = author[0].strip()
         # sanitize and truncate the first authors name and title
         sanitized_author = self.sanitize_filename(first_author)
         sanitized_title = self.sanitize_filename(title)

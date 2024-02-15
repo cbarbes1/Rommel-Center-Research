@@ -8,3 +8,6 @@ if match:
     print(f"Match found: {match.group(1)}")
 else:
     print("No match found.")
+    
+print(f'MATCH GROUP 0: {match.group(0)}')
+print(f'MATCH GROUP 1: {match.group(1)}')
