@@ -27,8 +27,8 @@ C3 University System of Maryland; Salisbury University; Loyola Marymount
    University; Mississippi State University; University of South Alabama
 RP Smith, KJ (corresponding author), Salisbury Univ, Dept Accounting & Legal Studies, Salisbury, MD 21801 USA.
 EM kjsmith@salisbury.edu
-RI Smith, Kenneth/HOH-9815-2023; Emerson, David/R-9940-2019
-OI Emerson, David/0000-0002-8405-9223
+RI Emerson, David/R-9940-2019; Smith, Kenneth/HOH-9815-2023
+OI Emerson, David/0000-0002-8405-9223; 
 NR 147
 TC 13
 Z9 15

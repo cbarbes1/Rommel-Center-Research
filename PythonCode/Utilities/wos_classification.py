@@ -3,8 +3,9 @@ import os
 import json
 import warnings
 import time
+from json_transformer import JsonTransformer
 
-#random comment so i can repush
+#random comment so i can re-push
 
 class WosClassification():
     # Goes through all split_files finds their web of science categories
@@ -39,19 +40,22 @@ class WosClassification():
         lines = file_content.splitlines()
         for line in lines:
             if line.startswith('WC'):
-                categories = self.utils.wos_category_splitter(line)
+                #TODO:categories = self.utils.wos_category_splitter(line)
                 #print(f'CategoryFinder_1: {categories}')
-                categories = self.initialize_categories(categories)
+                #TODO:categories = self.initialize_categories(categories)
                 #print(f'CategoryFinder_2: {categories}')
-                categories = self.update_category_counts_files_set(categories, file_path)
+                #TODO:categories = self.update_category_counts_files_set(categories, file_path)
                 #print(f'CategoryFinder_3: {categories}')
                 #self.update_faculty_count(categories)
                 #file_content = current_file.read()
                 #print(file_content)
-                attributes_to_retrieve = ['author', 'department']
+                attributes_to_retrieve = ['author', 'department', 'wc_pattern']
                 
                 #faculty_member = self.utils.get_attributes(entry_text=file_content, attributes=attributes_to_retrieve)
                 attribute_results = self.utils.get_attributes(entry_text=file_content, attributes=attributes_to_retrieve)
+                categories = attribute_results['wc_pattern'][1]
+                self.initialize_categories(categories=categories)
+                self.update_category_counts_files_set(categories=categories, file_name=file_path)
                 print(f'ATTRIBUTE RESULTS: {attribute_results}')
                 faculty_members = attribute_results['author'][1] if attribute_results['author'][0] else 'Unknown'
                 department_members = attribute_results['department'][1] if attribute_results['department'][0] else 'Unknown'
@@ -96,7 +100,7 @@ class WosClassification():
             #print(f'Category Count: {self.category_counts[category]}')
             #print("\n\n")
             #time.sleep(4)
-        return categories
+        #return categories
         
     def update_faculty_count(self):
         for category_values in self.category_counts.values():
@@ -118,7 +122,7 @@ class WosClassification():
             else:
                 warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next category.")
                 continue
-        return categories
+        #return categories
     
     def update_faculty_set(self, categories, faculty_members):
         # Assign the tuple of values from the faculty_member author key
@@ -173,11 +177,13 @@ class WosClassification():
             print("Department info extraction was unsuccessful!")     
         
 if __name__ == "__main__":
-    split_files_directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
-    split_files_directory_path = os.path.expanduser(split_files_directory_path)
+    #split_files_directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
+    split_files_directory_path = "/Users/spencerpresley/COSC425/Spencer/Rommel-Center-Research/PythonCode/Utilities/split_files"
+    #split_files_directory_path = os.path.expanduser(split_files_directory_path)
     
     wos = WosClassification()
     wos.construct_categories(directory_path=split_files_directory_path)
+    json_maker = JsonTransformer()
     
     categories = wos.get_category_counts()
     """iter_dict = iter(categories.items())
@@ -187,8 +193,10 @@ if __name__ == "__main__":
         print(f'Value: {value}')
         print("\n\n")"""
     print("\n\n")
+    print(f"\n\nCATEGORIES: {sorted(categories.keys())}\n\n")
     for key, value in categories.items():
         print(f'Key: {key}')
         print(f'Value: {value}')
         print("\n\n")
-        #time.sleep(4)
+        #time.sleep(4)"""
+    json_maker.make_dict_json(categories)

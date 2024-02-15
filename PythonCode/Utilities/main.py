@@ -3,7 +3,7 @@ import json
 
 def main():
     path_to_file = 'savedrecs.txt'
-    output_dir = './test'
+    output_dir = './split_files'
     
     utils = Utilities()
     

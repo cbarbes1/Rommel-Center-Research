@@ -25,7 +25,7 @@ C3 University System of Maryland; Salisbury University; University of
    Pennsylvania
 RP Kim, YK (corresponding author), Salisbury Univ, Franklin P Perdue Sch Business, Salisbury, MD 21801 USA.
 EM yxkim@salisbury.edu
-OI Pak, Sunjin/0000-0001-7269-0213; Kim, Yun-Kyoung/0000-0002-3230-1540
+OI Kim, Yun-Kyoung/0000-0002-3230-1540; Pak, Sunjin/0000-0001-7269-0213
 FU School of Labor and Employment Relations (LER) at the University of
    Illinois
 FX The authors gratefully acknowledge the School of Labor and Employment
@@ -41,8 +41,8 @@ FX The authors gratefully acknowledge the School of Labor and Employment
 NR 199
 TC 13
 Z9 14
-U1 1
-U2 23
+U1 2
+U2 24
 PU WILEY
 PI HOBOKEN
 PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA

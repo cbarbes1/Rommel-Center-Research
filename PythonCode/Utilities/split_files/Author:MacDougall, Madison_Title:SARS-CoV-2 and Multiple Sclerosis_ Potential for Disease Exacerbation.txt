@@ -33,7 +33,7 @@ OI MacDougall, Madison/0000-0001-7506-4808
 NR 193
 TC 11
 Z9 11
-U1 2
+U1 1
 U2 5
 PU FRONTIERS MEDIA SA
 PI LAUSANNE
@@ -53,6 +53,6 @@ SC Immunology
 GA 1G7KH
 UT WOS:000796022400001
 PM 35572514
-OA Green Published, gold
+OA gold, Green Published
 DA 2024-02-08
 ER
