@@ -177,9 +177,9 @@ class WosClassification():
             print("Department info extraction was unsuccessful!")     
         
 if __name__ == "__main__":
-    #split_files_directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
-    split_files_directory_path = "/Users/spencerpresley/COSC425/Spencer/Rommel-Center-Research/PythonCode/Utilities/split_files"
-    #split_files_directory_path = os.path.expanduser(split_files_directory_path)
+    split_files_directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
+    #split_files_directory_path = "/Users/spencerpresley/COSC425/Spencer/Rommel-Center-Research/PythonCode/Utilities/split_files"
+    split_files_directory_path = os.path.expanduser(split_files_directory_path)
     
     wos = WosClassification()
     wos.construct_categories(directory_path=split_files_directory_path)
