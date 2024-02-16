@@ -2,10 +2,9 @@ import json
 
 class JsonTransformer():
     def __init__(self):
-        pass
+        self.prefix = "/Users/spencerpresley/COSC425/Spencer/Rommel-Center-Research/PythonCode/Utilities/split_files/"
     
     def make_dict_json(self, dictionary):
-        prefix = "/Users/spencerpresley/COSC425/Spencer/Rommel-Center-Research/PythonCode/Utilities/split_files/"
         new_dictionary = dictionary
         for key, value in new_dictionary.items():
             if 'faculty_set' in value:
@@ -15,7 +14,7 @@ class JsonTransformer():
             if 'article_set' in value:
                 value['article_set'] = list(value['article_set'])
             if 'files' in value:
-                value['files'] = [file_path.replace(prefix, '') for file_path in value['files']]
+                value['files'] = [file_path.replace(self.prefix, '') for file_path in value['files']]
                 
         with open('categories_and_category_metadata.json', 'w') as json_file:
             json.dump(new_dictionary, json_file, indent=4)
