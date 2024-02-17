@@ -200,3 +200,22 @@ if __name__ == "__main__":
         print("\n\n")
         #time.sleep(4)"""
     json_maker.make_dict_json(categories)
+    
+    """paper title as key, number 0 to amount of papers as value. So paper1.txt: 0
+    
+    make another dict where you have those values 0-amount of papers as keys and then abstracts as values sorted
+    
+    0: abstractForPaper0
+    
+    sort that dictionary and pull the abstracts into a list
+    so [0abstract, 1abstract,...]
+    
+    when we get the topics back like
+    [0topic, 1topic, 2topic, etc]
+    
+    go back to the first dictionary and find the paper key associated with the index value and assign it that indices category"""
+    
+
+    
+    
+    

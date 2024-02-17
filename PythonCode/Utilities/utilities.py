@@ -81,6 +81,10 @@ class Utilities():
         #time.sleep(100)
         return attribute_results
 
+    def extract_abstract(self, entry_text):
+        
+        
+    
     def extract_dept_name(self, c1_tag):
         match = self.dept_pattern.search(c1_tag)
         print("IN THIS BITCH")
