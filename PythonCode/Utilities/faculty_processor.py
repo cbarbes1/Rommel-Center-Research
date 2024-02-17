@@ -1,7 +1,8 @@
 import re
 import Levenshtein
+import copy
 
-class DuplicateNameHandler:
+class FacultyPreprocessor:
     def __init__(self):
         # Initialize the original author name as an empty string
         self.original_author_name = ""
@@ -84,10 +85,14 @@ class DuplicateNameHandler:
         self.author_names_dict[compressed_name] = self.original_author_name
         return compressed_name
     
-class DuplicateNameHandlerEdgeCases(DuplicateNameHandler):
+class FacultyPostprocessor:
     def __init__(self):
-        # Initialize base class
-        super().__init__()
+        self.temp_dict = {}
+        self.faculty_occurence_dict = {}
+        self.processed_sets_list = []
+        
+    def get_temp_dict(self):
+        return self.temp_dict
     
     def extract_faculty_sets(self, category_dict):
         #TODO: Implement
@@ -108,7 +113,15 @@ class DuplicateNameHandlerEdgeCases(DuplicateNameHandler):
                 print(f"Error extracting faculty sets from {key}, continuing to next")
         return list_of_faculty_sets
         
-        
+    def occurence_counter(self, faculty_sets):
+        for faculty_set in faculty_sets:
+            for faculty in faculty_set:
+                if faculty in self.faculty_occurence_dict:
+                    self.faculty_occurence_dict[faculty] += 1
+                    continue
+                else:
+                    self.faculty_occurence_dict[faculty] = 1
+         
     
     def filter_names_by_initials(self, author_set):
         """
@@ -131,8 +144,34 @@ class DuplicateNameHandlerEdgeCases(DuplicateNameHandler):
         Controls the flow of the class calling neccesary function to handle the edge case of near duplicates slipping through
         preprocessing.
         """
-        # list
-        faculty_sets = self.extract_faculty_sets(category_dict)
+        self.temp_dict = copy.deepcopy(category_dict)
+        
+        # list of all faculty sets
+        faculty_sets = self.extract_faculty_sets(self.temp_dict)
+        
+        # Iterate through each category and faculty set
+        for category, faculty_set in self.temp_dict.items():
+            filtered_set = self.filter_names_by_initials(faculty_set)
+            final_set = self.duplicate_postprocessor(filtered_set, faculty_sets)
+            
+            # Update original dict with processed set (right now a temp dict)
+            self.temp_dict[category]['faculty_set'] = final_set
+            
+    def duplicate_postprocessory(self, faculty_set, faculty_sets):
+        """
+        Processes a set of author names to remove near duplicates, keeping the most frequently occurring name across all sets.
+        
+        Args:
+            author_set (set): A set of author names to process.
+            faculty_sets (list): A list of all sets of author names.
+        
+        Returns:
+            set: A set of author names after removing near duplicates.
+        """
+        for faculty_set in faculty_sets:
+            processed_set = set()
+            
+            
         
         
     """
