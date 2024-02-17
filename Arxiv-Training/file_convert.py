@@ -1,5 +1,5 @@
 import pandas as pd
-import torch
+#import torch
 import numpy as np
 import json
 from striprtf.striprtf import rtf_to_text
@@ -25,6 +25,16 @@ class File_Convert():
 
         if output_format == 'json':
             self.to_json('rtf')
+    
+    def from_WOS(self):
+        with open(self.path, 'r') as file:
+          self.file = file.read()
+          self.file = self.file.splitlines()
+          self.file = [i for i in self.file if 'AB ' in i]
+          with open('./abstracts.txt', 'w') as outfile:
+            print(self.file, file=outfile)
+          
+        
 
     def to_json(self, type):
         if type == 'csv':
