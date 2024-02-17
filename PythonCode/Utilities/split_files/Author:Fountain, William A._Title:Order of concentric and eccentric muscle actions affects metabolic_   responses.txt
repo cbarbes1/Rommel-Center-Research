@@ -35,7 +35,7 @@ C1 [Fountain, William A.; Valenti, Zackary J.; Lynch, Colleen E.; Guarnera, Sama
 C3 University System of Maryland; Salisbury University
 RP Mazzetti, SA (corresponding author), Salisbury Univ, Sch Hlth Sci, Lab Human Performance, Camden Ave 1101, Salisbury, MD 21801 USA.
 EM samazzetti@salisbury.edu
-OI Fountain, William/0000-0002-7995-8160; Meister, Ben/0000-0001-6241-2252
+OI Meister, Ben/0000-0001-6241-2252; Fountain, William/0000-0002-7995-8160
 FU Salisbury University School of Health Sciences
 FX This study was funded by the Salisbury University School of Health
    Sciences.

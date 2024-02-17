@@ -9,7 +9,7 @@ TI Shareholder reactions to corporate label change: evidence from South
    Korean firms
 SO ASIA PACIFIC JOURNAL OF MARKETING AND LOGISTICS
 LA English
-DT Article; Early Access
+DT Article
 DE Shareholder reaction; Corporate label change; Event study; South Korea
 ID BRAND; PERFORMANCE; IMPACT; ENTRY; RESOURCES; IDENTITY; INERTIA; GROWTH;
    IMAGE; SIZE
@@ -26,21 +26,26 @@ Z9 0
 U1 0
 U2 0
 PU EMERALD GROUP PUBLISHING LTD
-PI BINGLEY
-PA HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
+PI Leeds
+PA Floor 5, Northspring 21-23 Wellington Street, Leeds, W YORKSHIRE,
+   ENGLAND
 SN 1355-5855
 EI 1758-4248
 J9 ASIA PAC J MARKET LO
 JI Asia Pac. J. Market. Logist.
-PD 2023 JAN 30
+PD NOV 13
 PY 2023
+VL 35
+IS 9
+BP 2235
+EP 2250
 DI 10.1108/APJML-12-2021-0867
 EA JAN 2023
 PG 16
 WC Business
 WE Social Science Citation Index (SSCI)
 SC Business & Economics
-GA 8D8ME
+GA GP6S0
 UT WOS:000918540400001
 DA 2024-02-08
 ER

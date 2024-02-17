@@ -22,9 +22,9 @@ EM DLChambers@salisbury.edu; colinoreilly@creighton.edu
 RI O'Reilly, Colin/ADN-9734-2022
 OI O'Reilly, Colin/0000-0002-9691-2017
 NR 133
-TC 7
-Z9 8
-U1 3
+TC 8
+Z9 9
+U1 2
 U2 17
 PU SPRINGER
 PI DORDRECHT

@@ -27,10 +27,10 @@ FU Special thanks extend to my colleague, Brent Skeeter, for perusing the
 FX Special thanks extend to my colleague, Brent Skeeter, for perusing the
    article and providing some insightful comments.
 NR 81
-TC 0
-Z9 0
-U1 6
-U2 6
+TC 1
+Z9 1
+U1 7
+U2 7
 PU MDPI
 PI BASEL
 PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
@@ -49,6 +49,6 @@ WE Emerging Sources Citation Index (ESCI)
 SC Environmental Sciences & Ecology
 GA W1TL9
 UT WOS:001089527200001
-OA gold, Green Published
+OA Green Published, gold
 DA 2024-02-08
 ER

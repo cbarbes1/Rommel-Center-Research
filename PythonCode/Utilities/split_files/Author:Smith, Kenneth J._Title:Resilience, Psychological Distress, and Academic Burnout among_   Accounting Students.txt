@@ -17,12 +17,12 @@ C1 [Smith, Kenneth J.; Emerson, David J.] Salisbury Univ, Salisbury, MD 21801 US
 C3 University System of Maryland; Salisbury University
 RP Smith, KJ (corresponding author), Salisbury Univ, Salisbury, MD 21801 USA.
 EM kjsmith@salisbury.edu; djemerson@salisbury.edu
-RI Emerson, David/R-9940-2019; Smith, Kenneth/HOH-9815-2023
-OI Emerson, David/0000-0002-8405-9223; 
+RI Smith, Kenneth/HOH-9815-2023; Emerson, David/R-9940-2019
+OI Emerson, David/0000-0002-8405-9223
 NR 89
 TC 8
 Z9 8
-U1 1
+U1 0
 U2 45
 PU WILEY
 PI HOBOKEN
