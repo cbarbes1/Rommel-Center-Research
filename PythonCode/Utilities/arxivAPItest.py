@@ -1,4 +1,5 @@
 import arxiv
+import requests
 
 """search = arxiv.Search(
     query = "Determining the most recent common ancestor in a finite linear habitat with asymmetric dispersal",
@@ -14,7 +15,7 @@ with libreq.urlopen('http://export.arxiv.org/api/query?search_query=all:electron
     r = url.read()
 print(r)"""
 
-import requests
+"""
 
 url = "https://export.arxiv.org/api/query?"
 
@@ -28,5 +29,14 @@ search_params = {
 
 response = requests.get(url, params=search_params)
 
-print(response.text)
+print(response.text)"""
 
+
+url = "https://export.arxiv.org/api/classify"
+
+file_path = "./document.pdf"
+
+with open(file_path, "rb") as file:
+    response = requests.post(url, files={"file": file})
+    
+print(response.text)
