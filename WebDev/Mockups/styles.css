@@ -1,0 +1,48 @@
+
+.header{
+    background-color: #620000;
+    border-bottom: 4px solid #fdb347;
+    text-align: left;
+    text-transform: uppercase;
+    color:#fff;
+    margin:auto;
+}
+.search{
+    background-color: darkgrey;
+    height:auto;
+    padding:10px;
+}
+.Information{
+    width: 600px;
+    margin:auto;
+    height: 700px;
+    background-color:antiquewhite;
+    border:10px #000000;
+    
+}
+.thing{
+    width:575px;
+    height:200px;
+    margin:auto;
+    background-color: #620000;
+    color:#fff;
+    font-family:sans-serif;
+    font-size: 15px;
+
+}
+.top{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom:10px #fdb347;
+}
+.stats{
+    width:600px;
+    height:300px;
+    border-bottom: #000000;
+}
+.citations{
+    width:400;
+    height:200;
+    background-color: #620000;
+    color:#fff;
+}
