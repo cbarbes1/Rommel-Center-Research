@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import tensorflow as tf
 import ijson
@@ -6,14 +7,21 @@ import numpy as np
 import warnings
 import gensim.downloader as api
 from sklearn.preprocessing import MultiLabelBinarizer
+from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from nltk.corpus import stopwords
+from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
+
+from nltk.corpus import stopwords, wordnet
 from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
 
-nltk.download('punkt')
-nltk.download('stopwords')
+download_dir = os.getcwd()
 
+nltk.download('punkt', download_dir=download_dir)
+nltk.download('stopwords', download_dir=download_dir)
+nltk.download('wordnet', download_dir=download_dir)
+nltk.download('omw-1.4', download_dir=download_dir)
 # file name
 # 'arxiv-metadata-oai-snapshot.json'
 
@@ -98,6 +106,7 @@ class ModelTools:
         self.tf_dataset = None # TensorFlow dataset
         if use_word_embeddings:
             self.word_vectors = api.load("word2vec-google-news-300")
+        self.lemmatizer = WordNetLemmatizer()
         
     # call this first to process the file you initialized your object with
     def load_and_preprocess_data(self) -> None:
@@ -110,6 +119,12 @@ class ModelTools:
             expected_columns = ['abstract', 'categories']
             if not all(column in self.df.columns for column in expected_columns):
                 raise ValueError("Loaded data does not contain all the expected columns.")
+        except FileNotFoundError as e:
+            warnings.warn(f"File not found: {self.filename}")
+            return
+        except IOError as e:
+            warnings.warn(f"IO error occured while loading {self.filename}: {e}")
+            return
         except Exception as e:
             warnings.warn(f"Failed to load data from {self.filename}: {e}")
             return
@@ -138,8 +153,9 @@ class ModelTools:
         text = text.lower() # Make lowercase to ensure consistency
         stop_words = set(stopwords.words('english'))
         word_tokens = word_tokenize(text)
-        filtered_sentence = [word for word in word_tokens if word not in stop_words]
-        return " ".join(filtered_sentence)
+        # Lemmatize (reduce words to their root form) if it's not a stopword
+        lemmatized_sequence = [self.lemmatizer.lemmatize(word) for word in word_tokens if word not in stop_words]
+        return " ".join(lemmatized_sequence)
 
     def _vectorize_text(self, text: str):
         """Averages word vectors for a text abstract"""
@@ -153,11 +169,17 @@ class ModelTools:
         
     def make_tf_dataset(self) -> None:
         """Converts preprocessed data and encoded labels into a TF dataset"""
+        features = None
         if self.use_word_embeddings:
             features = np.stack(self.df['vectorized_abstracts'].values)
         else:
-            features = self.df['padded_abstracts'].tolist()
-        
+            self.df['tokenized_abstracts'] = self.tokenizer.texts_to_sequences(self.df['processed_abstracts'])
+            self.df['padded_abstracts'] = list(pad_sequences(self.df['tokenized_abstracts'],
+                                                             maxlen=self.max_length,
+                                                             padding='post',
+                                                             truncating='post'))
+            features = np.array(self.df['padded_abstracts'].tolist())
+            
         if not self.df.empty and self.encoded_categories is not None:
             self.tf_dataset = tf.data.Dataset.from_tensor_slices((features, self.encoded_categories))
             self.tf_dataset = self.tf_dataset.shuffle(buffer_size=len(self.df))
