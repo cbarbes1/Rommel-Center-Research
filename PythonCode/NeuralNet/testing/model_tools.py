@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
-
+import tensorflow_hub as hub # for using pre-trained embeddings directly within TF
 from nltk.corpus import stopwords, wordnet
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -34,61 +34,24 @@ DEFINITIONS:
 """
 
 """
-EXAMPLE USAGE:
+WHAT THIS IS SUPPOSED TO DO (HIGH LEVEL: IT IS NOT FULLY TESTED YET SO IT MAY CHANGE)
+- Support for loading arXiv JSON data directly into a Pandas DataFrame
+- Support for multiple preprocessing options (to make testing different ones easy)
+    - TF's TextVectorization for tokenization and padding
+    - TF's Hub KerasLayer for pre-trained word embeddings
+    - NLTK for tokenization, lemmatization, and padding
+    - gensim for pre-trained word embeddings
+- Automatically splits dataset into training, validation, and testing sets
+    - hopefully this will make it easy to evaluate the model
+- Encodes categorical labels (the abstracts categories) using sklearn's MultiLabelBinarizer
+    - This is for multi-label classification
+- Creates TF datasets for processed features and labels
+- Uses batching, shuffling, and prefeching to hopefully imporve model training performance
 
-# INTIALIZATION
-
-tools = ModelTools(filename='arxiv-metadata-oai-snapshot.json', batch_size=32, max_vocab_size=25000, max_length=200)
-
-tools.load_and_preprocess_data()
-
-# LOADING/ PREPROCESSING OF DATA
-
-Calling tools.load_and_preprocess_data() starts data loading and preprocessing workflow
-
-How it works (theoretically):
-- JSON file is read into a Pandas Dataframe (self.df). Each row corresponds to an entry in the JSON file, with columns for each attribute ('id', 'abstract', 'categories', etc)
-
-**Preprocessing abstracts:**
-- Text Cleaning and Tokenization: Each abstract is processed by '_preprocess_text()', which removes stopwords and tokenizes the text (splits it into words or tokens)
-
-Example transformation:
-The Abstract: 
-"Quantum computing offers promising solutions. However, challenges remain."
-
-Becomes:
-"Quatum computing offers promising solutions However challenges remain"
-
-self.df['processed_abstracts'] is created by applying _preprocess_text() to each abstract
-
-
-
-**Tokenize and Pad abstracts**
-How it works (theoretically):
-- Abstracts are converted into sequences of ints using the tf Tokenizer, each integer represents a unique word.
-- Sequences are then padded to ensure they all have the same length of 'max_length'
-
-Example transformation:
-Categories:
-"quant-ph cs.LG"
-
-Become:
-A binary representation, something like [1, 0, 1, 0, ...]
-The above matrix is stored in 'self.encoded_categories'
-
-
-
-# CREATING TF DATASET
-TF dataset 'self.tf_dataset' begins and None and is created from the padded abstract sequences and the binary encoded categories
-
-'tf.data.Dataset.from_tensor_slices()' pairs each abstract with its corresponding category vector. The dataset is then shuffled and batched according to 'self.batch_size'
-it is then prefetcehd to (hopefully) optimize training performance
-
-
-
-# ACCESSING TF DATASET
-'tools.get_tf_dataset()' can be called, it will return the TF dataset ready to use in training of a model
-Note: if the TF dataset has not yet been created it will inform the user they need to go through those steps first.
+Example Usage:
+1. Initialize ModelTools object with path to JSON. Optionally provide batch size, vocabulary size, and sequence length.
+2. Call load_and_preprocess_data() to load and prepare the datasets.
+3. Access the prepared TF datasets for training, validation, and testing via get_tf_dataset()
 """
 
 class ModelTools:
@@ -102,6 +65,17 @@ class ModelTools:
         self.use_word_embeddings = use_word_embeddings
         self.mlb = MultiLabelBinarizer()
         self.tokenizer = Tokenizer(num_words=max_vocab_size, oov_token="<OOV>")
+        
+        self.embeddings_layer = None
+        if use_word_embeddings:
+            self.embeddings_layer = hub.KerasLayer("https://tfhub.dev/google/word2vec-google-news-300/2",
+                                                   input_shape=[], dtype=tf.string, trainable=True)
+        
+        self.text_vectorization = TextVectorization(max_tokens=max_vocab_size, 
+                                                    output='int', 
+                                                    output_sequence_length=max_length)
+        
+        
         self.df = pd.DataFrame() # pandas dataframe to hold all data
         self.tf_dataset = None # TensorFlow dataset
         if use_word_embeddings:
@@ -110,14 +84,10 @@ class ModelTools:
         
     # call this first to process the file you initialized your object with
     def load_and_preprocess_data(self) -> None:
-        """Loads data from JSON file into a Pandas DataFrame and preprocesses text."""
         try:
-            # Load data
             with open(self.filename, 'rb') as file:
                 self.df = pd.DataFrame(list(ijson.items(file, 'item')))
-            # Validate that the dataframe has the expected columns
-            expected_columns = ['abstract', 'categories']
-            if not all(column in self.df.columns for column in expected_columns):
+            if not {'abstract', 'categories'}.issubset(self.df.columns):
                 raise ValueError("Loaded data does not contain all the expected columns.")
         except FileNotFoundError as e:
             warnings.warn(f"File not found: {self.filename}")
@@ -129,69 +99,133 @@ class ModelTools:
             warnings.warn(f"Failed to load data from {self.filename}: {e}")
             return
         
-        # Preprocess abstracts
-        self.df['processed_abstracts'] = self.df['abstract'].apply(self._preprocess_text)
-        if self.use_word_embeddings:
-            self.df['vectorized_abstracts'] = self.df['processed_abstracts'].apply(self._vectorize_text)
-        else:
-            # Tokenize and pad abstracts
-            self.df['tokenized_abstracts'] = self.tokenizer.texts_to_sequences(self.df['processed_abstracts'])
-            self.df['padded_abstracts'] = list(pad_sequences(self.df['tokenized_abstracts'], 
-                                                            maxlen=self.max_length, 
-                                                            padding='post', 
-                                                            truncating='post'))
+        # Split the data first to avoid information leakage during vectorization fitting
+        train_df, test_df = train_test_split(self.df, test_size=0.2, random_state=42)
+        train_df, val_df = train_test_split(train_df, test_size=0.25, random_state=42) # 0.25 x 0.8 = 0.2
         
-        # Split categories and encode
-        self.df['categories_list'] = self.df['categories'].str.split(' ')
-        self.encoded_categories = self.mlb.fit_transform(self.df['categories_list'].tolist())
+        if not self.use_word_embeddings:
+            # Prepare text Vectorization layer
+            self.text_vectorization.adapt(train_df['abstract'].to_numpy())
+            train_texts = self.text_vectorization(train_df['abstract'].to_numpy())
+            val_texts = self.text_vectorization(val_df['abstract'].to_numpy())
+            test_texts = self.text_vectorization(test_df['abstract'].to_numpy())
+        else:
+            # Directly use embeddings for TF models
+            train_texts = train_df['abstract']
+            val_texts = val_df['abstract']
+            test_texts = test_df['abstract']
+        
+        # Encode labels (categories)
+        self.mlb.fit(self.df['categories'].str.split(' ').tolist())
+        train_labels = self.mlb.transform(train_df['categories'].str.split(' ').tolist())
+        val_labels = self.mlb.transform(val_df['categories'].str.split(' ').tolist())
+        test_labels = self.mlb.transform(test_df['categories'].str.split(' ').tolist())
         
         # Create TF dataset
-        self.make_tf_dataset()
+        self.train_dataset = tf.data.Dataset.from_tensor_slices((train_texts, train_labels)).shuffle(len(train_texts)).batch(self.batch_size).prefetch(tf.data.AUTOTUNE)
+        self.val_dataset = tf.data.Dataset.from_tensor_slices((val_texts, val_labels)).batch(self.batch_size).prefetch(tf.data.AUTOTUNE)
+        self.test_dataset = tf.data.Dataset.from_tensor_slices((test_texts, test_labels)).batch(self.batch_size).prefetch(tf.data.AUTOTUNE)
         
-    def _preprocess_text(self, text: str) -> str:
-        """Preprocess a single text abstract by removing stopwords and tokenizing."""
-        text = text.lower() # Make lowercase to ensure consistency
-        stop_words = set(stopwords.words('english'))
-        word_tokens = word_tokenize(text)
-        # Lemmatize (reduce words to their root form) if it's not a stopword
-        lemmatized_sequence = [self.lemmatizer.lemmatize(word) for word in word_tokens if word not in stop_words]
-        return " ".join(lemmatized_sequence)
+        # CHANGES EXPLAINED
+        # preprocessing and vectorization methods are unecessary if using TextVectorization or hub.KerasLayer for embeddings
+        # This is why they have been removed from the class and moved to the bottom of the file and commented out
+        
+    def get_tf_dataset(self):
+        return self.train_dataset, self.val_dataset, self.test_dataset
+        
+        
+        
+        
+        
+"""
+PREVIOUS FUNCTIONS BELOW
 
-    def _vectorize_text(self, text: str):
-        """Averages word vectors for a text abstract"""
-        vectors = [self.word_vectors[word] for word in text.split() if word in self.word_vectors]
-        if vectors:
-            return np.mean(vectors, axis=0)
-        else:
-            # Add small epsilon value to the zero vector to account for models that don't like zero vectors
-            epsilon = 1e-9
-            return np.zeros(300) + epsilon
+"""
+
+    # # call this first to process the file you initialized your object with
+    # def load_and_preprocess_data(self) -> None:
+    #     """Loads data from JSON file into a Pandas DataFrame and preprocesses text."""
+    #     try:
+    #         # Load data
+    #         with open(self.filename, 'rb') as file:
+    #             self.df = pd.DataFrame(list(ijson.items(file, 'item')))
+    #         # Validate that the dataframe has the expected columns
+    #         expected_columns = ['abstract', 'categories']
+    #         if not all(column in self.df.columns for column in expected_columns):
+    #             raise ValueError("Loaded data does not contain all the expected columns.")
+    #     except FileNotFoundError as e:
+    #         warnings.warn(f"File not found: {self.filename}")
+    #         return
+    #     except IOError as e:
+    #         warnings.warn(f"IO error occured while loading {self.filename}: {e}")
+    #         return
+    #     except Exception as e:
+    #         warnings.warn(f"Failed to load data from {self.filename}: {e}")
+    #         return
         
-    def make_tf_dataset(self) -> None:
-        """Converts preprocessed data and encoded labels into a TF dataset"""
-        features = None
-        if self.use_word_embeddings:
-            features = np.stack(self.df['vectorized_abstracts'].values)
-        else:
-            self.df['tokenized_abstracts'] = self.tokenizer.texts_to_sequences(self.df['processed_abstracts'])
-            self.df['padded_abstracts'] = list(pad_sequences(self.df['tokenized_abstracts'],
-                                                             maxlen=self.max_length,
-                                                             padding='post',
-                                                             truncating='post'))
-            features = np.array(self.df['padded_abstracts'].tolist())
+    #     # Preprocess abstracts
+    #     self.df['processed_abstracts'] = self.df['abstract'].apply(self._preprocess_text)
+    #     if self.use_word_embeddings:
+    #         self.df['vectorized_abstracts'] = self.df['processed_abstracts'].apply(self._vectorize_text)
+    #     else:
+    #         # Tokenize and pad abstracts
+    #         self.df['tokenized_abstracts'] = self.tokenizer.texts_to_sequences(self.df['processed_abstracts'])
+    #         self.df['padded_abstracts'] = list(pad_sequences(self.df['tokenized_abstracts'], 
+    #                                                         maxlen=self.max_length, 
+    #                                                         padding='post', 
+    #                                                         truncating='post'))
+        
+    #     # Split categories and encode
+    #     self.df['categories_list'] = self.df['categories'].str.split(' ')
+    #     self.encoded_categories = self.mlb.fit_transform(self.df['categories_list'].tolist())
+        
+    #     # Create TF dataset
+    #     self.make_tf_dataset()
+
+    # def _preprocess_text(self, text: str) -> str:
+    #     """Preprocess a single text abstract by removing stopwords and tokenizing."""
+    #     text = text.lower() # Make lowercase to ensure consistency
+    #     stop_words = set(stopwords.words('english'))
+    #     word_tokens = word_tokenize(text)
+    #     # Lemmatize (reduce words to their root form) if it's not a stopword
+    #     lemmatized_sequence = [self.lemmatizer.lemmatize(word) for word in word_tokens if word not in stop_words]
+    #     return " ".join(lemmatized_sequence)
+
+    # def _vectorize_text(self, text: str):
+    #     """Averages word vectors for a text abstract"""
+    #     vectors = [self.word_vectors[word] for word in text.split() if word in self.word_vectors]
+    #     if vectors:
+    #         return np.mean(vectors, axis=0)
+    #     else:
+    #         # Add small epsilon value to the zero vector to account for models that don't like zero vectors
+    #         epsilon = 1e-9
+    #         return np.zeros(300) + epsilon
+    
+        # def get_tf_dataset(self) -> tf.data.Dataset:
+        # """Returns the TF dataset created by make_tf_dataset()"""
+        # if self.tf_dataset is not None:
+        #     return self.tf_dataset
+        # else:
+        #     print("No TF dataset to return. Ensure dataset has been made.")
+        #     return None
+        
+    # def make_tf_dataset(self) -> None:
+    #     """Converts preprocessed data and encoded labels into a TF dataset"""
+    #     features = None
+    #     if self.use_word_embeddings:
+    #         features = np.stack(self.df['vectorized_abstracts'].values)
+    #     else:
+    #         self.df['tokenized_abstracts'] = self.tokenizer.texts_to_sequences(self.df['processed_abstracts'])
+    #         self.df['padded_abstracts'] = list(pad_sequences(self.df['tokenized_abstracts'],
+    #                                                          maxlen=self.max_length,
+    #                                                          padding='post',
+    #                                                          truncating='post'))
+    #         features = np.array(self.df['padded_abstracts'].tolist())
             
-        if not self.df.empty and self.encoded_categories is not None:
-            self.tf_dataset = tf.data.Dataset.from_tensor_slices((features, self.encoded_categories))
-            self.tf_dataset = self.tf_dataset.shuffle(buffer_size=len(self.df))
-            self.tf_dataset = self.tf_dataset.batch(self.batch_size)
-            self.tf_dataset = self.tf_dataset.prefetch(buffer_size=tf.data.AUTOTUNE)
-        else:
-            warnings.warn("DataFrame is empty or categories are not encoded. Ensure data is loaded and preprocessed")
-            
-    def get_tf_dataset(self) -> tf.data.Dataset:
-        """Returns the TF dataset created by make_tf_dataset()"""
-        if self.tf_dataset is not None:
-            return self.tf_dataset
-        else:
-            print("No TF dataset to return. Ensure dataset has been made.")
-            return None
+    #     if not self.df.empty and self.encoded_categories is not None:
+    #         self.tf_dataset = tf.data.Dataset.from_tensor_slices((features, self.encoded_categories))
+    #         self.tf_dataset = self.tf_dataset.shuffle(buffer_size=len(self.df))
+    #         self.tf_dataset = self.tf_dataset.batch(self.batch_size)
+    #         self.tf_dataset = self.tf_dataset.prefetch(buffer_size=tf.data.AUTOTUNE)
+    #     else:
+    #         warnings.warn("DataFrame is empty or categories are not encoded. Ensure data is loaded and preprocessed")
