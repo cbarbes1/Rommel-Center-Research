@@ -2,6 +2,7 @@ import pandas as pd
 import tensorflow as tf
 import ijson
 import nltk
+import numpy as np
 import warnings
 import gensim.downloader as api
 from sklearn.preprocessing import MultiLabelBinarizer
@@ -95,6 +96,8 @@ class ModelTools:
         self.tokenizer = Tokenizer(num_words=max_vocab_size, oov_token="<OOV>")
         self.df = pd.DataFrame() # pandas dataframe to hold all data
         self.tf_dataset = None # TensorFlow dataset
+        if use_word_embeddings:
+            self.word_vectors = api.load("word2vec-google-news-300")
         
     # call this first to process the file you initialized your object with
     def load_and_preprocess_data(self) -> None:
@@ -102,21 +105,26 @@ class ModelTools:
         try:
             # Load data
             with open(self.filename, 'rb') as file:
-                data = list(ijson.items(file, 'item'))
-                self.df = pd.DataFrame(data)
+                self.df = pd.DataFrame(list(ijson.items(file, 'item')))
+            # Validate that the dataframe has the expected columns
+            expected_columns = ['abstract', 'categories']
+            if not all(column in self.df.columns for column in expected_columns):
+                raise ValueError("Loaded data does not contain all the expected columns.")
         except Exception as e:
             warnings.warn(f"Failed to load data from {self.filename}: {e}")
             return
         
         # Preprocess abstracts
         self.df['processed_abstracts'] = self.df['abstract'].apply(self._preprocess_text)
-        
-        # Tokenize and pad abstracts
-        self.df['tokenized_abstracts'] = self.tokenizer.texts_to_sequences(self.df['processed_abstracts'])
-        self.df['padded_abstracts'] = list(pad_sequences(self.df['tokenized_abstracts'], 
-                                                         maxlen=self.max_length, 
-                                                         padding='post', 
-                                                         truncating='post'))
+        if self.use_word_embeddings:
+            self.df['vectorized_abstracts'] = self.df['processed_abstracts'].apply(self._vectorize_text)
+        else:
+            # Tokenize and pad abstracts
+            self.df['tokenized_abstracts'] = self.tokenizer.texts_to_sequences(self.df['processed_abstracts'])
+            self.df['padded_abstracts'] = list(pad_sequences(self.df['tokenized_abstracts'], 
+                                                            maxlen=self.max_length, 
+                                                            padding='post', 
+                                                            truncating='post'))
         
         # Split categories and encode
         self.df['categories_list'] = self.df['categories'].str.split(' ')
@@ -130,19 +138,33 @@ class ModelTools:
         text = text.lower() # Make lowercase to ensure consistency
         stop_words = set(stopwords.words('english'))
         word_tokens = word_tokenize(text)
-        filtered_sentence = [word for word in word_tokens if not word.lower() in stop_words]
+        filtered_sentence = [word for word in word_tokens if word not in stop_words]
         return " ".join(filtered_sentence)
 
+    def _vectorize_text(self, text: str):
+        """Averages word vectors for a text abstract"""
+        vectors = [self.word_vectors[word] for word in text.split() if word in self.word_vectors]
+        if vectors:
+            return np.mean(vectors, axis=0)
+        else:
+            # Add small epsilon value to the zero vector to account for models that don't like zero vectors
+            epsilon = 1e-9
+            return np.zeros(300) + epsilon
+        
     def make_tf_dataset(self) -> None:
         """Converts preprocessed data and encoded labels into a TF dataset"""
+        if self.use_word_embeddings:
+            features = np.stack(self.df['vectorized_abstracts'].values)
+        else:
+            features = self.df['padded_abstracts'].tolist()
+        
         if not self.df.empty and self.encoded_categories is not None:
-            dataset = tf.data.Dataset.from_tensor_slices((self.df['padded_abstracts'].tolist(), 
-                                                          self.encoded_categories))
-            self.tf_dataset = dataset.shuffle(buffer_size=len(self.df))
+            self.tf_dataset = tf.data.Dataset.from_tensor_slices((features, self.encoded_categories))
+            self.tf_dataset = self.tf_dataset.shuffle(buffer_size=len(self.df))
             self.tf_dataset = self.tf_dataset.batch(self.batch_size)
             self.tf_dataset = self.tf_dataset.prefetch(buffer_size=tf.data.AUTOTUNE)
         else:
-            warnings.warn("Dataframe is empty or categories are not encoded. Ensure data is loaded and preprocessed")
+            warnings.warn("DataFrame is empty or categories are not encoded. Ensure data is loaded and preprocessed")
             
     def get_tf_dataset(self) -> tf.data.Dataset:
         """Returns the TF dataset created by make_tf_dataset()"""
