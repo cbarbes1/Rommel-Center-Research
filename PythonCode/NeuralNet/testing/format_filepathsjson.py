@@ -3,7 +3,7 @@ import json
 data = []
 
 # load existing JSON data
-with open('arxiv-metadata-oai-snapshot-1000.json', 'r') as file:
+with open('arxiv-metadata-oai-snapshot.json', 'r') as file:
     for line in file:
         data.append(json.loads(line))
     

@@ -39,7 +39,9 @@ for abstract, category in arxiv_ab_cats.items():
 mlb = MultiLabelBinarizer()
 
 encoded_cats = mlb.fit_transform(categories)
-#print(encoded_cats)
+print(encoded_cats)
+
+
 
 """
 Text Processing
@@ -58,7 +60,7 @@ This involves tokenization and padding
 tokenizer = Tokenizer(num_words=10115, oov_token="<OOV>")
 tokenizer.fit_on_texts(abstracts)
 sequences = tokenizer.texts_to_sequences(abstracts)
-padded_sequences = pad_sequences(sequences, maxlen=200, padding='post')
+padded_sequences = pad_sequences(sequences, maxlen=1000, padding='post')
 
 
 
@@ -67,7 +69,7 @@ padded_sequences = pad_sequences(sequences, maxlen=200, padding='post')
 #from tensorflow.keras.layers import Embedding, GlobalAveragePooling1D, Dense
 
 model = Sequential([
-    Embedding(input_dim=10115, output_dim=16, input_length=200),
+    Embedding(input_dim=10115, output_dim=16, input_length=1000),
     Dropout(0.2),
     GlobalAveragePooling1D(),
     Dense(128, activation='relu'),
@@ -83,10 +85,10 @@ Versions of each metric to see which works better
 #model.compile(optimizer='adam', loss='binary_crossentropy', metrics=[BinaryAccuracy(name='accuracy')])
 
 # allow tensorflow to determine the best metric
-model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+#model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Precision
-#model.compile(optimizer='adam', loss='binary_crossentropy', metrics=[tf.keras.metrics.Precision(name='precision')])
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=[tf.keras.metrics.Precision(name='precision')])
 
 # Recall
 #model.compile(optimizer='adam', loss='binary_crossentropy', metrics=[tf.keras.metrics.Recall(name='recall')])
@@ -102,7 +104,7 @@ Training the Model
 feed padded sequences of abstracts and the binary-encoded categories
 """
 # Training the model
-model.fit(padded_sequences, encoded_cats, epochs=10, validation_split=0.4)
+model.fit(padded_sequences, encoded_cats, epochs=10, validation_split=0.2)
 
 # fit for F1
-# model.fit(padded_sequences, encoded_cats_for_F1, epochs=10, validation_split=0.4)
+#model.fit(padded_sequences, encoded_cats_for_F1, epochs=10, validation_split=0.3)
