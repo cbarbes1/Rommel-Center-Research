@@ -2,6 +2,7 @@ import re
 import os
 import warnings
 import time
+import json
 # TODO: make documentation on the class and it's methods
 
 """
@@ -81,9 +82,22 @@ class Utilities():
         #time.sleep(100)
         return attribute_results
 
-    def extract_abstract(self, entry_text):
-        
-        
+    def extract_abstract_and_categories_from_file(self):
+        dir_path = "./split_files"
+        results = {}
+        for filename in os.listdir(dir_path):
+            file_path = os.path.join(dir_path, filename)
+            if os.path.isfile(file_path):
+                with open(file_path, 'r') as file:
+                    file_content = file.read()
+                attributes = self.get_attributes(file_content, ['abstract', 'wc_pattern'])
+                
+                abstract = attributes['abstract'][1] if ['abstract'][0] else None
+                categories = attributes['wc_pattern'][1] if ['wc_pattern'] else []
+                
+                if abstract:
+                    results[abstract] = categories
+        return results
     
     def extract_dept_name(self, c1_tag):
         match = self.dept_pattern.search(c1_tag)
@@ -265,6 +279,35 @@ class Utilities():
             os.makedirs(path, exist_ok=True)
         return path
 
+    def abstract_to_categories_mapping(self, entry_text):
+        """
+        Extracts the abstract and categories from the entry text and returns a dictionary
+        with the abstract as the key and categories as the value.
+
+        Parameters:
+            entry_text (str): The text of the article entry.
+
+        Returns:
+            dict: A dictionary with the abstract as the key and a list of categories as the value.
+        """
+        # Extract attributes
+        attributes = self.get_attributes(entry_text, ['abstract', 'wc_pattern'])
+        
+        
+        # Initializes the result dictionary
+        result = {}
+        
+        # Extract the abstract and categories from the attributes dictionary
+        abstract = attributes['abstract'][1] if attributes ['abstract'][0] else None
+        categories = attributes ['wc_pattern'][1] if attributes ['wc_pattern'][0] else []
+        
+        # Check if abstract and categories were successfully extracted
+        if abstract and categories:
+            # map the abstract to the categories in the result dictionary
+            result[abstract] = categories
+            
+        return result
+    
     def splitter(self, path_to_file):
         """
         Splits a document into individual entries based on a specified delimiter.
@@ -360,3 +403,10 @@ class Utilities():
                 print(f"File {path} already exists. Skipping.")
 
         return file_paths
+
+if __name__ == "__main__":
+    utils = Utilities()
+    results = utils.extract_abstract_and_categories_from_file()
+    pretty_results = json.dumps(results, indent=4)
+
+    print(pretty_results)
