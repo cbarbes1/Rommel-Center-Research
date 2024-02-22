@@ -407,6 +407,5 @@ class Utilities():
 if __name__ == "__main__":
     utils = Utilities()
     results = utils.extract_abstract_and_categories_from_file()
-    pretty_results = json.dumps(results, indent=4)
-
-    print(pretty_results)
+    with open('abstracts_to_categories.json', 'w') as json_file:
+        json.dump(results, json_file, indent=4)
