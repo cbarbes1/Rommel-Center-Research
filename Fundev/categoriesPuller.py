@@ -8,7 +8,7 @@ except:
 
 data = json.load(file)
 
-for i in data['Plant Sciences']:
-    print(i)
+for i, j in data['Plant Sciences'].items():
+    print(i, j)
 
 file.close()
