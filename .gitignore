@@ -160,3 +160,7 @@ cython_debug/
 #.idea/
 
 elsevierAPIkey.txt
+arxiv-metadata-oai-snapshot.json
+/NeuralNet
+/testing
+/NeuralNet/testing
