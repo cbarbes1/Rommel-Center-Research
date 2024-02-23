@@ -1,6 +1,14 @@
 import json
 
-with open('categories_and_category_metadata.json', 'r') as file:
-    data = json.load(file)
+try:
+    file = open('keyPaths.json', 'r')
+except:
+    print("file not found")
 
-print(data)
+
+data = json.load(file)
+
+for i in data['Plant Sciences']:
+    print(i)
+
+file.close()
