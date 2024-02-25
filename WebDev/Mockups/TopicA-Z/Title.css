@@ -10,14 +10,14 @@
     background-color:gold;
     overflow: hidden;
     height:45px;
-    color:black
+    color:black;
 }
 .column {
     float: left;
     width: 25%;
     padding: 10px;
     box-sizing: border-box; 
-    border:2px solid black
+    border:2px solid black;
     
 }
 
@@ -25,4 +25,9 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.scroll-container {
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh; /* Set height to full viewport height */
 }
