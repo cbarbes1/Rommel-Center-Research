@@ -10,6 +10,7 @@
   
 - **Bidirectional LSTM Layers**: 
   - Features two layers, each with 128 LSTM units (Neurons), for bidirectional text processing.
+  - Tanh and Sigmoid activation functions
   - Includes L2 regularization to mitigate potential overfitting.
   
 - **Attention Layer**: 
@@ -19,8 +20,8 @@
   - Applies normalization to stabilize and accelerate training.
   
 - **Dense Layer**: 
-  - ReLU activation
-  - Fully connected to the attention layer's output.
+  - Uses ReLU activation for non-linear processing, fully connected to the attention layer's output.
+  - To prevent dead neurons, where neurons output zero and do not activate, Leaky ReLU or ELU may be considered.
   
 - **Output Layer**: 
   - Uses softmax to create a probability distribution over categories.
