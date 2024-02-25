@@ -1,0 +1,27 @@
+.flavor {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 80%;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-color: maroon;
+    height:300px;
+    color:#fff;
+}
+
+.flavor-row {
+    padding: 10px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+}
+
+.bigger-row {
+    flex: 4; 
+}
+
+.smaller-row {
+    flex: 1;
+    text-align: center; 
+}
+
