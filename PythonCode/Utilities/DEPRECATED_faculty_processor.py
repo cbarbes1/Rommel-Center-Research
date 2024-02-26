@@ -164,6 +164,41 @@ class FacultyPostprocessor:
             self.temp_dict[category]['faculty_set'] = final_set
             
     def duplicate_postprocessor(self, faculty_set, faculty_sets, similarity_threshold=0.5):
+        # Step 1: Generate MinHash signatures for all names
+        name_signatures = {}
+        all_names = set().union(*faculty_sets) # Combine all names from all sets
+        for name in all_names:
+            tokens = self.minhash_util.tokenize(name)
+            signature = self.minhash_util.compute_signature(tokens)
+            name_signatures[name] = signature
+        
+        # Step 2: Compare signatures and decide which names to keep
+        to_remove = set()
+        names_list = list(name_signatures.keys())
+        
+        # Get occurence frequency of each name across all faculty sets
+        name_frequency = {name: sum(name in f_set for f_set in faculty_sets) for name in all_names}
+        
+        for i in range(len(names_list)):
+            for j in range(i+1, len(names_list)):
+                name1, name2 = names_list[i], names_list[j]
+                signature1, signature2 = name_signatures[name1], name_signatures[name2]
+                
+                # Compare signatures
+                similarity = self.minhash_util.compare_signatures(signature1, signature2)
+                if similarity > similarity_threshold:
+                    if name_frequency[name1] > name_frequency[name2] or (name_frequency[name1] == name_frequency[name2] and name1 < name2):
+                        to_remove.add(name2)
+                    else:
+                        to_remove.add(name1)
+                        
+        refined_fac_set = [f_set - to_remove for f_set in faculty_sets]
+        print(f"\n\n\n\n\n****REFINED FAC SET 2****\n{refined_fac_set}\n\n\n\n")
+        return refined_fac_set
+        
+        
+        
+    def duplicate_postprocessor1(self, faculty_set, faculty_sets, similarity_threshold=0.5):
         """
         Detects near-duplicate names within a single set of filtered names (faculty_set) and identifies
         which version of each near-duplicate name is most common across all sets in faculty_sets.
@@ -186,17 +221,14 @@ class FacultyPostprocessor:
         # Initialize a dict to count occurences of each name variant across all sets
         name_occurences = {name: 0 for name in faculty_set}
         
-        processed_names = set()
+        final_decision = {}
         
         count = 0
         # Identify near-duplicates within faculty_set
         print(f'FACULTY SET\n {faculty_set}\n\n')
         print(f'FACULTY SETS\n {faculty_sets}\n\n')
-        to_remove = set()
+        #to_remove = set()
         for name1, signature1 in name_signatures.items():
-            if name1 in processed_names:
-                print(f"\n\nNAME1 {name1} ALREADY IN PROCESSED NAMES CONTINUING")
-                continue
             #print("for loop 1\n")
             #print(f'NAME1:\n{name1}\n')
             #print(f"SIGNATURE1:\n{signature1}\n")
@@ -214,31 +246,32 @@ class FacultyPostprocessor:
                         count2 = sum(name2 in f_set for f_set in faculty_sets)
                         
                         if count1 < count2: # name 2 occurs more get rid of name 1
-                            to_remove.add(name1)
-                            processed_names.add(name2)
+                            final_decision[name1] = 'remove'
+                            final_decision.setdefault(name2, 'keep')
                             print(f'LOOP NUM: {count}')
                             print(f'ADDED NAME1: {name1} TO REMOVE SET\n')
                         elif count1 > count2: # name 1 occurs more get rid of name 2
-                            to_remove.add(name2)
-                            processed_names.add(name1)
+                            final_decision[name2] = 'remove'
+                            final_decision.setdefault(name1, 'keep')
                             print(f'LOOP NUM: {count}')
                             print(f'ADDED NAME2: {name2} TO REMOVE SET\n')
-                        elif count1 == count2 and len(faculty_set) > 2: # name 1 and 2 are equal, keep 1 discard 2
-                            to_remove.add(name2)
-                            processed_names.add(name1)
-                            print(f'LOOP NUM: {count}')
-                            print(f'EQUAL: ADDED NAME2: {name2} TO REMOVE SET\n')
+                        # elif count1 == count2 and len(faculty_set) > 2: # name 1 and 2 are equal, keep 1 discard 2
+                        #     to_remove.add(name2)
+                        #     processed_names.add(name1)
+                        #     print(f'LOOP NUM: {count}')
+                        #     print(f'EQUAL: ADDED NAME2: {name2} TO REMOVE SET\n')
                         count += 1
-                        print(f"IN LOOP TO REMOVE\n{to_remove}\n")
-        print(f'TO REMOVE SET\n {to_remove}\n\n')
+                        #print(f"IN LOOP TO REMOVE\n{to_remove}\n")
+        #print(f'TO REMOVE SET\n {to_remove}\n\n')
         # Remove less common near-duplicate from faculty_set
-        refined_set = {name for name in faculty_set if name not in to_remove}
+        to_remove = {name for name, decision in final_decision.items() if decision == 'remove'}
+        refined_set = set(name_signatures) - to_remove
         print(f"REFINED SET\n{refined_set}")
         # Covert remaining names back to their original form
-        original_names_set = {self.faculty_preprocessor.get_original_name(name)[1] for name in refined_set}
-        print(f"ORIGINAL NAMES SET\n{original_names_set}\n")
+        #original_names_set = {self.faculty_preprocessor.get_original_name(name)[1] for name in refined_set}
+        #print(f"ORIGINAL NAMES SET\n{original_names_set}\n")
         
-        return original_names_set
+        return refined_set
                                 
             
 class MinHashUtility:
