@@ -163,7 +163,7 @@ class FacultyPostprocessor:
             # Update original dict with processed set (right now a temp dict)
             self.temp_dict[category]['faculty_set'] = final_set
             
-    def duplicate_postprocessor(self, faculty_set, faculty_sets, similarity_threshold=0.29):
+    def duplicate_postprocessor(self, faculty_set, faculty_sets, similarity_threshold=0.5):
         """
         Detects near-duplicate names within a single set of filtered names (faculty_set) and identifies
         which version of each near-duplicate name is most common across all sets in faculty_sets.
@@ -186,34 +186,49 @@ class FacultyPostprocessor:
         # Initialize a dict to count occurences of each name variant across all sets
         name_occurences = {name: 0 for name in faculty_set}
         
+        processed_names = set()
+        
+        count = 0
         # Identify near-duplicates within faculty_set
         print(f'FACULTY SET\n {faculty_set}\n\n')
         print(f'FACULTY SETS\n {faculty_sets}\n\n')
         to_remove = set()
         for name1, signature1 in name_signatures.items():
-            print("for loop 1\n")
+            if name1 in processed_names:
+                print(f"\n\nNAME1 {name1} ALREADY IN PROCESSED NAMES CONTINUING")
+                continue
+            #print("for loop 1\n")
             #print(f'NAME1:\n{name1}\n')
             #print(f"SIGNATURE1:\n{signature1}\n")
             for name2, signature2 in name_signatures.items():
                 #print(f'NAME1:\n{name2}\n')
                 #print(f"SIGNATURE1:\n{signature2}\n")
-                print("for loop 2\n")
+                #print("for loop 2\n")
                 if name1 != name2: # Avoid comparing name with itself
-                    print("if 1\n")
+                    #print("if 1\n")
                     similarity = self.minhash_util.compare_signatures(signature1=signature1, signature2=signature2)
                     if similarity > similarity_threshold:
-                        print("if 2\n")
+                        #print("if 2\n")
                         # Count occurences of each name in all faculty_sets
                         count1 = sum(name1 in f_set for f_set in faculty_sets)
                         count2 = sum(name2 in f_set for f_set in faculty_sets)
                         
                         if count1 < count2: # name 2 occurs more get rid of name 1
-                            to_remove.add(name1) 
+                            to_remove.add(name1)
+                            processed_names.add(name2)
+                            print(f'LOOP NUM: {count}')
+                            print(f'ADDED NAME1: {name1} TO REMOVE SET\n')
                         elif count1 > count2: # name 1 occurs more get rid of name 2
                             to_remove.add(name2)
+                            processed_names.add(name1)
+                            print(f'LOOP NUM: {count}')
+                            print(f'ADDED NAME2: {name2} TO REMOVE SET\n')
                         elif count1 == count2 and len(faculty_set) > 2: # name 1 and 2 are equal, keep 1 discard 2
                             to_remove.add(name2)
-                        
+                            processed_names.add(name1)
+                            print(f'LOOP NUM: {count}')
+                            print(f'EQUAL: ADDED NAME2: {name2} TO REMOVE SET\n')
+                        count += 1
                         print(f"IN LOOP TO REMOVE\n{to_remove}\n")
         print(f'TO REMOVE SET\n {to_remove}\n\n')
         # Remove less common near-duplicate from faculty_set
@@ -286,11 +301,11 @@ class MinHashUtility:
         """
         signature = [float('inf')] * self.num_hashes
         for token in tokens:
-            print(f"TOKEN:\n{token}\n")
+            #print(f"TOKEN:\n{token}\n")
             hashed_values = [hash_fn(hash(token)) for hash_fn in self.hash_fns]
             for i in range (self.num_hashes):
                 signature[i] = min(signature[i], hashed_values[i])
-        print(f"FINAL SIGNATURE:\n{signature}\n")
+        #print(f"FINAL SIGNATURE:\n{signature}\n")
         return signature
     
     def compare_signatures(self, signature1, signature2):
@@ -311,7 +326,7 @@ class MinHashUtility:
         assert len(signature1) == len(signature2), "Signatures must be of the same length | compare_signatures() in MinHashUtility class." 
         matching = sum(1 for i, j in zip(signature1, signature2) if i == j)
         similarity = matching / len(signature1)
-        print(f"CALCULATED SIMILARITY:\n{similarity}\n")
+        #print(f"CALCULATED SIMILARITY:\n{similarity}\n")
         return similarity
         
     """
