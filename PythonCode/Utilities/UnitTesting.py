@@ -48,21 +48,39 @@ def test_duplicate_postprocessor():
     
     print(f"\n\n\nALL COMPRESSED SETS\n{all_compressed_sets}\n\n\n")
     
+#     # Process each set
+#     for compressed_set in all_compressed_sets:
+#         print(f"IN LOOP PROCESSING COMPRESSED SET:\n{compressed_set}\n")
+#         fac_post.temp_dict["Sample Category"] = {"faculty_set": compressed_set}
+#         # Apply duplicate post processing
+#         fac_post.duplicate_postprocessor(compressed_set, all_compressed_sets)
+#         print(fac_post.temp_dict)
+        
+#         # Retrieve and print processed sets
+#         processed_sets = fac_post.temp_dict["Sample Category"]["faculty_set"]
+#         original_names_set = {fac_pre.get_original_name(name)[1] for name in processed_sets}
+        
+#         print(f"COMPRESSED SET PROCESSED\n {compressed_set}\n")
+#         print(f"PROCESSED SETS:\n {processed_sets}\n\n")
+#         print(f"ORIGINAL NAMES SET\n {original_names_set}")
+        
     # Process each set
-    for compressed_set in all_compressed_sets:
-        print(f"IN LOOP PROCESSING COMPRESSED SET:\n{compressed_set}\n")
-        fac_post.temp_dict["Sample Category"] = {"faculty_set": compressed_set}
+    for faculty_set in faculty_sets:
+        print(f"IN LOOP PROCESSING FACULTY SET:\n{faculty_set}\n")
+        fac_post.temp_dict["Sample Category"] = {"faculty_set": faculty_set}
         # Apply duplicate post processing
-        fac_post.duplicate_postprocessor(compressed_set, all_compressed_sets)
+        fac_post.duplicate_postprocessor(faculty_set, faculty_sets)
         print(fac_post.temp_dict)
         
         # Retrieve and print processed sets
         processed_sets = fac_post.temp_dict["Sample Category"]["faculty_set"]
         original_names_set = {fac_pre.get_original_name(name)[1] for name in processed_sets}
         
-        print(f"COMPRESSED SET PROCESSED\n {compressed_set}\n")
+        print(f"FACULTY SET PROCESSED\n {faculty_set}\n")
         print(f"PROCESSED SETS:\n {processed_sets}\n\n")
         print(f"ORIGINAL NAMES SET\n {original_names_set}")
+        
+        
 if __name__ == '__main__':
     unittest.main(exit=False)
     test_duplicate_postprocessor()
