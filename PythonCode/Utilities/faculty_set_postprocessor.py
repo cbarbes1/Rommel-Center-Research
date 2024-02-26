@@ -51,16 +51,11 @@ class FacultyPostprocessor:
     #     return self.temp_dict
     
     def remove_near_duplicates(self, category_dict):
-        # self.temp_dict = copy.deepcopy(category_dict)
-        # faculty_sets = self.extract_faculty_sets(self.temp_dict)
-        # final_set = self.duplicate_postprocessor(self.temp_dict['faculty_set'], faculty_sets)
-        # self.temp_dict['faculty_set'] = final_set
-        # return self.temp_dict
         self.temp_dict = copy.deepcopy(category_dict)
-        if 'faculty_set' in self.temp_dict:
-            faculty_sets = self.extract_faculty_sets(self.temp_dict['faculty_set'])
-            final_set = self.duplicate_postprocessor(self.temp_dict['faculty_set'], faculty_sets)
-            self.temp_dict['faculty_set'] = final_set
+        faculty_sets = self.extract_faculty_sets(self.temp_dict)
+        print(f"FACULTY SETS")
+        final_set = self.duplicate_postprocessor(self.temp_dict['faculty_set'], faculty_sets)
+        self.temp_dict['faculty_set'] = final_set
         return self.temp_dict
         
     def duplicate_postprocessor(self, faculty_set, faculty_sets, similarity_threshold=0.5):
