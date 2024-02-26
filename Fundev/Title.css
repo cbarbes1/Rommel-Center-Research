@@ -3,13 +3,14 @@
     text-align: center;
     text-transform: uppercase;
     color:#fff;
-    width:100%;
+    width:99.7%;
     height:100px;
+    border:2px solid black;
 }
 .row {
     background-color:gold;
     overflow: hidden;
-    height:45px;
+    height:85%;
     color:black;
 }
 .column {
