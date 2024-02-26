@@ -6,7 +6,7 @@
     border: 2px solid black;
     margin: 5% auto;
     background-color: maroon;
-    height:300px;
+    height:60%;
     color:#fff;
 }
 
@@ -16,8 +16,12 @@
     border: 1px solid #ccc; 
 }
 
-.bigger-row {
+.medium-row {
     flex: 4; 
+}
+
+.bigger-row {
+    flex: 8; 
 }
 
 .smaller-row {
