@@ -4,6 +4,7 @@ import json
 import warnings
 import time
 from json_transformer import JsonTransformer
+from faculty_set_postprocessor import FacultyPostprocessor
 
 #random comment so i can re-push
 
@@ -56,12 +57,12 @@ class WosClassification():
                 categories = attribute_results['wc_pattern'][1]
                 self.initialize_categories(categories=categories)
                 self.update_category_counts_files_set(categories=categories, file_name=file_path)
-                print(f'ATTRIBUTE RESULTS: {attribute_results}')
+                #print(f'ATTRIBUTE RESULTS: {attribute_results}')
                 faculty_members = attribute_results['author'][1] if attribute_results['author'][0] else 'Unknown'
                 department_members = attribute_results['department'][1] if attribute_results['department'][0] else 'Unknown'
                 
-                print(f'FACULTY MEMBERS: {faculty_members}')
-                print(f'DEPARTMENT MEMBERS: {department_members}')
+                #print(f'FACULTY MEMBERS: {faculty_members}')
+                #print(f'DEPARTMENT MEMBERS: {department_members}')
                 #time.sleep(5)
                 #print(f'Faculty Member: {faculty_member}')
                 #print(f'FACULTY_MEMBER_VALUES: {faculty_member.values()}')
@@ -79,7 +80,7 @@ class WosClassification():
                 # DEPARTMENT FETCHING
                 
     def initialize_categories(self, categories):
-        print(f'Intialize_Categories: {categories}')
+        #print(f'Intialize_Categories: {categories}')
         for i, category in enumerate(categories):
             # if category starts with 'WC ', remove it
             if category.startswith('WC '):
@@ -111,7 +112,7 @@ class WosClassification():
             category_values['department_count'] = len(category_values['department_set'])
     
     def update_category_counts_files_set(self, categories, file_name):
-        print(f'Update_Category_Counts_Files_Set: {categories}')
+        #print(f'Update_Category_Counts_Files_Set: {categories}')
         for category in categories:
             if category in self.category_counts:
                 #print(f'Category: {category}')
@@ -182,6 +183,7 @@ if __name__ == "__main__":
     split_files_directory_path = os.path.expanduser(split_files_directory_path)
     
     wos = WosClassification()
+    processor = FacultyPostprocessor()
     wos.construct_categories(directory_path=split_files_directory_path)
     json_maker = JsonTransformer()
     
@@ -192,13 +194,20 @@ if __name__ == "__main__":
         print(f'Key: {key}')
         print(f'Value: {value}')
         print("\n\n")"""
-    print("\n\n")
-    print(f"\n\nCATEGORIES: {sorted(categories.keys())}\n\n")
-    for key, value in categories.items():
-        print(f'Key: {key}')
-        print(f'Value: {value}')
-        print("\n\n")
-        #time.sleep(4)"""
+    #print("\n\n")
+    #print(f"\n\nCATEGORIES: {sorted(categories.keys())}\n\n")
+    # for key, value in categories.items():
+    #     print(f'Key: {key}')
+    #     print(f'Value: {value}')
+    #     print("\n\n")
+    #     #time.sleep(4)"""
+    categories = processor.remove_near_duplicates(category_dict=categories)
+    for category, data in categories.items():
+        if 'faculty_set' in data:
+            unique_faculty_set = data['faculty_set'][0]
+            data['faculty_count'] = len(unique_faculty_set)
+    print(categories)
+    wos.update_faculty_count()
     json_maker.make_dict_json(categories)
     
     """paper title as key, number 0 to amount of papers as value. So paper1.txt: 0
