@@ -33,3 +33,22 @@ class JsonTransformer():
                 
         with open('categories_and_category_metadata.json', 'w') as json_file:
             json.dump(new_dictionary, json_file, indent=4)
+            
+    def remove_files(self):
+        json_file_path = 'categories_and_category_metadata.json'
+        
+        with open(json_file_path, 'r') as json_file:
+            data = json.load(json_file)
+            
+        # Remove "files" key and values from each category
+        for category in data.values():
+            if "files" in category:
+                del category["files"]
+                
+        # Write modified data back into json
+        with open(json_file_path, 'w') as file:
+            json.dump(data, file, indent=4)
+            
+if __name__ == '__main__':
+    jt = JsonTransformer()
+    jt.remove_files()
