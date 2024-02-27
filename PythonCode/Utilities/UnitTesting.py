@@ -88,7 +88,6 @@ def test_faculty_post():
     print(category_data)
     postprocessor = FacultyPostprocessor()
     refined_data = postprocessor.remove_near_duplicates(category_data)
-    #print(f"REFINED DATA\n{refined_data}\n")
     print(refined_data)
     return refined_data
 
@@ -96,4 +95,3 @@ def test_faculty_post():
 if __name__ == '__main__':
     unittest.main(exit=False)
     data = test_duplicate_postprocessor()
-    #print(data)

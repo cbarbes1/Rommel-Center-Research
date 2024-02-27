@@ -41,46 +41,23 @@ class WosClassification():
         lines = file_content.splitlines()
         for line in lines:
             if line.startswith('WC'):
-                #TODO:categories = self.utils.wos_category_splitter(line)
-                #print(f'CategoryFinder_1: {categories}')
-                #TODO:categories = self.initialize_categories(categories)
-                #print(f'CategoryFinder_2: {categories}')
-                #TODO:categories = self.update_category_counts_files_set(categories, file_path)
-                #print(f'CategoryFinder_3: {categories}')
-                #self.update_faculty_count(categories)
-                #file_content = current_file.read()
-                #print(file_content)
                 attributes_to_retrieve = ['author', 'department', 'wc_pattern']
                 
-                #faculty_member = self.utils.get_attributes(entry_text=file_content, attributes=attributes_to_retrieve)
                 attribute_results = self.utils.get_attributes(entry_text=file_content, attributes=attributes_to_retrieve)
                 categories = attribute_results['wc_pattern'][1]
                 self.initialize_categories(categories=categories)
                 self.update_category_counts_files_set(categories=categories, file_name=file_path)
-                #print(f'ATTRIBUTE RESULTS: {attribute_results}')
+
                 faculty_members = attribute_results['author'][1] if attribute_results['author'][0] else 'Unknown'
                 department_members = attribute_results['department'][1] if attribute_results['department'][0] else 'Unknown'
                 
-                #print(f'FACULTY MEMBERS: {faculty_members}')
-                #print(f'DEPARTMENT MEMBERS: {department_members}')
-                #time.sleep(5)
-                #print(f'Faculty Member: {faculty_member}')
-                #print(f'FACULTY_MEMBER_VALUES: {faculty_member.values()}')
                 self.update_faculty_set(categories, faculty_members)
                 self.update_faculty_count()
                 
                 self.update_department_set_2(categories, department_members)
                 self.update_department_count()
                 
-                #time.sleep(5)
-                #print(f'Faculty_Member: {faculty_member}')
-                #time.sleep(10)
-                #categories = self.update_faculty_set(categories, faculty_member)
-
-                # DEPARTMENT FETCHING
-                
     def initialize_categories(self, categories):
-        #print(f'Intialize_Categories: {categories}')
         for i, category in enumerate(categories):
             # if category starts with 'WC ', remove it
             if category.startswith('WC '):
@@ -97,11 +74,6 @@ class WosClassification():
                     'department_set': set(),
                     'article_set': set()
                 }
-            #print(f'Category: {category}')
-            #print(f'Category Count: {self.category_counts[category]}')
-            #print("\n\n")
-            #time.sleep(4)
-        #return categories
         
     def update_faculty_count(self):
         for category_values in self.category_counts.values():
@@ -112,18 +84,12 @@ class WosClassification():
             category_values['department_count'] = len(category_values['department_set'])
     
     def update_category_counts_files_set(self, categories, file_name):
-        #print(f'Update_Category_Counts_Files_Set: {categories}')
         for category in categories:
             if category in self.category_counts:
-                #print(f'Category: {category}')
-                #print(f'File: {file_name}')
-                #print("\n\n")
-                #time.sleep(4)
                 self.category_counts[category]['files'].add(file_name)
             else:
                 warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next category.")
                 continue
-        #return categories
     
     def update_faculty_set(self, categories, faculty_members):
         # Assign the tuple of values from the faculty_member author key
@@ -136,25 +102,6 @@ class WosClassification():
             else:
                 warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next category.")
                 continue
-        #else:
-        #    raise ValueError("Failure in update_faculty_set")
-    
-    #def update_department_set(self, categories, department_members):
-        # Assign tuple of values from department_member department key
-        #is_department, departments = department_member['department']
-        #if is_department:
-     #   print(f'DEPARTEMENT MEMBERS: {department_members}')
-      #  for category in categories:
-       #     if category in self.category_counts:
-        #        for department_member in department_members: # iterate over each department in list
-         #           print(f'Department Member: {department_member}')
-          #          time.sleep(4)
-           #         self.category_counts[category]['department_set'].add(department_member)
-           # else:
-            #    warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next category.")
-             #   continue
-        #else:
-            #raise ValueError("Failure in update_department_set")"""
         
     def update_department_set_2(self, categories, department_info):
         # check if department_info tuple indicates a success
@@ -179,7 +126,6 @@ class WosClassification():
         
 if __name__ == "__main__":
     split_files_directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
-    #split_files_directory_path = "/Users/spencerpresley/COSC425/Spencer/Rommel-Center-Research/PythonCode/Utilities/split_files"
     split_files_directory_path = os.path.expanduser(split_files_directory_path)
     
     wos = WosClassification()
@@ -188,19 +134,7 @@ if __name__ == "__main__":
     json_maker = JsonTransformer()
     
     categories = wos.get_category_counts()
-    """iter_dict = iter(categories.items())
-    for i in range(2):
-        key, value = next(iter_dict)
-        print(f'Key: {key}')
-        print(f'Value: {value}')
-        print("\n\n")"""
-    #print("\n\n")
-    #print(f"\n\nCATEGORIES: {sorted(categories.keys())}\n\n")
-    # for key, value in categories.items():
-    #     print(f'Key: {key}')
-    #     print(f'Value: {value}')
-    #     print("\n\n")
-    #     #time.sleep(4)"""
+    
     categories = processor.remove_near_duplicates(category_dict=categories)
     for category, data in categories.items():
         if 'faculty_set' in data:
