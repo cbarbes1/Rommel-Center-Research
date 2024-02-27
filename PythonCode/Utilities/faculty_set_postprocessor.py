@@ -29,33 +29,6 @@ class FacultyPostprocessor:
             except:
                 print(f"Error extracting faculty sets from {key}, continuing to next")
         return list_of_faculty_sets
-    
-    # def remove_near_duplicates(self, category_dict):
-    #     """
-    #     Controls the flow of the class calling neccesary function to handle the edge case of near duplicates slipping through
-    #     preprocessing.
-    #     """
-    #     print(f"\n\n\n\nIN NEAR DUPLICATES\n{category_dict}\n\n")
-    #     self.temp_dict = copy.deepcopy(category_dict)
-    #     print(f'\n\n\n\nTEMP DICT IN NEAR DUPLICATE\n{self.temp_dict}\n\n')
-    #     # list of all faculty sets
-    #     faculty_sets = self.extract_faculty_sets(self.temp_dict)
-        
-    #     # Iterate through each category and faculty set
-    #     for category, faculty_set in self.temp_dict.items():
-    #         final_set = self.duplicate_postprocessor(faculty_set, faculty_sets)
-            
-    #         # Update original dict with processed set (right now a temp dict)
-    #         self.temp_dict[category]['faculty_set'] = final_set       
-    #     return self.temp_dict
-    
-#     def remove_near_duplicates(self, category_dict):
-#         self.temp_dict = copy.deepcopy(category_dict)
-#         faculty_sets = self.extract_faculty_sets(self.temp_dict)
-#         print(f"FACULTY SETS")
-#         final_set = self.duplicate_postprocessor(self.temp_dict['faculty_set'], faculty_sets)
-#         self.temp_dict['faculty_set'] = final_set
-#         return self.temp_dict
         
     def remove_near_duplicates(self, category_dict):
         self.temp_dict = copy.deepcopy(category_dict)
@@ -160,11 +133,9 @@ class MinHashUtility:
         """
         signature = [float('inf')] * self.num_hashes
         for token in tokens:
-            #print(f"TOKEN:\n{token}\n")
             hashed_values = [hash_fn(hash(token)) for hash_fn in self.hash_fns]
             for i in range (self.num_hashes):
                 signature[i] = min(signature[i], hashed_values[i])
-        #print(f"FINAL SIGNATURE:\n{signature}\n")
         return signature
     
     def compare_signatures(self, signature1, signature2):
@@ -185,5 +156,4 @@ class MinHashUtility:
         assert len(signature1) == len(signature2), "Signatures must be of the same length | compare_signatures() in MinHashUtility class." 
         matching = sum(1 for i, j in zip(signature1, signature2) if i == j)
         similarity = matching / len(signature1)
-        #print(f"CALCULATED SIMILARITY:\n{similarity}\n")
         return similarity

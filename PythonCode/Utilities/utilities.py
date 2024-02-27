@@ -19,8 +19,6 @@ class Utilities():
         self.title_pattern = re.compile(r'TI\s(.+?)(?=\nSO)', re.DOTALL)
         self.abstract_pattern = re.compile(r'AB\s(.+?)(?=\nC1)', re.DOTALL)
         self.end_record_pattern = re.compile(r'DA \d{4}-\d{2}-\d{2}\nER\n?', re.DOTALL)
-        #self.wc_pattern = re.compile(r'\nWC (.*)')
-        #self.dept_pattern = re.compile(r'Dept (.*?),')
         self.dept_pattern = re.compile(r'Salisbury Univ, Dept (.*?)(,|$)')
         self.dept_pattern_alt = re.compile(r'Salisbury Univ, (.*?)(,|$)')
         # for WoS categories
@@ -63,13 +61,11 @@ class Utilities():
 
                     # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
                     salisbury_authors = self.split_salisbury_authors(author_c1_content)
-                    #print(f'Salisbury Authors: {salisbury_authors}')
                     attribute_results[attribute] = (True, salisbury_authors) if salisbury_authors else (False, None)
                 
                 elif attribute == 'department':
                     #department = self.extract_dept_name(self.extract_dept_from_c1(entry_text))
                     department = self.extract_dept_from_c1(entry_text)
-                    #print(f'Department: {department}')
                     attribute_results[attribute] = (True, department) if department else (False, None)
                 
                 else:    
@@ -78,8 +74,6 @@ class Utilities():
             else:
                 # Raise an error if an unknown attribute is requested
                 raise ValueError(f"Unknown attribute: '{attribute}' requested.")
-        #print(f"\n\nFINAL ATTS: {attribute_results}\n\n")
-        #time.sleep(100)
         return attribute_results
 
     def extract_abstract_and_categories_from_file(self):
@@ -101,10 +95,7 @@ class Utilities():
     
     def extract_dept_name(self, c1_tag):
         match = self.dept_pattern.search(c1_tag)
-        #print("IN THIS BITCH")
-        #print(f'C1 TAG: {c1_tag}')
         if match:
-            #print(f'MATCH GROUP 1: {match.group(1)}')
             return True, match.group(1)
         warnings.warn("No department found in C1 tag", RuntimeWarning)
         return False, None
@@ -142,14 +133,9 @@ class Utilities():
         if match:
             if attribute == 'wc_pattern':
                 categories = self.wos_category_splitter(match.group(1).strip())
-                #print(f"\n\nCATEGORIES: {categories}\n\n")
-                #time.sleep(100)
                 for i, category in enumerate(categories):    
-                    #print(f"CATEGORY: {category}\n")
                     category = re.sub(r'\s+', ' ', category)
                     categories[i] = category
-                    #print(f"CATEGORY AFTER SUB: {category}\n")
-                    #time.sleep(10)
                 return True, categories
             return True, match.group(1).strip()        
         warnings.warn(f"Attribute: '{attribute}' was not found in the entry", RuntimeWarning)
@@ -157,7 +143,6 @@ class Utilities():
 
     def extract_dept_from_c1(self, entry_text):
         lines = entry_text.splitlines()
-        #print(f'LINES: {lines}')
         for line in lines:
             if "Salisbury Univ" in line:
                 match = self.dept_pattern.search(line)
@@ -180,8 +165,6 @@ class Utilities():
         Returns:
             str: The extracted 'C1' content or an empty string if not found.
         """
-        #print("\n\n")
-        #print(entry_text)
         c1_content = []
         entry_lines = entry_text.splitlines()
         for line in entry_lines:
@@ -192,9 +175,6 @@ class Utilities():
                 if start != -1 and end != -1:
                     c1_content.append(line[start+1:end])
                 break
-        #print(f'C1 Content: {c1_content}')
-        #print("\nC1 RETURN")
-        #print('\n'.join(c1_content))
         return '\n'.join(c1_content)
     
     def wos_category_splitter(self, category_string):
@@ -245,17 +225,15 @@ class Utilities():
         Returns:
             str: A sanitized and formatted filename.
         """
-
-        # split author string on newline and take the first author only
-        #first_author = author.split('\n')[0].strip()
-
         first_author = author[0].strip()
+        
         # sanitize and truncate the first authors name and title
         sanitized_author = self.sanitize_filename(first_author)
         sanitized_title = self.sanitize_filename(title)
 
         # construct file name
         file_name = f"Author:{sanitized_author}_Title:{sanitized_title}.txt"
+        
         # return formatted file name
         return file_name[:255]
 
@@ -271,7 +249,6 @@ class Utilities():
         """
         # Use current working directory if no path is provided
         if path is None:
-            # return current working directory
             return os.getcwd()
 
         # Create the directory if it doesn't exist
@@ -323,7 +300,6 @@ class Utilities():
             file_content = file.read()
 
         # Split the document into entries based on the end record delimiter
-        # splits = re.split(self.end_record_pattern, file_content)
         splits = self.end_record_pattern.split(file_content)
 
         # filter out any empty strings that may result from splitting
@@ -344,7 +320,6 @@ class Utilities():
         the categories list. Format of storing is left->right most inclusive->least inclusive
         """
         categories = []
-        # /mnt/linuxlab/home/spresley1/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files/Author:Osman, Suzanne L._Title:Sexual victimization experience, acknowledgment labeling and rape_   empathy among college men and w.txt'
         full_path = "/mnt/linuxlab/home/spresley1/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files/Author:Osman, Suzanne L._Title:Sexual victimization experience, acknowledgment labeling and rape_   empathy among college men and w.txt"
         with open(full_path, 'r') as file:
             file_content = file.read()
