@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import json
 from striprtf.striprtf import rtf_to_text
+import csv
+import requests
+import xml.etree.ElementTree as ET
 
 class File_Convert():
     # init the process class with a file location
@@ -52,14 +55,47 @@ class File_Convert():
         elif type == 'rtf':
             txt_list = self.text.splitlines()[6:]
             txt_list = [list(filter(None, item.split('|'))) for item in txt_list]
-            title_list = [i[0] for i in txt_list if len(i) == 1] 
-            txt_dict = {key[0]: [] for index, key in enumerate(txt_list) if len(key) == 1}
+            title_list = [i[0] for i in txt_list if len(i) == 1]
 
-            for i in txt_list:
-                if i not in title_list:
-                    print(i)
-            print(title_list)
-            print(txt_dict)
-            print(txt_list[0:10])
-            
+            result = {}
+            current_section = None
+            current_titles = []
+
+            for item in txt_list:
+                if len(item) == 1:  # Section name
+                    if current_section is not None:
+                        result[current_section] = current_titles
+                        current_titles = []
+                    current_section = item[0]
+                else:  # Title
+                    current_titles.append(item)
             #print(txt_list)
+
+            final = {key: {} for key in title_list}
+
+            print(txt_list)
+            
+            for key, value in result.items():
+                for index, i in enumerate(value):
+                        if len(i) == 3:
+                            final[key][i[0]] = {'Number of Publications':i[1], 'Journal Ranking':i[2], 'Citation List':value[index+1:index+1+int(i[1])]}
+
+            
+            with open('output.json', 'w') as file:
+                json.dump(final, file, indent=4)
+
+
+def loadRSS():
+
+    url = 'https://www.salisbury.edu/sitemap.xml'
+
+    resp = requests.get(url)
+
+    with open('feed.xml', 'wb') as f:
+        f.write(resp.content)
+
+
+
+if __name__ == "__main__":
+
+    loadRSS()
