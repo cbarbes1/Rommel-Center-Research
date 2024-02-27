@@ -1,6 +1,7 @@
 import json
 
 def convert_sets_to_lists(obj):
+    """Recursively convert sets in the object to lists for JSON serialization."""
     if isinstance(obj, set):
         return list(obj)
     elif isinstance(obj, dict):
@@ -10,34 +11,29 @@ def convert_sets_to_lists(obj):
     else:
         return obj
 
-class JsonTransformer():
+class JsonTransformer:
     def __init__(self):
-        self.prefix = "/Users/spencerpresley/COSC425/Spencer/Rommel-Center-Research/PythonCode/Utilities/split_files/"
+        # Initialization can include any required setup. The prefix is no longer needed.
+        pass
     
     def make_dict_json(self, dictionary):
+        """
+        Serializes a dictionary to a JSON file, converting sets to lists as needed.
+        Assumes that the dictionary values may already be partially serialized by CategoryInfo.to_dict().
+        
+        Parameters:
+            dictionary (dict): The dictionary to serialize, where values are expected to be dictionaries themselves.
+        """
+        # Convert sets to lists in the dictionary for JSON serialization.
+        # This is a precaution in case there are nested sets not handled by CategoryInfo.to_dict().
         new_dictionary = convert_sets_to_lists(dictionary)
         
-        for value in new_dictionary.values():
-            if 'files' in value:
-                value['files'] = [file_path.replace(self.prefix, '') for file_path in value['files']]
-                
+        # Serialize the dictionary to JSON, writing to 'categories_and_category_metadata.json'.
         with open('categories_and_category_metadata.json', 'w') as json_file:
             json.dump(new_dictionary, json_file, indent=4)
             
-    def remove_files(self):
-        json_file_path = 'categories_and_category_metadata.json'
-        
-        with open(json_file_path, 'r') as json_file:
-            data = json.load(json_file)
-            
-        # Remove "files" key and values from each category
-        for category in data.values():
-            if "files" in category:
-                del category["files"]
-                
-        # Write modified data back into json
-        with open(json_file_path, 'w') as file:
-            json.dump(data, file, indent=4)
+    # Assuming the remove_files method is no longer needed since we're not specifically handling 'files' differently
+    # If needed for other purposes, it can be kept or adjusted accordingly
             
 if __name__ == '__main__':
     jt = JsonTransformer()

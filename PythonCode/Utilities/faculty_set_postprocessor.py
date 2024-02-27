@@ -1,6 +1,6 @@
 import copy
 import random
-
+from typing import List
         
 class FacultyPostprocessor:
     def __init__(self):
@@ -14,65 +14,67 @@ class FacultyPostprocessor:
     
     def extract_faculty_sets(self, category_dict):
         """
-        Extracts the faculty_set value from each key in category_dict and stores those lists in a set
-        
+        Extracts the faculty attribute from each CategoryInfo object in categories
+
         Args:
-            category_dict (dictionary): A dictionary where the keys are the category names and the values contain a faculty_set. 
+            categories (iterable of CategoryInfo): An iterable containing CategoryInfo objects.
         Returns:
-            list_of_faculty_sets (list): A list containing each set from all the keys in category_dict
+            list_of_faculty_sets (list): A list containing the faculty set from each CategoryInfo object
         """
-        list_of_faculty_sets = []
-        
-        for key, values in category_dict.items():
-            try:
-                list_of_faculty_sets.append(values['faculty_set'])
-            except:
-                print(f"Error extracting faculty sets from {key}, continuing to next")
+        list_of_faculty_sets = [category_info.faculty for category_info in category_dict.values()]
         return list_of_faculty_sets
         
     def remove_near_duplicates(self, category_dict):
-        self.temp_dict = copy.deepcopy(category_dict)
-            
-        for category, values in self.temp_dict.items():
-            faculty_sets = self.extract_faculty_sets({category: values})
-            if faculty_sets:
-                final_set = self.duplicate_postprocessor(values['faculty_set'], faculty_sets)
-                self.temp_dict[category]['faculty_set'] = final_set
+        """
+        Processes each CategoryInfo object to remove near-duplicate faculty names based on MinHash similarity.
+        
+        Args:
+            categories (iterable of CategoryInfo): An iterable containing CategoryInfo objects.
+        Returns:
+            None: The method directly modifies the faculty attribute of each CategoryInfo object.
+        """
+        faculty_sets_list: list[set] = self.extract_faculty_sets(category_dict=category_dict)
+        for category, category_info in category_dict.items():
+            final_set = self.duplicate_postprocessor(category_info.faculty, faculty_sets_list)
+            category_info.faculty = final_set
         return self.temp_dict
         
     def duplicate_postprocessor(self, faculty_set, faculty_sets, similarity_threshold=0.5):
-        # Step 1: Generate MinHash signatures for all names
-        name_signatures = {}
-        all_names = set().union(*faculty_sets) # Combine all names from all sets
-        for name in all_names:
-            tokens = self.minhash_util.tokenize(name)
-            signature = self.minhash_util.compute_signature(tokens)
-            name_signatures[name] = signature
+        # Step 1: Generate MinHash signatures for all names in the faculty_set
+        name_signatures = {name: self.minhash_util.compute_signature(self.minhash_util.tokenize(name)) for name in faculty_set}
         
-        # Step 2: Compare signatures and decide which names to keep
-        to_remove = set()
-        names_list = list(name_signatures.keys())
+        # Step 2: Prepare to track names to removed based on comparisons
+        to_remove: set = set()
         
-        # Get occurence frequency of each name across all faculty sets
-        name_frequency = {name: sum(name in f_set for f_set in faculty_sets) for name in all_names}
-        
-        for i in range(len(names_list)):
-            for j in range(i+1, len(names_list)):
-                name1, name2 = names_list[i], names_list[j]
-                signature1, signature2 = name_signatures[name1], name_signatures[name2]
-                
-                # Compare signatures
-                similarity = self.minhash_util.compare_signatures(signature1, signature2)
-                if similarity > similarity_threshold:
-                    if name_frequency[name1] > name_frequency[name2] or (name_frequency[name1] == name_frequency[name2] and name1 < name2):
-                        to_remove.add(name2)
-                    else:
-                        to_remove.add(name1)
+        # Step 3: Compare each name against all others in the set for near duplicates
+        for n1 in faculty_set:
+            for n2 in faculty_set:
+                if n1 != n2:
+                    signature1 = name_signatures[n1]
+                    signature2 = name_signatures[n2]
+                    similarity = self.minhash_util.compare_signatures(signature1, signature2)
+                    
+                    # If similarity exceeds threshold, determine which name to keep
+                    if similarity > similarity_threshold:
+                        # Determine occurence frequency of each name across all faculty sets
+                        n1_freq = sum(n1 in f_set for f_set in faculty_sets)
+                        n2_freq = sum(n2 in f_set for f_set in faculty_sets)
                         
-        refined_fac_set = [f_set - to_remove for f_set in faculty_sets]
-        print(f"\n\n\n\n\n****REFINED FAC SET 2****\n{refined_fac_set}\n\n\n\n")
+                        # Keep the name that occurs more frequently, schedule the other for removal
+                        if n1_freq > n2_freq:
+                            to_remove.add(n2)
+                        elif n2_freq > n1_freq:
+                            to_remove.add(n1)
+                        # If frequencies are equal
+                        elif n1 < n2:
+                            to_remove.add(n2)
+                        else:
+                            to_remove.add(n1)
+        # Step 4: Refine the faculty_set by removing identified less frequent duplicates
+        refined_fac_set = faculty_set - to_remove
+        
         return refined_fac_set
-            
+           
 class MinHashUtility:
     def __init__ (self, num_hashes):
         self.num_hashes = num_hashes

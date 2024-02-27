@@ -5,6 +5,7 @@ import warnings
 import time
 from json_transformer import JsonTransformer
 from faculty_set_postprocessor import FacultyPostprocessor
+from My_Data_Classes import CategoryInfo
 
 #random comment so i can re-push
 
@@ -65,31 +66,23 @@ class WosClassification():
                 category = categories[i]
                 
             if category not in self.category_counts:
-                self.category_counts[category] = {
-                    'faculty_count': 0,
-                    'department_count': 0,
-                    'article_count': 0,
-                    'files': set(),
-                    'faculty_set': set(),
-                    'department_set': set(),
-                    'article_set': set()
-                }
+                # Intialize a new CategoryInfo dataclass instance for the given category
+                self.category_counts[category] = CategoryInfo()
         
     def update_faculty_count(self):
-        for category_values in self.category_counts.values():
-            category_values['faculty_count'] = len(category_values['faculty_set'])
+        for category, category_info in self.category_counts.items():
+            category_info.faculty_count = len(category_info.faculty)
     
     def update_department_count(self):
-        for category_values in self.category_counts.values():
-            category_values['department_count'] = len(category_values['department_set'])
+        for category, category_info in self.category_counts.items():
+            category_info.department_count = len(category_info.departments)
     
     def update_category_counts_files_set(self, categories, file_name):
         for category in categories:
             if category in self.category_counts:
-                self.category_counts[category]['files'].add(file_name)
+                self.category_counts[category].files.add(file_name)
             else:
                 warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next category.")
-                continue
     
     def update_faculty_set(self, categories, faculty_members):
         # Assign the tuple of values from the faculty_member author key
@@ -97,52 +90,57 @@ class WosClassification():
         #if is_faculty:
         for category in categories:
             if category in self.category_counts:
-                for faculty_member in faculty_members: # iterate over each author in list
-                    self.category_counts[category]['faculty_set'].add(faculty_member)
+                category_info = self.category_counts[category]
+                for faculty_member in faculty_members:
+                    category_info.faculty.add(faculty_member)
             else:
-                warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next category.")
-                continue
+                warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next.")
         
     def update_department_set_2(self, categories, department_info):
-        # check if department_info tuple indicates a success
+        # Check if department_info tuple indicates a success
         if department_info[0]:
-            department_members = department_info[1] # extract department names
-            if isinstance(department_members, list): # if there are multiple department names
-                for category in categories:
-                    if category in self.category_counts:
+            department_members = department_info[1] # Extract department names
+            for category in categories:
+                if category in self.category_counts:
+                    category_info = self.category_counts[category]
+                    # Check if there are multiple department names or a single one
+                    if isinstance(department_members, list): # If there are multiple department names
                         for department_member in department_members:
-                            self.category_counts[category]['department_set'].add(department_member)
+                            category_info.departments.add(department_member)
+                    elif isinstance(department_members, str): # If there's only one department name
+                        category_info.departments.add(department_members)
                     else:
-                        warnings.warn(f'WARNING: Category {category} not found in category_counts. Continuing to next category.')           
-            elif isinstance(department_members, str): # if there's only one department name
-                for category in categories:
-                    if category in self.category_counts:
-                        self.category_counts[category]['department_set'].add(department_members)
-                    else:
-                        warnings.warn(f"WARNING: Category {category} not found in category_counts. Continuing to next category.")
+                        warnings.warn(f"Unexpected department_members type: {type(department_members)}")
+                else:
+                    warnings.warn(f"WARNING: Category {category} not found in category_counts. Continuing to next category.")
         else:
-            # handle case where department_info extraction was unsuccessful
-            print("Department info extraction was unsuccessful!")     
-        
+            # Handle case where department_info extraction was unsuccessful
+            print("Department info extraction was unsuccessful!")
+
 if __name__ == "__main__":
     split_files_directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
     split_files_directory_path = os.path.expanduser(split_files_directory_path)
     
     wos = WosClassification()
     processor = FacultyPostprocessor()
-    wos.construct_categories(directory_path=split_files_directory_path)
     json_maker = JsonTransformer()
     
-    categories = wos.get_category_counts()
+    # Construct categories by processing files in the directory
+    wos.construct_categories(directory_path=split_files_directory_path)
     
-    categories = processor.remove_near_duplicates(category_dict=categories)
-    for category, data in categories.items():
-        if 'faculty_set' in data:
-            unique_faculty_set = data['faculty_set'][0]
-            data['faculty_count'] = len(unique_faculty_set)
-    print(categories)
+    # Get category counts, now from CategoryInfo instances
+    categories = wos.get_category_counts()
+    print(f"Cats: {categories}")
+    
+    
+    processor.remove_near_duplicates(category_dict=categories)
+    
     wos.update_faculty_count()
-    json_maker.make_dict_json(categories)
+    wos.update_department_count()
+    
+    categories_serializable = {category: category_info.to_dict() for category, category_info in categories.items()}
+    json_maker.make_dict_json(categories_serializable)
+    print(f"Processed Categories: {categories_serializable}")
     
     """paper title as key, number 0 to amount of papers as value. So paper1.txt: 0
     
