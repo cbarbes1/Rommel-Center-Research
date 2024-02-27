@@ -5,6 +5,7 @@ import warnings
 import time
 from json_transformer import JsonTransformer
 from faculty_set_postprocessor import FacultyPostprocessor
+from My_Data_Classes import CategoryInfo
 
 #random comment so i can re-push
 
