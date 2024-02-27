@@ -13,7 +13,6 @@ class FacultyPostprocessor:
         return self.temp_dict
     
     def extract_faculty_sets(self, category_dict):
-        #TODO: Implement
         """
         Extracts the faculty_set value from each key in category_dict and stores those lists in a set
         
@@ -24,9 +23,9 @@ class FacultyPostprocessor:
         """
         list_of_faculty_sets = []
         
-        for key in category_dict:
+        for key, values in category_dict.items():
             try:
-                list_of_faculty_sets.append(category_dict[key]['faculty_set'])
+                list_of_faculty_sets.append(values['faculty_set'])
             except:
                 print(f"Error extracting faculty sets from {key}, continuing to next")
         return list_of_faculty_sets
@@ -50,12 +49,22 @@ class FacultyPostprocessor:
     #         self.temp_dict[category]['faculty_set'] = final_set       
     #     return self.temp_dict
     
+#     def remove_near_duplicates(self, category_dict):
+#         self.temp_dict = copy.deepcopy(category_dict)
+#         faculty_sets = self.extract_faculty_sets(self.temp_dict)
+#         print(f"FACULTY SETS")
+#         final_set = self.duplicate_postprocessor(self.temp_dict['faculty_set'], faculty_sets)
+#         self.temp_dict['faculty_set'] = final_set
+#         return self.temp_dict
+        
     def remove_near_duplicates(self, category_dict):
         self.temp_dict = copy.deepcopy(category_dict)
-        faculty_sets = self.extract_faculty_sets(self.temp_dict)
-        print(f"FACULTY SETS")
-        final_set = self.duplicate_postprocessor(self.temp_dict['faculty_set'], faculty_sets)
-        self.temp_dict['faculty_set'] = final_set
+            
+        for category, values in self.temp_dict.items():
+            faculty_sets = self.extract_faculty_sets({category: values})
+            if faculty_sets:
+                final_set = self.duplicate_postprocessor(values['faculty_set'], faculty_sets)
+                self.temp_dict[category]['faculty_set'] = final_set
         return self.temp_dict
         
     def duplicate_postprocessor(self, faculty_set, faculty_sets, similarity_threshold=0.5):
