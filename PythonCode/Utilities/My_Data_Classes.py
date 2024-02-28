@@ -23,4 +23,3 @@ class CategoryInfo:
             if isinstance(value, Set):
                 data_dict[key] = list(value)
         return data_dict
-
