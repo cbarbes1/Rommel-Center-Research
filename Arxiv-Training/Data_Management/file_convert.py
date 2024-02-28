@@ -6,6 +6,7 @@ from striprtf.striprtf import rtf_to_text
 import csv
 import requests
 import xml.etree.ElementTree as ET
+from data_class import CitationData, TopicData 
 
 class File_Convert():
     # init the process class with a file location
@@ -54,6 +55,8 @@ class File_Convert():
             print("Row inserted into JSON file successfully")
         elif type == 'rtf':
             txt_list = self.text.splitlines()[6:]
+
+            
             txt_list = [list(filter(None, item.split('|'))) for item in txt_list]
             title_list = [i[0] for i in txt_list if len(i) == 1]
 
@@ -69,11 +72,11 @@ class File_Convert():
                     current_section = item[0]
                 else:  # Title
                     current_titles.append(item)
-            #print(txt_list)
+            print(txt_list)
 
             final = {key: {} for key in title_list}
 
-            print(txt_list)
+            #print(result)
             
             for key, value in result.items():
                 for index, i in enumerate(value):
