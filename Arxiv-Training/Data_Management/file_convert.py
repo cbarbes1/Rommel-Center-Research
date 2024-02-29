@@ -6,7 +6,7 @@ from striprtf.striprtf import rtf_to_text
 import csv
 import requests
 import xml.etree.ElementTree as ET
-from data_class import CitationData, TopicData 
+from .data_class import CitationData, TopicData 
 
 class File_Convert():
     # init the process class with a file location
@@ -29,17 +29,7 @@ class File_Convert():
 
         if output_format == 'json':
             self.to_json('rtf')
-    
-    def from_WOS(self):
-        with open(self.path, 'r') as file:
-          self.file = file.read()
-          self.file = self.file.splitlines()
-          self.file = [i for i in self.file if 'AB ' in i]
-          with open('./abstracts.txt', 'w') as outfile:
-            print(self.file, file=outfile)
           
-        
-
     def to_json(self, type):
         if type == 'csv':
             # create dictionary of proposals
@@ -58,47 +48,27 @@ class File_Convert():
 
             
             txt_list = [list(filter(None, item.split('|'))) for item in txt_list]
-            title_list = [i[0] for i in txt_list if len(i) == 1]
 
-            result = {}
+            txt_list = [i for i in txt_list if len(i) != 0]
+            
+            txt_dict = {}
             current_section = None
-            current_titles = []
 
-            for item in txt_list:
-                if len(item) == 1:  # Section name
-                    if current_section is not None:
-                        result[current_section] = current_titles
-                        current_titles = []
-                    current_section = item[0]
-                else:  # Title
-                    current_titles.append(item)
-            print(txt_list)
-
-            final = {key: {} for key in title_list}
-
-            #print(result)
-            
-            for key, value in result.items():
-                for index, i in enumerate(value):
-                        if len(i) == 3:
-                            final[key][i[0]] = {'Number of Publications':i[1], 'Journal Ranking':i[2], 'Citation List':value[index+1:index+1+int(i[1])]}
-
-            
-            with open('output.json', 'w') as file:
-                json.dump(final, file, indent=4)
-
-
-def loadRSS():
-
-    url = 'https://www.salisbury.edu/sitemap.xml'
-
-    resp = requests.get(url)
-
-    with open('feed.xml', 'wb') as f:
-        f.write(resp.content)
-
-
-
-if __name__ == "__main__":
-
-    loadRSS()
+            for entry in txt_list:
+                if len(entry) == 1:  # Section name
+                    current_section = entry[0]
+                    txt_dict[current_section] = []
+                elif len(entry) == 2:  # Citation
+                    txt_dict[current_section].append({'Citation': entry[0], 'Total Citations': entry[1]})
+                elif len(entry) == 3:  # Journal
+                    if 'Total' in entry[0]:
+                        txt_dict[current_section].append({entry[0]: {'Total Publications': entry[1], 'Total Citations': entry[2]}})
+                    else:
+                        txt_dict[current_section].append({entry[0]: {'Number of Publications': entry[1], 'Rank': entry[2]}})
+            # data = []
+            # for key, value in txt_dict.items():
+            #     data.append(TopicData(key, [CitationData(value['Journal'], value['Total Journals'])]))
+            for key, value in txt_dict.items():
+                filename = '../../assets/json_data/' + key.replace(' ', '-') + ".json"
+                with open(filename, 'w') as file:
+                    json.dump({key: value}, file, indent=4)
