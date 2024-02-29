@@ -1,4 +1,4 @@
-from file_convert import File_Convert
+from Data_Management.file_convert import File_Convert
 
 test = File_Convert('../../assets/citations.rtf')
 
