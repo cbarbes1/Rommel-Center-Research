@@ -34,4 +34,10 @@ class FacultyDepartmentManager:
     
     def update_department_count(self):
         for category, category_info in self.category_processor.category_counts.items():
-            category_info.department_count = len(category_info.departments) 
+            category_info.department_count = len(category_info.departments)
+            
+    def update_article_counts(self, categories_dict):
+        """Returns total article count which is = to length of the files set"""
+        for _, info in categories_dict.items():
+            info.article_count = len(info.files)
+        return categories_dict 
