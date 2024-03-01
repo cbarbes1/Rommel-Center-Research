@@ -33,7 +33,7 @@ class WosClassification():
         """
         Returns the current state of category counts dict
         """
-        return self.category_processor.category_counts
+        return self.category_processor.category_counts        
     
     def refine_faculty_sets(self):
         self.faculty_postprocessor.remove_near_duplicates(self.get_category_counts())

@@ -5,10 +5,11 @@ from typing import Set
 class CategoryInfo:
     faculty_count: int = 0
     department_count: int = 0
+    article_count: int = 0
     files: Set[str] = field(default_factory=set)
     faculty: Set[str] = field(default_factory=set)
     departments: Set[str] = field(default_factory=set)
-    article_set: Set[str] = field(default_factory=set)
+    #article_set: Set[str] = field(default_factory=set)
     
     def to_dict(self) -> dict:
         # Utilize asdict utility from dataclasses, then change sets to lists

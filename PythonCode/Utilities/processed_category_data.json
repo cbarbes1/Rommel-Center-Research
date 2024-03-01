@@ -2,583 +2,585 @@
     "Chemistry, Multidisciplinary": {
         "faculty_count": 21,
         "department_count": 5,
+        "article_count": 9,
         "faculty": [
+            "Hensiek, Sarah",
             "Carter, Michael S.",
-            "Cottingham, Andrea",
-            "Wathen, Bailee",
-            "Lanehart, Emily",
-            "Bhatti, Khadija",
-            "Purohit, Abhishek",
-            "Habay, Stephen",
-            "Keifer, David",
-            "Naing, Yadanar Than",
-            "Wille, Brendan",
-            "Petersen, Courtney",
-            "Joyce, Ryan",
-            "Benner, Jeffrey",
-            "Kim, Chan",
             "Falcone, Gianna",
-            "Rojas, Anthony J.",
+            "Petersen, Courtney",
+            "Cottingham, Andrea",
+            "Joyce, Ryan",
+            "Woodis, Lena A.",
+            "Lanehart, Emily",
             "Jermain, Madison",
             "Miller, Jenna",
+            "Rojas, Anthony J.",
+            "Naing, Yadanar Than",
+            "Purohit, Abhishek",
+            "Keifer, David",
+            "Wille, Brendan",
+            "Bhatti, Khadija",
+            "Wathen, Bailee",
+            "Benner, Jeffrey",
+            "Kim, Chan",
             "Juncosa, Jose I.",
-            "Hensiek, Sarah",
-            "Woodis, Lena A."
+            "Habay, Stephen"
         ],
         "departments": [
             "Chem",
-            "Henson Sch Sci & Technol",
-            "Henson Sch Sci",
             "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Henson Sch Sci",
+            "Henson Sch Sci & Technol"
+        ]
     },
     "Plant Sciences": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
+            "Folkoff, Michael E.",
             "Briand, Christopher H.",
-            "Harris, Daniel W.",
             "Thomas, L.",
-            "Folkoff, Michael E."
+            "Harris, Daniel W."
         ],
         "departments": [
-            "Salisbury",
             "Biol Sci",
-            "Geog & Geosci"
-        ],
-        "article_set": []
+            "Geog & Geosci",
+            "Salisbury"
+        ]
     },
     "Hospitality, Leisure, Sport & Tourism": {
         "faculty_count": 3,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
-            "Hill, Brian",
             "Miao, Chao",
+            "Hill, Brian",
             "Follmer, Kayla"
         ],
         "departments": [
-            "Econ & Finance",
             "Salisbury",
-            "Management & Mkt"
-        ],
-        "article_set": []
+            "Management & Mkt",
+            "Econ & Finance"
+        ]
     },
     "Management": {
         "faculty_count": 19,
         "department_count": 9,
+        "article_count": 44,
         "faculty": [
             "Kim, Yun-Kyoung",
-            "Egan, Chrys",
-            "Follmer, Kayla B.",
-            "Maykrantz, Sherry A.",
-            "Gang, KwangWook",
-            "Park, Minseok",
-            "Munemo, Jonathan",
-            "Singh, Nitya P.",
-            "Yoon, David J.",
-            "Hoffman, Richard C.",
-            "Miao, Chao",
-            "Boster, Charles R.",
-            "Roche, Olivier",
-            "Pasirayi, Simbarashe",
-            "Smith, Kenneth J.",
             "Eun, Jihyun",
             "Sen, Argha",
+            "Yoon, David J.",
+            "Gang, KwangWook",
+            "Hoffman, Richard C.",
+            "Pasirayi, Simbarashe",
+            "Quan, Jing",
             "Leonel, Ronei",
-            "Quan, Jing"
+            "Miao, Chao",
+            "Roche, Olivier",
+            "Boster, Charles R.",
+            "Park, Minseok",
+            "Follmer, Kayla B.",
+            "Maykrantz, Sherry A.",
+            "Egan, Chrys",
+            "Munemo, Jonathan",
+            "Smith, Kenneth J.",
+            "Singh, Nitya P."
         ],
         "departments": [
-            "Sch Hlth Sci",
+            "Salisbury",
             "Franklin P Purdue Sch Business",
-            "Management & Mkt",
-            "Commun",
+            "1101 Camden Ave",
             "Management",
             "Perdue Sch Business",
-            "Salisbury",
-            "1101 Camden Ave",
-            "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+            "Management & Mkt",
+            "Franklin P Perdue Sch Business",
+            "Commun",
+            "Sch Hlth Sci"
+        ]
     },
     "Education & Educational Research": {
         "faculty_count": 48,
         "department_count": 20,
+        "article_count": 49,
         "faculty": [
             "",
-            "Rohde, Jacki",
-            "Troup, Nicholas",
-            "Koh, Bibiana D.",
-            "Porter, Heather",
-            "Emerson, David J.",
-            "Allen, Kimberly",
-            "Kulavuz-Onal, Derya",
-            "Mcelroy, Honor B.",
-            "McCartney, Jason",
-            "Willey, Amanda",
-            "Groth, Randall E.",
-            "Venable, Victoria",
-            "Ramanathan, Gurupriya",
-            "Genareo, Vincent R.",
-            "Bemis, Rhyannon H.",
-            "Maykrantz, Sherry A.",
             "Stutelberg, Erin B.",
             "Quillin, Kim",
-            "Hanley, Yvonne Downie",
-            "Barry, James",
-            "Maier, Karl J.",
-            "Marinaro, Laura",
-            "Karimzad, Farzad",
+            "Williamson, Thea",
             "Seldomridge, Lisa A.",
-            "Choi, Yoojin",
-            "DiBartolo, Mary C.",
-            "Peixoto, Sinelia",
             "Finch, Maida A.",
-            "Anthony, Becky",
-            "Davis, Jeni",
+            "Karimzad, Farzad",
             "Whitehead, George I.",
-            "Kim, Koomi",
-            "Osman, Suzanne L.",
-            "Follmer, D. Jake",
-            "Franzak, Judith K.",
-            "Freda, Kaynabess",
+            "Rohde, Jacki",
+            "Walsh, Catherine M.",
+            "Naumann, Madeline",
+            "Groth, Randall E.",
+            "Jewell, Jennifer R.",
+            "Porter, Heather",
+            "Choi, Yoojin",
             "Billups, M. J.",
             "Cammarano, Cristina",
-            "Barry, Jim",
-            "Williamson, Thea",
+            "Koh, Bibiana D.",
+            "Osman, Suzanne L.",
+            "Troup, Nicholas",
+            "Freda, Kaynabess",
             "Hylton, Mary",
-            "Jewell, Jennifer R.",
-            "Walsh, Catherine M.",
-            "Smith, Kenneth J.",
+            "Emerson, David J.",
             "Caviglia-Harris, Jill L.",
+            "Franzak, Judith K.",
+            "Barry, Jim",
             "Walter, Mark I.",
-            "Naumann, Madeline"
+            "Maier, Karl J.",
+            "Hanley, Yvonne Downie",
+            "Peixoto, Sinelia",
+            "Mcelroy, Honor B.",
+            "Davis, Jeni",
+            "Maykrantz, Sherry A.",
+            "DiBartolo, Mary C.",
+            "Marinaro, Laura",
+            "Anthony, Becky",
+            "Ramanathan, Gurupriya",
+            "McCartney, Jason",
+            "Follmer, D. Jake",
+            "Smith, Kenneth J.",
+            "Allen, Kimberly",
+            "Barry, James",
+            "Bemis, Rhyannon H.",
+            "Venable, Victoria",
+            "Genareo, Vincent R.",
+            "Kulavuz-Onal, Derya",
+            "Willey, Amanda",
+            "Kim, Koomi"
         ],
         "departments": [
-            "Sch Hlth Sci",
-            "Phys",
-            "Doctoral Studies Literacy",
-            "Sch Social Work",
-            "Literacy Studies",
-            "Secondary & Phys Educ",
-            "Salisbury",
-            "1101 Camden Ave",
-            "Educ",
-            "Environm Studies",
-            "Sch Nursing",
-            "Franklin P Perdue Sch Business",
-            "Seidel Sch Educ",
-            "Philosophy",
-            "Sch Educ",
-            "English",
-            "literacy studies",
             "Econ & Finance",
             "Econ & Finance Dept",
-            "Psychol"
-        ],
-        "article_set": []
+            "Environm Studies",
+            "Doctoral Studies Literacy",
+            "1101 Camden Ave",
+            "Philosophy",
+            "Educ",
+            "English",
+            "Phys",
+            "Seidel Sch Educ",
+            "Sch Educ",
+            "Sch Nursing",
+            "Secondary & Phys Educ",
+            "Literacy Studies",
+            "Salisbury",
+            "literacy studies",
+            "Psychol",
+            "Franklin P Perdue Sch Business",
+            "Sch Hlth Sci",
+            "Sch Social Work"
+        ]
     },
     "Sport Sciences": {
         "faculty_count": 52,
         "department_count": 7,
+        "article_count": 18,
         "faculty": [
-            "Mirza, Ateeb M.",
-            "Schneider, Sidney R.",
-            "Kuszmaul, Dillon J.",
-            "Cave, Jason",
-            "Rosette, Demetri",
-            "Revel, Cody B.",
-            "Mills, William",
-            "Carlini, Nicholas A.",
-            "Hughes, Ryan",
-            "Quarantillo, Michael E.",
-            "Cervantes, Mason",
-            "Nein, Matthew A.",
-            "Lynch, Colleen E.",
-            "Wooleyhand, Sean",
-            "Vance, Morgan",
-            "Treuth, Margarita S.",
-            "Lindner, Nicole C.",
-            "Muller, Susan M.",
-            "Fedorko, Brent",
-            "Ancalmo, Juliana",
-            "Marquette, Lisa",
-            "Insley, Carlton R., III",
-            "Walter, Jessica",
-            "Pellinger, Thomas K.",
-            "Meister, Ben M.",
-            "Brennan, Anna",
-            "Mazzetti, Scott",
-            "Robbins, Ethan",
-            "Locklear, Robert",
-            "Morgan, Brian",
-            "Fountain, William A.",
-            "Sarrett, Austin",
-            "Boyd, Gerard",
-            "Tiberio, Layla",
             "Stott, Mia",
-            "Schwartz, Alison C.",
-            "Glass, Noah",
-            "Rosette, Vincent D.",
-            "Moghaddam, Masoud",
-            "Bennett, Harmon",
-            "Paco, Paola J.",
-            "Ortlip, Austin T.",
-            "Guarnera, Samantha R.",
-            "Valenti, Zackary J.",
-            "Whittaker, Amber",
-            "Naboulsi, Amar L.",
-            "Werner, Tim",
-            "Coyle, Krystina",
-            "Chaves, Alec B.",
+            "Locklear, Robert",
+            "Mazzetti, Scott",
+            "Lindner, Nicole C.",
+            "Mirza, Ateeb M.",
+            "Cave, Jason",
+            "Muller, Susan M.",
             "Lynch, Kerry E.",
+            "Vance, Morgan",
+            "Walter, Jessica",
+            "Lynch, Colleen E.",
+            "Fountain, William A.",
+            "Revel, Cody B.",
+            "Guarnera, Samantha R.",
             "Kalita, Diane",
-            "Chaudhry, Bilal"
+            "Meister, Ben M.",
+            "Paco, Paola J.",
+            "Chaudhry, Bilal",
+            "Naboulsi, Amar L.",
+            "Coyle, Krystina",
+            "Boyd, Gerard",
+            "Werner, Tim",
+            "Wooleyhand, Sean",
+            "Brennan, Anna",
+            "Moghaddam, Masoud",
+            "Treuth, Margarita S.",
+            "Carlini, Nicholas A.",
+            "Cervantes, Mason",
+            "Morgan, Brian",
+            "Rosette, Demetri",
+            "Robbins, Ethan",
+            "Glass, Noah",
+            "Sarrett, Austin",
+            "Ancalmo, Juliana",
+            "Valenti, Zackary J.",
+            "Insley, Carlton R., III",
+            "Pellinger, Thomas K.",
+            "Chaves, Alec B.",
+            "Schwartz, Alison C.",
+            "Mills, William",
+            "Rosette, Vincent D.",
+            "Tiberio, Layla",
+            "Nein, Matthew A.",
+            "Bennett, Harmon",
+            "Hughes, Ryan",
+            "Kuszmaul, Dillon J.",
+            "Whittaker, Amber",
+            "Schneider, Sidney R.",
+            "Marquette, Lisa",
+            "Fedorko, Brent",
+            "Quarantillo, Michael E.",
+            "Ortlip, Austin T."
         ],
         "departments": [
-            "Exercise Sci",
-            "Sch Hlth Sci",
+            "Salisbury",
             "Coll Hlth & Human Serv",
-            "Clin Exercise Physiol Lab",
-            "Exercise Physiol Res Lab",
+            "Exercise Sci",
             "Athlet",
-            "Salisbury"
-        ],
-        "article_set": []
+            "Exercise Physiol Res Lab",
+            "Clin Exercise Physiol Lab",
+            "Sch Hlth Sci"
+        ]
     },
     "Economics": {
         "faculty_count": 17,
         "department_count": 10,
+        "article_count": 39,
         "faculty": [
             "Chambers, Dustin",
-            "Wu, Ying",
-            "Emerson, Jamie",
-            "Li, Ning",
-            "Munemo, Jonathan",
-            "Hill, Brian",
             "Singh, Nitya P.",
+            "Kolstoe, Sonja",
+            "Emerson, Jamie",
             "Miao, Chao",
-            "Pasirayi, Simba",
-            "Cimiluca, Mark",
-            "Nan, Wenxiu (Vince)",
-            "Caviglia-Harris, Jill L.",
-            "Ottoni Santiago, Thais Muniz",
-            "Hamilton, Stuart E.",
             "Lei, Shan",
+            "Wu, Ying",
+            "Li, Ning",
+            "Nan, Wenxiu (Vince)",
+            "Ottoni Santiago, Thais Muniz",
             "Villalobos, Laura",
-            "Kolstoe, Sonja"
+            "Caviglia-Harris, Jill L.",
+            "Hamilton, Stuart E.",
+            "Hill, Brian",
+            "Cimiluca, Mark",
+            "Munemo, Jonathan",
+            "Pasirayi, Simba"
         ],
         "departments": [
-            "Sch Business",
-            "Econ & Finance Dept",
-            "Mkt",
-            "Geog & Geosci",
-            "Environm Studies",
-            "Perdue Sch Business",
-            "Econ & Finance",
             "Salisbury",
+            "Geog & Geosci",
             "1101 Camden Ave",
+            "Econ & Finance",
+            "Econ & Finance Dept",
+            "Sch Business",
+            "Mkt",
+            "Perdue Sch Business",
+            "Environm Studies",
             "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "History": {
         "faculty_count": 12,
         "department_count": 5,
+        "article_count": 22,
         "faculty": [
-            "Carayon, Celine",
-            "Miller, Timothy S.",
-            "French, Kara M.",
             "Hoffman, Richard C.",
             "Bowler, Richard",
-            "Kotlowski, Dean J.",
-            "Ference, Gregory C.",
-            "Goyens, Tom",
-            "Gonzalez, Aston",
+            "Miller, Timothy S.",
             "McCarty, Michael",
+            "Gonzalez, Aston",
+            "Goyens, Tom",
+            "French, Kara M.",
+            "Kotlowski, Dean J.",
             "Talbert, Bart",
+            "Ference, Gregory C.",
+            "Carayon, Celine",
             "Vicens, Belen"
         ],
         "departments": [
-            "Hist",
-            "Hist Dept",
-            "Perdue Sch Business",
             "Salisbury",
-            "Gender & Sexual Studies"
-        ],
-        "article_set": []
+            "Gender & Sexual Studies",
+            "Hist Dept",
+            "Hist",
+            "Perdue Sch Business"
+        ]
     },
     "Public, Environmental & Occupational Health": {
-        "faculty_count": 23,
+        "faculty_count": 24,
         "department_count": 12,
+        "article_count": 21,
         "faculty": [
-            "Phillips, David S.",
-            "Chambers, Dustin",
-            "Demond, Whitney",
             "Olortegui, Ashley",
-            "Maykrantz, Sherry A.",
-            "Maier, Karl J.",
-            "Schlehofer, Michele M.",
-            "Marinaro, Laura",
             "Rivera, Allyson",
-            "Choi, Yoojin",
-            "Nobiling, Brandye D.",
-            "Green, Daniel C.",
-            "Agarwal, Vinita",
-            "Yoon, David J.",
-            "Holdai, Veera",
-            "Petrolino, Ashley V.",
-            "Osman, Suzanne L.",
-            "Flint, Carl",
+            "Schlehofer, Michele M.",
             "Hamilton, Stuart E.",
-            "Long-White, Deneen",
+            "Talbot, John",
             "Fritz, Heidi L.",
+            "Yoon, David J.",
+            "Flint, Carl",
+            "Choi, Yoojin",
+            "Agarwal, Vinita",
+            "Chambers, Dustin",
+            "Green, Daniel C.",
+            "Osman, Suzanne L.",
+            "Demond, Whitney",
             "Townsend, Zachary",
-            "Talbot, John"
+            "Maier, Karl J.",
+            "Phillips, David S.",
+            "Petrolino, Ashley V.",
+            "Maykrantz, S. A.",
+            "Nobiling, Brandye D.",
+            "Maykrantz, Sherry A.",
+            "Marinaro, Laura",
+            "Holdai, Veera",
+            "Long-White, Deneen"
         ],
         "departments": [
-            "Secondary & Phys Educ Dept",
-            "Fulton Sch Liberal Arts",
-            "Geog & Geosci",
-            "Sch Hlth Sci",
-            "Sch Social Work",
-            "Publ Hlth",
-            "Secondary & Phys Educ",
-            "Perdue Sch Business",
-            "Psychol",
             "Salisbury",
+            "Geog & Geosci",
+            "Secondary & Phys Educ Dept",
+            "Secondary & Phys Educ",
             "Hlth & Sport Sci",
-            "Math & Comp Sci"
-        ],
-        "article_set": []
+            "Perdue Sch Business",
+            "Publ Hlth",
+            "Psychol",
+            "Fulton Sch Liberal Arts",
+            "Sch Hlth Sci",
+            "Math & Comp Sci",
+            "Sch Social Work"
+        ]
     },
     "Psychology, Multidisciplinary": {
         "faculty_count": 17,
         "department_count": 4,
+        "article_count": 19,
         "faculty": [
-            "Bemis, Rhyannon H.",
             "Scott, Michael S.",
-            "Walter, Mark I.",
-            "Whitehead, George I.",
-            "Demond, Whitney",
-            "Tomcho, Thomas",
-            "Okubo, Yuki",
-            "Osman, Suzanne L.",
-            "Maier, Karl J.",
-            "Emerson, David",
-            "Fritz, Heidi L.",
             "Olortegui, Ashley",
-            "Schlehofer, Michele M.",
-            "Rivera, Allyson",
+            "Tomcho, Thomas",
+            "Whitehead, George I.",
+            "Smith, Kenneth",
             "Chappell, Charisse",
+            "Osman, Suzanne L.",
+            "Okubo, Yuki",
+            "Demond, Whitney",
+            "Rivera, Allyson",
+            "Bemis, Rhyannon H.",
+            "Schlehofer, Michele M.",
             "Laaouad-dodoo, Soraya",
-            "Smith, Kenneth"
+            "Walter, Mark I.",
+            "Maier, Karl J.",
+            "Fritz, Heidi L.",
+            "Emerson, David"
         ],
         "departments": [
             "Salisbury",
-            "Sociol",
             "Accounting & Legal Studies",
-            "Psychol"
-        ],
-        "article_set": []
+            "Psychol",
+            "Sociol"
+        ]
     },
     "Social Work": {
         "faculty_count": 14,
         "department_count": 4,
+        "article_count": 17,
         "faculty": [
-            "Green, Daniel C.",
-            "Anthony, Becky",
-            "Koh, Bibiana D.",
-            "Harbaugh, Jessica",
-            "Demond, Whitney",
-            "Jung, Kyoung-Rae",
-            "Hylton, Mary",
-            "Jewell, Jennifer R.",
             "Olortegui, Ashley",
-            "Schlehofer, Michele M.",
-            "Rivera, Allyson",
-            "Kim, Sook Hyun",
             "Owens-King, Allessia P.",
-            "Venable, Victoria"
+            "Koh, Bibiana D.",
+            "Green, Daniel C.",
+            "Jung, Kyoung-Rae",
+            "Kim, Sook Hyun",
+            "Demond, Whitney",
+            "Rivera, Allyson",
+            "Hylton, Mary",
+            "Venable, Victoria",
+            "Schlehofer, Michele M.",
+            "Jewell, Jennifer R.",
+            "Anthony, Becky",
+            "Harbaugh, Jessica"
         ],
         "departments": [
             "Salisbury",
+            "Psychol",
             "Social Work",
-            "Sch Social Work",
-            "Psychol"
-        ],
-        "article_set": []
+            "Sch Social Work"
+        ]
     },
     "Multidisciplinary Sciences": {
         "faculty_count": 10,
         "department_count": 7,
+        "article_count": 14,
         "faculty": [
-            "Taylor, Ryan",
-            "Park, Minseok",
-            "Chen, Xuan",
-            "Nyland, Jennifer",
-            "Gang, KwangWook",
-            "Lycett, Kristen A.",
-            "Presotto, Andrea",
             "Krach, Noah",
+            "Nyland, Jennifer",
+            "Park, Minseok",
+            "Presotto, Andrea",
+            "Sokoloski, Joshua E.",
+            "Chen, Xuan",
+            "Lycett, Kristen A.",
             "Hamilton, Stuart E.",
-            "Sokoloski, Joshua E."
+            "Gang, KwangWook",
+            "Taylor, Ryan"
         ],
         "departments": [
-            "Geog & Geosci",
-            "Geog Cognit & Conservat Lab",
-            "Chem",
-            "Biol",
-            "Salisbury",
             "Biol Sci",
-            "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+            "Geog & Geosci",
+            "Chem",
+            "Salisbury",
+            "Biol",
+            "Franklin P Perdue Sch Business",
+            "Geog Cognit & Conservat Lab"
+        ]
     },
     "Nursing": {
         "faculty_count": 18,
         "department_count": 10,
+        "article_count": 23,
         "faculty": [
-            "Nutt, Rita",
-            "Hinderer, Katherine A.",
-            "Padgett, Stephen M.",
             "Agarwal, Vinita",
-            "Reid, Tina P.",
-            "Maier, Karl J.",
-            "Hart, Jennifer",
-            "Walsh, Catherine M.",
-            "Barnes, Annette",
-            "Jauregui, Jean E.",
-            "Pellinger, Thomas K.",
-            "Hall, Nicole",
             "Seldomridge, Lisa A.",
-            "Allen, Kim",
+            "Hinderer, Katherine A.",
+            "Pellinger, Thomas K.",
+            "Nutt, Rita",
+            "Hart, Jennifer",
+            "Barnes, Annette",
+            "Walsh, Catherine M.",
+            "Maier, Karl J.",
             "Jarosinski, Judith M.",
-            "DiBartolo, Mary C.",
+            "Allen, Kim",
             "Winter, Dorothea M.",
-            "Webster, Debra"
+            "DiBartolo, Mary C.",
+            "Reid, Tina P.",
+            "Webster, Debra",
+            "Jauregui, Jean E.",
+            "Padgett, Stephen M.",
+            "Hall, Nicole"
         ],
         "departments": [
-            "Coll Hlth & Human Serv",
-            "Nursing",
             "Salisbury",
-            "Sch Nursing",
-            "Hlth Sci",
-            "Henson Med Simulat Ctr",
-            "Richard A Henson Med Simulat Ctr",
+            "Coll Hlth & Human Serv",
             "1101 Camden Ave",
+            "Henson Med Simulat Ctr",
             "Commun Arts",
+            "Hlth Sci",
+            "Sch Nursing",
+            "Richard A Henson Med Simulat Ctr",
+            "Nursing",
             "Psychol"
-        ],
-        "article_set": []
+        ]
     },
     "Neurosciences": {
         "faculty_count": 15,
         "department_count": 4,
+        "article_count": 6,
         "faculty": [
-            "Ennerfelt, Hannah",
-            "Hunter, Kimberly L.",
-            "Corfield, Jeremy R.",
             "Tibbo, Morgan",
-            "Agarwal, Vinita",
-            "Allen, Samantha",
-            "Warfield, Rebecca",
             "Leaver, Echo",
-            "Clark, Jessica Kennett",
+            "Tchienga, Ines",
+            "Agarwal, Vinita",
             "Nibblett, Kaitlyn",
             "Hassan, Tehzeeb",
-            "Voithofer, Gabrielle",
-            "Norman, Brandon",
+            "Hunter, Kimberly L.",
+            "Clark, Jessica Kennett",
             "Taylor, Ryan C.",
-            "Tchienga, Ines"
+            "Norman, Brandon",
+            "Ennerfelt, Hannah",
+            "Voithofer, Gabrielle",
+            "Corfield, Jeremy R.",
+            "Allen, Samantha",
+            "Warfield, Rebecca"
         ],
         "departments": [
-            "Salisbury",
-            "Biol",
             "Biol Sci",
-            "Commun"
-        ],
-        "article_set": []
+            "Salisbury",
+            "Commun",
+            "Biol"
+        ]
     },
     "Physiology": {
         "faculty_count": 12,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
-            "Ennerfelt, Hannah",
             "Tibbo, Morgan",
-            "Allen, Samantha",
-            "Warfield, Rebecca",
             "Leaver, Echo",
-            "Clark, Jessica Kennett",
-            "Rocker, Amanda",
-            "Howell, Julia",
+            "Tchienga, Ines",
             "Nibblett, Kaitlyn",
             "Hassan, Tehzeeb",
+            "Howell, Julia",
+            "Clark, Jessica Kennett",
+            "Ennerfelt, Hannah",
             "Voithofer, Gabrielle",
-            "Tchienga, Ines"
+            "Rocker, Amanda",
+            "Allen, Samantha",
+            "Warfield, Rebecca"
         ],
         "departments": [
-            "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Salisbury"
+        ]
     },
     "Business, Finance": {
         "faculty_count": 15,
         "department_count": 7,
+        "article_count": 21,
         "faculty": [
+            "Peng, Yuqi",
+            "Smith, Kenneth J.",
             "Eksi, Asli",
+            "Lei, Shan",
             "Wu, Ying",
+            "Yao, Hong",
             "Cooper, Sue A.",
-            "Duong, Hong",
-            "Mathers, Ani Manakyan",
             "Schuldt, Michael A.",
             "Emerson, David J.",
-            "Munemo, Jonathan",
             "Hill, Brian",
-            "Smith, Kenneth J.",
             "Boster, Charles R.",
-            "Hong Duong",
-            "Peng, Yuqi",
-            "Yao, Hong",
-            "Lei, Shan"
+            "Mathers, Ani Manakyan",
+            "Munemo, Jonathan",
+            "Duong, Hong",
+            "Hong Duong"
         ],
         "departments": [
+            "Salisbury",
+            "Econ & Finance",
             "Franklin P Perdue Sch Business AACSB Accreditat",
             "Accounting",
-            "Perdue Sch Business",
-            "Econ & Finance",
-            "Salisbury",
             "Accounting & Legal Studies",
+            "Perdue Sch Business",
             "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Soil Science": {
         "faculty_count": 11,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
-            "Evans, Amanda S.",
-            "Rose, Chelsi M.",
+            "Hawkins, Ashley E.",
             "Seho-Ahiable, Gloria E.",
             "Baker, Keirsten T.",
-            "Emmert, Elizabeth A. B.",
-            "Harris, Mercedes E.",
-            "Hawkins, Ashley E.",
-            "Mrozinski, Abigayle C.",
-            "Anderson, Philip D.",
+            "Geleta, Samuel B.",
+            "Rose, Chelsi M.",
             "Briand, Christopher H.",
-            "Geleta, Samuel B."
+            "Harris, Mercedes E.",
+            "Anderson, Philip D.",
+            "Evans, Amanda S.",
+            "Mrozinski, Abigayle C.",
+            "Emmert, Elizabeth A. B."
         ],
         "departments": [
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Psychology, Developmental": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Bemis, Rhyannon H.",
             "Pope, Alexander"
@@ -586,330 +588,330 @@
         "departments": [
             "Secondary & Phys Educ",
             "Psychol"
-        ],
-        "article_set": []
+        ]
     },
     "Psychology, Applied": {
         "faculty_count": 10,
         "department_count": 7,
+        "article_count": 17,
         "faculty": [
-            "Roche, Olivier",
             "Kim, Yun-Kyoung",
-            "Fennell, Patrick",
-            "Follmer, Kayla B.",
-            "Yoon, David J.",
-            "Osman, Suzanne L.",
+            "Weer, Christy H.",
             "Miao, Chao",
-            "Lane, Halle L.",
             "Gang, Kwangwook",
-            "Weer, Christy H."
+            "Roche, Olivier",
+            "Follmer, Kayla B.",
+            "Osman, Suzanne L.",
+            "Lane, Halle L.",
+            "Fennell, Patrick",
+            "Yoon, David J."
         ],
         "departments": [
-            "Management & Mkt",
-            "Management",
-            "Perdue Sch Business",
             "Salisbury",
             "1101 Camden Ave",
+            "Management",
+            "Perdue Sch Business",
+            "Psychol",
             "Franklin P Perdue Sch Business",
-            "Psychol"
-        ],
-        "article_set": []
+            "Management & Mkt"
+        ]
     },
     "Biochemistry & Molecular Biology": {
         "faculty_count": 23,
         "department_count": 5,
+        "article_count": 12,
         "faculty": [
+            "Shepherd, Meghan",
             "Nyland, Jennifer",
-            "Pellinger, Thomas",
-            "Gimblet, Colin",
+            "Erickson, Les",
+            "Werner, Timothy",
             "Vance, Morgan",
-            "Corfield, Jeremy R.",
-            "Naing, Yadanar",
-            "Joyce, Ryan Patrick",
-            "Staudmyer, Timothy",
-            "Hopkins, Emily",
             "Voithofer, Gabrielle",
             "Lamanca, John",
-            "Williams, E. Eugene",
-            "Erickson, Les",
-            "Clark, Jessica",
-            "Liebgold, Eric B.",
-            "Freeman, Angela R.",
-            "Ortlip, Austin",
-            "Shepherd, Meghan",
+            "Naing, Yadanar",
             "Nalesnik, Allison",
             "Jermain, Madison",
+            "Pellinger, Thomas",
+            "Williams, E. Eugene",
+            "Freeman, Angela R.",
             "Presotto, Andrea",
-            "Werner, Timothy",
-            "Jewell, Mollie Anne"
+            "Ortlip, Austin",
+            "Jewell, Mollie Anne",
+            "Hopkins, Emily",
+            "Corfield, Jeremy R.",
+            "Gimblet, Colin",
+            "Liebgold, Eric B.",
+            "Staudmyer, Timothy",
+            "Clark, Jessica",
+            "Joyce, Ryan Patrick"
         ],
         "departments": [
-            "Geog & Geosci",
-            "North Potomac",
-            "Biol",
             "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Geog & Geosci",
+            "Biol Sci",
+            "North Potomac",
+            "Biol"
+        ]
     },
     "Biology": {
         "faculty_count": 29,
         "department_count": 6,
+        "article_count": 19,
         "faculty": [
-            "Nyland, Jennifer",
-            "Bradley, Christina J.",
-            "Pellinger, Thomas",
-            "Gimblet, Colin",
-            "Vance, Morgan",
-            "Taylor, Ryan C.",
-            "Corfield, Jeremy R.",
-            "Naing, Yadanar",
-            "Hunter, Kimberly L.",
-            "Joyce, Ryan Patrick",
-            "Mitchell, Kelsey M.",
-            "Staudmyer, Timothy",
-            "Ludovici, Rosalind J.",
-            "Voithofer, Gabrielle",
-            "Clements, Paul",
-            "Wilhite, Kyle O.",
-            "Lamanca, John",
-            "Coss, Derek A.",
-            "Erickson, Les",
-            "Clark, Jessica",
-            "Freeman, Angela R.",
             "Bressman, Noah",
-            "Ortlip, Austin",
             "Shepherd, Meghan",
-            "Nalesnik, Allison",
-            "Jermain, Madison",
-            "Presotto, Andrea",
+            "Nyland, Jennifer",
+            "Erickson, Les",
+            "Wilhite, Kyle O.",
             "Werner, Timothy",
-            "Jewell, Mollie Anne"
+            "Vance, Morgan",
+            "Voithofer, Gabrielle",
+            "Lamanca, John",
+            "Naing, Yadanar",
+            "Nalesnik, Allison",
+            "Taylor, Ryan C.",
+            "Ludovici, Rosalind J.",
+            "Jermain, Madison",
+            "Pellinger, Thomas",
+            "Mitchell, Kelsey M.",
+            "Freeman, Angela R.",
+            "Presotto, Andrea",
+            "Ortlip, Austin",
+            "Jewell, Mollie Anne",
+            "Corfield, Jeremy R.",
+            "Gimblet, Colin",
+            "Coss, Derek A.",
+            "Hunter, Kimberly L.",
+            "Staudmyer, Timothy",
+            "Clark, Jessica",
+            "Joyce, Ryan Patrick",
+            "Clements, Paul",
+            "Bradley, Christina J."
         ],
         "departments": [
-            "Henson Sch Technol",
-            "Geog & Geosci",
-            "North Potomac",
-            "Biol",
             "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Geog & Geosci",
+            "Henson Sch Technol",
+            "Biol Sci",
+            "North Potomac",
+            "Biol"
+        ]
     },
     "Cell Biology": {
         "faculty_count": 21,
         "department_count": 6,
+        "article_count": 11,
         "faculty": [
+            "Shepherd, Meghan",
             "Nyland, Jennifer",
-            "Pellinger, Thomas",
-            "Gimblet, Colin",
+            "Erickson, Les",
+            "Werner, Timothy",
             "Vance, Morgan",
-            "Corfield, Jeremy R.",
-            "Naing, Yadanar",
-            "Joyce, Ryan Patrick",
-            "Staudmyer, Timothy",
             "Voithofer, Gabrielle",
             "Lamanca, John",
-            "Erickson, Les",
-            "Clark, Jessica",
-            "Freeman, Angela R.",
-            "Ortlip, Austin",
-            "Shepherd, Meghan",
+            "Naing, Yadanar",
             "Nalesnik, Allison",
             "Jermain, Madison",
-            "Brady, Alyssa",
+            "Pellinger, Thomas",
+            "Freeman, Angela R.",
             "Presotto, Andrea",
-            "Werner, Timothy",
-            "Jewell, Mollie Anne"
+            "Brady, Alyssa",
+            "Ortlip, Austin",
+            "Jewell, Mollie Anne",
+            "Corfield, Jeremy R.",
+            "Gimblet, Colin",
+            "Staudmyer, Timothy",
+            "Clark, Jessica",
+            "Joyce, Ryan Patrick"
         ],
         "departments": [
-            "Geog & Geosci",
-            "North Potomac",
-            "Phys",
-            "Biol",
             "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Geog & Geosci",
+            "Biol Sci",
+            "North Potomac",
+            "Biol",
+            "Phys"
+        ]
     },
     "Environmental Sciences": {
         "faculty_count": 21,
         "department_count": 14,
+        "article_count": 26,
         "faculty": [
-            "Phillips, David S.",
-            "Chen, Xingzhi Mara",
-            "Silaphone, K.",
-            "Roose, Jordan J.",
-            "Cha, Hoon S.",
-            "Scott, Michael",
-            "Ramseyer, Craig A.",
-            "Maykrantz, Sherry A.",
-            "Hunter, Kimberly L.",
-            "Nobiling, Brandye D.",
             "Kolstoe, Sonja",
-            "Stribling, Judith M.",
+            "Hamilton, Stuart E.",
+            "Yoon, David J.",
             "Agarwal, Vinita",
+            "Ramseyer, Craig A.",
+            "Scott, Michael",
+            "Caviglia-Harris, Jill L.",
+            "Stribling, Judith M.",
+            "Roose, Jordan J.",
+            "Phillips, David S.",
+            "Petrolino, Ashley V.",
+            "Nobiling, Brandye D.",
+            "Maykrantz, Sherry A.",
+            "Cha, Hoon S.",
+            "Silaphone, K.",
+            "Liebgold, Eric B.",
             "Franchi, Giulia",
             "Holdai, Veera",
-            "Petrolino, Ashley V.",
-            "Yoon, David J.",
-            "Liebgold, Eric B.",
-            "Hamilton, Stuart E.",
-            "Rexroth, Kayla S.",
-            "Caviglia-Harris, Jill L."
+            "Chen, Xingzhi Mara",
+            "Hunter, Kimberly L.",
+            "Rexroth, Kayla S."
         ],
         "departments": [
-            "Comp Sci",
-            "Secondary & Phys Educ Dept",
-            "Fulton Sch Liberal Arts",
-            "Geog & Geosci",
             "Biol Sci",
-            "Sch Hlth Sci",
-            "1101 Camden Ave",
-            "Henson Sch Sci & Technol",
-            "Environm Studies",
-            "Perdue Sch Business",
+            "Geog & Geosci",
             "Salisbury",
+            "1101 Camden Ave",
+            "Comp Sci",
+            "Finance Dept",
             "Econ & Finance Dept",
-            "Math & Comp Sci",
-            "Finance Dept"
-        ],
-        "article_set": []
+            "Secondary & Phys Educ Dept",
+            "Henson Sch Sci & Technol",
+            "Perdue Sch Business",
+            "Environm Studies",
+            "Fulton Sch Liberal Arts",
+            "Sch Hlth Sci",
+            "Math & Comp Sci"
+        ]
     },
     "Environmental Studies": {
         "faculty_count": 7,
         "department_count": 7,
+        "article_count": 16,
         "faculty": [
-            "Cha, Hoon S.",
-            "Briand, Christopher H.",
-            "Caviglia-Harris, Jill L.",
-            "Hamilton, Stuart E.",
+            "Kolstoe, Sonja",
             "Scott, Michael",
             "Villalobos, Laura",
-            "Kolstoe, Sonja"
+            "Caviglia-Harris, Jill L.",
+            "Cha, Hoon S.",
+            "Hamilton, Stuart E.",
+            "Briand, Christopher H."
         ],
         "departments": [
-            "Econ & Finance Dept",
-            "Geog & Geosci",
-            "Environm Studies",
-            "Perdue Sch Business",
-            "Econ & Finance",
             "Biol Sci",
-            "Finance Dept"
-        ],
-        "article_set": []
+            "Geog & Geosci",
+            "Econ & Finance",
+            "Finance Dept",
+            "Econ & Finance Dept",
+            "Perdue Sch Business",
+            "Environm Studies"
+        ]
     },
     "Mathematics, Applied": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 6,
         "faculty": [
-            "Schneider, Lisa",
+            "Tu, Junyi",
             "Cai, Jiacheng",
             "Shifler, Ryan M.",
-            "Tu, Junyi"
+            "Schneider, Lisa"
         ],
         "departments": [
             "Salisbury",
             "Math Sci",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Linguistics": {
         "faculty_count": 6,
         "department_count": 6,
+        "article_count": 13,
         "faculty": [
             "Stutelberg, Erin B.",
-            "Kulavuz-Onal, Derya",
             "Williamson, Thea",
             "Scanlon, Jaycee",
             "Karimzad, Farzad",
+            "Kulavuz-Onal, Derya",
             "Pandey, Anjali"
         ],
         "departments": [
-            "Literacy Studies",
+            "Salisbury",
+            "1101 Camden Ave",
             "Appl Linguist",
             "English",
             "Secondary & Phys Educ",
-            "Salisbury",
-            "1101 Camden Ave"
-        ],
-        "article_set": []
+            "Literacy Studies"
+        ]
     },
     "Language & Linguistics": {
         "faculty_count": 6,
         "department_count": 4,
+        "article_count": 8,
         "faculty": [
             "Stutelberg, Erin B.",
-            "Franzak, Judith K.",
             "Williamson, Thea",
             "McElroy, Honor",
             "Karimzad, Farzad",
+            "Franzak, Judith K.",
             "Pandey, Anjali"
         ],
         "departments": [
-            "Literacy Studies",
             "Salisbury",
+            "Secondary & Phys Educ",
             "English",
-            "Secondary & Phys Educ"
-        ],
-        "article_set": []
+            "Literacy Studies"
+        ]
     },
     "Anthropology": {
         "faculty_count": 3,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
-            "Briand, Christopher H.",
             "Barrett, G. Douglas",
+            "Briand, Christopher H.",
             "Karimzad, Farzad"
         ],
         "departments": [
-            "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Salisbury"
+        ]
     },
     "Sociology": {
         "faculty_count": 7,
         "department_count": 4,
+        "article_count": 7,
         "faculty": [
-            "Goyens, Tom",
-            "Briand, Christopher H.",
+            "Fox, James T.",
             "Scanlon, Jaycee",
             "Karimzad, Farzad",
-            "Sporer, Ryan Alan",
-            "Fox, James T.",
-            "Stoner, Alexander M."
+            "Stoner, Alexander M.",
+            "Goyens, Tom",
+            "Briand, Christopher H.",
+            "Sporer, Ryan Alan"
         ],
         "departments": [
-            "Salisbury",
             "Biol Sci",
-            "English",
-            "Seidel Sch Educ"
-        ],
-        "article_set": []
+            "Seidel Sch Educ",
+            "Salisbury",
+            "English"
+        ]
     },
     "Geriatrics & Gerontology": {
         "faculty_count": 4,
         "department_count": 5,
+        "article_count": 6,
         "faculty": [
-            "Lee, Byung Ho",
+            "Miao, Chao",
             "Jeon, Kwonchan",
             "DiBartolo, Mary C.",
-            "Miao, Chao"
+            "Lee, Byung Ho"
         ],
         "departments": [
-            "Sch Nursing",
-            "Management & Mkt",
-            "Publ Hlth Program",
             "Salisbury",
-            "Psychol"
-        ],
-        "article_set": []
+            "Publ Hlth Program",
+            "Sch Nursing",
+            "Psychol",
+            "Management & Mkt"
+        ]
     },
     "Gerontology": {
         "faculty_count": 4,
         "department_count": 5,
+        "article_count": 6,
         "faculty": [
             "Green, Daniel C.",
             "Jeon, Kwonchan",
@@ -917,258 +919,258 @@
             "Lee, Byung Ho"
         ],
         "departments": [
-            "Sch Social Work",
-            "Sch Nursing",
-            "Publ Hlth Program",
             "Salisbury",
-            "Psychol"
-        ],
-        "article_set": []
+            "Publ Hlth Program",
+            "Sch Nursing",
+            "Psychol",
+            "Sch Social Work"
+        ]
     },
     "Political Science": {
         "faculty_count": 12,
         "department_count": 7,
+        "article_count": 20,
         "faculty": [
+            "Fox, James T.",
             "Chambers, Dustin",
-            "Munemo, Jonathan",
-            "Keethaponcalan, S. I.",
-            "Kotlowski, Dean J.",
-            "Goyens, Tom",
-            "Fletcher, Michelle N.",
-            "Rittinger, Eric R.",
-            "Surak, Sarah M.",
-            "Eun, Jihyun",
-            "Hill, Amanda",
             "Caballero, Guillermo",
-            "Fox, James T."
+            "Surak, Sarah M.",
+            "Hill, Amanda",
+            "Goyens, Tom",
+            "Kotlowski, Dean J.",
+            "Eun, Jihyun",
+            "Rittinger, Eric R.",
+            "Fletcher, Michelle N.",
+            "Keethaponcalan, S. I.",
+            "Munemo, Jonathan"
         ],
         "departments": [
-            "Conflict Resolut Dept",
-            "Social Work",
-            "Seidel Sch Educ",
-            "Polit Sci",
+            "Salisbury",
             "Econ",
             "Econ & Finance",
-            "Salisbury"
-        ],
-        "article_set": []
+            "Social Work",
+            "Polit Sci",
+            "Seidel Sch Educ",
+            "Conflict Resolut Dept"
+        ]
     },
     "Business": {
         "faculty_count": 23,
         "department_count": 12,
+        "article_count": 43,
         "faculty": [
-            "Morris, Paula T.",
+            "Billups, M. Judith",
+            "Villalobos, Laura",
+            "Eun, Jihyun",
+            "Hamilton, Stuart E.",
+            "Sen, Argha",
+            "Yoon, David J.",
+            "Gang, KwangWook",
+            "Wu, Yun",
+            "Pasirayi, Simbarashe",
+            "Schneider, Gustavo",
+            "Miao, Chao",
+            "Roche, Olivier",
+            "Caviglia-Harris, Jill L.",
+            "Poddar, Amit",
+            "Richerson, Rob",
             "Johnson, Aaron",
             "Follmer, Kayla B.",
-            "Billups, M. Judith",
-            "Lei, Shan",
-            "Wu, Yun",
-            "Gang, KwangWook",
-            "Poddar, Amit",
             "Munemo, Jonathan",
             "Singh, Nitya P.",
-            "Schneider, Gustavo",
+            "Lei, Shan",
             "Adams, Stephen B.",
-            "Villalobos, Laura",
-            "Richerson, Rob",
-            "Yoon, David J.",
-            "Miao, Chao",
-            "Hamilton, Stuart E.",
-            "Roche, Olivier",
             "Fennell, Patrick",
-            "Pasirayi, Simbarashe",
-            "Eun, Jihyun",
-            "Sen, Argha",
-            "Caviglia-Harris, Jill L."
+            "Morris, Paula T."
         ],
         "departments": [
-            "Perdue Sch Business",
-            "Mkt",
+            "Salisbury",
             "Geog & Geosci",
             "1101 Camden Ave",
-            "Perdue Business Sch",
-            "Management & Mkt",
+            "Econ & Finance",
             "Management",
             "Informat & Decis Sci",
-            "Econ & Finance",
-            "Salisbury",
             "Econ & Finance Dept",
-            "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+            "Mkt",
+            "Perdue Sch Business",
+            "Management & Mkt",
+            "Franklin P Perdue Sch Business",
+            "Perdue Business Sch"
+        ]
     },
     "Mathematics": {
         "faculty_count": 10,
         "department_count": 4,
+        "article_count": 14,
         "faculty": [
-            "Halperin, Alexander",
-            "Schneider, Lisa",
-            "Shifler, Ryan M.",
             "Evans, La'Tier",
+            "Bones, Lela",
+            "Halperin, Alexander",
             "Fowler, Garrett",
             "Short, Laura",
-            "Austin, Jathan",
             "Vennos, A.",
-            "Warman, Stephanie",
-            "Bones, Lela"
+            "Austin, Jathan",
+            "Shifler, Ryan M.",
+            "Schneider, Lisa",
+            "Warman, Stephanie"
         ],
         "departments": [
-            "Math & Comp Sci",
             "Salisbury",
+            "Math Sci",
             "Math",
-            "Math Sci"
-        ],
-        "article_set": []
+            "Math & Comp Sci"
+        ]
     },
     "Geosciences, Multidisciplinary": {
         "faculty_count": 3,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
             "Franchi, Giulia",
-            "Wang, Xiaohong",
-            "Barnes, Samuel"
+            "Barnes, Samuel",
+            "Wang, Xiaohong"
         ],
         "departments": [
             "Comp Sci",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Remote Sensing": {
         "faculty_count": 2,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
             "Franchi, Giulia",
             "Chen, Mara"
         ],
         "departments": [
-            "Comp Sci",
+            "Math & Comp Sci",
             "Geog & Geosci",
-            "Math & Comp Sci"
-        ],
-        "article_set": []
+            "Comp Sci"
+        ]
     },
     "Imaging Science & Photographic Technology": {
         "faculty_count": 1,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Franchi, Giulia"
         ],
         "departments": [
             "Comp Sci",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Psychology, Social": {
         "faculty_count": 6,
         "department_count": 4,
+        "article_count": 6,
         "faculty": [
-            "Steele, Rachel R.",
-            "Maier, Karl J.",
+            "Whitehead, George, I",
             "Miao, Chao",
-            "Fritz, Heidi L.",
+            "Steele, Rachel R.",
             "Lahay, Amber R.",
-            "Whitehead, George, I"
+            "Maier, Karl J.",
+            "Fritz, Heidi L."
         ],
         "departments": [
-            "Psychol",
             "Salisbury",
+            "Psychol",
             "Franklin P Perdue Sch Business",
             "Psychol Dept"
-        ],
-        "article_set": []
+        ]
     },
     "Education, Scientific Disciplines": {
         "faculty_count": 21,
         "department_count": 7,
+        "article_count": 19,
         "faculty": [
-            "Rohde, Jacki",
-            "Troup, Nicholas",
-            "Brown, Voncelia",
-            "Schwartz, Joseph",
-            "Groth, Randall E.",
-            "East, Meghan",
-            "Wathen, Bailee",
-            "Lanehart, Emily",
-            "Keifer, David",
-            "Rickards, Megan",
             "Quillin, Kim",
-            "Emmert, Elizabeth",
-            "Auerbach, Anna Jo J.",
-            "Joyner, Robert L., Jr.",
-            "Shakur, Asif",
-            "Emmert, Jeffrey",
-            "Rojas, Anthony J.",
-            "Naumann, Madeline",
-            "Hinderer, Katherine A.",
             "Hensiek, Sarah",
-            "Woodis, Lena A."
+            "Joyner, Robert L., Jr.",
+            "Rohde, Jacki",
+            "Naumann, Madeline",
+            "Groth, Randall E.",
+            "Rickards, Megan",
+            "East, Meghan",
+            "Hinderer, Katherine A.",
+            "Emmert, Jeffrey",
+            "Troup, Nicholas",
+            "Auerbach, Anna Jo J.",
+            "Woodis, Lena A.",
+            "Lanehart, Emily",
+            "Brown, Voncelia",
+            "Rojas, Anthony J.",
+            "Emmert, Elizabeth",
+            "Keifer, David",
+            "Schwartz, Joseph",
+            "Shakur, Asif",
+            "Wathen, Bailee"
         ],
         "departments": [
-            "1101 Camden Ave",
-            "Phys",
-            "Seidel Sch Educ",
             "Chem",
-            "Henson Sch Sci & Technol",
             "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "1101 Camden Ave",
+            "Henson Sch Sci & Technol",
+            "Phys",
+            "Seidel Sch Educ"
+        ]
     },
     "Physics, Multidisciplinary": {
         "faculty_count": 3,
         "department_count": 3,
+        "article_count": 6,
         "faculty": [
-            "Schwartz, Joseph",
             "Emmert, Jeffrey",
-            "Shakur, Asif"
+            "Shakur, Asif",
+            "Schwartz, Joseph"
         ],
         "departments": [
-            "Phys",
+            "Salisbury",
             "Henson Sch Sci & Technol",
-            "Salisbury"
-        ],
-        "article_set": []
+            "Phys"
+        ]
     },
     "Law": {
         "faculty_count": 3,
         "department_count": 3,
+        "article_count": 4,
         "faculty": [
-            "Koval, Michael R.",
             "Munemo, Jonathan",
-            "Chambers, Dustin"
+            "Chambers, Dustin",
+            "Koval, Michael R."
         ],
         "departments": [
+            "Econ",
             "Franklin P Perdue Sch Business",
-            "Business Law",
-            "Econ"
-        ],
-        "article_set": []
+            "Business Law"
+        ]
     },
     "Public Administration": {
         "faculty_count": 6,
         "department_count": 5,
+        "article_count": 6,
         "faculty": [
             "Chambers, Dustin",
             "Pope, Alexander",
-            "Munemo, Jonathan",
             "Hill, Brian",
             "Surak, Sarah",
-            "Cooper, Sue A."
+            "Cooper, Sue A.",
+            "Munemo, Jonathan"
         ],
         "departments": [
-            "Polit Sci & Environm Studies",
             "Econ",
+            "Econ & Finance",
             "Secondary & Phys Educ",
-            "Perdue Sch Business",
-            "Econ & Finance"
-        ],
-        "article_set": []
+            "Polit Sci & Environm Studies",
+            "Perdue Sch Business"
+        ]
     },
     "Psychiatry": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 5,
         "faculty": [
             "Kim, Yun-Kyoung",
             "Maier, Karl J.",
@@ -1176,215 +1178,215 @@
             "Fritz, Heidi L."
         ],
         "departments": [
-            "Franklin P Perdue Sch Business",
-            "Psychol"
-        ],
-        "article_set": []
+            "Psychol",
+            "Franklin P Perdue Sch Business"
+        ]
     },
     "Psychology": {
         "faculty_count": 8,
         "department_count": 3,
+        "article_count": 6,
         "faculty": [
             "Kim, Yun-Kyoung",
-            "Maier, Karl J.",
             "Leaver, Echo",
-            "Osman, Suzanne L.",
-            "Fritz, Heidi L.",
+            "Tchienga, Ines",
             "Nibblett, Kaitlyn",
             "Hassan, Tehzeeb",
-            "Tchienga, Ines"
+            "Osman, Suzanne L.",
+            "Maier, Karl J.",
+            "Fritz, Heidi L."
         ],
         "departments": [
             "Salisbury",
-            "Franklin P Perdue Sch Business",
-            "Psychol"
-        ],
-        "article_set": []
+            "Psychol",
+            "Franklin P Perdue Sch Business"
+        ]
     },
     "Meteorology & Atmospheric Sciences": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 5,
         "faculty": [
-            "Barnes, Samuel",
-            "Wang, Xiaohong",
             "Ramseyer, Craig A.",
-            "Hamilton, Stuart E."
+            "Barnes, Samuel",
+            "Hamilton, Stuart E.",
+            "Wang, Xiaohong"
         ],
         "departments": [
             "Geog & Geosci",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Water Resources": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
             "Caviglia-Harris, Jill L.",
             "Barnes, Samuel",
-            "Wang, Xiaohong",
-            "Muller, Mark W."
+            "Muller, Mark W.",
+            "Wang, Xiaohong"
         ],
         "departments": [
             "Salisbury",
             "Econ & Finance Dept",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Oceanography": {
         "faculty_count": 8,
         "department_count": 4,
+        "article_count": 6,
         "faculty": [
-            "Hammond, Courtney Nicole",
-            "Bradley, Christina J.",
-            "Muller, Mark W.",
-            "Grecay, Paul A.",
-            "Roberts, Paige M.",
             "Krach, Noah",
+            "Muller, Mark W.",
+            "Gallo, Silviya M.",
+            "Hammond, Courtney Nicole",
+            "Roberts, Paige M.",
             "Hamilton, Stuart E.",
-            "Gallo, Silviya M."
+            "Grecay, Paul A.",
+            "Bradley, Christina J."
         ],
         "departments": [
             "Salisbury",
-            "Biol Sci",
             "Geog & Geosci",
-            "Richard A Henson Sch Sci & Technol"
-        ],
-        "article_set": []
+            "Richard A Henson Sch Sci & Technol",
+            "Biol Sci"
+        ]
     },
     "Zoology": {
         "faculty_count": 15,
         "department_count": 4,
+        "article_count": 25,
         "faculty": [
-            "Hunter, Kimberly L.",
+            "Freeman, Angela R.",
+            "Presotto, Andrea",
             "Small, Hannah G.",
-            "Bradley, Christina J.",
-            "Chaudhry, Eaqan A.",
-            "Coss, Derek A.",
             "Grant, Alexa H.",
-            "Bushera, Hakeem",
-            "Liebgold, Eric B.",
             "Stafford, Kathleen",
             "Cronin, Andrew",
-            "Bressman, N. R.",
             "Curry, Caitlin",
-            "Presotto, Andrea",
-            "Freeman, Angela R.",
-            "Taylor, Ryan C."
+            "Hunter, Kimberly L.",
+            "Chaudhry, Eaqan A.",
+            "Taylor, Ryan C.",
+            "Bressman, N. R.",
+            "Bushera, Hakeem",
+            "Bradley, Christina J.",
+            "Coss, Derek A.",
+            "Liebgold, Eric B."
         ],
         "departments": [
-            "Salisbury",
-            "Biol",
             "Biol Sci",
-            "Geog & Geosci"
-        ],
-        "article_set": []
+            "Geog & Geosci",
+            "Salisbury",
+            "Biol"
+        ]
     },
     "Ecology": {
         "faculty_count": 39,
         "department_count": 13,
+        "article_count": 37,
         "faculty": [
             "",
-            "Lamb, Stephanie M.",
-            "Bradley, Christina J.",
-            "Fillebrown, J.",
-            "Bushera, Hakeem",
-            "Manole, Denise",
-            "Dolezar, Gina M.",
-            "Miller, Lien",
-            "Teller, Kyle G.",
-            "Roose, Jordan J.",
-            "Adler, Laurie",
-            "Kramer, Christian F.",
-            "Silaphone, Keota",
-            "Kobisk, Ashley",
-            "Taylor, Ryan C.",
-            "Hunter, Kimberly L.",
-            "Ransom, Tami",
-            "Hamilton, Stu",
-            "Molina, Michael",
-            "Clements, Paul",
-            "Maloof, Joan E.",
-            "Stribling, Judith M.",
-            "Kolstoe, Sonja",
-            "Chen, Xuan",
-            "Montgomery, Chandini B.",
-            "Coss, Derek A.",
-            "Presotto, A.",
-            "Price, Dana L.",
-            "Liebgold, Eric B.",
-            "Cronin, Andrew",
-            "Koehler, S.",
-            "Irons, Jonathan",
-            "Simons, Patrick",
-            "Wehlan, T.",
-            "Wilson, Abigail",
             "Hogue, Aaron S.",
+            "Molina, Michael",
+            "Ransom, Tami",
+            "Montgomery, Chandini B.",
+            "Kolstoe, Sonja",
+            "Cronin, Andrew",
+            "Chen, Xuan",
+            "Maloof, Joan E.",
+            "Hamilton, Stu",
+            "Simons, Patrick",
+            "Koehler, S.",
+            "Silaphone, Keota",
+            "Dolezar, Gina M.",
+            "Fillebrown, J.",
             "Caviglia-Harris, Jill L.",
+            "Manole, Denise",
+            "Taylor, Ryan C.",
             "Grecay, Paul A.",
-            "Garcia, Mark J."
+            "Stribling, Judith M.",
+            "Irons, Jonathan",
+            "Roose, Jordan J.",
+            "Presotto, A.",
+            "Kramer, Christian F.",
+            "Wehlan, T.",
+            "Lamb, Stephanie M.",
+            "Miller, Lien",
+            "Bushera, Hakeem",
+            "Coss, Derek A.",
+            "Liebgold, Eric B.",
+            "Adler, Laurie",
+            "Price, Dana L.",
+            "Wilson, Abigail",
+            "Hunter, Kimberly L.",
+            "Kobisk, Ashley",
+            "Garcia, Mark J.",
+            "Clements, Paul",
+            "Bradley, Christina J.",
+            "Teller, Kyle G."
         ],
         "departments": [
-            "Henson Sch Technol",
             "Biol Sci",
+            "Henson Sch Technol",
+            "Salisbury",
             "Geog & Geosci",
             "1101 Camden Ave",
-            "Henson Sch Sci & Technol",
-            "Math Sci",
-            "Environm Studies",
+            "Econ & Finance",
+            "Econ & Finance Dept",
             "Biol",
             "Environm Studies Dept",
-            "Econ & Finance",
-            "Salisbury",
-            "Econ & Finance Dept",
+            "Math Sci",
+            "Henson Sch Sci & Technol",
+            "Environm Studies",
             "Richard A Henson Sch Sci & Technol"
-        ],
-        "article_set": []
+        ]
     },
     "Ethics": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
-            "Emerson, David",
             "Miao, Chao",
-            "Smith, Kenneth",
-            "Wu, Yun"
+            "Emerson, David",
+            "Wu, Yun",
+            "Smith, Kenneth"
         ],
         "departments": [
             "Accounting & Legal Studies",
             "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Information Science & Library Science": {
         "faculty_count": 2,
         "department_count": 3,
+        "article_count": 4,
         "faculty": [
-            "Martin, Jennifer M.",
-            "Quan, Jing"
+            "Quan, Jing",
+            "Martin, Jennifer M."
         ],
         "departments": [
-            "Salisbury Univ Lib",
             "Perdue Sch Business",
+            "Salisbury Univ Lib",
             "Informat Decis Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Surgery": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Kramer, Michael E."
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Industrial Relations & Labor": {
         "faculty_count": 3,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
             "Hoffman, Richard C.",
             "Miao, Chao",
@@ -1393,12 +1395,12 @@
         "departments": [
             "Franklin P Perdue Sch Business",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Agricultural Economics & Policy": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 4,
         "faculty": [
             "Caviglia-Harris, Jill L.",
             "Chambers, Dustin",
@@ -1406,432 +1408,432 @@
             "Pasirayi, Simba"
         ],
         "departments": [
-            "Econ & Finance",
-            "Mkt"
-        ],
-        "article_set": []
+            "Mkt",
+            "Econ & Finance"
+        ]
     },
     "Psychology, Biological": {
         "faculty_count": 5,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Leaver, Echo",
-            "Nibblett, Kaitlyn",
-            "Hassan, Tehzeeb",
             "Freeman, Angela R.",
-            "Tchienga, Ines"
+            "Tchienga, Ines",
+            "Nibblett, Kaitlyn",
+            "Hassan, Tehzeeb"
         ],
         "departments": [
             "Salisbury",
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Psychology, Experimental": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Nibblett, Kaitlyn",
-            "Leaver, Echo",
             "Hassan, Tehzeeb",
+            "Leaver, Echo",
             "Tchienga, Ines"
         ],
         "departments": [
             "Salisbury",
             "Psychol"
-        ],
-        "article_set": []
+        ]
     },
     "Communication": {
         "faculty_count": 9,
         "department_count": 8,
+        "article_count": 13,
         "faculty": [
-            "Bolton, Joshua P.",
+            "O'Sullivan, Shannon E. M.",
             "Agarwal, Vinita",
             "Stanfield, Kellie",
             "Han, Eun-Jeong",
-            "Fritz, Heidi L.",
-            "Brannock-Cox, Jennifer",
             "Karimzad, Farzad",
-            "O'Sullivan, Shannon E. M.",
-            "Conrath, Ryan"
+            "Brannock-Cox, Jennifer",
+            "Conrath, Ryan",
+            "Fritz, Heidi L.",
+            "Bolton, Joshua P."
         ],
         "departments": [
-            "Fulton Sch Liberal Arts",
-            "Cinema Studies",
-            "Commun",
-            "Commun Arts Dept",
             "Salisbury",
+            "Commun Arts Dept",
             "1101 Camden Ave",
             "Departmernt Commun Arts",
-            "Commun Arts"
-        ],
-        "article_set": []
+            "Cinema Studies",
+            "Commun Arts",
+            "Fulton Sch Liberal Arts",
+            "Commun"
+        ]
     },
     "Development Studies": {
         "faculty_count": 7,
         "department_count": 4,
+        "article_count": 6,
         "faculty": [
             "Park, Minseok",
             "Chambers, Dustin",
-            "Munemo, Jonathan",
             "Miao, Chao",
             "Nan, Wenxiu (Vince)",
             "Adams, Stephen B.",
+            "Munemo, Jonathan",
             "Caviglia-Harris, Jill"
         ],
         "departments": [
+            "Franklin P Perdue Sch Business",
             "1101 Camden Ave",
             "Econ & Finance Dept",
-            "Franklin P Perdue Sch Business",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Behavioral Sciences": {
         "faculty_count": 9,
         "department_count": 4,
+        "article_count": 14,
         "faculty": [
-            "Hunter, Kimberly L.",
-            "Coss, Derek A.",
             "Agarwal, Vinita",
-            "Bushera, Hakeem",
             "Presotto, Andrea",
+            "Freeman, Angela R.",
             "Cronin, Andrew",
             "Curry, Caitlin",
-            "Freeman, Angela R.",
-            "Taylor, Ryan C."
+            "Hunter, Kimberly L.",
+            "Taylor, Ryan C.",
+            "Bushera, Hakeem",
+            "Coss, Derek A."
         ],
         "departments": [
-            "Commun",
             "Biol Sci",
             "Geog & Geosci",
+            "Commun",
             "Biol"
-        ],
-        "article_set": []
+        ]
     },
     "Ethnic Studies": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 4,
         "faculty": [
-            "Pandey, Anjali",
-            "Okubo, Yuki",
             "Goyens, Tom",
-            "Ference, Gregory C."
+            "Ference, Gregory C.",
+            "Pandey, Anjali",
+            "Okubo, Yuki"
         ],
         "departments": [
-            "Hist",
             "Salisbury",
-            "Psychol"
-        ],
-        "article_set": []
+            "Psychol",
+            "Hist"
+        ]
     },
     "Oncology": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 5,
         "faculty": [
             "",
-            "Anderson, Philip D.",
             "Phillips, Robert A.",
-            "Li, Ning"
+            "Li, Ning",
+            "Anderson, Philip D."
         ],
         "departments": [
-            "Econ & Finance",
             "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Econ & Finance"
+        ]
     },
     "Literature, Romance": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 7,
         "faculty": [
             "Van de Wide, Aurelie"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Agronomy": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Cai, Jiacheng"
         ],
         "departments": [
             "Math Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Entomology": {
         "faculty_count": 12,
         "department_count": 5,
+        "article_count": 11,
         "faculty": [
-            "Chen, Xuan",
-            "Restein, Joseph",
-            "Simons, Patrick",
-            "Morningred, Connor",
             "Price, Dana L.",
-            "Mann, Hunter",
-            "Cai, Jiacheng",
-            "Bachran, Karsin",
-            "Rowe, Emily",
             "Grubb, Brittany",
+            "Cai, Jiacheng",
+            "Morningred, Connor",
+            "Mann, Hunter",
+            "Chen, Xuan",
+            "Hagadorn, Mallory A.",
             "Mitchell, Kaitlyn",
-            "Hagadorn, Mallory A."
+            "Rowe, Emily",
+            "Bachran, Karsin",
+            "Restein, Joseph",
+            "Simons, Patrick"
         ],
         "departments": [
             "Biol Sci",
-            "Math Sci",
-            "Biol",
             "1101 Camden Ave",
+            "Biol",
+            "Math Sci",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Biodiversity Conservation": {
         "faculty_count": 21,
         "department_count": 8,
+        "article_count": 16,
         "faculty": [
             "",
-            "Fillebrown, J.",
-            "Manole, Denise",
-            "Miller, Lien",
-            "Silaphone, Keota",
-            "Ransom, Tami",
+            "Hogue, Aaron S.",
             "Molina, Michael",
-            "Breon, Kathryn",
+            "Ransom, Tami",
             "Montgomery, Chandini B.",
             "Chen, Xuan",
-            "Presotto, A.",
-            "Price, Dana L.",
-            "Liebgold, Eric B.",
-            "Koehler, S.",
-            "Irons, Jonathan",
             "Simons, Patrick",
+            "Koehler, S.",
+            "Silaphone, Keota",
+            "Breon, Kathryn",
+            "Fillebrown, J.",
+            "Caviglia-Harris, Jill L.",
+            "Manole, Denise",
+            "Irons, Jonathan",
+            "Presotto, A.",
             "Wehlan, T.",
+            "Miller, Lien",
+            "Liebgold, Eric B.",
+            "Price, Dana L.",
             "Wilson, Abigail",
-            "Hogue, Aaron S.",
-            "Rexroth, Kayla S.",
-            "Caviglia-Harris, Jill L."
+            "Rexroth, Kayla S."
         ],
         "departments": [
             "Biol Sci",
             "Geog & Geosci",
+            "Salisbury",
             "1101 Camden Ave",
-            "Henson Sch Sci & Technol",
+            "Econ & Finance Dept",
             "Biol",
             "Environm Studies Dept",
-            "Salisbury",
-            "Econ & Finance Dept"
-        ],
-        "article_set": []
+            "Henson Sch Sci & Technol"
+        ]
     },
     "Film, Radio, Television": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
-            "Johnson, David T.",
-            "Conrath, Ryan"
+            "Conrath, Ryan",
+            "Johnson, David T."
         ],
         "departments": [
             "Salisbury",
             "Cinema Studies"
-        ],
-        "article_set": []
+        ]
     },
     "Astronomy & Astrophysics": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 14,
         "faculty": [
             "Troup, Nicholas",
             "Wesolowski, Sarah C."
         ],
         "departments": [
-            "Phys",
-            "Math & Comp Sci"
-        ],
-        "article_set": []
+            "Math & Comp Sci",
+            "Phys"
+        ]
     },
     "Social Sciences, Interdisciplinary": {
         "faculty_count": 9,
         "department_count": 4,
+        "article_count": 4,
         "faculty": [
-            "Steele, Rachel R.",
-            "Schlehofer, Michele M. M.",
-            "Weaver, Starlin",
-            "Othman, Yasmeen",
             "Disbennett, Mackensie",
-            "Nan, Wenxiu (Vince)",
             "Richardson, Gwynne",
+            "Bergner, Jennifer",
             "Groth, Randall",
-            "Bergner, Jennifer"
+            "Othman, Yasmeen",
+            "Nan, Wenxiu (Vince)",
+            "Weaver, Starlin",
+            "Steele, Rachel R.",
+            "Schlehofer, Michele M. M."
         ],
         "departments": [
-            "Psychol",
             "Seidel Sch Educ",
+            "Psychol",
             "Franklin P Perdue Sch Business",
             "Psychol Dept"
-        ],
-        "article_set": []
+        ]
     },
     "Statistics & Probability": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 2,
         "faculty": [
             "Hahn, Eugene D."
         ],
         "departments": [
             "Informat & Decis Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Psychology, Educational": {
         "faculty_count": 4,
         "department_count": 4,
+        "article_count": 7,
         "faculty": [
-            "Okubo, Yuki",
-            "Follmer, D. Jake",
             "Mcelroy, Honor B.",
-            "Fox, James"
+            "Fox, James",
+            "Okubo, Yuki",
+            "Follmer, D. Jake"
         ],
         "departments": [
             "Educ Leadership",
-            "Sch Educ",
             "Seidel Sch Educ",
-            "Psychol"
-        ],
-        "article_set": []
+            "Psychol",
+            "Sch Educ"
+        ]
     },
     "Cell & Tissue Engineering": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Brady, Alyssa"
         ],
         "departments": [
             "Phys"
-        ],
-        "article_set": []
+        ]
     },
     "Biotechnology & Applied Microbiology": {
         "faculty_count": 5,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
-            "Naing, Yadanar T.",
+            "Miller, Stephanie",
             "Brady, Alyssa",
+            "Naing, Yadanar T.",
             "Carter, Michael S.",
-            "Rost-Nasshan, Aerin",
-            "Miller, Stephanie"
+            "Rost-Nasshan, Aerin"
         ],
         "departments": [
-            "Phys",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Phys"
+        ]
     },
     "Engineering, Biomedical": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Brady, Alyssa"
         ],
         "departments": [
             "Phys"
-        ],
-        "article_set": []
+        ]
     },
     "Literature, African, Australian, Canadian": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 2,
         "faculty": [
             "Ratti, Manav"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Green & Sustainable Science & Technology": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
-            "Cha, Hoon S.",
             "Briand, C. H.",
             "Geleta, S. B.",
+            "Cha, Hoon S.",
             "Scott, Michael"
         ],
         "departments": [
             "Biol Sci",
             "Geog & Geosci",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Toxicology": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Nyland, Jennifer F."
         ],
         "departments": [
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Literature": {
         "faculty_count": 3,
         "department_count": 4,
+        "article_count": 12,
         "faculty": [
-            "Martino, Andrew",
             "Harrington, Gary",
-            "King, Carolyne M."
+            "King, Carolyne M.",
+            "Martino, Andrew"
         ],
         "departments": [
             "Salisbury",
-            "Honors Coll",
             "Fulton Sch Liberal Arts",
+            "Honors Coll",
             "English"
-        ],
-        "article_set": []
+        ]
     },
     "Humanities, Multidisciplinary": {
         "faculty_count": 5,
         "department_count": 4,
+        "article_count": 7,
         "faculty": [
             "Barrett, G. Douglas",
+            "Ratti, Manav",
             "Kotlowski, Dean J.",
-            "Ference, Gregory C.",
             "Conrath, Ryan",
-            "Ratti, Manav"
+            "Ference, Gregory C."
         ],
         "departments": [
             "Salisbury",
             "Hist Dept",
-            "English",
-            "Cinema Studies"
-        ],
-        "article_set": []
+            "Cinema Studies",
+            "English"
+        ]
     },
     "Forestry": {
         "faculty_count": 3,
         "department_count": 3,
+        "article_count": 4,
         "faculty": [
-            "Ottoni Santiago, Thais Muniz",
+            "Maloof, Joan E.",
             "Cai, Jiacheng",
-            "Maloof, Joan E."
+            "Ottoni Santiago, Thais Muniz"
         ],
         "departments": [
             "Biol Sci",
             "Environm Studies",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Asian Studies": {
         "faculty_count": 3,
         "department_count": 2,
+        "article_count": 5,
         "faculty": [
             "Tuske, Joerg",
             "McCarty, Michael",
@@ -1840,55 +1842,55 @@
         "departments": [
             "Salisbury",
             "English"
-        ],
-        "article_set": []
+        ]
     },
     "Chemistry, Organic": {
         "faculty_count": 16,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
-            "Habay, Stephen A.",
-            "Manchak, Randi",
-            "Chapman, Hayley A.",
-            "Cheng, Yijie",
-            "Friese, Seth J.",
-            "Miller, Julia M.",
-            "Marr, Alissa N.",
-            "Timmons, Miranda",
-            "Cusic, Rachel M.",
-            "Thomas, John Z.",
-            "Albright, Savannah G.",
-            "Labb, Samantha A.",
             "Hartlove, Nathan B.",
-            "Bowler, Matthew M.",
+            "Chapman, Hayley A.",
+            "Cusic, Rachel M.",
+            "Marr, Alissa N.",
+            "Cheng, Yijie",
+            "Labb, Samantha A.",
+            "Manchak, Randi",
+            "Miller, Julia M.",
+            "Timmons, Miranda",
+            "Masteran, Conner J.",
             "Ali, Bakr",
-            "Masteran, Conner J."
+            "Albright, Savannah G.",
+            "Habay, Stephen A.",
+            "Bowler, Matthew M.",
+            "Friese, Seth J.",
+            "Thomas, John Z."
         ],
         "departments": [
-            "1101 Camden Ave",
-            "Chem"
-        ],
-        "article_set": []
+            "Chem",
+            "1101 Camden Ave"
+        ]
     },
     "Religion": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
-            "Tomcho, Thomas",
             "Chappell, Charisse",
-            "Miller, Jerome A.",
-            "Patel, Shruti"
+            "Patel, Shruti",
+            "Tomcho, Thomas",
+            "Miller, Jerome A."
         ],
         "departments": [
+            "Psychol",
             "Hist",
-            "Philosophy Dept",
-            "Psychol"
-        ],
-        "article_set": []
+            "Philosophy Dept"
+        ]
     },
     "Engineering, Industrial": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Park, Minseok",
             "Polkinghorn, Brian D."
@@ -1896,121 +1898,121 @@
         "departments": [
             "Bosserman Ctr Conflict Resolut",
             "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Engineering, Civil": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Polkinghorn, Brian D."
         ],
         "departments": [
             "Bosserman Ctr Conflict Resolut"
-        ],
-        "article_set": []
+        ]
     },
     "Fisheries": {
         "faculty_count": 3,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
             "Grecay, Paul A.",
-            "Bradley, Christina J.",
-            "Comfort, Joshua"
+            "Comfort, Joshua",
+            "Bradley, Christina J."
         ],
         "departments": [
+            "Biol Sci",
             "Comp Sci",
-            "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Salisbury"
+        ]
     },
     "Marine & Freshwater Biology": {
         "faculty_count": 9,
         "department_count": 6,
+        "article_count": 8,
         "faculty": [
-            "Chen, Xuan",
-            "Bradley, Christina J.",
+            "Krach, Noah",
+            "Gallo, Silviya M.",
             "Hammond, Courtney Nicole",
+            "Roberts, Paige M.",
+            "Chen, Xuan",
             "Grecay, Paul A.",
             "Comfort, Joshua",
-            "Roberts, Paige M.",
-            "Krach, Noah",
             "Hamilton, Stuart E.",
-            "Gallo, Silviya M."
+            "Bradley, Christina J."
         ],
         "departments": [
-            "Comp Sci",
-            "Geog & Geosci",
-            "Biol",
-            "Salisbury",
             "Biol Sci",
+            "Geog & Geosci",
+            "Salisbury",
+            "Comp Sci",
+            "Biol",
             "Richard A Henson Sch Sci & Technol"
-        ],
-        "article_set": []
+        ]
     },
     "Physics, Nuclear": {
         "faculty_count": 1,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
             "Wesolowski, S."
         ],
         "departments": [
             "Math Sci",
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Social Issues": {
         "faculty_count": 4,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
-            "Othman, Yasmeen",
-            "Steele, Rachel R.",
+            "Disbennett, Mackensie",
             "Richardson, Gwynne",
-            "Disbennett, Mackensie"
+            "Steele, Rachel R.",
+            "Othman, Yasmeen"
         ],
         "departments": [
             "Psychol Dept"
-        ],
-        "article_set": []
+        ]
     },
     "Women's Studies": {
         "faculty_count": 9,
         "department_count": 4,
+        "article_count": 7,
         "faculty": [
-            "Steele, Rachel R.",
-            "Othman, Yasmeen",
-            "Okubo, Yuki",
-            "Osman, Suzanne L.",
             "Disbennett, Mackensie",
-            "Schlehofer, Michele M.",
             "Richardson, Gwynne",
             "Caballero, Guillermo",
-            "Conrath, Ryan"
+            "Othman, Yasmeen",
+            "Osman, Suzanne L.",
+            "Okubo, Yuki",
+            "Schlehofer, Michele M.",
+            "Conrath, Ryan",
+            "Steele, Rachel R."
         ],
         "departments": [
             "Salisbury",
+            "Psychol",
             "Psychol Dept",
-            "Cinema Studies",
-            "Psychol"
-        ],
-        "article_set": []
+            "Cinema Studies"
+        ]
     },
     "Veterinary Sciences": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Presotto, Andrea"
         ],
         "departments": [
             "Geog & Geosci"
-        ],
-        "article_set": []
+        ]
     },
     "History Of Social Sciences": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
             "Hoffman, Richard C.",
             "Adams, Stephen B."
@@ -2018,172 +2020,172 @@
         "departments": [
             "Management & Mkt",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Social Sciences, Mathematical Methods": {
         "faculty_count": 1,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Chambers, Dustin"
         ],
         "departments": [
             "Econ & Finance",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Energy & Fuels": {
         "faculty_count": 2,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
-            "Briand, C. H.",
-            "Geleta, S. B."
+            "Geleta, S. B.",
+            "Briand, C. H."
         ],
         "departments": [
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Evolutionary Biology": {
         "faculty_count": 12,
         "department_count": 5,
+        "article_count": 8,
         "faculty": [
+            "Adler, Laurie",
             "Hunter, Kimberly L.",
             "Lamb, Stephanie M.",
+            "Taylor, Ryan C.",
+            "Kobisk, Ashley",
+            "Garcia, Mark J.",
+            "Clements, Paul",
+            "Berns, Chelsea M.",
             "Bradley, Christina J.",
             "Hamilton, Stu",
-            "Liebgold, Eric B.",
-            "Berns, Chelsea M.",
             "Teller, Kyle G.",
-            "Adler, Laurie",
-            "Clements, Paul",
-            "Kobisk, Ashley",
-            "Taylor, Ryan C.",
-            "Garcia, Mark J."
+            "Liebgold, Eric B."
         ],
         "departments": [
+            "Biol Sci",
             "Henson Sch Technol",
-            "Math Sci",
-            "Biol",
             "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol",
+            "Math Sci"
+        ]
     },
     "Developmental Biology": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
-            "Sargent, Sheridan",
             "Clark, Jessica Kennett",
+            "Brennan, Anna",
             "Berns, Chelsea M.",
-            "Brennan, Anna"
+            "Sargent, Sheridan"
         ],
         "departments": [
-            "Biol",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Biol"
+        ]
     },
     "Genetics & Heredity": {
         "faculty_count": 7,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
-            "Hunter, Kimberly L.",
-            "Berns, Chelsea M.",
             "Teller, Kyle G.",
-            "Adler, Laurie",
-            "Kobisk, Ashley",
+            "Hunter, Kimberly L.",
             "Taylor, Ryan C.",
-            "Garcia, Mark J."
+            "Kobisk, Ashley",
+            "Garcia, Mark J.",
+            "Berns, Chelsea M.",
+            "Adler, Laurie"
         ],
         "departments": [
-            "Biol",
             "Biol Sci",
-            "Math Sci"
-        ],
-        "article_set": []
+            "Math Sci",
+            "Biol"
+        ]
     },
     "Health Policy & Services": {
         "faculty_count": 4,
         "department_count": 4,
+        "article_count": 4,
         "faculty": [
             "Long-White, Deneen",
-            "Nobiling, Brandye D.",
             "Agarwal, Vinita",
+            "Nobiling, Brandye D.",
             "Stanfield, Kellie"
         ],
         "departments": [
             "Salisbury",
-            "Commun Arts Dept",
+            "Commun Arts",
             "Fulton Sch Liberal Arts",
-            "Commun Arts"
-        ],
-        "article_set": []
+            "Commun Arts Dept"
+        ]
     },
     "Health Care Sciences & Services": {
         "faculty_count": 5,
         "department_count": 3,
+        "article_count": 4,
         "faculty": [
             "",
-            "Ravizza, Dean M.",
             "Agarwal, Vinita",
-            "Long-White, Deneen",
-            "Nobiling, Brandye D."
+            "Ravizza, Dean M.",
+            "Nobiling, Brandye D.",
+            "Long-White, Deneen"
         ],
         "departments": [
             "Salisbury",
-            "Fulton Sch Liberal Arts",
-            "Secondary & Phys Educ"
-        ],
-        "article_set": []
+            "Secondary & Phys Educ",
+            "Fulton Sch Liberal Arts"
+        ]
     },
     "Philosophy": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 4,
         "faculty": [
             "Tuske, Joerg",
-            "Hatley, James",
             "Miller, Jerome A.",
-            "Song, Yujia"
+            "Song, Yujia",
+            "Hatley, James"
         ],
         "departments": [
-            "Philosophy",
-            "Salisbury"
-        ],
-        "article_set": []
+            "Salisbury",
+            "Philosophy"
+        ]
     },
     "Music": {
         "faculty_count": 3,
         "department_count": 4,
+        "article_count": 4,
         "faculty": [
-            "Barrett, G. Douglas",
+            "Walker, Elsie",
             "Leaver, Echo",
-            "Walker, Elsie"
+            "Barrett, G. Douglas"
         ],
         "departments": [
             "Salisbury",
+            "Psychol",
             "Commun",
-            "Cinema Studies",
-            "Psychol"
-        ],
-        "article_set": []
+            "Cinema Studies"
+        ]
     },
     "Food Science & Technology": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Pasirayi, Simba"
         ],
         "departments": [
             "Mkt"
-        ],
-        "article_set": []
+        ]
     },
     "Literary Reviews": {
         "faculty_count": 2,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
             "Nieves, John A.",
             "Habermeyer, Ryan"
@@ -2192,111 +2194,111 @@
             "Salisbury",
             "Creat Writing",
             "English"
-        ],
-        "article_set": []
+        ]
     },
     "Integrative & Complementary Medicine": {
         "faculty_count": 1,
         "department_count": 0,
+        "article_count": 1,
         "faculty": [
             ""
         ],
-        "departments": [],
-        "article_set": []
+        "departments": []
     },
     "Rehabilitation": {
         "faculty_count": 3,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
             "",
-            "Fritz, Heidi L.",
-            "Fox, James"
+            "Fox, James",
+            "Fritz, Heidi L."
         ],
         "departments": [
-            "Salisbury",
-            "Educ Leadership"
-        ],
-        "article_set": []
+            "Educ Leadership",
+            "Salisbury"
+        ]
     },
     "Criminology & Penology": {
         "faculty_count": 3,
         "department_count": 2,
+        "article_count": 5,
         "faculty": [
-            "Schlehofer, Michele M.",
+            "Lane, Halle L.",
             "Osman, Suzanne L.",
-            "Lane, Halle L."
+            "Schlehofer, Michele M."
         ],
         "departments": [
             "Psychol",
             "Psychol Dept"
-        ],
-        "article_set": []
+        ]
     },
     "Education, Special": {
         "faculty_count": 3,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
-            "Arban, Kathleen",
+            "Fox, James",
             "Fritz, Heidi L.",
-            "Fox, James"
+            "Arban, Kathleen"
         ],
         "departments": [
-            "Salisbury",
+            "Educ Leadership",
             "California",
-            "Educ Leadership"
-        ],
-        "article_set": []
+            "Salisbury"
+        ]
     },
     "Regional & Urban Planning": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Gang, KwangWook",
             "Wu, Yun"
         ],
         "departments": [
-            "Perdue Business Sch",
-            "Franklin P Perdue Sch Business"
-        ],
-        "article_set": []
+            "Franklin P Perdue Sch Business",
+            "Perdue Business Sch"
+        ]
     },
     "Geography": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Chen, Mara"
         ],
         "departments": [
             "Geog & Geosci"
-        ],
-        "article_set": []
+        ]
     },
     "Geography, Physical": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Chen, Mara"
         ],
         "departments": [
             "Geog & Geosci"
-        ],
-        "article_set": []
+        ]
     },
     "Engineering, Manufacturing": {
         "faculty_count": 1,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Park, Minseok"
         ],
         "departments": [
             "Franklin P Perdue Sch Business",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Operations Research & Management Science": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
             "Park, Minseok",
             "Wu, Yun"
@@ -2304,206 +2306,206 @@
         "departments": [
             "Franklin P Perdue Sch Business",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Area Studies": {
         "faculty_count": 3,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
-            "Gonzalez, Aston",
+            "Ference, Gregory C.",
             "McCarty, Michael",
-            "Ference, Gregory C."
+            "Gonzalez, Aston"
         ],
         "departments": [
             "Salisbury",
             "Hist"
-        ],
-        "article_set": []
+        ]
     },
     "Cultural Studies": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Hatley, James"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Cardiac & Cardiovascular Systems": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Pellinger, Thomas K."
         ],
         "departments": [
             "Hlth Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Family Studies": {
         "faculty_count": 5,
         "department_count": 2,
+        "article_count": 4,
         "faculty": [
-            "Osman, Suzanne L.",
-            "Fritz, Heidi L.",
             "Bush, Domonique",
+            "Lane, Halle L.",
+            "Osman, Suzanne L.",
             "Schlehofer, Michele M.",
-            "Lane, Halle L."
+            "Fritz, Heidi L."
         ],
         "departments": [
             "Salisbury",
             "Psychol"
-        ],
-        "article_set": []
+        ]
     },
     "Ornithology": {
         "faculty_count": 4,
         "department_count": 2,
+        "article_count": 3,
         "faculty": [
-            "Liebgold, Eric B.",
             "Boyd, Marshall",
+            "Silaphone, Keota",
             "Coss, Derek A.",
-            "Silaphone, Keota"
+            "Liebgold, Eric B."
         ],
         "departments": [
-            "Salisbury",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Salisbury"
+        ]
     },
     "Literature, American": {
         "faculty_count": 4,
         "department_count": 3,
+        "article_count": 4,
         "faculty": [
+            "Logan, April C.",
             "Wulf, Isabel Quintana",
             "Gonzalez, Aston",
-            "Logan, April C.",
             "Wenke, John"
         ],
         "departments": [
             "Salisbury",
             "Hist",
             "English"
-        ],
-        "article_set": []
+        ]
     },
     "International Relations": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Eun, Jihyun"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Microbiology": {
         "faculty_count": 5,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
-            "Chen, Xuan",
+            "Miller, Stephanie",
             "Naing, Yadanar T.",
+            "Chen, Xuan",
             "Carter, Michael S.",
-            "Rost-Nasshan, Aerin",
-            "Miller, Stephanie"
+            "Rost-Nasshan, Aerin"
         ],
         "departments": [
-            "Biol",
-            "Biol Sci"
-        ],
-        "article_set": []
+            "Biol Sci",
+            "Biol"
+        ]
     },
     "Computer Science, Interdisciplinary Applications": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Caviglia-Harris, Jill L."
         ],
         "departments": [
             "Econ & Finance Dept"
-        ],
-        "article_set": []
+        ]
     },
     "Engineering, Environmental": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Caviglia-Harris, Jill L."
         ],
         "departments": [
             "Econ & Finance Dept"
-        ],
-        "article_set": []
+        ]
     },
     "Engineering, Multidisciplinary": {
         "faculty_count": 2,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
-            "Rohde, Jacki",
-            "Quillin, Kim"
+            "Quillin, Kim",
+            "Rohde, Jacki"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Theater": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Harrington, Gary"
         ],
         "departments": [
             "English"
-        ],
-        "article_set": []
+        ]
     },
     "Anatomy & Morphology": {
         "faculty_count": 5,
         "department_count": 1,
+        "article_count": 3,
         "faculty": [
-            "Corfield, Jeremy R.",
             "Clark, Jessica Kennett",
+            "Corfield, Jeremy R.",
             "Sargent, Sheridan",
             "Brennan, Anna",
             "Daly, E. Susanne"
         ],
         "departments": [
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Computer Science, Software Engineering": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Jing, Yaping",
             "Quan, Jing"
         ],
         "departments": [
-            "Math & Comp Sci",
-            "Informat & Decis Sci"
-        ],
-        "article_set": []
+            "Informat & Decis Sci",
+            "Math & Comp Sci"
+        ]
     },
     "Urban Studies": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Lei, Shan"
         ],
         "departments": [
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Mathematics, Interdisciplinary Applications": {
         "faculty_count": 2,
         "department_count": 2,
+        "article_count": 2,
         "faculty": [
             "Chambers, Dustin",
             "Tu, Junyi"
@@ -2511,232 +2513,231 @@
         "departments": [
             "Salisbury",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Mechanics": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Tu, Junyi"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Physics, Fluids & Plasmas": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Tu, Junyi"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Physics, Mathematical": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Tu, Junyi"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Computer Science, Hardware & Architecture": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Quan, Jing"
         ],
         "departments": [
             "Informat & Decis Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Computer Science, Theory & Methods": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Quan, Jing"
         ],
         "departments": [
             "Informat & Decis Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Literary Theory & Criticism": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Perret, Sally"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Critical Care Medicine": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Stoner, M."
         ],
         "departments": [
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Respiratory System": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Stoner, M."
         ],
         "departments": [
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Computer Science, Information Systems": {
         "faculty_count": 3,
         "department_count": 3,
+        "article_count": 3,
         "faculty": [
             "Singh, Nitya",
-            "Wang, Shuangquan",
-            "Quan, Jing"
+            "Quan, Jing",
+            "Wang, Shuangquan"
         ],
         "departments": [
             "Comp Sci",
             "Franklin P Perdue Sch Business",
             "Perdue Sch Business"
-        ],
-        "article_set": []
+        ]
     },
     "Medicine, Legal": {
         "faculty_count": 1,
         "department_count": 0,
+        "article_count": 1,
         "faculty": [
             ""
         ],
-        "departments": [],
-        "article_set": []
+        "departments": []
     },
     "Literature, British Isles": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Pike, Judith E."
         ],
         "departments": [
             "English"
-        ],
-        "article_set": []
+        ]
     },
     "Parasitology": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Erickson, Patti T."
         ],
         "departments": [
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Immunology": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "MacDougall, Madison"
         ],
         "departments": [
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Medieval & Renaissance Studies": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Walton, Kristen Post"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     },
     "Mathematical & Computational Biology": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Teller, Kyle G."
         ],
         "departments": [
             "Math Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Physics, Particles & Fields": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Wesolowski, S."
         ],
         "departments": [
             "Math & Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Engineering, Electrical & Electronic": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Wang, Shuangquan"
         ],
         "departments": [
             "Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Telecommunications": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Wang, Shuangquan"
         ],
         "departments": [
             "Comp Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Limnology": {
         "faculty_count": 1,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
             "Bradley, Christina J."
         ],
         "departments": [
             "Biol Sci"
-        ],
-        "article_set": []
+        ]
     },
     "Pharmacology & Pharmacy": {
         "faculty_count": 4,
         "department_count": 1,
+        "article_count": 1,
         "faculty": [
-            "Hinderer, Katherine A.",
-            "Brown, Voncelia",
             "East, Meghan",
-            "Joyner, Robert L., Jr."
+            "Joyner, Robert L., Jr.",
+            "Hinderer, Katherine A.",
+            "Brown, Voncelia"
         ],
         "departments": [
             "Salisbury"
-        ],
-        "article_set": []
+        ]
     }
 }

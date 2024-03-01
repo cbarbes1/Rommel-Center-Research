@@ -22,6 +22,7 @@ class CategoryProcessor:
                 department_members = attribute_results['department'][1] if attribute_results['department'][0] else 'Unknown'
                 self.faculty_department_manager.update_faculty_set(categories, faculty_members)
                 self.faculty_department_manager.update_department_set_2(categories, department_members)
+                self.faculty_department_manager.update_article_counts(self.category_counts)
     
     def initialize_categories(self, categories):
         for i, category in enumerate(categories):
