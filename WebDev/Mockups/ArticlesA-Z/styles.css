@@ -1,6 +1,31 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.site-header {
+    background-color: #620000;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navigation {
+    background-color: gold;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.scroll-container {
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh; /* Set height to full viewport height */
+}
 .flavor {
     display: flex; 
     flex-direction: column;
@@ -26,38 +51,4 @@
 .smaller-row {
     flex: 1;
     text-align: center; 
-}
-.header{
-    background-color: maroon;
-    text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-    width:99.7%;
-    height:100;
-    border:2px solid black;
-}
-.row {
-    background-color:gold;
-    overflow: hidden;
-    height:85%;
-    color:black;
-}
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    box-sizing: border-box; 
-    border:2px solid black;
-    
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.scroll-container {
-    overflow-y: auto; /* Enable vertical scrolling */
-    height: 100vh; /* Set height to full viewport height */
 }
