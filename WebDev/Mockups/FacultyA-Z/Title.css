@@ -1,0 +1,22 @@
+.site-header {
+    background-color: #620000;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navigation {
+    background-color: gold;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.scroll-container {
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh; /* Set height to full viewport height */
+}

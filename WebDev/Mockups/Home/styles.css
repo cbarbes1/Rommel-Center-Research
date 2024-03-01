@@ -32,19 +32,19 @@ body {
     align-items: center;
     margin: 20px auto;
     width: 80%;
-    overflow-y: auto;
-    height: calc(100vh - 160px); /* Adjusted for header and potential footer */
 }
 
-.content-section {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
+.section {
+    width: 100%;
     margin: 10px 0;
+    padding: 20px;
     background-color: maroon;
     color: #fff;
-    width: 100%;
+    border: 2px solid black;
+}
+
+#meet-the-team {
+    border-bottom: none;
 }
 
 .scroll-container {
