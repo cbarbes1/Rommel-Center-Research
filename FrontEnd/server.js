@@ -15,6 +15,9 @@ http.createServer(function (req, res) {
   if (extname === '.css') {
     contentType = 'text/css';
   }
+  if (extname === '.js') {
+    contentType = 'text/javascript';
+  }
 
   fs.readFile(filename, function(err, data) {
     if (err) {
