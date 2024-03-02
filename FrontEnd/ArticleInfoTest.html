@@ -29,32 +29,39 @@
                 <h1>Article Information</h1>
             </div>
             <div class="flavor-row bigger-row">
-                <h2>Exploring the Relationship between Teacher Knowledge and Active-Learning
-                    Implementation in Large College Biology Courses</h2>
+                <h2><p id="Title"></p></h2>
                 <h2>Authors</h2>
-                <ul>
-                    <li>Andrews, TC</li>
-                    <li>Auerbach, AJJ</li>
-                    <li>Grant, EF</li>
+                <ul id ="authorList">
                 </ul>
                 <h2>Abstract</h2>
-                <h10><p id="abstract"></p></h10>
+                <ul><p id="abstract"></p></ul>
                 <script>
                     const xmlhttp = new XMLHttpRequest();
                     xmlhttp.onload = function() {
                         const abArr = JSON.parse(this.responseText);
-                        document.getElementById("abstract").innerHTML = abArr.Abstract;
+
+                        document.getElementById("abstract").innerHTML = abArr.Article[1].Abstract;
+                        document.getElementById("Title").innerHTML = abArr.Article[1].Title;
+
+                        const authorList = document.getElementById("authorList");
+                        abArr.Article[1].Authors.forEach(function(item){
+                            const authorItem = document.createElement("li");
+                            authorItem.innerHTML = item;
+                            authorList.appendChild(authorItem);
+                        });
+
+                        const citationsList = document.getElementById("citationsList");
+                        abArr.Article[1].Citations.forEach(function(item){
+                            const citationsItem = document.createElement("li");
+                            citationsItem.innerHTML = item;
+                            citationsList.appendChild(citationsItem);
+                        });
                     };
-                    xmlhttp.open("GET", "sample.json", true);
+                    xmlhttp.open("GET", "AuthorSample.json", true);
                     xmlhttp.send();
                 </script>
                 <h2>Citations</h2>
-                <ul>
-                    <li>[Andrews, Tessa C.] Univ Georgia, Dept Genet, Athens, GA 30602 USA.</li>
-                    <li>[Auerbach, Anna Jo J.] Salisbury Univ, Dept Biol Sci, Salisbury, MD 21801 USA.</li>
-                    <li>[Grant, Emily F.] Hastings Coll Law, Dept Biol, Hastings, NE 68901 USA.</li>
-                    <li>University System of Georgia; University of Georgia; University System of Maryland; Salisbury University</li>
-                </ul>
+                <ul><p id="citationsList"></p></ul>
             </div>
         </div>
 
