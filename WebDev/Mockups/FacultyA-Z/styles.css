@@ -22,6 +22,11 @@ body {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .scroll-container {
     overflow-y: auto; /* Enable vertical scrolling */
@@ -76,4 +81,26 @@ body {
 
 .flavor-column li ul li {
     background-color: #444; /* Slightly lighter for nested items */
+}
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px 15px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button[type="submit"] {
+    padding: 8px 15px;
+    border: 1px solid black;
+    background-color: #800020;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
 }

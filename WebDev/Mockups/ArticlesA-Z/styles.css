@@ -35,20 +35,28 @@
     margin: 20px auto;
     background-color: maroon;
     height:100;
-    color:#fff;
 }
 
 .flavor-row {
     padding: 10px; 
     box-sizing: border-box; 
     border: 1px solid #ccc; 
+
 }
 
 .bigger-row {
-    flex: 4; 
-}
+    flex: 4;
+    background-color: #333; /* Dark background for list items */
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+} 
 
 .smaller-row {
     flex: 1;
     text-align: center; 
+        color: #ffd700; /* Yellow */
+}
+#ArticleLink{
+    font-size: 7px;
 }
