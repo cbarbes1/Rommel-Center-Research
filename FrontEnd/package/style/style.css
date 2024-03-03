@@ -58,7 +58,7 @@ body {
 .flavor-header {
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: 20px auto;
     padding: 20px;
     max-width: 95%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -78,3 +78,19 @@ body {
     font-size: 150%;
     color: #fff;
   }
+
+form.search button{
+    float: right;
+    width: 10%;
+    padding: 10px;
+    background: gold;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-right: none;
+    cursor: pointer;
+}
+
+form.search button:hover{
+    background: rgb(180, 153, 0);
+}
