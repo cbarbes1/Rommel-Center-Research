@@ -15,7 +15,7 @@ function fetchFacultyData(key) {
             ArticleList.appendChild(articleItem);
         });
     };
-    xmlhttp.open("GET", "FacultySample.json", true);
+    xmlhttp.open("GET", "package/json/FacultySample.json", true);
     xmlhttp.send();
 }
 

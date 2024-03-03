@@ -69,6 +69,11 @@ body {
     color: gold;
   }
 
+  .large-font {
+    font-size: 200%;
+    color: gold;
+  }
+
 .medium-font {
     font-size: 150%;
     color: #fff;
