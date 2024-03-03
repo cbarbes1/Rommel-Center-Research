@@ -1,0 +1,24 @@
+function fetchTopicData() {
+    const topic_Info = document.getElementById("topic_Info");
+
+    function createTopicSegment(data) {
+        const topicSegment = document.createElement("ul");
+        topicSegment.innerHTML = `
+        <li>
+            <p class="large-font">${data.name}</p>
+        </li>
+    `;
+
+    topic_Info.appendChild(topicSegment);
+
+    }
+
+    fetch('package/json/FacultyLinkList.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(createTopicSegment);
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+}
+
+fetchTopicData();
