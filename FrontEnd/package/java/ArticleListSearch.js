@@ -5,7 +5,11 @@ function fetchTopicData() {
         const topicSegment = document.createElement("ul");
         topicSegment.innerHTML = `
         <li>
-            <p class="large-font">${data.name}</p>
+            <form class="send" action="/Article.html">
+            <p class="large-font">${data.name} 
+            <button type="submit"></button>
+            </p>
+          </form>
         </li>
     `;
 

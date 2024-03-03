@@ -94,3 +94,17 @@ form.search button{
 form.search button:hover{
     background: rgb(180, 153, 0);
 }
+
+form.send button{
+    float: middle;
+    background: gold;
+    color: #fff;
+    border: 1px solid grey;
+    border-right: none;
+    cursor: pointer;
+    padding: 2%;
+}
+
+form.send button:hover{
+    background: rgb(180, 153, 0);
+}
