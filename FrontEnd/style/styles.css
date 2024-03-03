@@ -43,6 +43,15 @@ body {
     border-radius: 5px;
 }
 
+.flavor-column-topic {
+    background-color: maroon; 
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+}
+
 .bigger-column {
     flex: 2;
 }
@@ -62,6 +71,10 @@ body {
     list-style-type: none;
     padding: 0;
 }
+.flavor-column-topic ul {
+    list-style-type: none;
+    padding: 10px;
+}
 
 .flavor-column li {
     background-color: #333;
@@ -72,6 +85,17 @@ body {
 }
 
 .flavor-column li ul li {
+    background-color: #444;
+}
+
+.flavor-column-topic li {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.flavor-column-topic li ul li {
     background-color: #444;
 }
 

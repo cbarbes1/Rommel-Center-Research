@@ -6,6 +6,8 @@ var express = require('express');
 var app = express();
 
 
+
+
 http.createServer(function (req, res) {
   var q = url.parse(req.url, true);
   var filename = "." + q.pathname;
@@ -17,6 +19,10 @@ http.createServer(function (req, res) {
   }
   if (extname === '.js') {
     contentType = 'text/javascript';
+  }
+
+  if (filename.charAt(filename-1)=='/'){
+    filename += 'index.html';
   }
 
   fs.readFile(filename, function(err, data) {
