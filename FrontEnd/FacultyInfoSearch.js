@@ -4,9 +4,9 @@ function fetchFacultyData(key) {
         const abArr = JSON.parse(this.responseText);
 
         document.getElementById("Name").innerHTML = abArr.Teacher[key].Name;
-        document.getElementById("Office").innerHTML = "Office: " + abArr.Teacher[key].Office;
-        document.getElementById("Email").innerHTML = "Email: " + abArr.Teacher[key].Email;
-        document.getElementById("Department").innerHTML = "Department: " + abArr.Teacher[key].Department;
+        document.getElementById("Office").innerHTML = abArr.Teacher[key].Office;
+        document.getElementById("Email").innerHTML =  abArr.Teacher[key].Email;
+        document.getElementById("Department").innerHTML = abArr.Teacher[key].Department;
 
         const ArticleList = document.getElementById("ArticleList");
         abArr.Teacher[key].Articles.forEach(function (item) {

@@ -23,5 +23,11 @@ function fetchArticleData(key) {
     xmlhttp.open("GET", "AuthorSample.json", true);
     xmlhttp.send();
 }
+/*
+function processReceivedData(data){
+    const integerValue = parseInt(data, 10);
+    fetchArticleData(0);
+}
+*/
 
 fetchArticleData(0);

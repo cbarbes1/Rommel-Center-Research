@@ -1,30 +1,77 @@
-.flavor {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between; 
-    width: 80%;
-    border: 2px solid black;
-    margin: 5% auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
     background-color: maroon;
-    height:100%;
-    color:#fff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-.flavor-row {
-    padding: 10px; 
-    box-sizing: border-box; 
-    border: 1px solid #ccc; 
+.row {
+    display: flex;
+    justify-content: space-around;
+    background-color: gold; 
+    padding: 10px 0;
 }
 
-.medium-row {
-    flex: 4; 
+.column {
+    text-align: center;
+    flex-grow: 1;
 }
 
-.bigger-row {
-    flex: 8; 
+.flavor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 960px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.smaller-row {
+.flavor-column {
+    background-color: maroon; 
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
     flex: 1;
-    text-align: center; 
+    border-radius: 5px;
 }
+
+.bigger-column {
+    flex: 2;
+}
+
+.smaller-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavor-column h1, .flavor-column h3 {
+    color: gold;
+}
+
+.flavor-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flavor-column li {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.flavor-column li ul li {
+    background-color: #444;
+}
+
