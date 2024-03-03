@@ -66,3 +66,25 @@ body {
 #ArticleLink{
     font-size: 7px;
 }
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px 15px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button[type="submit"] {
+    padding: 8px 15px;
+    border: 1px solid black;
+    background-color: #800020;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
