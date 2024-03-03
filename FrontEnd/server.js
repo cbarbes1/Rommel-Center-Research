@@ -22,7 +22,11 @@ http.createServer(function (req, res) {
   }
 
   if (filename.charAt(filename-1)=='/'){
-    filename += 'index.html';
+    filename += 'package/html/index.html';
+  }
+
+  if(extname =='.html'){
+    filename = path.join(__dirname, 'package/html', q.pathname); 
   }
 
   fs.readFile(filename, function(err, data) {

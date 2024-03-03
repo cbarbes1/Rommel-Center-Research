@@ -20,14 +20,9 @@ function fetchArticleData(key) {
             citationsList.appendChild(citationsItem);
         });
     };
-    xmlhttp.open("GET", "AuthorSample.json", true);
+    xmlhttp.open("GET", "package/json/AuthorSample.json", true);
     xmlhttp.send();
 }
-/*
-function processReceivedData(data){
-    const integerValue = parseInt(data, 10);
-    fetchArticleData(0);
-}
-*/
+
 
 fetchArticleData(0);
