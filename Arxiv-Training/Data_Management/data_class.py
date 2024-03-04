@@ -4,8 +4,9 @@ from typing import List, Dict
 @dataclass
 class CitationData:
     journel: str = ""
-    number_of_citations: int = 0
     journal_ranking: str = ""
+    number_of_citations: int = 0
+    
     number_of_publications: int = 0
     citation_list: Dict = field(default_factory=dict)
 
