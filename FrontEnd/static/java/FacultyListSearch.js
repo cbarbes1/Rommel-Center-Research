@@ -1,25 +1,26 @@
-function fetchTopicData() {
-    const topic_Info = document.getElementById("topic_Info");
+function fetchFacultyListData() {
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function () {
+        const abArr = JSON.parse(this.responseText);
 
-    function createTopicSegment(data) {
-        const topicSegment = document.createElement("ul");
-        topicSegment.innerHTML = `
-        <li>
-            <form class="send" action="/Faculty.html">
-            <p class="large-font">${data.name}<button type="submit"></button></p>
-        </li>
-    `;
+        const faculty_list = document.getElementById("faculty_list");
 
-    topic_Info.appendChild(topicSegment);
+        faculty_list.innerHTML = '';
 
-    }
-
-    fetch('../json/FacultyLinkList.json')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(createTopicSegment);
-        })
-        .catch(error => console.error('Error fetching JSON:', error));
+        abArr.forEach(function (item) {
+            const facultyListItem = document.createElement("ul");
+            facultyListItem.innerHTML = `
+            <li>
+                <form class="send" action="/Faculty.html">
+                <p class="large-font">${item.name}<button type="submit"></button></p>
+            </li>
+            `;
+            faculty_list.appendChild(facultyListItem);
+        });
+    };
+    xmlhttp.open("GET", "/static/json/FacultyLinkList.json", true);
+    xmlhttp.send();
 }
-
-fetchTopicData();
+document.addEventListener("DOMContentLoaded", function () {
+    fetchFacultyListData();
+});
