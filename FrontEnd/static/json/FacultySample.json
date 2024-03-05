@@ -1,14 +1,5 @@
-{
-  "Teacher": [
-    {
-      "Name":"Andrew Thompson",
-      "Department":"Computer Science",
-      "Articles":[
-        "How computer mice eat cheese",
-        "The applicataions of A.I. and pets"
-      ],
-      "Office":"Conway Hall (TE) 208",    
-      "Email":"awthompson@salisbury.edu"
-    }
-  ]
-}
+[
+  {"Name": "Andrew Thompson", "Department": "Computer Science", 
+  "Articles": ["How computer mice eat cheese","The applicataions of A.I. and pets"],
+  "Office": "Conway Hall (TE) 208","Email": "awthompson@salisbury.edu"}
+]
