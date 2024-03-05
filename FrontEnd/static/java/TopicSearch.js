@@ -1,29 +1,30 @@
 function fetchTopicData() {
-    const topic_Info = document.getElementById("topic_Info");
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function () {
+        const abArr = JSON.parse(this.responseText);
 
-    function createTopicSegment(data) {
-        const topicSegment = document.createElement("ul");
-        topicSegment.innerHTML = `
-        <li>
-            <p class="large-font">${data.name}</p>
-            <ul>
-                <li><p id="faculty_count">Faculty Count: ${data.faculty_count}</p></li>
-                <li><p id="department_count">Department Count: ${data.department_count}</p></li>
-                <li><p id="article_count">Article Count: ${data.article_count}</p></li>
-            </ul>
-        </li>
-    `;
+        const topic_Info = document.getElementById("topic_Info");
 
-    topic_Info.appendChild(topicSegment);
+        topic_Info.innerHTML = '';
 
-    }
-
-    fetch('../json/keyPaths.json')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(createTopicSegment);
-        })
-        .catch(error => console.error('Error fetching JSON:', error));
+        abArr.forEach(function (item) {
+            const topicItem = document.createElement("ul");
+            topicItem.innerHTML = `
+                <li>
+                    <p class="large-font">${item.name}</p>
+                    <ul>
+                        <li><p class="faculty_count">Faculty Count: ${item.faculty_count}</p></li>
+                        <li><p class="department_count">Department Count: ${item.department_count}</p></li>
+                        <li><p class="article_count">Article Count: ${item.article_count}</p></li>
+                    </ul>
+                </li>
+            `;
+            topic_Info.appendChild(topicItem);
+        });
+    };
+    xmlhttp.open("GET", "/static/json/keyPaths.json", true);
+    xmlhttp.send();
 }
-
-fetchTopicData();
+document.addEventListener("DOMContentLoaded", function() {
+    fetchTopicData();
+});

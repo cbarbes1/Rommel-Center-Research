@@ -32,9 +32,15 @@ def facultyaz():
 def topicaz():
     return render_template('html/TopicAZ.html')
 
-@app.route('/static/<path:filename>')
+@app.route('/static/java/<path:filename>')
 def static_files(filename):
-    return send_from_directory(app.static_folder, filename)
+    java_folder = 'java'
+    return send_from_directory(app.static_folder, f'{java_folder}/{filename}')
+
+@app.route('/static/json/<path:filename>')
+def serve_json(filename):
+    json_folder = 'json' 
+    return send_from_directory(app.static_folder, f'{json_folder}/{filename}')
 
 if __name__ == '__main__':
     app.run(port=9999)
