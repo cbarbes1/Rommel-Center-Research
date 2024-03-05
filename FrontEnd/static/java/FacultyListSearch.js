@@ -14,7 +14,7 @@ function fetchTopicData() {
 
     }
 
-    fetch('templates/json/FacultyLinkList.json')
+    fetch('../json/FacultyLinkList.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(createTopicSegment);
