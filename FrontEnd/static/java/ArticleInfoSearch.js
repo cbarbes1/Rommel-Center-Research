@@ -20,7 +20,7 @@ function fetchArticleData(key) {
             citationsList.appendChild(citationsItem);
         });
     };
-    xmlhttp.open("GET", "templates/json/AuthorSample.json", true);
+    xmlhttp.open("GET", "../json/AuthorSample.json", true);
     xmlhttp.send();
 }
 

@@ -5,11 +5,12 @@ function fetchTopicData() {
         const topicSegment = document.createElement("ul");
         topicSegment.innerHTML = `
         <li>
-            <form class="send" action="/Article.html">
-            <p class="large-font">${data.name} 
-            <button type="submit"></button>
-            </p>
-          </form>
+            <p class="large-font">${data.name}</p>
+            <ul>
+                <li><p id="faculty_count">Faculty Count: ${data.faculty_count}</p></li>
+                <li><p id="department_count">Department Count: ${data.department_count}</p></li>
+                <li><p id="article_count">Article Count: ${data.article_count}</p></li>
+            </ul>
         </li>
     `;
 
@@ -17,7 +18,7 @@ function fetchTopicData() {
 
     }
 
-    fetch('templates/json/ArticleLinkList.json')
+    fetch('../json/keyPaths.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(createTopicSegment);
