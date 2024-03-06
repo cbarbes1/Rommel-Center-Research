@@ -11,7 +11,7 @@ function fetchFacultyListData() {
             const facultyListItem = document.createElement("ul");
             facultyListItem.innerHTML = `
             <li>
-                <form class="send" action="/Faculty.html">
+                <form class="send" action="/html/Faculty.html">
                 <p class="large-font">${item.name}<button type="submit"></button></p>
             </li>
             `;

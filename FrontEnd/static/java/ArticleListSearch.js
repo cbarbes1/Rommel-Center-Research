@@ -40,7 +40,7 @@ function fetchArticleListData() {
             const articleListItem = document.createElement("ul");
             articleListItem.innerHTML = `
             <li>
-             <form class="send" action="/Article.html">
+             <form class="send" action="/html/Article.html">
              <p class="large-font">${item.name} 
              <button type="submit"></button>
              </p>
