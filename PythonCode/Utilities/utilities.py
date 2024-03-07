@@ -19,8 +19,11 @@ class Utilities():
         self.title_pattern = re.compile(r'TI\s(.+?)(?=\nSO)', re.DOTALL)
         self.abstract_pattern = re.compile(r'AB\s(.+?)(?=\nC1)', re.DOTALL)
         self.end_record_pattern = re.compile(r'DA \d{4}-\d{2}-\d{2}\nER\n?', re.DOTALL)
-        self.dept_pattern = re.compile(r'Salisbury Univ, Dept (.*?)(,|$)')
-        self.dept_pattern_alt = re.compile(r'Salisbury Univ, (.*?)(,|$)')
+        #self.dept_pattern = re.compile(r'Salisbury Univ, Dept (.*?)(,|$)')
+        self.dept_pattern = re.compile(r'Dept (.*?)(,|$)')
+        self.dept_pattern_alt = re.compile(r'Dept, (.*?) ,')
+
+        #self.dept_pattern_alt = re.compile(r'Salisbury Univ, (.*?)(,|$)')
         # for WoS categories
         self.wc_pattern = re.compile(r'WC\s+(.+?)(?=\nWE)', re.DOTALL)
 
@@ -142,18 +145,33 @@ class Utilities():
         return False, None
 
     def extract_dept_from_c1(self, entry_text):
-        lines = entry_text.splitlines()
-        for line in lines:
-            if "Salisbury Univ" in line:
-                match = self.dept_pattern.search(line)
-                if match:
-                    return True, match.group(1)
-                else:
-                    match = self.dept_pattern_alt.search(line)
-                    if match:
-                        return True, match.group(1)
-        warnings.warn("NO DEPARTMENT FOUND IN C1 TAG", RuntimeWarning)
-        return False, None
+        """
+        Extracts department and school names from the 'C1' content in the entry text.
+
+        Parameters:
+            entry_text (str): The text of the entry from which to extract the content.
+
+        Returns:
+            str: Extracted department and school names or an empty string if not found.
+        """
+        c1_content = []
+        capturing = False
+        entry_lines = entry_text.splitlines()
+        for line in entry_lines:
+            if line.startswith("C1"):
+                capturing = True
+            elif line.startswith("C3"):
+                capturing = False
+            if capturing and "Salisbury" in line:
+                # Extract department and school names
+                dept_match = re.search(self.dept_pattern, line)
+                dept_match_alt = re.search(self.dept_pattern_alt, line)
+                if dept_match:
+                    c1_content.append(dept_match.group(1))
+                elif dept_match_alt:
+                    c1_content.append(dept_match_alt.group(1))
+        #return '\n'.join(c1_content)
+        return c1_content
     
     def extract_c1_content(self, entry_text):
         """
