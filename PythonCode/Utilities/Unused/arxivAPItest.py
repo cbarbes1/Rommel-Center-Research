@@ -9,7 +9,7 @@ import requests
 
 for result in arxiv.Client().results(search):
     print(f"TITLE: {result.title}\nAUTHORS: {result.authors}\nCATEGORIES: {result.categories}\nPRIM_CATEGORY: {result.primary_category}\nSUMMARY: {result.summary}\n")"""
-    
+
 """import urllib.request as libreq
 with libreq.urlopen('http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1') as url:
     r = url.read()
@@ -38,5 +38,5 @@ file_path = "./document.pdf"
 
 with open(file_path, "rb") as file:
     response = requests.post(url, files={"file": file})
-    
+
 print(response.text)
