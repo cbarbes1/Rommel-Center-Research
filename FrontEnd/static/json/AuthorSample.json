@@ -1,0 +1,43 @@
+{
+  "Article": [
+    {
+      "Title":"Exploring the Relationship between Teacher Knowledge and Active-Learning Implementation in Large College Biology Courses",
+      "Authors":[
+        "Andrews, TC",
+        "Auerbach, AJJ",
+        "Grant, EF"
+      ],
+      "Abstract":"Not all instructors implement active-learning strategies in a way that maximizes student outcomes. One potential explanation for variation in active-learning effectiveness is variation in the teaching knowledge an instructor draws upon. Guided by theoretical frameworks of pedagogical content knowledge and pedagogical knowledge, this study investigated the teaching knowledge instructors used in planning, implementing, and reflecting on active-learning lessons in large courses. We used a preinstruction interview, video footage of a target class session, and a postinstruction interview with stimulated recall to elicit the teaching knowledge participants used. We then conducted qualitative content analysis to describe and contrast teaching knowledge employed by instructors implementing active learning that required students to generate their own understandings (i.e., generative instruction) and active learning largely focused on activity and recall (i.e., active instruction). Participants engaging in generative instruction exhibited teaching knowledge distinct from that of participants focused on activity. Those using generative instruction drew on pedagogical knowledge to design lessons focused on students generating reasoning; integrated pedagogical content knowledge and pedagogical knowledge to plan lessons to target student difficulties; and created opportunities to develop new pedagogical content knowledge while teaching. This work generated hypotheses about the teaching knowledge necessary for effective, generative active-learning instruction.",
+      "Citations":[
+        "Citations1"
+      ]
+    },
+    {
+      "Title":"Enhancing the U.S. TBI data infrastructure: geospatial perspective",
+      "Authors":[
+        "Chen, M",
+        "Ritenour, D",
+        "Maier, K"
+      ],
+      "Abstract":"Traumatic brain injury (TBI) has become a rapidly growing global public health problem. It causes premature loss of lives, the interruption of workforce supply pipelines, increased care demand for injured elderly people, and other socio-economic burdens. This paper presents the importance of and the need for a national comprehensive TBI database that incorporates geospatial data components to help tackle the TBI epidemic. It calls for legislative and research actions to enhance the U.S. TBI data infrastructure to make the use of GIS in TBI research possible. Further, it proposes a multi-tiered conceptual framework and associated implementation strategy to establish the proposed national TBI data structure. The enhanced U.S. TBI data infrastructure will provide a feasible platform to utilize the GIS capabilities for location-based mapping, data analysis and modelling. Precision TBI research, targeted outreach, and education will likely facilitate more effective prevention and better care delivery. The enhanced U.S. TBI database infrastructure will serve as a guiding model for other developing nations. Global concerted efforts on TBI can help improve the overall quality of living around the world.",
+      "Citations":[
+        "Citations1",
+        "Citations2"
+      ]
+    },
+    {
+      "Title":"U-shaped relationship between market liberalisation and technology exploration: evidence from South Korean firms",
+      "Authors":[
+        "Gang, KW",
+        "Choi, B",
+        "Kim, S"
+      ],
+      "Abstract":"A variety of countries have instituted market liberalisation to develop their economies in the footsteps of more developed countries and changes in market system significantly influence a firm's behaviour and performance. This paper investigates the impact of market liberalisation on a firm's strategy of technology exploration in South Korea. We find that there is a U-shaped relationship between market liberalisation and technology exploration. In addition, we find that financial slack and industry concentration negatively moderate the curvilinear relationship between market liberalisation and technology exploration, while business group positively moderates this relationship.",
+      "Citations":[
+        "Citations1",
+        "Citations2",
+        "Citations3"
+      ]
+    }
+  ]
+}
