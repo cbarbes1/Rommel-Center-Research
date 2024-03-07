@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #800020; /* Burgundy */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffd700; /* Yellow */
+    padding: 10px 0;
+}
+
+.column {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.flavor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 960px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.flavor-column {
+    background-color: #800020; /* Burgundy */
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.bigger-column {
+    flex: 2;
+}
+
+.smaller-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavor-column h1, .flavor-column h3 {
+    color: #ffd700; /* Yellow */
+}
+
+.flavor-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flavor-column li {
+    background-color: #333; /* Dark background for list items */
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.flavor-column li ul li {
+    background-color: #444; /* Slightly lighter for nested items */
+}
+
