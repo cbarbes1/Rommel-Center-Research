@@ -1,0 +1,87 @@
+Agricultural Economics & Policy: #636efa
+Agronomy: #EF553B
+Anatomy & Morphology: #00cc96
+Asian Studies: #ab63fa
+Astronomy & Astrophysics: #FFA15A
+Behavioral Sciences: #19d3f3
+Biochemistry & Molecular Biology: #FF6692
+Biodiversity Conservation: #B6E880
+Biology: #FF97FF
+Biotechnology & Applied Microbiology: #FECB52
+Business: #636efa
+Business, Finance: #EF553B
+Cell & Tissue Engineering: #00cc96
+Chemistry, Multidisciplinary: #ab63fa
+Chemistry, Organic: #FFA15A
+Clinical Neurology: #19d3f3
+Communication: #FF6692
+Computer Science, Information Systems: #B6E880
+Criminology & Penology: #FF97FF
+Development Studies: #FECB52
+Ecology: #636efa
+Economics: #EF553B
+Education & Educational Research: #00cc96
+Education, Scientific Disciplines: #ab63fa
+Education, Special: #FFA15A
+Engineering, Industrial: #19d3f3
+Entomology: #FF6692
+Environmental Sciences: #B6E880
+Environmental Studies: #FF97FF
+Ethics: #FECB52
+Ethnic Studies: #636efa
+Evolutionary Biology: #EF553B
+Family Studies: #00cc96
+Fisheries: #ab63fa
+Geography: #FFA15A
+Geosciences, Multidisciplinary: #19d3f3
+Geriatrics & Gerontology: #FF6692
+Gerontology: #B6E880
+Green & Sustainable Science & Technology: #FF97FF
+Health Care Sciences & Services: #FECB52
+History: #636efa
+Humanities, Multidisciplinary: #EF553B
+Immunology: #00cc96
+Industrial Relations & Labor: #ab63fa
+Information Science & Library Science: #FFA15A
+International Relations: #19d3f3
+Law: #FF6692
+Linguistics: #B6E880
+Literature, African, Australian, Canadian: #FF97FF
+Literature, American: #FECB52
+Management: #636efa
+Marine & Freshwater Biology: #EF553B
+Mathematics: #00cc96
+Mathematics, Applied: #ab63fa
+Multidisciplinary Sciences: #FFA15A
+Music: #19d3f3
+Neurosciences: #FF6692
+Nursing: #B6E880
+Oncology: #FF97FF
+Operations Research & Management Science: #FECB52
+Parasitology: #636efa
+Philosophy: #EF553B
+Physics, Nuclear: #00cc96
+Plant Sciences: #ab63fa
+Political Science: #FFA15A
+Psychology: #19d3f3
+Psychology, Applied: #FF6692
+Psychology, Biological: #B6E880
+Psychology, Educational: #FF97FF
+Psychology, Multidisciplinary: #FECB52
+Psychology, Social: #636efa
+Public Administration: #EF553B
+Public, Environmental & Occupational Health: #00cc96
+Religion: #ab63fa
+Social Issues: #FFA15A
+Social Sciences, Interdisciplinary: #19d3f3
+Social Work: #FF6692
+Sociology: #B6E880
+Soil Science: #FF97FF
+Sport Sciences: #FECB52
+Statistics & Probability: #636efa
+Surgery: #EF553B
+Theater: #00cc96
+Urban Studies: #ab63fa
+Veterinary Sciences: #FFA15A
+Women's Studies: #19d3f3
+Zoology: #FF6692
