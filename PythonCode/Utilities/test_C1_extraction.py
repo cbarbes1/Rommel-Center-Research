@@ -1,5 +1,6 @@
 import re
 
+
 class C1ContentExtractor:
     def extract_c1_content(self, entry_text):
         """
@@ -21,17 +22,20 @@ class C1ContentExtractor:
                 capturing = False
             if capturing and "Salisbury" in line:
                 # Extract department and school names
-                dept_match = re.search(r'Dept (.*?)(,|$)', line)
+                dept_match = re.search(r"Dept (.*?)(,|$)", line)
                 if dept_match:
                     c1_content.append(dept_match.group(1))
-        #return '\n'.join(c1_content)
+        # return '\n'.join(c1_content)
         return c1_content
+
+
 def main(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         entry_text = file.read()
     extractor = C1ContentExtractor()
     extracted_content = extractor.extract_c1_content(entry_text)
     print("Extracted Content:\n", extracted_content)
+
 
 if __name__ == "__main__":
     file_path = input("Enter the path to the file: ")
