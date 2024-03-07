@@ -1,6 +1,0 @@
-[
-    {"name": "Art","faculty_count": 10,"department_count": 1,"article_count": 2},
-    {"name": "Biology","faculty_count": 31,"department_count": 7,"article_count": 33},
-    {"name": "Chemistry","faculty_count": 21,"department_count": 5,"article_count": 33},
-    {"name": "Computer Science","faculty_count": 26,"department_count": 9,"article_count": 44}
-]

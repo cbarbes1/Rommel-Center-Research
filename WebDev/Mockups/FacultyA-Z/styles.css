@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #fff;
 }
+
 .site-header {
     background-color: #620000;
     text-align: center;
@@ -21,7 +22,6 @@ body {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
-
 .nav-link {
     color: black;
     text-decoration: none;
@@ -32,39 +32,55 @@ body {
     overflow-y: auto; /* Enable vertical scrolling */
     height: 100vh; /* Set height to full viewport height */
 }
+
 .flavor {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between; 
-    width: 80%;
-    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
     margin: 20px auto;
-    background-color: maroon;
-    height:100;
+    padding: 20px;
+    max-width: 960px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.flavor-row {
-    padding: 10px; 
-    box-sizing: border-box; 
-    border: 1px solid #ccc; 
-
+.flavor-column {
+    background-color: #800020; /* Burgundy */
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
 }
 
-.bigger-row {
-    flex: 4;
+.bigger-column {
+    flex: 2;
+}
+
+.smaller-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavor-column h1, .flavor-column h3 {
+    color: #ffd700; /* Yellow */
+}
+
+.flavor-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flavor-column li {
     background-color: #333; /* Dark background for list items */
     color: #fff;
     padding: 10px;
-    border-radius: 10px;
-} 
-
-.smaller-row {
-    flex: 1;
-    text-align: center; 
-        color: #ffd700; /* Yellow */
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
-#ArticleLink{
-    font-size: 7px;
+
+.flavor-column li ul li {
+    background-color: #444; /* Slightly lighter for nested items */
 }
 .search-bar {
     text-align: center;
