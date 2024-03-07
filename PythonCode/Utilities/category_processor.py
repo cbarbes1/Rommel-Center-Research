@@ -19,9 +19,10 @@ class CategoryProcessor:
                 self.initialize_categories(categories=categories)
                 self.update_category_counts_files_set(categories=categories, file_name=file_path)
                 faculty_members = attribute_results['author'][1] if attribute_results['author'][0] else 'Unknown'
-                department_members = attribute_results['department'][1] if attribute_results['department'][0] else 'Unknown'
+                department_members = attribute_results['department'][1] if attribute_results['department'][0] else None
                 self.faculty_department_manager.update_faculty_set(categories, faculty_members)
-                self.faculty_department_manager.update_department_set_2(categories, department_members)
+                if department_members is not None:
+                    self.faculty_department_manager.update_department_set_2(categories, department_members)
                 self.faculty_department_manager.update_article_counts(self.category_counts)
     
     def initialize_categories(self, categories):

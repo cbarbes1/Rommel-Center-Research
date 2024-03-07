@@ -1,5 +1,5 @@
 import warnings
-
+import time
 class FacultyDepartmentManager:
     def __init__(self, category_processor):
         self.category_processor = category_processor
@@ -14,8 +14,12 @@ class FacultyDepartmentManager:
                 warnings.warn(f"Warning: Category {category} not found in category_counts. Continuing to next.")
                 
     def update_department_set_2(self, categories, department_info):
-        if department_info[0]:
-            department_members = department_info[1]
+        if department_info == "Unknown":
+            return
+        
+        
+        else:
+            department_members = department_info
             for category in categories:
                 if category in self.category_processor.category_counts:
                     category_info = self.category_processor.category_counts[category]
