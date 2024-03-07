@@ -1,0 +1,101 @@
+digraph G {
+concentrate=true;
+splines="ortho";
+rankdir="LR";
+subgraph legend{
+    rank = min;
+    label = "legend";
+    Legend [shape=none, margin=0, label = <
+        <table cellspacing="0" cellpadding="0" border="1"><tr><td>Code2flow Legend</td></tr><tr><td>
+        <table cellspacing="0">
+        <tr><td>Regular function</td><td width="50px" bgcolor='#cccccc'></td></tr>
+        <tr><td>Trunk function (nothing calls this)</td><td bgcolor='#966F33'></td></tr>
+        <tr><td>Leaf function (this calls nothing else)</td><td bgcolor='#6db33f'></td></tr>
+        <tr><td>Function call</td><td><font color='black'>&#8594;</font></td></tr>
+        </table></td></tr></table>
+        >];
+}node_5949a86c [label="0: (global)()" name="utilities::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_42b1990e [label="16: __init__()" name="utilities::Utilities.__init__" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_f534fb70 [label="282: abstract_to_categories_mapping()" name="utilities::Utilities.abstract_to_categories_mapping" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_c95fcf55 [label="85: extract_abstract_and_categories_from_file()" name="utilities::Utilities.extract_abstract_and_categories_from_file" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_b916cafd [label="124: extract_attribute()" name="utilities::Utilities.extract_attribute" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_bcd2d8dd [label="173: extract_c1_content()" name="utilities::Utilities.extract_c1_content" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_eb4793ff [label="158: extract_dept_from_c1()" name="utilities::Utilities.extract_dept_from_c1" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_0f7edea8 [label="40: get_attributes()" name="utilities::Utilities.get_attributes" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_3eacb291 [label="237: get_file_name()" name="utilities::Utilities.get_file_name" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_a39cd6d8 [label="262: get_output_dir()" name="utilities::Utilities.get_output_dir" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_801b6028 [label="358: make_files()" name="utilities::Utilities.make_files" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_a3414a0f [label="215: sanitize_filename()" name="utilities::Utilities.sanitize_filename" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_58af6d52 [label="112: split_salisbury_authors()" name="utilities::Utilities.split_salisbury_authors" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_6bf09db6 [label="311: splitter()" name="utilities::Utilities.splitter" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_97afef99 [label="200: wos_category_splitter()" name="utilities::Utilities.wos_category_splitter" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_5fac250f [label="0: (global)()" name="wos_classification::(global)" shape="rect" style="rounded,filled" fillcolor="#966F33" ];
+node_d66bf0fe [label="16: __init__()" name="wos_classification::WosClassification.__init__" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_194f0bd5 [label="39: category_finder()" name="wos_classification::WosClassification.category_finder" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_d1cc1154 [label="34: check_file_status()" name="wos_classification::WosClassification.check_file_status" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_c0cf3b43 [label="23: construct_categories()" name="wos_classification::WosClassification.construct_categories" shape="rect" style="rounded,filled" fillcolor="#cccccc" ];
+node_2106f9cc [label="20: get_category_counts()" name="wos_classification::WosClassification.get_category_counts" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_5fe854d9 [label="82: initialize_categories()" name="wos_classification::WosClassification.initialize_categories" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_40253dd6 [label="114: update_category_counts_files_set()" name="wos_classification::WosClassification.update_category_counts_files_set" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_8991b0fa [label="110: update_department_count()" name="wos_classification::WosClassification.update_department_count" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_bf9d9cb7 [label="159: update_department_set_2()" name="wos_classification::WosClassification.update_department_set_2" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_f9ce713e [label="106: update_faculty_count()" name="wos_classification::WosClassification.update_faculty_count" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_29a799c1 [label="128: update_faculty_set()" name="wos_classification::WosClassification.update_faculty_set" shape="rect" style="rounded,filled" fillcolor="#6db33f" ];
+node_5949a86c -> node_42b1990e [color="#F0E442" penwidth="2"];
+node_5949a86c -> node_c95fcf55 [color="#F0E442" penwidth="2"];
+node_f534fb70 -> node_0f7edea8 [color="#000000" penwidth="2"];
+node_c95fcf55 -> node_0f7edea8 [color="#0072B2" penwidth="2"];
+node_b916cafd -> node_97afef99 [color="#0072B2" penwidth="2"];
+node_0f7edea8 -> node_b916cafd [color="#000000" penwidth="2"];
+node_0f7edea8 -> node_bcd2d8dd [color="#000000" penwidth="2"];
+node_0f7edea8 -> node_eb4793ff [color="#000000" penwidth="2"];
+node_0f7edea8 -> node_58af6d52 [color="#000000" penwidth="2"];
+node_3eacb291 -> node_a3414a0f [color="#E69F00" penwidth="2"];
+node_3eacb291 -> node_a3414a0f [color="#E69F00" penwidth="2"];
+node_801b6028 -> node_0f7edea8 [color="#000000" penwidth="2"];
+node_801b6028 -> node_3eacb291 [color="#000000" penwidth="2"];
+node_801b6028 -> node_a39cd6d8 [color="#000000" penwidth="2"];
+node_801b6028 -> node_6bf09db6 [color="#000000" penwidth="2"];
+node_5fac250f -> node_d66bf0fe [color="#CC79A7" penwidth="2"];
+node_5fac250f -> node_c0cf3b43 [color="#CC79A7" penwidth="2"];
+node_5fac250f -> node_2106f9cc [color="#CC79A7" penwidth="2"];
+node_5fac250f -> node_f9ce713e [color="#CC79A7" penwidth="2"];
+node_d66bf0fe -> node_42b1990e [color="#D55E00" penwidth="2"];
+node_194f0bd5 -> node_0f7edea8 [color="#0072B2" penwidth="2"];
+node_194f0bd5 -> node_5fe854d9 [color="#0072B2" penwidth="2"];
+node_194f0bd5 -> node_40253dd6 [color="#0072B2" penwidth="2"];
+node_194f0bd5 -> node_8991b0fa [color="#0072B2" penwidth="2"];
+node_194f0bd5 -> node_bf9d9cb7 [color="#0072B2" penwidth="2"];
+node_194f0bd5 -> node_f9ce713e [color="#0072B2" penwidth="2"];
+node_194f0bd5 -> node_29a799c1 [color="#0072B2" penwidth="2"];
+node_c0cf3b43 -> node_194f0bd5 [color="#009E73" penwidth="2"];
+node_c0cf3b43 -> node_d1cc1154 [color="#009E73" penwidth="2"];
+subgraph cluster_24c41c66 {
+    node_5949a86c;
+    label="File: utilities";
+    name="utilities";
+    style="filled";
+    graph[style=dotted];
+    subgraph cluster_68b37994 {
+        node_42b1990e node_0f7edea8 node_c95fcf55 node_58af6d52 node_b916cafd node_eb4793ff node_bcd2d8dd node_97afef99 node_a3414a0f node_3eacb291 node_a39cd6d8 node_f534fb70 node_6bf09db6 node_801b6028;
+        label="Class: Utilities";
+        name="Utilities";
+        style="filled";
+        graph[style=dotted];
+    };
+};
+subgraph cluster_e9cb5dee {
+    node_5fac250f;
+    label="File: wos_classification";
+    name="wos_classification";
+    style="filled";
+    graph[style=dotted];
+    subgraph cluster_225a45a9 {
+        node_d66bf0fe node_2106f9cc node_c0cf3b43 node_d1cc1154 node_194f0bd5 node_5fe854d9 node_f9ce713e node_8991b0fa node_40253dd6 node_29a799c1 node_bf9d9cb7;
+        label="Class: WosClassification";
+        name="WosClassification";
+        style="filled";
+        graph[style=dotted];
+    };
+};
+}

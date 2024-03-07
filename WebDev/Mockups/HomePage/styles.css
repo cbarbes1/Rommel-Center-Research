@@ -26,33 +26,34 @@ body {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .flavor {
     display: flex; 
+=======
+.content {
+    display: flex;
+>>>>>>> main
     flex-direction: column;
-    justify-content: space-between; 
-    width: 80%;
-    border: 2px solid black;
+    align-items: center;
     margin: 20px auto;
+    width: 80%;
+}
+
+.section {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
     background-color: maroon;
-    height:700px;
-    color:#fff;
+    color: #fff;
+    border: 2px solid black;
 }
 
-.flavor-row {
-    flex:1;
-    padding: 10px; 
-    box-sizing: border-box; 
-
+#meet-the-team {
+    border-bottom: none;
 }
 
-.bigger-row {
-    flex: 2; 
-    border-bottom: 1px solid black;
-}
-
-.smaller-row {
-    flex: 1;
-    text-align:left;
-    border-bottom: 1px #fff;
+.scroll-container {
+    overflow-y: auto;
+    height: 100vh;
 }
 

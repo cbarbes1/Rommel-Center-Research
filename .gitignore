@@ -165,3 +165,6 @@ arxiv-metadata-oai-snapshot.json
 /NeuralNet
 /testing
 /NeuralNet/testing
+.cursorignore
+.env
+Miniconda3-latest-Linux-x86_64.sh
