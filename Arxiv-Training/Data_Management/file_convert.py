@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 import json
 from striprtf.striprtf import rtf_to_text
+import csv
+import requests
+import xml.etree.ElementTree as ET
+from .data_class import CitationData, TopicData 
 
 class File_Convert():
     # init the process class with a file location
@@ -25,17 +29,7 @@ class File_Convert():
 
         if output_format == 'json':
             self.to_json('rtf')
-    
-    def from_WOS(self):
-        with open(self.path, 'r') as file:
-          self.file = file.read()
-          self.file = self.file.splitlines()
-          self.file = [i for i in self.file if 'AB ' in i]
-          with open('./abstracts.txt', 'w') as outfile:
-            print(self.file, file=outfile)
           
-        
-
     def to_json(self, type):
         if type == 'csv':
             # create dictionary of proposals
@@ -51,15 +45,30 @@ class File_Convert():
             print("Row inserted into JSON file successfully")
         elif type == 'rtf':
             txt_list = self.text.splitlines()[6:]
-            txt_list = [list(filter(None, item.split('|'))) for item in txt_list]
-            title_list = [i[0] for i in txt_list if len(i) == 1] 
-            txt_dict = {key[0]: [] for index, key in enumerate(txt_list) if len(key) == 1}
 
-            for i in txt_list:
-                if i not in title_list:
-                    print(i)
-            print(title_list)
-            print(txt_dict)
-            print(txt_list[0:10])
             
-            #print(txt_list)
+            txt_list = [list(filter(None, item.split('|'))) for item in txt_list]
+
+            txt_list = [i for i in txt_list if len(i) != 0]
+            
+            txt_dict = {}
+            current_section = None
+
+            for entry in txt_list:
+                if len(entry) == 1:  # Section name
+                    current_section = entry[0]
+                    txt_dict[current_section] = []
+                elif len(entry) == 2:  # Citation
+                    txt_dict[current_section].append({'Citation': entry[0], 'Total Citations': entry[1]})
+                elif len(entry) == 3:  # Journal
+                    if 'Total' in entry[0]:
+                        txt_dict[current_section].append({entry[0]: {'Total Publications': entry[1], 'Total Citations': entry[2]}})
+                    else:
+                        txt_dict[current_section].append({entry[0]: {'Number of Publications': entry[1], 'Rank': entry[2]}})
+            # data = []
+            # for key, value in txt_dict.items():
+            #     data.append(TopicData(key, [CitationData(value['Journal'], value['Total Journals'])]))
+            for key, value in txt_dict.items():
+                filename = '../../assets/json_data/' + key.replace(' ', '-') + ".json"
+                with open(filename, 'w') as file:
+                    json.dump({key: value}, file, indent=4)
