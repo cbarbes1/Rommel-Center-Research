@@ -1,6 +1,6 @@
 import os
 import warnings
-
+import pickle
 
 class FileHandler:
     def __init__(self, utils):
@@ -22,3 +22,7 @@ class FileHandler:
         if os.path.isfile(file_path):
             return True
         return False
+    
+    def save_cat_dict(self, file_path: str, cat_dict: dict):
+        with open(file_path, "wb") as f:
+            pickle.dump(cat_dict, f)

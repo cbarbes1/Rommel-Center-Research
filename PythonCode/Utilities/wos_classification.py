@@ -7,7 +7,6 @@ from faculty_set_postprocessor import FacultyPostprocessor
 import os
 import json
 
-
 class WosClassification:
     def __init__(self):
         self.utils = Utilities()
@@ -78,5 +77,7 @@ if __name__ == "__main__":
 
     # Serialize the processed data and save it
     wos_classifiction.serialize_and_save_data("processed_category_data.json")
+    
+    wos_classifiction.file_handler.save_cat_dict("category_dict.pkl", wos_classifiction.get_category_counts())
 
     print("Processing complete.")
