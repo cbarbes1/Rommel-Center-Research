@@ -1,32 +1,3 @@
-// function fetchArticleListData() {
-//     const topic_Info = document.getElementById("topic_Info");
-
-//     function createTopicSegment(data) {
-//         const topicSegment = document.createElement("ul");
-//         topicSegment.innerHTML = `
-//         <li>
-//             <form class="send" action="/Article.html">
-//             <p class="large-font">${data.name} 
-//             <button type="submit"></button>
-//             </p>
-//           </form>
-//         </li>
-//     `;
-
-//     topic_Info.appendChild(topicSegment);
-
-//     }
-
-//     fetch('../json/ArticleLinkList.json')
-//         .then(response => response.json())
-//         .then(data => {
-//             data.forEach(createTopicSegment);
-//         })
-//         .catch(error => console.error('Error fetching JSON:', error));
-// }
-
-// fetchArticleListData();
-
 function fetchArticleListData() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -40,10 +11,7 @@ function fetchArticleListData() {
             const articleListItem = document.createElement("ul");
             articleListItem.innerHTML = `
             <li>
-             <form class="send" action="/html/Article.html">
-             <p class="large-font">${item.name} 
-             <button type="submit"></button>
-             </p>
+             <a href = "/html/Article.html" ><p class = "medium font">${item.name}</p></a>
            </form>
          </li>
             `;

@@ -11,8 +11,7 @@ function fetchFacultyListData() {
             const facultyListItem = document.createElement("ul");
             facultyListItem.innerHTML = `
             <li>
-                <form class="send" action="/html/Faculty.html">
-                <p class="large-font">${item.name}<button type="submit"></button></p>
+            <a href = "/html/Faculty.html" ><p class = "medium font">${item.name}</p></a>
             </li>
             `;
             faculty_list.appendChild(facultyListItem);

@@ -11,7 +11,7 @@ function fetchTopicData() {
             const topicItem = document.createElement("ul");
             topicItem.innerHTML = `
                 <li>
-                    <p class="large-font">${item.name}</p>
+                <a href = "/html/Topic.html" ><p class = "medium font">${item.name}</p></a>
                     <ul>
                         <li><p class="faculty_count">Faculty Count: ${item.faculty_count}</p></li>
                         <li><p class="department_count">Department Count: ${item.department_count}</p></li>
@@ -25,6 +25,6 @@ function fetchTopicData() {
     xmlhttp.open("GET", "/static/json/keyPaths.json", true);
     xmlhttp.send();
 }
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     fetchTopicData();
 });
