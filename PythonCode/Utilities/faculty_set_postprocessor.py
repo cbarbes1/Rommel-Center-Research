@@ -174,6 +174,14 @@ class MinHashUtility:
         """
         # Using set to ensure unique n-grams
         return set(string[i : i + n] for i in range(len(string) - n + 1))
+    
+    def generate_coeeficients(self):
+        coefficients = []
+        for _ in range(self.num_hashes):
+            a = random.randint(1, self.large_prime - 1)
+            b = random.randint(0, self.large_prime - 1)
+            coefficients.append((a, b))
+        return coefficients
 
     def generate_hash_functions(self):
         """
@@ -192,6 +200,9 @@ class MinHashUtility:
             return lambda x: (a * x + b) % self.large_prime
 
         hash_fns = []
+        # for a, b in self.generate_coeeficients:
+        #     hash_fns.append(lambda x: (a * x + b) % self.large_prime)
+        
         for _ in range(self.num_hashes):
             a = random.randint(1, self.large_prime - 1)
             b = random.randint(0, self.large_prime - 1)
@@ -253,3 +264,4 @@ class NameVariation:
         
     def most_frequent_variation(self):
         return max(self.variations, key=self.variations.get)
+
