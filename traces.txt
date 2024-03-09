@@ -1,0 +1,9 @@
+2024-03-09T11:25:34.101492 TRACE: __main__.add, Execution time: 0.0000 seconds, Args: (5, 5), Kwargs: {}, Result: 10
+2024-03-09T11:25:34.119801 ERROR in __main__.add: Traceback (most recent call last):
+  File "/mnt/linuxlab/home/cbarbes1/Rommel-Center-Research/GeneralUtilities/tracing/tracer.py", line 26, in wrapped
+    result = func(*args, **kwargs)
+  File "/mnt/linuxlab/home/cbarbes1/Rommel-Center-Research/app.py", line 8, in add
+    raise Exception("Intentional Error")
+Exception: Intentional Error
+
+2024-03-09T11:25:34.132833 TRACE: __main__.add, Execution time: 0.0161 seconds, Args: (5, 4), Kwargs: {}, Result: None
