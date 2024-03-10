@@ -11,6 +11,7 @@ class WosClassification:
     def __init__(self):
         self.utils = Utilities()
         self.faculty_postprocessor = FacultyPostprocessor()
+         
         # Initialize the CategoryProcessor and FacultyDepartmentManager with dependencies
         self.category_processor = CategoryProcessor(self.utils, None)
 
@@ -68,7 +69,7 @@ if __name__ == "__main__":
 
     # Instantiate the orchestrator class
     wos_classifiction = WosClassification()
-
+    
     # Process the directory
     wos_classifiction.process_directory(directory_path)
 

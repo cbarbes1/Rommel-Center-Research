@@ -34,10 +34,6 @@ class JsonTransformer:
         with open("categories_and_category_metadata.json", "w") as json_file:
             json.dump(new_dictionary, json_file, indent=4)
 
-    # Assuming the remove_files method is no longer needed since we're not specifically handling 'files' differently
-    # If needed for other purposes, it can be kept or adjusted accordingly
-
-
 if __name__ == "__main__":
     jt = JsonTransformer()
     jt.remove_files()
