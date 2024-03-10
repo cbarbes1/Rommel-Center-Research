@@ -9,7 +9,7 @@ function fetchTopic(key) {
         const topicItem = document.createElement("ul");
         topicItem.innerHTML = `
             <li>
-                <p class="large-font">Plant_Sciences</p>
+                <p class="large-font">${key}</p>
                 <ul>
                     <li><p class="faculty_count">Faculty Count: ${abArr[key].faculty_count}</p></li>
                     <li><p class="department_count">Department Count: ${abArr[key].department_count}</p></li>
@@ -34,5 +34,8 @@ function fetchTopic(key) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetchTopic("Plant_Sciences");
+    const urlParams = new URLSearchParams(window.location.search);
+    const facultyName = urlParams.get('name');
+
+    fetchTopic(facultyName);
 });

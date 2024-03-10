@@ -3,7 +3,7 @@ function fetchFacultyData(key) {
     xmlhttp.onload = function () {
         const abArr = JSON.parse(this.responseText);
 
-        document.getElementById("Name").innerHTML = abArr[key].Name;
+        document.getElementById("Name").innerHTML = key;
         document.getElementById("Office").innerHTML = abArr[key].Office;
         document.getElementById("Email").innerHTML =  abArr[key].Email;
         document.getElementById("Department").innerHTML = abArr[key].Department;
@@ -19,4 +19,10 @@ function fetchFacultyData(key) {
     xmlhttp.send();
 }
 
-fetchFacultyData(0);
+document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const facultyName = urlParams.get('name');
+
+    fetchFacultyData(facultyName);
+});
+
