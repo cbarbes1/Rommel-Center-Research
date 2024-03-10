@@ -4,31 +4,31 @@
         "department_count": 2,
         "article_count": 9,
         "faculty": [
-            "Keifer, David",
-            "Carter, Michael S.",
-            "Woodis, Lena A.",
-            "Wille, Brendan",
-            "Purohit, Abhishek",
-            "Miller, Jenna",
-            "Cottingham, Andrea",
-            "Naing, Yadanar Than",
-            "Rojas, Anthony J.",
-            "Petersen, Courtney",
-            "Kim, Chan",
-            "Lanehart, Emily",
-            "Joyce, Ryan",
-            "Bhatti, Khadija",
-            "Hensiek, Sarah",
             "Benner, Jeffrey",
-            "Jermain, Madison",
+            "Lanehart, Emily",
+            "Petersen, Courtney",
+            "Miller, Jenna",
+            "Rojas, Anthony J.",
             "Habay, Stephen",
+            "Naing, Yadanar Than",
+            "Joyce, Ryan",
+            "Purohit, Abhishek",
+            "Woodis, Lena A.",
+            "Falcone, Gianna",
+            "Hensiek, Sarah",
+            "Keifer, David",
+            "Kim, Chan",
+            "Carter, Michael S.",
+            "Cottingham, Andrea",
             "Wathen, Bailee",
+            "Wille, Brendan",
             "Juncosa, Jose I.",
-            "Falcone, Gianna"
+            "Jermain, Madison",
+            "Bhatti, Khadija"
         ],
         "departments": [
-            "Biol Sci",
-            "Chem"
+            "Chem",
+            "Biol Sci"
         ]
     },
     "Plant Sciences": {
@@ -36,15 +36,15 @@
         "department_count": 3,
         "article_count": 3,
         "faculty": [
-            "Thomas, L.",
             "Harris, Daniel W.",
-            "Briand, Christopher H.",
-            "Folkoff, Michael E."
+            "Folkoff, Michael E.",
+            "Thomas, L.",
+            "Briand, Christopher H."
         ],
         "departments": [
-            "Biol Sci",
             "Plant Sci & Landscape Architecture",
-            "Geog & Geosci"
+            "Geog & Geosci",
+            "Biol Sci"
         ]
     },
     "Hospitality, Leisure, Sport & Tourism": {
@@ -52,9 +52,9 @@
         "department_count": 2,
         "article_count": 3,
         "faculty": [
+            "Follmer, Kayla",
             "Hill, Brian",
-            "Miao, Chao",
-            "Follmer, Kayla"
+            "Miao, Chao"
         ],
         "departments": [
             "Econ & Finance",
@@ -66,98 +66,97 @@
         "department_count": 4,
         "article_count": 44,
         "faculty": [
-            "Eun, Jihyun",
-            "Miao, Chao",
-            "Maykrantz, Sherry A.",
-            "Quan, Jing",
-            "Munemo, Jonathan",
-            "Kim, Yun-Kyoung",
-            "Park, Minseok",
-            "Sen, Argha",
-            "Roche, Olivier",
-            "Emerson, David J.",
-            "Smith, Kenneth J.",
-            "Follmer, Kayla B.",
+            "Singh, Nitya P.",
+            "Leonel, Ronei",
             "Hoffman, Richard",
             "Pasirayi, Simbarashe",
-            "Leonel, Ronei",
-            "Gang, KwangWook",
+            "Emerson, David J.",
+            "Roche, Olivier",
+            "Sen, Argha",
+            "Maykrantz, Sherry A.",
+            "Park, Minseok",
+            "Smith, Kenneth J.",
+            "Quan, Jing",
+            "Eun, Jihyun",
+            "Munemo, Jonathan",
             "Egan, Chrys",
-            "Singh, Nitya P.",
-            "Boster, Charles R."
+            "Kim, Yun-Kyoung",
+            "Miao, Chao",
+            "Gang, KwangWook",
+            "Boster, Charles R.",
+            "Follmer, Kayla B."
         ],
         "departments": [
-            "Informat & Decis Sci",
+            "Accounting & Legal Studies",
             "Management & Mkt",
             "Management",
-            "Accounting & Legal Studies"
+            "Informat & Decis Sci"
         ]
     },
     "Education & Educational Research": {
-        "faculty_count": 47,
+        "faculty_count": 46,
         "department_count": 12,
         "article_count": 49,
         "faculty": [
-            "Barry, James",
-            "",
-            "Maykrantz, Sherry A.",
-            "Marinaro, Laura",
-            "Stutelberg, Erin",
-            "Anthony, Becky",
-            "Jewell, Jennifer R.",
-            "Hylton, Mary",
-            "McCartney, Jason",
-            "Groth, Randall E.",
-            "Naumann, Madeline",
-            "Kulavuz-Onal, Derya",
-            "Billups, M. J.",
-            "Genareo, Vincent R.",
-            "Caviglia-Harris, Jill",
-            "Peixoto, Sinelia",
-            "Porter, Heather",
-            "Maier, Karl J.",
-            "Kim, Koomi",
-            "Emerson, David J.",
-            "Smith, Kenneth J.",
-            "Koh, Bibiana D.",
-            "Davis, Jeni",
-            "Seldomridge, Lisa A.",
-            "Hanley, Yvonne Downie",
-            "Finch, Maida A.",
-            "Walsh, Catherine M.",
-            "Troup, Nicholas",
-            "Walter, Mark I.",
-            "Osman, Suzanne L.",
-            "DiBartolo, Mary C.",
             "Whitehead, George I.",
-            "Freda, Kaynabess",
-            "Choi, Yoojin",
-            "Rohde, Jacki",
-            "Follmer, D. Jake",
-            "Franzak, Judith",
-            "Ramanathan, Gurupriya",
+            "Bemis, Rhyannon H.",
+            "Troup, Nicholas",
             "Allen, Kimberly",
-            "Venable, Victoria",
-            "Cammarano, Cristina",
-            "Willey, Amanda",
+            "Genareo, Vincent R.",
+            "Billups, M. J.",
+            "Ramanathan, Gurupriya",
+            "Porter, Heather",
+            "Groth, Randall E.",
+            "Davis, Jeni",
+            "Emerson, David J.",
+            "Kulavuz-Onal, Derya",
+            "DiBartolo, Mary C.",
+            "McCartney, Jason",
+            "Caviglia-Harris, Jill",
+            "Choi, Yoojin",
+            "Jewell, Jennifer R.",
+            "Peixoto, Sinelia",
+            "Maykrantz, Sherry A.",
+            "Stutelberg, Erin",
+            "Walter, Mark I.",
+            "Hanley, Yvonne Downie",
             "Karimzad, Farzad",
-            "Williamson, Thea",
+            "Smith, Kenneth J.",
+            "Maier, Karl J.",
+            "Naumann, Madeline",
+            "Walsh, Catherine M.",
+            "Rohde, Jacki",
             "Mcelroy, Honor B.",
+            "Koh, Bibiana D.",
+            "Barry, James",
+            "Williamson, Thea",
+            "Venable, Victoria",
+            "Seldomridge, Lisa A.",
+            "Follmer, D. Jake",
+            "Freda, Kaynabess",
+            "Osman, Suzanne L.",
+            "Hylton, Mary",
             "Quillin, Kim",
-            "Bemis, Rhyannon H."
+            "Marinaro, Laura",
+            "Anthony, Becky",
+            "Franzak, Judith",
+            "Cammarano, Cristina",
+            "Kim, Koomi",
+            "Willey, Amanda",
+            "Finch, Maida A."
         ],
         "departments": [
-            "Econ & Finance",
-            "Phys",
-            "Early & Elementary Educ",
-            "Environm Studies",
             "English",
-            "Math & Comp Sci",
-            "Doctoral Studies Literacy",
-            "Psychol",
-            "Accounting & Legal Studies",
             "Human Serv",
+            "Environm Studies",
+            "Early & Elementary Educ",
+            "Econ & Finance",
+            "Psychol",
+            "Doctoral Studies Literacy",
+            "Accounting & Legal Studies",
             "Secondary & Phys Educ",
+            "Math & Comp Sci",
+            "Phys",
             "Literacy Studies"
         ]
     },
@@ -166,58 +165,58 @@
         "department_count": 1,
         "article_count": 18,
         "faculty": [
-            "Cervantes, Mason",
-            "Naboulsi, Amar L.",
-            "Bennett, Harmon",
-            "Chaves, Alec B.",
-            "Marquette, Lisa",
-            "Lindner, Nicole C.",
-            "Tiberio, Layla",
-            "Glass, Noah",
-            "Sarrett, Austin",
-            "Mazzetti, Scott",
-            "Vance, Morgan",
-            "Treuth, Margarita S.",
-            "Muller, Susan M.",
-            "Ancalmo, Juliana",
-            "Kuszmaul, Dillon J.",
-            "Rosette, Demetri",
-            "Coyle, Krystina",
-            "Valenti, Zackary J.",
-            "Moghaddam, Masoud",
-            "Lynch, Colleen E.",
-            "Cave, Jason",
-            "Mirza, Ateeb M.",
-            "Locklear, Robert",
-            "Meister, Ben M.",
-            "Revel, Cody B.",
             "Morgan, Brian",
-            "Stott, Mia",
-            "Boyd, Gerard",
-            "Wooleyhand, Sean",
-            "Rosette, Vincent D.",
-            "Schwartz, Alison C.",
-            "Mills, William",
-            "Lynch, Kerry E.",
-            "Whittaker, Amber",
-            "Ortlip, Austin T.",
-            "Werner, Tim",
-            "Pellinger, Thomas K.",
-            "Schneider, Sidney R.",
-            "Chaudhry, Bilal",
             "Kalita, Diane",
-            "Walter, Jessica",
-            "Hughes, Ryan",
-            "Paco, Paola J.",
+            "Ortlip, Austin T.",
             "Fedorko, Brent",
-            "Robbins, Ethan",
-            "Fountain, William A.",
+            "Schneider, Sidney R.",
+            "Cervantes, Mason",
+            "Marquette, Lisa",
+            "Mazzetti, Scott",
             "Brennan, Anna",
-            "Guarnera, Samantha R.",
+            "Tiberio, Layla",
+            "Fountain, William A.",
+            "Mirza, Ateeb M.",
+            "Moghaddam, Masoud",
+            "Robbins, Ethan",
+            "Sarrett, Austin",
+            "Lynch, Colleen E.",
+            "Wooleyhand, Sean",
+            "Chaves, Alec B.",
+            "Naboulsi, Amar L.",
+            "Werner, Tim",
             "Insley, Carlton R., III",
+            "Mills, William",
+            "Lindner, Nicole C.",
+            "Paco, Paola J.",
+            "Coyle, Krystina",
+            "Lynch, Kerry E.",
+            "Chaudhry, Bilal",
+            "Stott, Mia",
+            "Treuth, Margarita S.",
+            "Whittaker, Amber",
+            "Cave, Jason",
+            "Rosette, Demetri",
+            "Muller, Susan M.",
+            "Rosette, Vincent D.",
+            "Ancalmo, Juliana",
+            "Locklear, Robert",
+            "Valenti, Zackary J.",
+            "Meister, Ben M.",
+            "Hughes, Ryan",
+            "Kuszmaul, Dillon J.",
+            "Quarantillo, Michael E.",
+            "Vance, Morgan",
+            "Revel, Cody B.",
+            "Schwartz, Alison C.",
+            "Glass, Noah",
             "Carlini, Nicholas A.",
+            "Pellinger, Thomas K.",
             "Nein, Matthew A.",
-            "Quarantillo, Michael E."
+            "Guarnera, Samantha R.",
+            "Walter, Jessica",
+            "Bennett, Harmon",
+            "Boyd, Gerard"
         ],
         "departments": [
             "Athlet"
@@ -228,30 +227,30 @@
         "department_count": 5,
         "article_count": 39,
         "faculty": [
-            "Hill, Brian",
-            "Pasirayi, Simba",
-            "Wu, Ying",
-            "Miao, Chao",
-            "Villalobos, Laura",
-            "Emerson, Jamie",
-            "Ottoni Santiago, Thais Muniz",
-            "Chambers, Dustin",
-            "Caviglia-Harris, Jill",
-            "Li, Ning",
-            "Munemo, Jonathan",
-            "Cimiluca, Mark",
-            "Hamilton, Stuart E.",
-            "Nan, Wenxiu (Vince)",
             "Singh, Nitya P.",
+            "Chambers, Dustin",
             "Kolstoe, Sonja",
-            "Lei, Shan"
+            "Cimiluca, Mark",
+            "Ottoni Santiago, Thais Muniz",
+            "Lei, Shan",
+            "Wu, Ying",
+            "Pasirayi, Simba",
+            "Hill, Brian",
+            "Caviglia-Harris, Jill",
+            "Hamilton, Stuart E.",
+            "Villalobos, Laura",
+            "Nan, Wenxiu (Vince)",
+            "Munemo, Jonathan",
+            "Miao, Chao",
+            "Li, Ning",
+            "Emerson, Jamie"
         ],
         "departments": [
-            "Econ & Finance",
+            "Mkt",
             "Environm Studies",
             "Management & Mkt",
-            "Geog & Geosci",
-            "Mkt"
+            "Econ & Finance",
+            "Geog & Geosci"
         ]
     },
     "History": {
@@ -259,18 +258,18 @@
         "department_count": 0,
         "article_count": 22,
         "faculty": [
-            "Miller, Timothy S.",
-            "Gonzalez, Aston",
-            "Carayon, Celine",
-            "Ference, Gregory C.",
-            "Goyens, Tom",
-            "Vicens, Belen",
-            "McCarty, Michael",
-            "Bowler, Richard",
-            "Hoffman, Richard C.",
             "Kotlowski, Dean J.",
+            "Ference, Gregory C.",
+            "Carayon, Celine",
+            "Goyens, Tom",
+            "McCarty, Michael",
+            "Gonzalez, Aston",
             "Talbert, Bart",
-            "French, Kara M."
+            "French, Kara M.",
+            "Hoffman, Richard C.",
+            "Bowler, Richard",
+            "Vicens, Belen",
+            "Miller, Timothy S."
         ],
         "departments": []
     },
@@ -279,40 +278,40 @@
         "department_count": 9,
         "article_count": 21,
         "faculty": [
-            "Marinaro, Laura",
-            "Rivera, Allyson",
             "Talbot, John",
-            "Long-White, Deneen",
-            "Schlehofer, Michele M.",
             "Olortegui, Ashley",
-            "Chambers, Dustin",
+            "Fritz, Heidi L.",
+            "Schlehofer, Michele M.",
             "Hamilton, Stuart E.",
-            "Maier, Karl J.",
+            "Nobiling, Brandye D.",
             "Townsend, Zachary",
             "Demond, Whitney",
-            "Green, Daniel C.",
-            "Osman, Suzanne L.",
-            "Agarwal, Vinita",
-            "Holdai, Veera",
+            "Rivera, Allyson",
             "Choi, Yoojin",
+            "Phillips, David S.",
             "Petrolino, Ashley V.",
-            "Maykrantz, S. A.",
-            "Yoon, David J.",
+            "Green, Daniel C.",
+            "Chambers, Dustin",
+            "Agarwal, Vinita",
+            "Maier, Karl J.",
+            "Long-White, Deneen",
+            "Holdai, Veera",
             "Flint, Carl",
-            "Fritz, Heidi L.",
-            "Nobiling, Brandye D.",
-            "Phillips, David S."
+            "Marinaro, Laura",
+            "Yoon, David J.",
+            "Maykrantz, S. A.",
+            "Osman, Suzanne L."
         ],
         "departments": [
-            "Commun",
+            "Internal Med",
             "Math & Comp Sci",
-            "Psychol",
+            "Commun",
             "Management & Mkt",
+            "Hlth & Sport Sci",
+            "Psychol",
             "Hematol & Oncol",
             "Geog & Geosci",
-            "Hlth & Sport Sci",
-            "Secondary & Phys Educ",
-            "Internal Med"
+            "Secondary & Phys Educ"
         ]
     },
     "Psychology, Multidisciplinary": {
@@ -320,23 +319,23 @@
         "department_count": 3,
         "article_count": 19,
         "faculty": [
+            "Scott, Michael S.",
             "Tomcho, Thomas",
-            "Smith, Kenneth",
-            "Okubo, Yuki",
-            "Chappell, Charisse",
-            "Walter, Mark I.",
-            "Osman, Suzanne L.",
-            "Olortegui, Ashley",
             "Whitehead, George I.",
-            "Rivera, Allyson",
-            "Fritz, Heidi L.",
-            "Maier, Karl J.",
-            "Laaouad-dodoo, Soraya",
-            "Bemis, Rhyannon H.",
-            "Demond, Whitney",
-            "Schlehofer, Michele M.",
+            "Olortegui, Ashley",
             "Emerson, David",
-            "Scott, Michael S."
+            "Demond, Whitney",
+            "Maier, Karl J.",
+            "Fritz, Heidi L.",
+            "Bemis, Rhyannon H.",
+            "Schlehofer, Michele M.",
+            "Okubo, Yuki",
+            "Rivera, Allyson",
+            "Laaouad-dodoo, Soraya",
+            "Smith, Kenneth",
+            "Osman, Suzanne L.",
+            "Walter, Mark I.",
+            "Chappell, Charisse"
         ],
         "departments": [
             "Accounting & Legal Studies",
@@ -349,19 +348,19 @@
         "department_count": 2,
         "article_count": 17,
         "faculty": [
-            "Schlehofer, Michele M.",
-            "Kim, Sook Hyun",
-            "Rivera, Allyson",
-            "Anthony, Becky",
-            "Jewell, Jennifer R.",
-            "Hylton, Mary",
-            "Harbaugh, Jessica",
             "Owens-King, Allessia P.",
-            "Jung, Kyoung-Rae",
+            "Harbaugh, Jessica",
+            "Hylton, Mary",
             "Green, Daniel",
-            "Demond, Whitney",
-            "Koh, Bibiana D.",
             "Olortegui, Ashley",
+            "Demond, Whitney",
+            "Rivera, Allyson",
+            "Schlehofer, Michele M.",
+            "Koh, Bibiana D.",
+            "Jung, Kyoung-Rae",
+            "Jewell, Jennifer R.",
+            "Anthony, Becky",
+            "Kim, Sook Hyun",
             "Venable, Victoria"
         ],
         "departments": [
@@ -374,23 +373,23 @@
         "department_count": 5,
         "article_count": 14,
         "faculty": [
-            "Sokoloski, Joshua E.",
-            "Krach, Noah",
-            "Gang, KwangWook",
-            "Lycett, Kristen A.",
-            "Nyland, Jennifer",
             "Taylor, Ryan",
-            "Chen, Xuan",
-            "Presotto, Andrea",
+            "Park, Minseok",
+            "Lycett, Kristen A.",
             "Hamilton, Stuart",
-            "Park, Minseok"
+            "Nyland, Jennifer",
+            "Chen, Xuan",
+            "Sokoloski, Joshua E.",
+            "Gang, KwangWook",
+            "Krach, Noah",
+            "Presotto, Andrea"
         ],
         "departments": [
-            "Biol Sci",
+            "Biol",
             "Chem",
             "Math & Comp Sci",
             "Geog & Geosci",
-            "Biol"
+            "Biol Sci"
         ]
     },
     "Nursing": {
@@ -399,23 +398,23 @@
         "article_count": 23,
         "faculty": [
             "Nutt, Rita",
-            "Walsh, Catherine M.",
-            "Hall, Nicole",
+            "Allen, Kim",
+            "Hinderer, Katherine A.",
             "DiBartolo, Mary C.",
+            "Agarwal, Vinita",
+            "Walsh, Catherine M.",
+            "Jauregui, Jean E.",
+            "Maier, Karl J.",
+            "Pellinger, Thomas K.",
+            "Hart, Jennifer",
+            "Webster, Debra",
             "Seldomridge, Lisa",
             "Winter, Dorothea M.",
-            "Agarwal, Vinita",
-            "Webster, Debra",
-            "Allen, Kim",
-            "Maier, Karl J.",
-            "Hinderer, Katherine A.",
-            "Hart, Jennifer",
-            "Padgett, Stephen M.",
-            "Reid, Tina P.",
+            "Hall, Nicole",
             "Barnes, Annette",
-            "Jauregui, Jean E.",
-            "Pellinger, Thomas K.",
-            "Jarosinski, Judith M."
+            "Reid, Tina P.",
+            "Jarosinski, Judith M.",
+            "Padgett, Stephen M."
         ],
         "departments": [
             "Hlth Sci",
@@ -429,28 +428,28 @@
         "department_count": 5,
         "article_count": 6,
         "faculty": [
-            "Hassan, Tehzeeb",
-            "Leaver, Echo",
-            "Hunter, Kimberly L.",
-            "Nibblett, Kaitlyn",
-            "Warfield, Rebecca",
-            "Taylor, Ryan C.",
-            "Agarwal, Vinita",
-            "Ennerfelt, Hannah",
-            "Tchienga, Ines",
-            "Tibbo, Morgan",
-            "Corfield, Jeremy R.",
-            "Voithofer, Gabrielle",
             "Norman, Brandon",
+            "Tibbo, Morgan",
+            "Allen, Samantha",
+            "Nibblett, Kaitlyn",
+            "Leaver, Echo",
+            "Corfield, Jeremy R.",
+            "Agarwal, Vinita",
+            "Taylor, Ryan C.",
+            "Voithofer, Gabrielle",
+            "Hassan, Tehzeeb",
+            "Warfield, Rebecca",
+            "Hunter, Kimberly L.",
+            "Ennerfelt, Hannah",
             "Clark, Jessica Kennett",
-            "Allen, Samantha"
+            "Tchienga, Ines"
         ],
         "departments": [
-            "Biol Sci",
-            "Chem",
+            "Biol",
             "Commun",
             "Psychol",
-            "Biol"
+            "Chem",
+            "Biol Sci"
         ]
     },
     "Physiology": {
@@ -458,23 +457,23 @@
         "department_count": 3,
         "article_count": 3,
         "faculty": [
-            "Rocker, Amanda",
-            "Hassan, Tehzeeb",
-            "Leaver, Echo",
-            "Nibblett, Kaitlyn",
-            "Warfield, Rebecca",
             "Howell, Julia",
-            "Ennerfelt, Hannah",
-            "Tchienga, Ines",
             "Tibbo, Morgan",
+            "Allen, Samantha",
+            "Nibblett, Kaitlyn",
+            "Leaver, Echo",
             "Voithofer, Gabrielle",
+            "Hassan, Tehzeeb",
+            "Warfield, Rebecca",
+            "Ennerfelt, Hannah",
             "Clark, Jessica Kennett",
-            "Allen, Samantha"
+            "Tchienga, Ines",
+            "Rocker, Amanda"
         ],
         "departments": [
-            "Biol Sci",
+            "Psychol",
             "Chem",
-            "Psychol"
+            "Biol Sci"
         ]
     },
     "Business, Finance": {
@@ -482,21 +481,21 @@
         "department_count": 3,
         "article_count": 21,
         "faculty": [
-            "Hill, Brian",
-            "Cooper, Sue A.",
-            "Wu, Ying",
-            "Peng, Yuqi",
-            "Eksi, Asli",
-            "Hong Duong",
-            "Mathers, Ani Manakyan",
-            "Munemo, Jonathan",
-            "Boster, Charles",
-            "Yao, Hong",
             "Duong, Hong",
             "Emerson, David J.",
+            "Peng, Yuqi",
             "Smith, Kenneth J.",
+            "Mathers, Ani Manakyan",
+            "Lei, Shan",
+            "Wu, Ying",
+            "Hong Duong",
+            "Yao, Hong",
+            "Hill, Brian",
             "Schuldt, Michael A.",
-            "Lei, Shan"
+            "Boster, Charles",
+            "Eksi, Asli",
+            "Cooper, Sue A.",
+            "Munemo, Jonathan"
         ],
         "departments": [
             "Econ & Finance",
@@ -509,21 +508,21 @@
         "department_count": 2,
         "article_count": 1,
         "faculty": [
+            "Rose, Chelsi M.",
+            "Mrozinski, Abigayle C.",
             "Emmert, Elizabeth A. B.",
             "Briand, Christopher H.",
+            "Geleta, Samuel B.",
             "Evans, Amanda S.",
             "Anderson, Philip D.",
-            "Mrozinski, Abigayle C.",
             "Baker, Keirsten T.",
+            "Seho-Ahiable, Gloria E.",
             "Harris, Mercedes E.",
-            "Geleta, Samuel B.",
-            "Rose, Chelsi M.",
-            "Hawkins, Ashley E.",
-            "Seho-Ahiable, Gloria E."
+            "Hawkins, Ashley E."
         ],
         "departments": [
-            "Biol Sci",
-            "Geog & Geosci"
+            "Geog & Geosci",
+            "Biol Sci"
         ]
     },
     "Psychology, Developmental": {
@@ -531,8 +530,8 @@
         "department_count": 2,
         "article_count": 2,
         "faculty": [
-            "Bemis, Rhyannon H.",
-            "Pope, Alexander"
+            "Pope, Alexander",
+            "Bemis, Rhyannon H."
         ],
         "departments": [
             "Secondary & Phys Educ",
@@ -544,128 +543,131 @@
         "department_count": 3,
         "article_count": 17,
         "faculty": [
-            "Yoon, David J.",
-            "Lane, Halle L.",
-            "Follmer, Kayla B.",
-            "Miao, Chao",
-            "Osman, Suzanne L.",
-            "Roche, Olivier",
-            "Gang, KwangWook",
             "Fennell, Patrick",
+            "Roche, Olivier",
+            "Lane, Halle L.",
             "Kim, Yun-Kyoung",
-            "Weer, Christy H."
+            "Weer, Christy H.",
+            "Yoon, David J.",
+            "Miao, Chao",
+            "Gang, KwangWook",
+            "Follmer, Kayla B.",
+            "Osman, Suzanne L."
         ],
         "departments": [
             "Management & Mkt",
-            "Management",
-            "Psychol"
+            "Psychol",
+            "Management"
         ]
     },
     "Biochemistry & Molecular Biology": {
-        "faculty_count": 22,
+        "faculty_count": 23,
         "department_count": 3,
         "article_count": 12,
         "faculty": [
-            "Lamanca, John",
-            "Nyland, Jennifer",
-            "Erickson, Les",
-            "Corfield, Jeremy R.",
-            "Liebgold, Eric B.",
-            "Joyce, Ryan Patrick",
-            "Jermain, Madison",
+            "Werner, Timothy",
             "Pellinger, Thomas",
-            "Clark, Jessica",
-            "Williams, E. Eugene",
-            "Freeman, Angela R.",
+            "Staudmyer, Timothy",
             "Presotto, Andrea",
-            "Hopkins, Emily",
-            "Naing, Yadanar",
+            "Jewell, Mollie Anne",
+            "Erickson, Les",
+            "Lamanca, John",
             "Voithofer, Gabrielle",
             "Nalesnik, Allison",
-            "Shepherd, Meghan",
+            "Freeman, Angela R.",
+            "Corfield, Jeremy R.",
+            "Naing, Yadanar",
+            "Nyland, Jennifer",
+            "Williams, E. Eugene",
+            "Liebgold, Eric B.",
+            "Joyce, Ryan Patrick",
             "Gimblet, Colin",
-            "Staudmyer, Timothy",
+            "Clark, Jessica",
             "Vance, Morgan",
+            "Shepherd, Meghan",
             "Ortlip, Austin",
-            "Jewell, Mollie Anne"
+            "Jermain, Madison",
+            "Hopkins, Emily"
         ],
         "departments": [
-            "Biol Sci",
+            "Geog & Geosci",
             "Biol",
-            "Geog & Geosci"
+            "Biol Sci"
         ]
     },
     "Biology": {
-        "faculty_count": 28,
+        "faculty_count": 29,
         "department_count": 3,
         "article_count": 19,
         "faculty": [
-            "Lamanca, John",
-            "Hunter, Kimberly L.",
-            "Nyland, Jennifer",
-            "Mitchell, Kelsey M.",
+            "Werner, Timothy",
             "Ludovici, Rosalind J.",
-            "Coss, Derek A.",
-            "Erickson, Les",
-            "Bradley, Christina J.",
-            "Corfield, Jeremy R.",
-            "Joyce, Ryan Patrick",
-            "Jermain, Madison",
-            "Clements, Paul",
             "Pellinger, Thomas",
-            "Clark, Jessica",
-            "Freeman, Angela R.",
-            "Presotto, Andrea",
-            "Naing, Yadanar",
-            "Voithofer, Gabrielle",
-            "Shepherd, Meghan",
-            "Nalesnik, Allison",
-            "Gimblet, Colin",
-            "Taylor, Ryan C.",
-            "Wilhite, Kyle O.",
-            "Bressman, Noah",
+            "Clements, Paul",
             "Staudmyer, Timothy",
+            "Jewell, Mollie Anne",
+            "Wilhite, Kyle O.",
+            "Erickson, Les",
+            "Bressman, Noah",
+            "Lamanca, John",
+            "Voithofer, Gabrielle",
+            "Coss, Derek A.",
+            "Nalesnik, Allison",
+            "Freeman, Angela R.",
+            "Corfield, Jeremy R.",
+            "Naing, Yadanar",
+            "Nyland, Jennifer",
+            "Hunter, Kimberly L.",
+            "Joyce, Ryan Patrick",
+            "Gimblet, Colin",
+            "Clark, Jessica",
             "Vance, Morgan",
+            "Shepherd, Meghan",
             "Ortlip, Austin",
-            "Jewell, Mollie Anne"
+            "Mitchell, Kelsey M.",
+            "Bradley, Christina J.",
+            "Taylor, Ryan C.",
+            "Jermain, Madison",
+            "Presotto, Andrea"
         ],
         "departments": [
-            "Biol Sci",
+            "Geog & Geosci",
             "Biol",
-            "Geog & Geosci"
+            "Biol Sci"
         ]
     },
     "Cell Biology": {
-        "faculty_count": 20,
+        "faculty_count": 21,
         "department_count": 4,
         "article_count": 11,
         "faculty": [
-            "Lamanca, John",
-            "Nyland, Jennifer",
-            "Erickson, Les",
-            "Corfield, Jeremy R.",
-            "Brady, Alyssa",
-            "Joyce, Ryan Patrick",
-            "Jermain, Madison",
+            "Werner, Timothy",
             "Pellinger, Thomas",
-            "Clark, Jessica",
-            "Freeman, Angela R.",
-            "Presotto, Andrea",
-            "Naing, Yadanar",
-            "Voithofer, Gabrielle",
-            "Shepherd, Meghan",
-            "Nalesnik, Allison",
-            "Gimblet, Colin",
             "Staudmyer, Timothy",
+            "Jewell, Mollie Anne",
+            "Erickson, Les",
+            "Lamanca, John",
+            "Voithofer, Gabrielle",
+            "Nalesnik, Allison",
+            "Brady, Alyssa",
+            "Freeman, Angela R.",
+            "Corfield, Jeremy R.",
+            "Naing, Yadanar",
+            "Nyland, Jennifer",
+            "Joyce, Ryan Patrick",
+            "Gimblet, Colin",
+            "Clark, Jessica",
             "Vance, Morgan",
+            "Shepherd, Meghan",
             "Ortlip, Austin",
-            "Jewell, Mollie Anne"
+            "Jermain, Madison",
+            "Presotto, Andrea"
         ],
         "departments": [
-            "Biol Sci",
+            "Geog & Geosci",
             "Phys",
             "Biol",
-            "Geog & Geosci"
+            "Biol Sci"
         ]
     },
     "Environmental Sciences": {
@@ -673,39 +675,39 @@
         "department_count": 10,
         "article_count": 26,
         "faculty": [
-            "Maykrantz, Sherry A.",
-            "Hunter, Kimberly L.",
-            "Ramseyer, Craig A.",
-            "Scott, Michael",
-            "Caviglia-Harris, Jill",
+            "Kolstoe, Sonja",
             "Roose, Jordan J.",
             "Hamilton, Stuart E.",
-            "Liebgold, Eric B.",
-            "Silaphone, K.",
-            "Stribling, Judith M.",
-            "Agarwal, Vinita",
-            "Holdai, Veera",
-            "Franchi, Giulia",
-            "Petrolino, Ashley V.",
-            "Kolstoe, Sonja",
-            "Yoon, David J.",
-            "Chen, Xingzhi Mara",
-            "Rexroth, Kayla S.",
-            "Cha, Hoon S.",
             "Nobiling, Brandye D.",
-            "Phillips, David S."
+            "Rexroth, Kayla S.",
+            "Caviglia-Harris, Jill",
+            "Stribling, Judith M.",
+            "Phillips, David S.",
+            "Cha, Hoon S.",
+            "Petrolino, Ashley V.",
+            "Maykrantz, Sherry A.",
+            "Chen, Xingzhi Mara",
+            "Agarwal, Vinita",
+            "Hunter, Kimberly L.",
+            "Liebgold, Eric B.",
+            "Holdai, Veera",
+            "Silaphone, K.",
+            "Franchi, Giulia",
+            "Scott, Michael",
+            "Ramseyer, Craig A.",
+            "Yoon, David J."
         ],
         "departments": [
-            "Biol Sci",
-            "Commun",
+            "Internal Med",
             "Environm Studies",
-            "Comp Sci",
-            "Math & Comp Sci",
-            "Informat & Decis Sci",
+            "Commun",
             "Management & Mkt",
             "Hematol & Oncol",
+            "Informat & Decis Sci",
+            "Math & Comp Sci",
             "Geog & Geosci",
-            "Internal Med"
+            "Comp Sci",
+            "Biol Sci"
         ]
     },
     "Environmental Studies": {
@@ -713,20 +715,20 @@
         "department_count": 5,
         "article_count": 16,
         "faculty": [
-            "Briand, Christopher H.",
-            "Villalobos, Laura",
-            "Cha, Hoon S.",
+            "Kolstoe, Sonja",
+            "Scott, Michael",
             "Caviglia-Harris, Jill",
             "Hamilton, Stuart E.",
-            "Scott, Michael",
-            "Kolstoe, Sonja"
+            "Villalobos, Laura",
+            "Cha, Hoon S.",
+            "Briand, Christopher H."
         ],
         "departments": [
-            "Biol Sci",
-            "Econ & Finance",
             "Environm Studies",
+            "Econ & Finance",
             "Informat & Decis Sci",
-            "Geog & Geosci"
+            "Geog & Geosci",
+            "Biol Sci"
         ]
     },
     "Mathematics, Applied": {
@@ -734,14 +736,14 @@
         "department_count": 2,
         "article_count": 6,
         "faculty": [
-            "Cai, Jiacheng",
-            "Tu, Junyi",
             "Shifler, Ryan M.",
+            "Tu, Junyi",
+            "Cai, Jiacheng",
             "Schneider, Lisa"
         ],
         "departments": [
-            "Math & Comp Sci",
-            "Math Sci"
+            "Math Sci",
+            "Math & Comp Sci"
         ]
     },
     "Linguistics": {
@@ -749,17 +751,17 @@
         "department_count": 3,
         "article_count": 13,
         "faculty": [
-            "Scanlon, Jaycee",
-            "Stutelberg, Erin B.",
             "Karimzad, Farzad",
-            "Williamson, Thea",
+            "Kulavuz-Onal, Derya",
+            "Stutelberg, Erin B.",
             "Pandey, Anjali",
-            "Kulavuz-Onal, Derya"
+            "Scanlon, Jaycee",
+            "Williamson, Thea"
         ],
         "departments": [
             "English",
-            "Literacy Studies",
-            "Secondary & Phys Educ"
+            "Secondary & Phys Educ",
+            "Literacy Studies"
         ]
     },
     "Language & Linguistics": {
@@ -768,16 +770,16 @@
         "article_count": 8,
         "faculty": [
             "McElroy, Honor",
-            "Stutelberg, Erin B.",
             "Karimzad, Farzad",
-            "Williamson, Thea",
+            "Franzak, Judith K.",
+            "Stutelberg, Erin B.",
             "Pandey, Anjali",
-            "Franzak, Judith K."
+            "Williamson, Thea"
         ],
         "departments": [
             "English",
-            "Literacy Studies",
-            "Secondary & Phys Educ"
+            "Secondary & Phys Educ",
+            "Literacy Studies"
         ]
     },
     "Anthropology": {
@@ -785,13 +787,13 @@
         "department_count": 2,
         "article_count": 3,
         "faculty": [
-            "Barrett, G. Douglas",
+            "Briand, Christopher H.",
             "Karimzad, Farzad",
-            "Briand, Christopher H."
+            "Barrett, G. Douglas"
         ],
         "departments": [
-            "Biol Sci",
-            "Geog & Geosci"
+            "Geog & Geosci",
+            "Biol Sci"
         ]
     },
     "Sociology": {
@@ -799,19 +801,19 @@
         "department_count": 4,
         "article_count": 7,
         "faculty": [
-            "Briand, Christopher H.",
-            "Scanlon, Jaycee",
             "Goyens, Tom",
             "Karimzad, Farzad",
+            "Sporer, Ryan Alan",
             "Stoner, Alexander M.",
+            "Scanlon, Jaycee",
             "Fox, James T.",
-            "Sporer, Ryan Alan"
+            "Briand, Christopher H."
         ],
         "departments": [
-            "Biol Sci",
-            "Educ Leadership",
+            "Geog & Geosci",
             "English",
-            "Geog & Geosci"
+            "Educ Leadership",
+            "Biol Sci"
         ]
     },
     "Geriatrics & Gerontology": {
@@ -819,14 +821,14 @@
         "department_count": 2,
         "article_count": 6,
         "faculty": [
+            "Lee, Byung Ho",
             "DiBartolo, Mary",
             "Miao, Chao",
-            "Lee, Byung Ho",
             "Jeon, Kwonchan"
         ],
         "departments": [
-            "Management & Mkt",
-            "Psychol"
+            "Psychol",
+            "Management & Mkt"
         ]
     },
     "Gerontology": {
@@ -834,9 +836,9 @@
         "department_count": 1,
         "article_count": 6,
         "faculty": [
+            "Lee, Byung Ho",
             "DiBartolo, Mary",
             "Green, Daniel C.",
-            "Lee, Byung Ho",
             "Jeon, Kwonchan"
         ],
         "departments": [
@@ -848,25 +850,25 @@
         "department_count": 5,
         "article_count": 20,
         "faculty": [
+            "Kotlowski, Dean J.",
             "Fletcher, Michelle N.",
-            "Eun, Jihyun",
-            "Keethaponcalan, S. I.",
             "Chambers, Dustin",
-            "Caballero, Guillermo",
             "Goyens, Tom",
+            "Keethaponcalan, S. I.",
+            "Eun, Jihyun",
+            "Fox, James T.",
             "Surak, Sarah M.",
+            "Caballero, Guillermo",
             "Rittinger, Eric R.",
             "Munemo, Jonathan",
-            "Hill, Amanda",
-            "Fox, James T.",
-            "Kotlowski, Dean J."
+            "Hill, Amanda"
         ],
         "departments": [
-            "Econ & Finance",
             "Environm Studies",
+            "Econ & Finance",
             "Educ Leadership",
-            "Polit Sci",
-            "Econ"
+            "Econ",
+            "Polit Sci"
         ]
     },
     "Business": {
@@ -874,38 +876,38 @@
         "department_count": 7,
         "article_count": 43,
         "faculty": [
-            "Eun, Jihyun",
-            "Miao, Chao",
+            "Singh, Nitya P.",
             "Adams, Stephen B.",
             "Poddar, Amit",
-            "Fennell, Patrick",
-            "Munemo, Jonathan",
-            "Morris, Paula T.",
-            "Villalobos, Laura",
-            "Sen, Argha",
-            "Roche, Olivier",
-            "Johnson, Aaron",
             "Hamilton, Stuart E.",
-            "Lei, Shan",
-            "Follmer, Kayla B.",
-            "Wu, Yun",
             "Pasirayi, Simbarashe",
-            "Schneider, Gustavo",
-            "Caviglia-Harris, Jill L.",
+            "Roche, Olivier",
+            "Sen, Argha",
+            "Villalobos, Laura",
             "Billups, M. Judith",
-            "Yoon, David J.",
-            "Gang, KwangWook",
+            "Johnson, Aaron",
+            "Caviglia-Harris, Jill L.",
             "Richerson, Rob",
-            "Singh, Nitya P."
+            "Wu, Yun",
+            "Schneider, Gustavo",
+            "Eun, Jihyun",
+            "Munemo, Jonathan",
+            "Lei, Shan",
+            "Yoon, David J.",
+            "Miao, Chao",
+            "Gang, KwangWook",
+            "Morris, Paula T.",
+            "Follmer, Kayla B.",
+            "Fennell, Patrick"
         ],
         "departments": [
-            "Econ & Finance",
+            "Mkt",
             "Environm Studies",
-            "Informat & Decis Sci",
             "Management & Mkt",
+            "Econ & Finance",
             "Management",
-            "Geog & Geosci",
-            "Mkt"
+            "Informat & Decis Sci",
+            "Geog & Geosci"
         ]
     },
     "Mathematics": {
@@ -913,20 +915,20 @@
         "department_count": 3,
         "article_count": 14,
         "faculty": [
-            "Evans, La'Tier",
-            "Bones, Lela",
             "Austin, Jathan",
+            "Halperin, Alexander",
             "Vennos, A.",
-            "Short, Laura",
             "Fowler, Garrett",
-            "Schneider, Lisa",
-            "Warman, Stephanie",
             "Shifler, Ryan M.",
-            "Halperin, Alexander"
+            "Evans, La'Tier",
+            "Warman, Stephanie",
+            "Bones, Lela",
+            "Short, Laura",
+            "Schneider, Lisa"
         ],
         "departments": [
-            "Math Sci",
             "Math & Comp Sci",
+            "Math Sci",
             "Math"
         ]
     },
@@ -935,9 +937,9 @@
         "department_count": 2,
         "article_count": 3,
         "faculty": [
-            "Franchi, Giulia",
+            "Barnes, Samuel",
             "Wang, Xiaohong",
-            "Barnes, Samuel"
+            "Franchi, Giulia"
         ],
         "departments": [
             "Math & Comp Sci",
@@ -954,10 +956,10 @@
         ],
         "departments": [
             "Athlet Training",
-            "Math & Comp Sci",
-            "Comp Sci",
             "Psychol",
-            "Geog & Geosci"
+            "Math & Comp Sci",
+            "Geog & Geosci",
+            "Comp Sci"
         ]
     },
     "Imaging Science & Photographic Technology": {
@@ -977,16 +979,16 @@
         "department_count": 2,
         "article_count": 6,
         "faculty": [
-            "Miao, Chao",
-            "Fritz, Heidi L.",
-            "Maier, Karl J.",
             "Steele, Rachel R.",
+            "Maier, Karl J.",
+            "Fritz, Heidi L.",
+            "Miao, Chao",
             "Lahay, Amber R.",
             "Whitehead, George, I"
         ],
         "departments": [
-            "Management & Mkt",
-            "Psychol"
+            "Psychol",
+            "Management & Mkt"
         ]
     },
     "Education, Scientific Disciplines": {
@@ -994,34 +996,34 @@
         "department_count": 5,
         "article_count": 19,
         "faculty": [
-            "Keifer, David",
-            "Rickards, Megan",
-            "Woodis, Lena A.",
-            "Groth, Randall E.",
-            "Joyner, Robert L., Jr.",
-            "Naumann, Madeline",
-            "Rojas, Anthony J.",
-            "Shakur, Asif",
-            "Lanehart, Emily",
-            "Hinderer, Katherine A.",
-            "Hensiek, Sarah",
-            "Troup, Nicholas",
             "East, Meghan",
-            "Rohde, Jacki",
-            "Wathen, Bailee",
-            "Auerbach, Anna Jo J.",
-            "Schwartz, Joseph",
+            "Lanehart, Emily",
+            "Troup, Nicholas",
+            "Rojas, Anthony J.",
+            "Groth, Randall E.",
+            "Rickards, Megan",
             "Brown, Voncelia",
             "Emmert, Jeffrey",
+            "Joyner, Robert L., Jr.",
+            "Woodis, Lena A.",
+            "Hensiek, Sarah",
+            "Keifer, David",
+            "Naumann, Madeline",
+            "Schwartz, Joseph",
+            "Rohde, Jacki",
+            "Emmert, Elizabeth",
+            "Wathen, Bailee",
+            "Hinderer, Katherine A.",
             "Quillin, Kim",
-            "Emmert, Elizabeth"
+            "Auerbach, Anna Jo J.",
+            "Shakur, Asif"
         ],
         "departments": [
-            "Biol Sci",
-            "Phys",
-            "Chem",
             "Educ Specialties",
-            "Math & Comp Sci"
+            "Chem",
+            "Math & Comp Sci",
+            "Phys",
+            "Biol Sci"
         ]
     },
     "Physics, Multidisciplinary": {
@@ -1040,8 +1042,8 @@
         "department_count": 1,
         "article_count": 4,
         "faculty": [
-            "Munemo, Jonathan",
             "Koval, Michael R.",
+            "Munemo, Jonathan",
             "Chambers, Dustin"
         ],
         "departments": [
@@ -1053,19 +1055,19 @@
         "department_count": 5,
         "article_count": 6,
         "faculty": [
-            "Hill, Brian",
-            "Cooper, Sue A.",
             "Chambers, Dustin",
             "Pope, Alexander",
-            "Munemo, Jonathan",
-            "Surak, Sarah"
+            "Hill, Brian",
+            "Surak, Sarah",
+            "Cooper, Sue A.",
+            "Munemo, Jonathan"
         ],
         "departments": [
             "Econ & Finance",
             "Accounting & Legal Studies",
             "Polit Sci & Environm Studies",
-            "Econ",
-            "Secondary & Phys Educ"
+            "Secondary & Phys Educ",
+            "Econ"
         ]
     },
     "Psychiatry": {
@@ -1073,10 +1075,10 @@
         "department_count": 1,
         "article_count": 5,
         "faculty": [
-            "Osman, Suzanne L.",
+            "Kim, Yun-Kyoung",
             "Maier, Karl J.",
-            "Fritz, Heidi L.",
-            "Kim, Yun-Kyoung"
+            "Osman, Suzanne L.",
+            "Fritz, Heidi L."
         ],
         "departments": [
             "Psychol"
@@ -1087,14 +1089,14 @@
         "department_count": 1,
         "article_count": 6,
         "faculty": [
-            "Hassan, Tehzeeb",
-            "Leaver, Echo",
             "Nibblett, Kaitlyn",
-            "Osman, Suzanne L.",
-            "Fritz, Heidi L.",
-            "Tchienga, Ines",
+            "Leaver, Echo",
             "Maier, Karl J.",
-            "Kim, Yun-Kyoung"
+            "Fritz, Heidi L.",
+            "Kim, Yun-Kyoung",
+            "Hassan, Tehzeeb",
+            "Tchienga, Ines",
+            "Osman, Suzanne L."
         ],
         "departments": [
             "Psychol"
@@ -1106,8 +1108,8 @@
         "article_count": 5,
         "faculty": [
             "Hamilton, Stuart E.",
-            "Wang, Xiaohong",
             "Barnes, Samuel",
+            "Wang, Xiaohong",
             "Ramseyer, Craig A."
         ],
         "departments": [
@@ -1120,9 +1122,9 @@
         "department_count": 2,
         "article_count": 3,
         "faculty": [
+            "Barnes, Samuel",
             "Wang, Xiaohong",
             "Muller, Mark W.",
-            "Barnes, Samuel",
             "Caviglia-Harris, Jill L."
         ],
         "departments": [
@@ -1135,103 +1137,101 @@
         "department_count": 2,
         "article_count": 6,
         "faculty": [
-            "Roberts, Paige M.",
-            "Krach, Noah",
+            "Grecay, Paul A.",
             "Bradley, Christina J.",
             "Hamilton, Stuart E.",
-            "Grecay, Paul A.",
             "Gallo, Silviya M.",
             "Hammond, Courtney Nicole",
-            "Muller, Mark W."
+            "Muller, Mark W.",
+            "Roberts, Paige M.",
+            "Krach, Noah"
         ],
         "departments": [
-            "Biol Sci",
-            "Geog & Geosci"
+            "Geog & Geosci",
+            "Biol Sci"
         ]
     },
     "Zoology": {
-        "faculty_count": 16,
+        "faculty_count": 15,
         "department_count": 5,
         "article_count": 25,
         "faculty": [
             "Stafford, Kathleen",
-            "Bushera, Hakeem",
-            "Curry, Caitlin",
-            "Hunter, Kimberly L.",
-            "Coss, Derek A.",
-            "Taylor, Ryan C.",
-            "Presotto, A.",
-            "Bradley, Christina J.",
-            "Cronin, Andrew",
-            "Freeman, Angela R.",
-            "Small, Hannah G.",
             "Grant, Alexa H.",
-            "Presotto, Andrea",
-            "Bressman, N. R.",
+            "Curry, Caitlin",
+            "Freeman, Angela R.",
+            "Chaudhry, Eaqan A.",
+            "Small, Hannah G.",
+            "Bradley, Christina J.",
+            "Taylor, Ryan C.",
+            "Coss, Derek A.",
+            "Cronin, Andrew",
+            "Hunter, Kimberly L.",
             "Liebgold, Eric B.",
-            "Chaudhry, Eaqan A."
+            "Bressman, N. R.",
+            "Presotto, A.",
+            "Bushera, Hakeem"
         ],
         "departments": [
-            "Biol Sci",
-            "Environm Sci",
             "Environm Studies",
+            "Environm Sci",
+            "Biol",
             "Geog & Geosci",
-            "Biol"
+            "Biol Sci"
         ]
     },
     "Ecology": {
-        "faculty_count": 39,
+        "faculty_count": 38,
         "department_count": 7,
         "article_count": 37,
         "faculty": [
-            "Dolezar, Gina M.",
-            "",
-            "Fillebrown, J.",
-            "Hunter, Kimberly L.",
-            "Molina, Michael",
-            "Teller, Kyle G.",
-            "Irons, Jonathan",
-            "Hamilton, Stu",
-            "Garcia, Mark J.",
             "Ransom, Tami",
-            "Bushera, Hakeem",
-            "Coss, Derek A.",
-            "Caviglia-Harris, Jill",
-            "Presotto, A.",
-            "Bradley, Christina J.",
-            "Roose, Jordan J.",
-            "Cronin, Andrew",
-            "Manole, Denise",
-            "Liebgold, Eric B.",
-            "Silaphone, Keota",
-            "Adler, Laurie",
-            "Kramer, Christian F.",
-            "Clements, Paul",
-            "Stribling, Judith M.",
-            "Lamb, Stephanie M.",
-            "Koehler, S.",
-            "Kobisk, Ashley",
-            "Chen, Xuan",
-            "Montgomery, Chandini B.",
-            "Wilson, Abigail",
-            "Price, Dana L.",
-            "Kolstoe, Sonja",
-            "Maloof, Joan E.",
-            "Taylor, Ryan C.",
             "Hogue, Aaron S.",
-            "Wehlan, T.",
-            "Simons, Patrick",
+            "Kolstoe, Sonja",
+            "Roose, Jordan J.",
+            "Kobisk, Ashley",
+            "Clements, Paul",
+            "Silaphone, Keota",
+            "Manole, Denise",
+            "Adler, Laurie",
+            "Maloof, Joan E.",
+            "Molina, Michael",
+            "Fillebrown, J.",
             "Grecay, Paul A.",
-            "Miller, Lien"
+            "Dolezar, Gina M.",
+            "Kramer, Christian F.",
+            "Garcia, Mark J.",
+            "Hamilton, Stu",
+            "Caviglia-Harris, Jill",
+            "Miller, Lien",
+            "Stribling, Judith M.",
+            "Coss, Derek A.",
+            "Wehlan, T.",
+            "Price, Dana L.",
+            "Presotto, A.",
+            "Teller, Kyle G.",
+            "Simons, Patrick",
+            "Hunter, Kimberly L.",
+            "Liebgold, Eric B.",
+            "Irons, Jonathan",
+            "Montgomery, Chandini B.",
+            "Bushera, Hakeem",
+            "Wilson, Abigail",
+            "Bradley, Christina J.",
+            "Taylor, Ryan C.",
+            "Chen, Xuan",
+            "Lamb, Stephanie M.",
+            "Cronin, Andrew",
+            "Koehler, S."
         ],
         "departments": [
-            "Biol Sci",
-            "Econ & Finance",
-            "Environm Studies",
             "Math Sci",
+            "Environm Studies",
+            "Biol",
             "Environm & Sustainabil",
+            "Econ & Finance",
             "Geog & Geosci",
-            "Biol"
+            "Biol Sci"
         ]
     },
     "Ethics": {
@@ -1239,10 +1239,10 @@
         "department_count": 3,
         "article_count": 3,
         "faculty": [
-            "Smith, Kenneth",
-            "Miao, Chao",
             "Emerson, David",
-            "Wu, Yun"
+            "Miao, Chao",
+            "Wu, Yun",
+            "Smith, Kenneth"
         ],
         "departments": [
             "Accounting & Legal Studies",
@@ -1259,8 +1259,8 @@
             "Quan, Jing"
         ],
         "departments": [
-            "Informat & Decis Sci",
-            "Informat Decis Sci"
+            "Informat Decis Sci",
+            "Informat & Decis Sci"
         ]
     },
     "Surgery": {
@@ -1278,12 +1278,12 @@
         "article_count": 3,
         "faculty": [
             "Hoffman, Richard C.",
-            "Kim, Yun Kyoung",
-            "Miao, Chao"
+            "Miao, Chao",
+            "Kim, Yun Kyoung"
         ],
         "departments": [
-            "Management & Mkt",
-            "Management"
+            "Management",
+            "Management & Mkt"
         ]
     },
     "Agricultural Economics & Policy": {
@@ -1292,14 +1292,14 @@
         "article_count": 4,
         "faculty": [
             "Pasirayi, Simba",
-            "Caviglia-Harris, Jill L.",
+            "Chambers, Dustin",
             "Kolstoe, Sonja",
-            "Chambers, Dustin"
+            "Caviglia-Harris, Jill L."
         ],
         "departments": [
             "Econ & Finance",
-            "Mkt",
-            "Environm Studies"
+            "Environm Studies",
+            "Mkt"
         ]
     },
     "Psychology, Biological": {
@@ -1307,10 +1307,10 @@
         "department_count": 1,
         "article_count": 2,
         "faculty": [
-            "Hassan, Tehzeeb",
-            "Leaver, Echo",
             "Nibblett, Kaitlyn",
             "Freeman, Angela R.",
+            "Leaver, Echo",
+            "Hassan, Tehzeeb",
             "Tchienga, Ines"
         ],
         "departments": [
@@ -1322,10 +1322,10 @@
         "department_count": 1,
         "article_count": 2,
         "faculty": [
-            "Nibblett, Kaitlyn",
+            "Leaver, Echo",
             "Tchienga, Ines",
-            "Hassan, Tehzeeb",
-            "Leaver, Echo"
+            "Nibblett, Kaitlyn",
+            "Hassan, Tehzeeb"
         ],
         "departments": [
             "Psychol"
@@ -1336,19 +1336,19 @@
         "department_count": 3,
         "article_count": 13,
         "faculty": [
-            "Han, Eun-Jeong",
             "Brannock-Cox, Jennifer",
+            "Karimzad, Farzad",
+            "Conrath, Ryan",
+            "Bolton, Joshua P.",
             "Stanfield, Kellie",
             "Agarwal, Vinita",
-            "Karimzad, Farzad",
-            "Bolton, Joshua P.",
             "Fritz, Heidi L.",
-            "Conrath, Ryan",
-            "O'Sullivan, Shannon E. M."
+            "O'Sullivan, Shannon E. M.",
+            "Han, Eun-Jeong"
         ],
         "departments": [
-            "Commun Arts",
             "Commun Arts 272",
+            "Commun Arts",
             "Commun"
         ]
     },
@@ -1357,39 +1357,38 @@
         "department_count": 1,
         "article_count": 6,
         "faculty": [
-            "Miao, Chao",
+            "Park, Minseok",
             "Adams, Stephen B.",
             "Chambers, Dustin",
             "Caviglia-Harris, Jill",
-            "Munemo, Jonathan",
             "Nan, Wenxiu (Vince)",
-            "Park, Minseok"
+            "Miao, Chao",
+            "Munemo, Jonathan"
         ],
         "departments": [
             "Management & Mkt"
         ]
     },
     "Behavioral Sciences": {
-        "faculty_count": 10,
+        "faculty_count": 9,
         "department_count": 4,
         "article_count": 14,
         "faculty": [
-            "Bushera, Hakeem",
             "Curry, Caitlin",
-            "Hunter, Kimberly L.",
-            "Coss, Derek A.",
-            "Taylor, Ryan C.",
-            "Presotto, A.",
-            "Agarwal, Vinita",
-            "Cronin, Andrew",
             "Freeman, Angela R.",
-            "Presotto, Andrea"
+            "Agarwal, Vinita",
+            "Taylor, Ryan C.",
+            "Coss, Derek A.",
+            "Cronin, Andrew",
+            "Hunter, Kimberly L.",
+            "Presotto, A.",
+            "Bushera, Hakeem"
         ],
         "departments": [
+            "Geog & Geosci",
             "Biol Sci",
             "Biol",
-            "Commun",
-            "Geog & Geosci"
+            "Commun"
         ]
     },
     "Ethnic Studies": {
@@ -1397,24 +1396,23 @@
         "department_count": 1,
         "article_count": 4,
         "faculty": [
-            "Goyens, Tom",
+            "Ference, Gregory C.",
             "Okubo, Yuki",
-            "Pandey, Anjali",
-            "Ference, Gregory C."
+            "Goyens, Tom",
+            "Pandey, Anjali"
         ],
         "departments": [
             "Psychol"
         ]
     },
     "Oncology": {
-        "faculty_count": 4,
+        "faculty_count": 3,
         "department_count": 1,
         "article_count": 5,
         "faculty": [
-            "",
-            "Phillips, Robert A.",
+            "Li, Ning",
             "Anderson, Philip D.",
-            "Li, Ning"
+            "Phillips, Robert A."
         ],
         "departments": [
             "Econ & Finance"
@@ -1437,8 +1435,8 @@
             "Cai, Jiacheng"
         ],
         "departments": [
-            "Biol",
-            "Math Sci"
+            "Math Sci",
+            "Biol"
         ]
     },
     "Entomology": {
@@ -1447,58 +1445,57 @@
         "article_count": 11,
         "faculty": [
             "Hagadorn, Mallory A.",
-            "Rowe, Emily",
             "Simons, Patrick",
-            "Mann, Hunter",
-            "Cai, Jiacheng",
+            "Bachran, Karsin",
+            "Morningred, Connor",
+            "Restein, Joseph",
             "Grubb, Brittany",
             "Chen, Xuan",
-            "Morningred, Connor",
-            "Price, Dana L.",
+            "Cai, Jiacheng",
             "Mitchell, Kaitlyn",
-            "Restein, Joseph",
-            "Bachran, Karsin"
+            "Mann, Hunter",
+            "Price, Dana L.",
+            "Rowe, Emily"
         ],
         "departments": [
-            "Biol Sci",
-            "Environm Studies",
-            "Math & Comp Sci",
             "Math Sci",
-            "Biol"
+            "Environm Studies",
+            "Biol",
+            "Math & Comp Sci",
+            "Biol Sci"
         ]
     },
     "Biodiversity Conservation": {
-        "faculty_count": 21,
+        "faculty_count": 20,
         "department_count": 4,
         "article_count": 16,
         "faculty": [
-            "",
-            "Fillebrown, J.",
-            "Molina, Michael",
-            "Irons, Jonathan",
             "Ransom, Tami",
-            "Presotto, A.",
-            "Breon, Kathryn",
-            "Manole, Denise",
-            "Liebgold, Eric B.",
+            "Hogue, Aaron S.",
             "Silaphone, Keota",
-            "Koehler, S.",
-            "Chen, Xuan",
+            "Manole, Denise",
+            "Molina, Michael",
+            "Fillebrown, J.",
+            "Rexroth, Kayla S.",
+            "Wehlan, T.",
+            "Miller, Lien",
+            "Caviglia-Harris, Jill L.",
+            "Price, Dana L.",
+            "Breon, Kathryn",
+            "Presotto, A.",
+            "Simons, Patrick",
+            "Liebgold, Eric B.",
+            "Irons, Jonathan",
             "Montgomery, Chandini B.",
             "Wilson, Abigail",
-            "Price, Dana L.",
-            "Caviglia-Harris, Jill L.",
-            "Rexroth, Kayla S.",
-            "Hogue, Aaron S.",
-            "Wehlan, T.",
-            "Simons, Patrick",
-            "Miller, Lien"
+            "Chen, Xuan",
+            "Koehler, S."
         ],
         "departments": [
-            "Biol Sci",
-            "Biol",
+            "Geog & Geosci",
             "Environm Studies",
-            "Geog & Geosci"
+            "Biol",
+            "Biol Sci"
         ]
     },
     "Film, Radio, Television": {
@@ -1506,8 +1503,8 @@
         "department_count": 0,
         "article_count": 3,
         "faculty": [
-            "Conrath, Ryan",
-            "Johnson, David T."
+            "Johnson, David T.",
+            "Conrath, Ryan"
         ],
         "departments": []
     },
@@ -1520,8 +1517,8 @@
             "Wesolowski, Sarah C."
         ],
         "departments": [
-            "Phys",
-            "Math & Comp Sci"
+            "Math & Comp Sci",
+            "Phys"
         ]
     },
     "Social Sciences, Interdisciplinary": {
@@ -1529,14 +1526,14 @@
         "department_count": 1,
         "article_count": 4,
         "faculty": [
-            "Disbennett, Mackensie",
-            "Othman, Yasmeen",
-            "Nan, Wenxiu (Vince)",
-            "Steele, Rachel R.",
             "Schlehofer, Michele M. M.",
-            "Bergner, Jennifer",
+            "Othman, Yasmeen",
+            "Steele, Rachel R.",
+            "Nan, Wenxiu (Vince)",
             "Groth, Randall",
             "Weaver, Starlin",
+            "Bergner, Jennifer",
+            "Disbennett, Mackensie",
             "Richardson, Gwynne"
         ],
         "departments": [
@@ -1559,14 +1556,14 @@
         "department_count": 3,
         "article_count": 7,
         "faculty": [
-            "Okubo, Yuki",
             "Fox, James",
             "Mcelroy, Honor B.",
+            "Okubo, Yuki",
             "Follmer, D. Jake"
         ],
         "departments": [
-            "Educ Leadership",
             "Doctoral Studies Literacy",
+            "Educ Leadership",
             "Psychol"
         ]
     },
@@ -1586,15 +1583,15 @@
         "department_count": 2,
         "article_count": 2,
         "faculty": [
-            "Carter, Michael S.",
-            "Naing, Yadanar T.",
-            "Rost-Nasshan, Aerin",
             "Miller, Stephanie",
+            "Rost-Nasshan, Aerin",
+            "Naing, Yadanar T.",
+            "Carter, Michael S.",
             "Brady, Alyssa"
         ],
         "departments": [
-            "Biol Sci",
-            "Phys"
+            "Phys",
+            "Biol Sci"
         ]
     },
     "Engineering, Biomedical": {
@@ -1622,15 +1619,15 @@
         "department_count": 3,
         "article_count": 3,
         "faculty": [
-            "Cha, Hoon S.",
+            "Briand, C. H.",
             "Scott, Michael",
             "Geleta, S. B.",
-            "Briand, C. H."
+            "Cha, Hoon S."
         ],
         "departments": [
-            "Biol Sci",
+            "Geog & Geosci",
             "Informat & Decis Sci",
-            "Geog & Geosci"
+            "Biol Sci"
         ]
     },
     "Toxicology": {
@@ -1649,9 +1646,9 @@
         "department_count": 0,
         "article_count": 12,
         "faculty": [
+            "Martino, Andrew",
             "King, Carolyne M.",
-            "Harrington, Gary",
-            "Martino, Andrew"
+            "Harrington, Gary"
         ],
         "departments": []
     },
@@ -1660,11 +1657,11 @@
         "department_count": 1,
         "article_count": 7,
         "faculty": [
-            "Kotlowski, Dean",
-            "Ratti, Manav",
             "Ference, Gregory C.",
-            "Barrett, G. Douglas",
-            "Conrath, Ryan"
+            "Kotlowski, Dean",
+            "Conrath, Ryan",
+            "Ratti, Manav",
+            "Barrett, G. Douglas"
         ],
         "departments": [
             "English"
@@ -1675,15 +1672,15 @@
         "department_count": 4,
         "article_count": 4,
         "faculty": [
-            "Cai, Jiacheng",
             "Maloof, Joan E.",
-            "Ottoni Santiago, Thais Muniz"
+            "Ottoni Santiago, Thais Muniz",
+            "Cai, Jiacheng"
         ],
         "departments": [
-            "Biol Sci",
             "Math & Comp Sci",
+            "Environm Studies",
             "Biol",
-            "Environm Studies"
+            "Biol Sci"
         ]
     },
     "Asian Studies": {
@@ -1692,8 +1689,8 @@
         "article_count": 5,
         "faculty": [
             "Tuske, Joerg",
-            "Ratti, Manav",
-            "McCarty, Michael"
+            "McCarty, Michael",
+            "Ratti, Manav"
         ],
         "departments": [
             "English"
@@ -1704,22 +1701,22 @@
         "department_count": 1,
         "article_count": 2,
         "faculty": [
-            "Chapman, Hayley A.",
-            "Manchak, Randi",
-            "Albright, Savannah G.",
-            "Timmons, Miranda",
-            "Bowler, Matthew M.",
-            "Labb, Samantha A.",
-            "Habay, Stephen A.",
-            "Cheng, Yijie",
-            "Ali, Bakr",
-            "Masteran, Conner J.",
-            "Friese, Seth J.",
-            "Thomas, John Z.",
             "Hartlove, Nathan B.",
-            "Cusic, Rachel M.",
+            "Ali, Bakr",
+            "Timmons, Miranda",
+            "Habay, Stephen A.",
             "Marr, Alissa N.",
-            "Miller, Julia M."
+            "Cusic, Rachel M.",
+            "Miller, Julia M.",
+            "Masteran, Conner J.",
+            "Albright, Savannah G.",
+            "Cheng, Yijie",
+            "Manchak, Randi",
+            "Labb, Samantha A.",
+            "Friese, Seth J.",
+            "Bowler, Matthew M.",
+            "Thomas, John Z.",
+            "Chapman, Hayley A."
         ],
         "departments": [
             "Chem"
@@ -1730,10 +1727,10 @@
         "department_count": 2,
         "article_count": 3,
         "faculty": [
-            "Tomcho, Thomas",
-            "Chappell, Charisse",
             "Miller, Jerome A.",
-            "Patel, Shruti"
+            "Tomcho, Thomas",
+            "Patel, Shruti",
+            "Chappell, Charisse"
         ],
         "departments": [
             "Hist",
@@ -1745,8 +1742,8 @@
         "department_count": 0,
         "article_count": 2,
         "faculty": [
-            "Park, Minseok",
-            "Polkinghorn, Brian D."
+            "Polkinghorn, Brian D.",
+            "Park, Minseok"
         ],
         "departments": []
     },
@@ -1765,12 +1762,12 @@
         "article_count": 3,
         "faculty": [
             "Comfort, Joshua",
-            "Grecay, Paul A.",
-            "Bradley, Christina J."
+            "Bradley, Christina J.",
+            "Grecay, Paul A."
         ],
         "departments": [
-            "Biol Sci",
-            "Comp Sci"
+            "Comp Sci",
+            "Biol Sci"
         ]
     },
     "Marine & Freshwater Biology": {
@@ -1779,20 +1776,20 @@
         "article_count": 8,
         "faculty": [
             "Comfort, Joshua",
-            "Roberts, Paige M.",
-            "Krach, Noah",
+            "Grecay, Paul A.",
             "Bradley, Christina J.",
             "Hamilton, Stuart E.",
             "Chen, Xuan",
-            "Grecay, Paul A.",
             "Gallo, Silviya M.",
-            "Hammond, Courtney Nicole"
+            "Hammond, Courtney Nicole",
+            "Roberts, Paige M.",
+            "Krach, Noah"
         ],
         "departments": [
-            "Biol Sci",
+            "Geog & Geosci",
             "Comp Sci",
             "Biol",
-            "Geog & Geosci"
+            "Biol Sci"
         ]
     },
     "Physics, Nuclear": {
@@ -1803,8 +1800,8 @@
             "Wesolowski, S."
         ],
         "departments": [
-            "Math & Comp Sci",
-            "Math Sci"
+            "Math Sci",
+            "Math & Comp Sci"
         ]
     },
     "Social Issues": {
@@ -1812,10 +1809,10 @@
         "department_count": 0,
         "article_count": 1,
         "faculty": [
-            "Disbennett, Mackensie",
+            "Othman, Yasmeen",
             "Steele, Rachel R.",
-            "Richardson, Gwynne",
-            "Othman, Yasmeen"
+            "Disbennett, Mackensie",
+            "Richardson, Gwynne"
         ],
         "departments": []
     },
@@ -1824,15 +1821,15 @@
         "department_count": 1,
         "article_count": 7,
         "faculty": [
+            "Conrath, Ryan",
+            "Othman, Yasmeen",
+            "Steele, Rachel R.",
             "Okubo, Yuki",
+            "Schlehofer, Michele M.",
             "Caballero, Guillermo",
             "Osman, Suzanne L.",
             "Disbennett, Mackensie",
-            "Othman, Yasmeen",
-            "Steele, Rachel R.",
-            "Conrath, Ryan",
-            "Richardson, Gwynne",
-            "Schlehofer, Michele M."
+            "Richardson, Gwynne"
         ],
         "departments": [
             "Psychol"
@@ -1890,25 +1887,25 @@
         "department_count": 5,
         "article_count": 8,
         "faculty": [
-            "Clements, Paul",
-            "Hunter, Kimberly L.",
-            "Taylor, Ryan C.",
-            "Bradley, Christina J.",
-            "Lamb, Stephanie M.",
-            "Kobisk, Ashley",
-            "Adler, Laurie",
             "Teller, Kyle G.",
-            "Liebgold, Eric B.",
+            "Kobisk, Ashley",
+            "Clements, Paul",
+            "Garcia, Mark J.",
+            "Bradley, Christina J.",
             "Berns, Chelsea M.",
+            "Taylor, Ryan C.",
             "Hamilton, Stu",
-            "Garcia, Mark J."
+            "Lamb, Stephanie M.",
+            "Hunter, Kimberly L.",
+            "Liebgold, Eric B.",
+            "Adler, Laurie"
         ],
         "departments": [
-            "Biol Sci",
-            "Phys",
-            "Environm Studies",
             "Math Sci",
-            "Biol"
+            "Environm Studies",
+            "Biol",
+            "Phys",
+            "Biol Sci"
         ]
     },
     "Developmental Biology": {
@@ -1917,14 +1914,14 @@
         "article_count": 2,
         "faculty": [
             "Sargent, Sheridan",
-            "Berns, Chelsea M.",
             "Clark, Jessica Kennett",
+            "Berns, Chelsea M.",
             "Brennan, Anna"
         ],
         "departments": [
-            "Biol Sci",
             "Phys",
-            "Biol"
+            "Biol",
+            "Biol Sci"
         ]
     },
     "Genetics & Heredity": {
@@ -1932,19 +1929,19 @@
         "department_count": 4,
         "article_count": 3,
         "faculty": [
-            "Hunter, Kimberly L.",
-            "Taylor, Ryan C.",
-            "Kobisk, Ashley",
-            "Adler, Laurie",
             "Teller, Kyle G.",
+            "Kobisk, Ashley",
+            "Garcia, Mark J.",
             "Berns, Chelsea M.",
-            "Garcia, Mark J."
+            "Taylor, Ryan C.",
+            "Hunter, Kimberly L.",
+            "Adler, Laurie"
         ],
         "departments": [
-            "Biol Sci",
+            "Math Sci",
             "Phys",
             "Biol",
-            "Math Sci"
+            "Biol Sci"
         ]
     },
     "Health Policy & Services": {
@@ -1952,10 +1949,10 @@
         "department_count": 2,
         "article_count": 4,
         "faculty": [
-            "Nobiling, Brandye D.",
-            "Long-White, Deneen",
             "Stanfield, Kellie",
-            "Agarwal, Vinita"
+            "Nobiling, Brandye D.",
+            "Agarwal, Vinita",
+            "Long-White, Deneen"
         ],
         "departments": [
             "Commun Arts 272",
@@ -1963,15 +1960,14 @@
         ]
     },
     "Health Care Sciences & Services": {
-        "faculty_count": 5,
+        "faculty_count": 4,
         "department_count": 2,
         "article_count": 4,
         "faculty": [
-            "",
-            "Long-White, Deneen",
-            "Agarwal, Vinita",
+            "Ravizza, Dean M.",
             "Nobiling, Brandye D.",
-            "Ravizza, Dean M."
+            "Agarwal, Vinita",
+            "Long-White, Deneen"
         ],
         "departments": [
             "Secondary & Phys Educ",
@@ -1983,9 +1979,9 @@
         "department_count": 1,
         "article_count": 4,
         "faculty": [
+            "Hatley, James",
             "Tuske, Joerg",
             "Song, Yujia",
-            "Hatley, James",
             "Miller, Jerome A."
         ],
         "departments": [
@@ -1997,9 +1993,9 @@
         "department_count": 1,
         "article_count": 4,
         "faculty": [
-            "Barrett, G. Douglas",
             "Walker, Elsie",
-            "Leaver, Echo"
+            "Leaver, Echo",
+            "Barrett, G. Douglas"
         ],
         "departments": [
             "Psychol"
@@ -2027,20 +2023,17 @@
         "departments": []
     },
     "Integrative & Complementary Medicine": {
-        "faculty_count": 1,
+        "faculty_count": 0,
         "department_count": 0,
         "article_count": 1,
-        "faculty": [
-            ""
-        ],
+        "faculty": [],
         "departments": []
     },
     "Rehabilitation": {
-        "faculty_count": 3,
+        "faculty_count": 2,
         "department_count": 1,
         "article_count": 3,
         "faculty": [
-            "",
             "Fox, James",
             "Fritz, Heidi L."
         ],
@@ -2092,9 +2085,9 @@
             "Chen, Mara"
         ],
         "departments": [
-            "Psychol",
+            "Geog & Geosci",
             "Athlet Training",
-            "Geog & Geosci"
+            "Psychol"
         ]
     },
     "Geography, Physical": {
@@ -2105,9 +2098,9 @@
             "Chen, Mara"
         ],
         "departments": [
-            "Psychol",
+            "Geog & Geosci",
             "Athlet Training",
-            "Geog & Geosci"
+            "Psychol"
         ]
     },
     "Engineering, Manufacturing": {
@@ -2124,8 +2117,8 @@
         "department_count": 1,
         "article_count": 3,
         "faculty": [
-            "Wu, Yun",
-            "Park, Minseok"
+            "Park, Minseok",
+            "Wu, Yun"
         ],
         "departments": [
             "Informat & Decis Sci"
@@ -2136,8 +2129,8 @@
         "department_count": 1,
         "article_count": 3,
         "faculty": [
-            "Ference, Gregory C.",
             "Gonzalez, Aston",
+            "Ference, Gregory C.",
             "McCarty, Michael"
         ],
         "departments": [
@@ -2161,8 +2154,8 @@
             "Pellinger, Thomas K."
         ],
         "departments": [
-            "Nursing",
-            "Hlth Sci"
+            "Hlth Sci",
+            "Nursing"
         ]
     },
     "Family Studies": {
@@ -2171,10 +2164,10 @@
         "article_count": 4,
         "faculty": [
             "Lane, Halle L.",
-            "Osman, Suzanne L.",
             "Fritz, Heidi L.",
+            "Schlehofer, Michele M.",
             "Bush, Domonique",
-            "Schlehofer, Michele M."
+            "Osman, Suzanne L."
         ],
         "departments": [
             "Psychol"
@@ -2185,14 +2178,14 @@
         "department_count": 2,
         "article_count": 3,
         "faculty": [
-            "Coss, Derek A.",
-            "Liebgold, Eric B.",
             "Silaphone, Keota",
-            "Boyd, Marshall"
+            "Liebgold, Eric B.",
+            "Boyd, Marshall",
+            "Coss, Derek A."
         ],
         "departments": [
-            "Biol Sci",
-            "Environm Studies"
+            "Environm Studies",
+            "Biol Sci"
         ]
     },
     "Literature, American": {
@@ -2200,10 +2193,10 @@
         "department_count": 0,
         "article_count": 4,
         "faculty": [
-            "Wulf, Isabel Quintana",
             "Gonzalez, Aston",
-            "Wenke, John",
-            "Logan, April C."
+            "Wulf, Isabel Quintana",
+            "Logan, April C.",
+            "Wenke, John"
         ],
         "departments": []
     },
@@ -2221,15 +2214,15 @@
         "department_count": 2,
         "article_count": 2,
         "faculty": [
-            "Carter, Michael S.",
-            "Naing, Yadanar T.",
-            "Rost-Nasshan, Aerin",
             "Chen, Xuan",
+            "Rost-Nasshan, Aerin",
+            "Naing, Yadanar T.",
+            "Carter, Michael S.",
             "Miller, Stephanie"
         ],
         "departments": [
-            "Biol Sci",
-            "Biol"
+            "Biol",
+            "Biol Sci"
         ]
     },
     "Computer Science, Interdisciplinary Applications": {
@@ -2278,10 +2271,10 @@
         "department_count": 1,
         "article_count": 3,
         "faculty": [
+            "Daly, E. Susanne",
+            "Corfield, Jeremy R.",
             "Sargent, Sheridan",
             "Brennan, Anna",
-            "Corfield, Jeremy R.",
-            "Daly, E. Susanne",
             "Clark, Jessica Kennett"
         ],
         "departments": [
@@ -2297,8 +2290,8 @@
             "Quan, Jing"
         ],
         "departments": [
-            "Informat & Decis Sci",
-            "Math & Comp Sci"
+            "Math & Comp Sci",
+            "Informat & Decis Sci"
         ]
     },
     "Urban Studies": {
@@ -2408,17 +2401,15 @@
             "Wang, Shuangquan"
         ],
         "departments": [
-            "Informat & Decis Sci",
-            "Management & Marketing"
+            "Management & Marketing",
+            "Informat & Decis Sci"
         ]
     },
     "Medicine, Legal": {
-        "faculty_count": 1,
+        "faculty_count": 0,
         "department_count": 1,
         "article_count": 1,
-        "faculty": [
-            ""
-        ],
+        "faculty": [],
         "departments": [
             "Chem"
         ]
@@ -2451,8 +2442,8 @@
             "MacDougall, Madison"
         ],
         "departments": [
-            "Biol Sci",
-            "Psychol"
+            "Psychol",
+            "Biol Sci"
         ]
     },
     "Medieval & Renaissance Studies": {
@@ -2520,10 +2511,10 @@
         "department_count": 0,
         "article_count": 1,
         "faculty": [
-            "Hinderer, Katherine A.",
-            "Joyner, Robert L., Jr.",
             "Brown, Voncelia",
-            "East, Meghan"
+            "East, Meghan",
+            "Hinderer, Katherine A.",
+            "Joyner, Robert L., Jr."
         ],
         "departments": []
     }
