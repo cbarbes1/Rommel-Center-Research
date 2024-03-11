@@ -75,8 +75,9 @@ body {
   }
 
 .medium-font {
-    font-size: 150%;
+    font-size: 100%;
     color: #fff;
+    margin-bottom: 0px;
   }
 
 form.search button{
