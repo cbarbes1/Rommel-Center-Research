@@ -7,11 +7,11 @@ from faculty_set_postprocessor import FacultyPostprocessor
 import os
 import json
 
-
 class WosClassification:
     def __init__(self):
         self.utils = Utilities()
         self.faculty_postprocessor = FacultyPostprocessor()
+         
         # Initialize the CategoryProcessor and FacultyDepartmentManager with dependencies
         self.category_processor = CategoryProcessor(self.utils, None)
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     # Instantiate the orchestrator class
     wos_classifiction = WosClassification()
-
+    
     # Process the directory
     wos_classifiction.process_directory(directory_path)
 
@@ -78,5 +78,7 @@ if __name__ == "__main__":
 
     # Serialize the processed data and save it
     wos_classifiction.serialize_and_save_data("processed_category_data.json")
+    
+    wos_classifiction.file_handler.save_cat_dict("category_dict.pkl", wos_classifiction.get_category_counts())
 
     print("Processing complete.")

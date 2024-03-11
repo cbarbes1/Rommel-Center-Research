@@ -84,7 +84,7 @@ class Utilities:
                 # Raise an error if an unknown attribute is requested
                 raise ValueError(f"Unknown attribute: '{attribute}' requested.")
         return attribute_results
-
+    
     def extract_abstract_and_categories_from_file(self):
         dir_path = "./split_files"
         results = {}
