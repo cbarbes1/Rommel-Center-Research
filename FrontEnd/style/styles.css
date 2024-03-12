@@ -186,4 +186,14 @@ form.send button:hover {
 .flavor-column-topic li ul li {
     background-color: #444;
 }
-
+.custom-link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.custom-link:hover{
+    color:red;
+}
+.custom-link:active{
+    color:orange;
+}

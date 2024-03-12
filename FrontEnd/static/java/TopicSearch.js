@@ -12,7 +12,7 @@ function fetchTopicData() {
             const topicData = abArr[topicName];
             topicItem.innerHTML = `
                 <li>
-                <a href = "/html/Topic.html?name=${encodeURIComponent(topicName)}" ><p class = "medium font">${topicName}</p></a>
+                <a href = "/html/Topic.html?name=${encodeURIComponent(topicName)}" class="custom-link" ><p class = "medium font">${topicName}</p></a>
                     <ul>
                         <li><p class="faculty_count">Faculty Count: ${topicData.faculty_count}</p></li>
                         <li><p class="department_count">Department Count: ${topicData.department_count}</p></li>
