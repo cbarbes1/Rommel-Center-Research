@@ -1,12 +1,13 @@
 import pandas as pd
-from DeducedData.CSV_to_PandasDF import ConvertCSVtoPandasDF
+from CSV_to_PandasDF import ConvertCSVtoPandasDF
 
 class OfficialFacultyTitles:
     def __init__(self, csv_path: str):
         self.csv_path: str = csv_path
         self.df: pd.DataFrame = ConvertCSVtoPandasDF.get_df(csv_path=self.csv_path)
         self.offical_faculty_titles_and_dept_dict: dict[str, str] = {}
-        self.construct_official_faculty_titles_and_dept(self.df, self.offical_faculty_titles_and_dept_dict)
+        self.mapping_abbr_name_actual: dict[str, str] = {}
+        self.construct_official_faculty_titles_and_dept(self.df, self.offical_faculty_titles_and_dept_dict, self.mapping_abbr_name_actual)
         self.official_faculty_titles_set: set[str] = self.construct_official_faculty_titles_set(self.offical_faculty_titles_and_dept_dict)
     
     @staticmethod
@@ -27,4 +28,10 @@ class OfficialFacultyTitles:
         
     def get_official_faculty_titles_set(self) -> set[str]:
         return self.official_faculty_titles_set
+    
+if __name__ == "__main__":
+    of = OfficialFacultyTitles(csv_path="/mnt/linuxlab/home/spresley1/Desktop/425Reset/Rommel-Center-Research/PythonCode/DeducedData/Files/professor_department_dump.csv")
+    my_set = of.get_official_faculty_titles_set()
+    for item in my_set:
+        print(item)
 
