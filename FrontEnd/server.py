@@ -23,5 +23,10 @@ def serve_json(filename):
     json_folder = 'json' 
     return send_from_directory(app.static_folder, f'{json_folder}/{filename}')
 
+@app.route('/static/image/<path:filename>')
+def img(filename):
+    image_folder = 'image' 
+    return send_from_directory(app.static_folder, f'{image_folder}/{filename}')
+
 if __name__ == '__main__':
     app.run(port=1111)
