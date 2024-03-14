@@ -196,3 +196,9 @@ form.send button:hover {
 .custom-link:active{
     color:orange;
 }
+
+.row-team {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0;
+}
