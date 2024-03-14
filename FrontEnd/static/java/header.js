@@ -2,8 +2,7 @@ function header() {
     const header = document.getElementById("header");
 
     header.innerHTML = `
-    <div class="scroll-container">
-        <div class="flavor-header">
+    <div class="flavor-header">
         <header class="site-header">
             <h1>Salsibury Research</h1>
             <nav class="navigation">
