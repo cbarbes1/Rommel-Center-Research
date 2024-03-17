@@ -6,16 +6,16 @@ app.static_folder = 'static'
 
 @app.route('/')
 def home():
-    return render_template('html/Version1/index.html')
+    return render_template('html/Version2/index.html')
 
-@app.route('/html/Version1/<path:filename>')
+@app.route('/html/Version2/<path:filename>')
 def html(filename):
-    html_folder = 'html/Version1'
+    html_folder = 'html/Version2'
     return render_template(f'{html_folder}/{filename}')
 
-@app.route('/static/javaOldCopy/<path:filename>')
+@app.route('/static/java/<path:filename>')
 def static_files(filename):
-    java_folder = 'javaOldCopy'
+    java_folder = 'java'
     return send_from_directory(app.static_folder, f'{java_folder}/{filename}')
 
 @app.route('/static/json/<path:filename>')

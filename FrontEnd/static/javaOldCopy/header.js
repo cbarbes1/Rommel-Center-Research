@@ -6,10 +6,10 @@ function header() {
         <header class="site-header">
             <h1>Salsibury Research</h1>
             <nav class="navigation">
-                <a href="/html/Version2/index.html" class="nav-link">Home</a>
-                <a href="/html/Version2/TopicAZ.html" class="nav-link">Topic A-Z</a>
-                <a href="/html/Version2/FacultyAZ.html" class="nav-link">Faculty Contact</a>
-                <a href="/html/Version2/ArticleAZ.html" class="nav-link">Articles A-Z</a>
+                <a href="/html/index.html" class="nav-link">Home</a>
+                <a href="/html/TopicAZ.html" class="nav-link">Topic A-Z</a>
+                <a href="/html/FacultyAZ.html" class="nav-link">Faculty Contact</a>
+                <a href="/html/ArticleAZ.html" class="nav-link">Articles A-Z</a>
             </nav>
         </header>
     </div>`;
