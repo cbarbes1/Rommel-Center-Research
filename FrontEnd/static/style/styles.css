@@ -1,3 +1,5 @@
+/* Update the external CSS file styles.css */
+/* Add your updated CSS styles here */
 /* Common styles */
 body {
     font-family: Arial, sans-serif;
@@ -65,83 +67,53 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.larger-font {
-    font-size: 300%;
-    color: gold;
-}
-
-.large-font {
-    font-size: 200%;
-    color: gold;
-}
-
-.medium-font {
-    font-size: 150%;
-    color: #fff;
-}
-
-form.search button {
-    float: right;
-    width: 10%;
-    padding: 10px;
-    background: gold;
-    color: #fff;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-right: none;
-    cursor: pointer;
-}
-
-form.search button:hover {
-    background: rgb(180, 153, 0);
-}
-
-form.send button {
-    float: middle;
-    background: gold;
-    color: #fff;
-    border: 1px solid grey;
-    border-right: none;
-    cursor: pointer;
-    padding: 2%;
-}
-
-form.send button:hover {
-    background: rgb(180, 153, 0);
-}
-
-/* Second file styles */
-.header {
-    background-color: maroon;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-.row {
+.search-bar {
     display: flex;
-    justify-content: space-around;
-    background-color: gold; 
-    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 350px;
 }
 
-.column {
-    text-align: center;
-    flex-grow: 1;
+.search {
+    width: 70%;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search button {
+    width: 20%;
+    padding: 10px;
+    background-color: gold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 45px;
+    background-color: maroon;
+    /* Adjust width and height as needed */
+    width: 200px;
+    height: 100vh;
 }
 
 .flavor {
-    display: flex;
-    justify-content: space-between;
     margin: 20px auto;
     padding: 20px;
-    max-width: 960px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 5px;
+    flex: 3;
 }
 
-.flavor-column,
-.flavor-column-topic {
+.flavor-column {
     background-color: maroon; 
     color: #fff;
     padding: 20px;
@@ -153,6 +125,7 @@ form.send button:hover {
 .bigger-column {
     flex: 2;
 }
+
 
 .smaller-column {
     flex: 1;
@@ -177,7 +150,7 @@ form.send button:hover {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -201,4 +174,21 @@ form.send button:hover {
     display: flex;
     justify-content: space-around;
     padding: 0 0;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: flex-start; /* Adjust as needed */
+}
+.flavor-column-topic{
+    background-color: maroon;
+    padding: 10px 0;
+}
+.flavor-home {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 70%; 
 }

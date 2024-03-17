@@ -6,30 +6,37 @@
     <link href="/static/style/styles.css" rel="stylesheet"/>
     <script src="/static/javaOldCopy/ArticleListSearch.js"></script>
 </head>
-<div class="scroll-container">
-    <div class="flavor-header">
-        <header class="site-header">
-            <h1>Salsibury Research</h1>
-            <nav class="navigation">
-                <a href="/html/Version1/index.html" class="nav-link">Home</a>
+<body>
+    <div class="scroll-container">
+        <section class="flavor-header">
+            <header class="site-header">
+                <h1>Salsibury Research</h1>
+                <nav class="navigation">
+                    <a href="/html/Version1/index.html" class="nav-link">Home</a>
                     <a href="/html/Version1/TopicAZ.html" class="nav-link">Topic A-Z</a>
                     <a href="/html/Version1/FacultyAZ.html" class="nav-link">Faculty Contact</a>
                     <a href="/html/Version1/ArticleAZ.html" class="nav-link">Articles A-Z</a>
-            </nav>
-        </header>
-    </div>
-    <section>
-        <div class="flavor-header" style="margin:auto;max-width:350px">
-        <header class="site-header">
-            <form class="search" style="margin:auto;max-width:300px" action="/html/Version1/Article.html" method="GET">
-                <input type="text" placeholder="Search..." name="key">
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </form>
-        </header>
-        </div>
-    </section>
-        <section class="flavor">
-            <article class="flavor-column bigger-column" id="article_List">
-            </article>
+                </nav>
+            </header>
         </section>
+        <section class="search-bar">
+            <form class="search" action="/html/Version1/Article.html" method="GET">
+                <input type="text" placeholder="Search..." name="name">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </section>
+        <div class="content-container">
+            <section class="filter">
+                <h2>Filter Section</h2>
+                <p>This is some dummy text to test the filter section.</p>
+            </section>
+            
+            <section class="flavor">
+                <article class="flavor-column bigger-column" id="article_List">
+                </article>
+            </section>
+        </div>
+
+    </div>
+</body>
 </html>
