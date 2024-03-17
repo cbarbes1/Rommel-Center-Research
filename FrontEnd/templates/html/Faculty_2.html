@@ -4,43 +4,28 @@
 <head>
     <meta charset="utf-8">
     <title>Faculty</title>
-    <link href="../static/style/styles.css" rel="stylesheet"/>
-    <script src="/static/java/FacultyInfoSearch.js"></script>
-    <script src="/static/java/header.js" defer></script>
-    <script src="/static/java/search.js" defer></script>
+    <link href="../static/style/styles.css" rel="stylesheet" />
+
 </head>
+
 <body>
     <header id="header"></header>
-        <section id="search">
-            <script>search(/html/Topic.html)</script>
-        </section>
-        <section class="flavor">
-            <article class="flavor-column bigger-column">
-                <h1> <p id="Name"></p></h1>
-                <ul>
-                    <li>Office<ul>
-                            <li><p id="Office"></p></li>
-                        </ul>
-                    </li>
-                    <li>Email<ul>
-                            <li><p id="Email"></p></li>
-                        </ul>
-                    </li>
-                    <li>Department<ul>
-                            <li><p id="Department"></p></li>
-                        </ul>
-                    </li>
-                    <li>Citations<ul>
-                        <ul id="ArticleList"></ul>
-                        </ul>
-                    </li>
-                </ul>
-            </article>
-            <aside class="flavor-column smaller-column">
-                <p>Picture of the Faculty (If acceptable by Faculty)</p>
-            </aside>
-        </section>
-    </div>
+    <section id="search">
+        <script>search(/html/Topic.html)</script>
+    </section>
+    <section class="flavor">
+        <article class="flavor-column bigger-column">
+            <section id="body"></section>
+            <script src="/static/java/FacultyInfoSearch.js"></script>
+            <script src="/static/java/search.js" defer></script>
+            <script src="/static/java/facultyBody.js" defer></script>
+        </article>
+        <aside class="flavor-column smaller-column">
+            <p>Picture of the Faculty (If acceptable by Faculty)</p>
+        </aside>
+    </section>
+    <script src="/static/java/header.js" defer></script>
+
 </body>
 
 </html>
