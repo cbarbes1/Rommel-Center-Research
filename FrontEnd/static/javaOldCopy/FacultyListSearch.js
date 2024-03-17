@@ -11,7 +11,7 @@ function fetchFacultyListData() {
             const facultyListItem = document.createElement("ul");
             facultyListItem.innerHTML = `
             <li>
-            <a href = "/html/Version2/Faculty.html?name=${encodeURIComponent(item.name)}" class ="custom-link"><p class = "medium font">${item.name}</p></a>
+            <a href = "/html/Version1/Faculty.html?name=${encodeURIComponent(item.name)}" class ="custom-link"><p class = "medium font">${item.name}</p></a>
             </li>
             `;
             faculty_list.appendChild(facultyListItem);
