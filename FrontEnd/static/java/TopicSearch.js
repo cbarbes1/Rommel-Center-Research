@@ -23,7 +23,7 @@ function fetchTopicData() {
             topic_Info.appendChild(topicItem);
         });
     };
-    xmlhttp.open("GET", "/static/json/categoryInfo.json", true);
+    xmlhttp.open("GET", "/static/json/processed_category_data.json", true);
     xmlhttp.send();
 }
 document.addEventListener("DOMContentLoaded", function () {
