@@ -2,6 +2,9 @@ from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
+# Specify the template folder
+app.template_folder = 'templates'
+
 app.static_folder = 'static'
 
 @app.route('/')
@@ -32,6 +35,16 @@ def img(filename):
 def css(filename):
     java_folder = 'style'
     return send_from_directory(app.static_folder, f'{java_folder}/{filename}')
+
+@app.errorhandler(404)
+def pageNotFound(error):
+    print("Handling 404 Page Not Found")
+    return render_template('html/errorPages/404.html'), 404
+
+@app.errorhandler(500)
+def internalServerError(error):
+    print("Handling 500 Internal Server Error")
+    return render_template('html/errorPages/500.html'), 500
 
 if __name__ == '__main__':
     app.run(port=1111)
