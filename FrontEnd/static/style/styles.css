@@ -104,6 +104,18 @@ body {
     width: 200px;
     height: 100vh;
 }
+.filter ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter li {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
 
 .flavor {
     margin: 20px auto;
