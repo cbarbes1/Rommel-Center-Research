@@ -85,9 +85,6 @@ class File_Convert:
                                 }
                             }
                         )
-            # data = []
-            # for key, value in txt_dict.items():
-            #     data.append(TopicData(key, [CitationData(value['Journal'], value['Total Journals'])]))
             for key, value in txt_dict.items():
                 filename = "../../assets/json_data/" + key.replace(" ", "-") + ".json"
                 with open(filename, "w") as file:
