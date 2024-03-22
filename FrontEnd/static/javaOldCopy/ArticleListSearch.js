@@ -11,7 +11,7 @@ function fetchArticleListData() {
             const articleListItem = document.createElement("ul");
             articleListItem.innerHTML = `
             <li>
-             <a href = "/html/Version2/Article.html?key=${encodeURIComponent(item)}" class="custom-link" ><p class = "medium font">${item}</p></a>
+             <a href = "/html/Version1/Article.html?key=${encodeURIComponent(item)}" class="custom-link" ><p class = "medium font">${item}</p></a>
            </form>
          </li>
             `;

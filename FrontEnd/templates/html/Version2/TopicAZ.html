@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Topic List</title>
+    <link href="/static/style/styles.css" rel="stylesheet"/>
+    <script src="/static/java/TopicSearch.js"></script>
+    <script src="/static/java/header.js" defer></script>
+    <script src="/static/java/search.js" defer></script>
+</head>
+<body>
+    <header id="header"></header>
+    <section id="search"></section>
+    <section class="flavor">
+        <section class="flavor-column bigger-column" id="topic_Info"></section>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            search("/html/Version2/Topic.html");
+        });
+    </script>
+</body>
+</html>
