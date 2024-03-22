@@ -3,9 +3,6 @@ function fetchArticleData(key) {
     xmlhttp.onload = function () {
         const abArr = JSON.parse(this.responseText);
 
-        const articleData = abArr[key];
-
-        if (articleData) {
         document.getElementById("abstract").innerHTML = abArr[key].Abstract;
         document.getElementById("Title").innerHTML = key;
 
@@ -22,10 +19,6 @@ function fetchArticleData(key) {
             citationsItem.innerHTML = item;
             citationsList.appendChild(citationsItem);
         });
-    } else {
-        document.getElementById("Title").innerHTML = `          
-                <p class="medium font">Article Not Found</p>`;
-    }
     };
     xmlhttp.open("GET", "/static/json/AuthorSample.json", true);
     xmlhttp.send();
