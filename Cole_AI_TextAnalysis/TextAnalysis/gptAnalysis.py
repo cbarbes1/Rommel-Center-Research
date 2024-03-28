@@ -17,6 +17,9 @@ Given a list of predefined categories and topics \
 Please find a hierarchy of topics that go as JSON as follows\
 <Parent Category> : <Child Category>, <Child Category> \
 This should be a consise category like Computer Science
+There should only be one root category with all the subcategories under it
+Make sure the root category is a high level category
+For the subcategories, give a relation score of high, medium or low
 """
 
 test_abstract = f"""\
@@ -105,7 +108,7 @@ if __name__ == "__main__":
     
     messages = [
         {'role':'system', 'content':__initial_prompt__},
-        {'role':'user', 'content': test_abstract_other},
+        {'role':'user', 'content': test_abstract},
     ]
     response = get_response(messages)
     print(response)
