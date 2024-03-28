@@ -1,3 +1,8 @@
+''' 
+Author: Cole Barbes
+Last edited: 03/27/2024
+Analyze abstracts to determine a set of categories
+'''
 import openai
 import os
 import json
@@ -5,7 +10,9 @@ import json
 API_KEY = os.getenv('OPENAI_API_KEY')
 
 def createTaxonomy():
-    
+    ''' 
+    Create a Taxonomy with a file of abstracts
+    '''
     with open('abstracts_to_categories.json', 'r') as file:
         data = json.load(file)
     abstracts = list(data.keys())
