@@ -1,3 +1,8 @@
+'''
+Author: Cole Barbes
+Last Updated: 03/27/2024
+File Converter class structure to manage all needed file conversions
+'''
 import pandas as pd
 
 # import torch
@@ -18,12 +23,18 @@ class File_Convert:
         self.text = None
 
     def from_csv(self, output_format):
+        '''
+        convert the csv file to a pandas data frame
+        '''
         self.file = pd.read_csv(self.path)
 
         if output_format == "json":
             self.to_json("csv")
 
     def from_rtf(self, output_format):
+        '''
+        convert the rtf using the library an send the text output to a given type
+        '''
         with open(self.path, "r") as self.file:
             rtf_text = self.file.read()
 
@@ -59,14 +70,15 @@ class File_Convert:
             current_section = None
 
             for entry in txt_list:
-                if len(entry) == 1:  # Section name
+                if len(entry) == 1:  # Get the Section name
                     current_section = entry[0]
                     txt_dict[current_section] = []
-                elif len(entry) == 2:  # Citation
+                elif len(entry) == 2:  # Extract the Citation
                     txt_dict[current_section].append(
                         {"Citation": entry[0], "Total Citations": entry[1]}
                     )
-                elif len(entry) == 3:  # Journal
+                elif len(entry) == 3:  # Extract the Journal name entry or a total 
+                    # grab the entry that has the totals for the journal
                     if "Total" in entry[0]:
                         txt_dict[current_section].append(
                             {
@@ -76,6 +88,7 @@ class File_Convert:
                                 }
                             }
                         )
+                    # grab the entry that has the number of publications and the rank of the journal
                     else:
                         txt_dict[current_section].append(
                             {
@@ -85,6 +98,7 @@ class File_Convert:
                                 }
                             }
                         )
+            # output all the json to a json file for each section
             for key, value in txt_dict.items():
                 filename = "../../assets/json_data/" + key.replace(" ", "-") + ".json"
                 with open(filename, "w") as file:
