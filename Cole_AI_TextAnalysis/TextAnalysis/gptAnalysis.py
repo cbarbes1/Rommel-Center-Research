@@ -12,14 +12,18 @@ API_KEY = os.getenv('OPENAI_API_KEY')
 # Here we define the various prompts we will need within this framework of analysis functions
 
 __initial_prompt__ = f"""
-You are an expert constructing a taxonomy from an abstract. \
+You are an expert constructing a category taxonomy from an abstract. \
 Given a list of predefined categories and topics \
 Please find a hierarchy of topics that go as JSON as follows\
 <Parent Category> : <Child Category>, <Child Category> \
 This should be a consise category like Computer Science
+<<<<<<< Updated upstream
 There should only be one root category with all the subcategories under it
 Make sure the root category is a high level category
 For the subcategories, give a relation score of high, medium or low
+=======
+Only give about 5 or 6 categories, they should be categories from this site https://arxiv.org/category_taxonomy
+>>>>>>> Stashed changes
 """
 
 test_abstract = f"""\
@@ -56,6 +60,11 @@ test_abstract_other = f""" \
 Two studies examined relations of humor styles with well-being, social support, cognitive reappraisal, and social competence. In Study 1 (N = 108), self-enhancing and affiliative humor were associated fewer health difficulties and less psychological distress, mediated by reappraisal and social support, respectively. Self-defeating humor was associated with greater distress, mediated by both reappraisal and social support. Social competence moderated the relation of aggressive humor with social support: Individuals high on both aggressive humor and communication difficulties reported the least support. Study 2 followed undergraduates (N = 193) over ten weeks. T1 results for psychological distress replicated Study 1. Social support and reappraisal mediated relations of humor styles with T1 distress, and social support indirectly mediated the relation of aggressive humor with increased T2 distress. Aggressive humor was associated with T1 health difficulties, and self-defeating humor predicted greater health difficulties over time. Reappraisal and social support indirectly mediated the relation of self-enhancing and affiliative humor with fewer Ti health difficulties, and social support indirectly mediated the relation of aggressive humor with increased health difficulties over time. Communication difficulties moderated the relation of aggressive humor with fewer T1 positive interactions and greater somatic symptoms over time. Relations largely held controlling for shared variance among humor styles.
 """
 
+"""
+This function prompts the openai api and returns the output
+Parameters: The message in open ai format, the model, the temperature, and the maximum token size
+Return: The output content in human readable format
+"""
 def get_response(messages, model='gpt-3.5-turbo', temperature=0, max_tokens=500):
     response = openai.chat.completions.create(
         model=model,
@@ -66,44 +75,21 @@ def get_response(messages, model='gpt-3.5-turbo', temperature=0, max_tokens=500)
     return response.choices[0].message.content
 
 """
-
-def createTaxonomyFromJson():
-    ''' 
-    Create a Taxonomy with a file of abstracts
-    '''
-    with open('abstracts_to_categories.json', 'r') as file:
-        data = json.load(file)
-    abstracts = list(data.keys())
-    with open('Taxonomy-Of-Abstracts.json', 'w') as file:
-        for abstract in abstracts:
-            messages = [{'role':'system', 'content': }]
-            get_Response()
-            print(, file=file)
-    print("The analysis has been completed. ")
-
-def createTaxonomyFromAbstract(abstract, label):
-    ''' 
-    Create a Taxonomy with an individual abstract
-    parameters < The abstract of the paper >, < label for the paper designated by the user >
-    '''
-    fileName = str(label) + 'Taxonomy.json'
-    # set all needed parameters for the api call 
-    response = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
-        response_format={"type":"json_object"},
-        messages = [
-            {"role": "system", "content":  "You are an expert constructing a taxonomy from a list of concepts. \
-             Given a list of concepts, construct a taxonomy by creating a list of their parent-child relationships.\
-             Concepts: "},
-            {"role": "user", "content": abstract},
-        ],
-        temperature=0,
-        max_tokens=500
-    )
-    with open(fileName, 'w') as file:
-        print(response.choices[0].message.content, file=file)
-    print("The analysis has been completed. ")
+Prompt Tuner: Takes initial prompt and analyzes it with the model and returns the new prompt
+Parameters: The prompt, an example of an input and output, a 
 """
+def get_tuned_prompt(prompt, sample):
+    analysis_prompt = f"""
+    You are a prompt engineer to create better prompts for querying gpt. Given This prompt {prompt} and this sample run {sample}.
+    The prompt should avoid hallucination and should get the most general output it possibly can. If the same thing is fed in twice the outputs should be somewhat similar.
+    """
+    message = [
+        {'role':'system', 'content': analysis_prompt},
+    ]
+    response = get_response(message)
+    print(response)
+
+
 if __name__ == "__main__":
     
     messages = [
@@ -112,3 +98,5 @@ if __name__ == "__main__":
     ]
     response = get_response(messages)
     print(response)
+   # new_prompt = get_tuned_prompt(__initial_prompt__, response)
+    #print(new_prompt)
