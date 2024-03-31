@@ -91,10 +91,15 @@ class AuthorExtractionStrategy(AttributeExtractionStrategy):
         # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
         salisbury_authors = self.split_salisbury_authors(author_c1_content)
         
-        result = (False, None)
+        result = ()
         
         if salisbury_authors:
             result = (True, salisbury_authors)
+        else:
+            result = (False, None)
+            warnings.warn(
+                "Attribute: 'Author' was not found in the entry", RuntimeWarning
+            )
         
         return result
     
@@ -106,6 +111,53 @@ class DepartmentExtractionStrategy(AttributeExtractionStrategy):
     def extract_attribute(self, entry_text):
         departments = self.extract_dept_from_c1(entry_text)
         return (True, departments) if departments else (False, None)
+    
+class WosCategoryExtractionStrategy(AttributeExtractionStrategy):
+    def __init__(self):
+        self.wc_pattern = re.compile(r"WC\s+(.+?)(?=\nWE)", re.DOTALL)
+    
+    def extract_attribute(self, entry_text):
+        match = self.wc_pattern.search(entry_text)
+        if match:
+            categories = self.wos_category_splitter(match.group(1).strip())
+            for i, category in enumerate(categories):
+                category = re.sub(r"\s+", " ", category)
+                categories[i] = category
+            return True, categories
+        warnings.warn(
+            f"Attribute: 'WoS_Category' was not found in the entry", RuntimeWarning
+        )
+        return False, None
+    
+    def wos_category_splitter(self, category_string):
+        """
+        Splits a string of Web of Science (WoS) categories into a list of individual categories.
+
+        This method is specifically designed to process strings where categories are separated by semicolons (';').
+        It strips any leading or trailing whitespace from each category after splitting.
+
+        Parameters:
+            category_string (str): The string containing the categories, with each category separated by a semicolon (';').
+
+        Returns:
+            list: A list of strings, where each string is a trimmed category extracted from the input string.
+        """
+        return [category.strip() for category in category_string.split(";")]
+    
+class DefaultExtractionStrategy(AttributeExtractionStrategy):
+    def __init__(self):
+        self.title_pattern = re.compile(r"TI\s(.+?)(?=\nSO)", re.DOTALL)
+        self.abstract_pattern = re.compile(r"AB\s(.+?)(?=\nC1)", re.DOTALL)
+        self.end_record_pattern = re.compile(r"DA \d{4}-\d{2}-\d{2}\nER\n?", re.DOTALL)
+        
+    def extract_attribute(self, attribute, entry_text):
+        match = re.search(attribute, entry_text)
+        if not match: 
+            warnings.warn(
+                f"Attribute: '{attribute}' was not found in the entry", RuntimeWarning
+            )
+            return False, None
+        return True, match.group(1).strip()
 
 class Utilities:
     MAX_FILENAME_LENGTH = 255
@@ -125,10 +177,10 @@ class Utilities:
         # attribute patterns
         self.attribute_patterns = {
             "author": AuthorExtractionStrategy(),
-            "title": self.title_pattern,
-            "abstract": self.abstract_pattern,
-            "end_record": self.end_record_pattern,
-            "wc_pattern": self.wc_pattern,
+            "title": DefaultExtractionStrategy(),
+            "abstract": DefaultExtractionStrategy(),
+            "end_record": DefaultExtractionStrategy(),
+            "wc_pattern": WosCategoryExtractionStrategy(),
             "department": DepartmentExtractionStrategy(),
         }
 
@@ -157,16 +209,14 @@ class Utilities:
                     attribute_results[attribute] = self.attribute_patterns[attribute].extract_attribute(entry_text)
                 
                 elif attribute == "department":
-                    # department = self.extract_dept_name(self.extract_dept_from_c1(entry_text))
-                    # department = self.extract_dept_from_c1(entry_text)
-                    # attribute_results[attribute] = (
-                    #     (True, department) if department else (False, None)
-                    # )
                     attribute_results[attribute] = self.attribute_patterns[attribute].extract_attribute(entry_text)
 
+                elif attribute == "wc_pattern":
+                    attribute_results[attribute] = self.attribute_patterns[attribute].extract_attribute(entry_text)
+                    
                 else:
                     # Extract the attribute and add it to results dictionary
-                    attribute_results[attribute] = self.extract_attribute(
+                    attribute_results[attribute] = self.attribute_patterns[attribute].extract_attribute(
                         attribute, entry_text
                     )
             else:
