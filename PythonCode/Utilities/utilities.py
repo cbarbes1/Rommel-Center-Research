@@ -68,25 +68,6 @@ class Utilities:
                 # Raise an error if an unknown attribute is requested
                 raise ValueError(f"Unknown attribute: '{attribute}' requested.")
         return attribute_results
-    
-    def extract_abstract_and_categories_from_file(self):
-        dir_path = "./split_files"
-        results = {}
-        for filename in os.listdir(dir_path):
-            file_path = os.path.join(dir_path, filename)
-            if os.path.isfile(file_path):
-                with open(file_path, "r") as file:
-                    file_content = file.read()
-                attributes = self.get_attributes(
-                    file_content, ["abstract", "wc_pattern"]
-                )
-
-                abstract = attributes["abstract"][1] if ["abstract"][0] else None
-                categories = attributes["wc_pattern"][1] if ["wc_pattern"] else []
-
-                if abstract:
-                    results[abstract] = categories
-        return results
 
     def sanitize_filename(self, text, max_length=MAX_FILENAME_LENGTH):
         """
@@ -152,33 +133,6 @@ class Utilities:
             os.makedirs(path, exist_ok=True)
         return path
 
-    def abstract_to_categories_mapping(self, entry_text):
-        """
-        Extracts the abstract and categories from the entry text and returns a dictionary
-        with the abstract as the key and categories as the value.
-
-        Parameters:
-            entry_text (str): The text of the article entry.
-
-        Returns:
-            dict: A dictionary with the abstract as the key and a list of categories as the value.
-        """
-        # Extract attributes
-        attributes = self.get_attributes(entry_text, ["abstract", "wc_pattern"])
-
-        # Initializes the result dictionary
-        result = {}
-
-        # Extract the abstract and categories from the attributes dictionary
-        abstract = attributes["abstract"][1] if attributes["abstract"][0] else None
-        categories = attributes["wc_pattern"][1] if attributes["wc_pattern"][0] else []
-
-        # Check if abstract and categories were successfully extracted
-        if abstract and categories:
-            # map the abstract to the categories in the result dictionary
-            result[abstract] = categories
-
-        return result
 
     def splitter(self, path_to_file):
         """
@@ -201,28 +155,6 @@ class Utilities:
         # re-add delimiter for completeness if needed
         splits = [split + "DA 2024-02-08\nER" for split in splits if split.strip()]
         return splits
-
-    def get_wos_categories(self, path_to_entry):
-        """
-        Parameters:
-            path_to_entry (str): The path to a file
-        returns:
-            list of the categories.
-            list is constructed so that from left to right is most inclusive to least inclusive
-            this means index 0 is the root category, index 1 first level subcategory, and so on
-
-        Function looks through a file to find the web of science categories, storing them in
-        the categories list. Format of storing is left->right most inclusive->least inclusive
-        """
-        categories = []
-        full_path = "/mnt/linuxlab/home/spresley1/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files/Author:Osman, Suzanne L._Title:Sexual victimization experience, acknowledgment labeling and rape_   empathy among college men and w.txt"
-        with open(full_path, "r") as file:
-            file_content = file.read()
-        wc_match = re.search(self.wc_pattern, file_content)
-        if wc_match:
-            # split matched string by ';' and strip whitespace from each category
-            categories = [category.strip() for category in wc_match.group(1).split(";")]
-        return categories
 
     def make_files(self, path_to_file, output_dir):
         """
@@ -272,10 +204,3 @@ class Utilities:
                 print(f"File {path} already exists. Skipping.")
 
         return file_paths
-
-
-if __name__ == "__main__":
-    utils = Utilities()
-    results = utils.extract_abstract_and_categories_from_file()
-    with open("abstracts_to_categories.json", "w") as json_file:
-        json.dump(results, json_file, indent=4)

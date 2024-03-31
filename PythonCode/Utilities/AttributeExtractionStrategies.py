@@ -137,9 +137,13 @@ class WosCategoryExtractionStrategy(AttributeExtractionStrategy):
     
 class DefaultExtractionStrategy(AttributeExtractionStrategy):
     def __init__(self):
-        self.title_pattern = re.compile(r"TI\s(.+?)(?=\nSO)", re.DOTALL)
-        self.abstract_pattern = re.compile(r"AB\s(.+?)(?=\nC1)", re.DOTALL)
-        self.end_record_pattern = re.compile(r"DA \d{4}-\d{2}-\d{2}\nER\n?", re.DOTALL)
+        self.patterns = {
+            "title": re.compile(r"TI\s(.+?)(?=\nSO)", re.DOTALL),
+            "abstract": re.compile(r"AB\s(.+?)(?=\nC1)", re.DOTALL),
+            "end_record": re.compile(r"DA \d{4}-\d{2}-\d{2}\nER\n?", re.DOTALL),
+        }
+        
+        self.missing_abstracts_file = "missing_abstracts.txt" # File to store entries where abstract weren't found, to be used for debugging/ verification
         
     def extract_attribute(self, attribute, entry_text):
         """
@@ -153,10 +157,20 @@ class DefaultExtractionStrategy(AttributeExtractionStrategy):
             tuple: A tuple containing a boolean indicating whether the extraction was successful,
             and the extracted attribute value or None.
         """
-        match = re.search(attribute, entry_text)
-        if not match: 
+        if attribute not in self.patterns:
             warnings.warn(
-                f"Attribute: '{attribute}' was not found in the entry", RuntimeWarning
+                f"Attribute: '{attribute}' pattern not defined", RuntimeWarning
             )
+            return False, None
+        
+        pattern = self.patterns[attribute]
+        match = pattern.search(entry_text)
+        if not match:
+            # Write the entry to a file for missing abstracts
+            with open(self.missing_abstracts_file, "a") as file:
+                file.write(f"Missing '{attribute}' in entry:\n{entry_text}\n\n")
+            # Print a notification to the console
+            print(f"An entry missing '{attribute}' has been written to {self.missing_abstracts_file}.")
+            warnings.warn(f"Attribute: '{attribute}' was not found in the entry", RuntimeWarning)
             return False, None
         return True, match.group(1).strip()

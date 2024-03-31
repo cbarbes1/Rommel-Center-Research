@@ -6,6 +6,7 @@ from faculty_department_manager import FacultyDepartmentManager
 from faculty_set_postprocessor import FacultyPostprocessor
 import os
 import json
+from AbstractCategoryMap import AbstractCategoryMap
 
 class WosClassification:
     def __init__(self, *, directory_path):
@@ -36,6 +37,7 @@ class WosClassification:
         self.serialize_and_save_data("processed_category_data.json")
     
         self.file_handler.save_cat_dict("category_dict.pkl", self.get_category_counts())
+        AbstractCategoryMap(self.utils)
 
 
     def process_directory(self, *, directory_path, category_processor):
