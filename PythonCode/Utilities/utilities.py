@@ -10,6 +10,64 @@ import json
 This script contains a class that has various utility methods that will be used for many purposes throughout the project
 """
 
+class AttributeExtractionStrategy:
+    def extract(self, entry_text):
+        pass
+
+    def extract_c1_content(self, entry_text):
+        """
+        Extracts the 'C1' content from the entry text.
+
+        Parameters:
+            entry_text (str): The text of the entry from which to extract the 'C1' content.
+
+        Returns:
+            str: The extracted 'C1' content or an empty string if not found.
+        """
+        c1_content = []
+        entry_lines = entry_text.splitlines()
+        for line in entry_lines:
+            if "Salisbury Univ" in line:
+                # Extract everything inside the brackets
+                start = line.find("[")
+                end = line.find("]")
+                if start != -1 and end != -1:
+                    c1_content.append(line[start + 1 : end])
+                break
+        return "\n".join(c1_content)
+
+    def split_salisbury_authors(self, salisbury_authors):
+        """
+        Splits the authors string at each ';' and stores the items in a list.
+
+        Parameters:
+            authors_text (str): The string containing authors separated by ';'.
+
+        Returns:
+            list: A list of authors.
+        """
+        return [
+            salisbury_author.strip()
+            for salisbury_author in salisbury_authors.split(";")
+        ]    
+        
+    
+class AuthorExtractionStrategy(AttributeExtractionStrategy):
+    def __init__(self):
+        self.author_pattern = re.compile(r"AF\s(.+?)(?=\nTI)", re.DOTALL)
+        
+    def extract(self, entry_text):        
+        author_c1_content = self.extract_c1_content(entry_text)
+
+        # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
+        salisbury_authors = self.split_salisbury_authors(author_c1_content)
+        
+        result = (False, None)
+        
+        if salisbury_authors:
+            result = (True, salisbury_authors)
+        
+        return result
 
 class Utilities:
     MAX_FILENAME_LENGTH = 255
@@ -28,7 +86,7 @@ class Utilities:
 
         # attribute patterns
         self.attribute_patterns = {
-            "author": self.author_pattern,
+            "author": AuthorExtractionStrategy(),
             "title": self.title_pattern,
             "abstract": self.abstract_pattern,
             "end_record": self.end_record_pattern,
@@ -58,16 +116,18 @@ class Utilities:
             # Check if the requested attribute is defined in the attribute patterns dictionary
             if attribute in self.attribute_patterns:
                 if attribute == "author":
-                    author_c1_content = self.extract_c1_content(entry_text)
+                    # author_c1_content = self.extract_c1_content(entry_text)
 
-                    # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
-                    salisbury_authors = self.split_salisbury_authors(author_c1_content)
-                    attribute_results[attribute] = (
-                        (True, salisbury_authors)
-                        if salisbury_authors
-                        else (False, None)
-                    )
-
+                    # # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
+                    # salisbury_authors = self.split_salisbury_authors(author_c1_content)
+                    # attribute_results[attribute] = (
+                    #     (True, salisbury_authors)
+                    #     if salisbury_authors
+                    #     else (False, None)
+                    # )
+                    attribute_results[attribute] = self.attribute_patterns[attribute].extract(entry_text)
+                    
+                    
                 elif attribute == "department":
                     # department = self.extract_dept_name(self.extract_dept_from_c1(entry_text))
                     department = self.extract_dept_from_c1(entry_text)

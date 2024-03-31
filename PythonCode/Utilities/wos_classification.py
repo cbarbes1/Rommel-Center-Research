@@ -9,9 +9,10 @@ import json
 
 class WosClassification:
     def __init__(self, *, directory_path):
+        """Handles entire orchestration of pipeline. Just create object and pass in directory_path as keyword argument."""
         self.directory_path = directory_path
         self.utils = Utilities()
-        self.faculty_postprocessor = FacultyPostprocessor()
+        #self.faculty_postprocessor = FacultyPostprocessor()
          
         # Initialize the CategoryProcessor and FacultyDepartmentManager with dependencies
         self.category_processor = CategoryProcessor(self.utils, None)
@@ -43,7 +44,7 @@ class WosClassification:
         extracting categories, and updating faculty and department data.
         """
         # Use FileHandler to traverse the directory and process each file
-        self.file_handler.construct_categories(directory_path, category_processor)
+        self.file_handler.construct_categories(directory_path=directory_path, category_processor=category_processor)
 
     def get_category_counts(self):
         """
@@ -52,7 +53,8 @@ class WosClassification:
         return self.category_processor.category_counts
 
     def refine_faculty_sets(self):
-        self.faculty_postprocessor.remove_near_duplicates(self.get_category_counts())
+        faculty_postprocessor = FacultyPostprocessor()
+        faculty_postprocessor.remove_near_duplicates(category_dict=self.get_category_counts())
         self.faculty_department_manager.update_faculty_count()
         self.faculty_department_manager.update_department_count()
 
