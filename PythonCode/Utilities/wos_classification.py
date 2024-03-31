@@ -8,7 +8,8 @@ import os
 import json
 
 class WosClassification:
-    def __init__(self):
+    def __init__(self, *, directory_path):
+        self.directory_path = directory_path
         self.utils = Utilities()
         self.faculty_postprocessor = FacultyPostprocessor()
          
@@ -25,14 +26,24 @@ class WosClassification:
             self.faculty_department_manager
         )
         self.file_handler = FileHandler(self.utils)
+        self.process_directory(directory_path=self.directory_path, category_processor=self.category_processor)
+        
+        # Refine faculty sets to remove near duplicates and update counts
+        self.refine_faculty_sets()
 
-    def process_directory(self, directory_path):
+        # Serialize the processed data and save it
+        self.serialize_and_save_data("processed_category_data.json")
+    
+        self.file_handler.save_cat_dict("category_dict.pkl", self.get_category_counts())
+
+
+    def process_directory(self, *, directory_path, category_processor):
         """
         Orchestrates the process of reading files from a directory,
         extracting categories, and updating faculty and department data.
         """
         # Use FileHandler to traverse the directory and process each file
-        self.file_handler.construct_categories(directory_path, self.category_processor)
+        self.file_handler.construct_categories(directory_path, category_processor)
 
     def get_category_counts(self):
         """
@@ -64,21 +75,10 @@ class WosClassification:
 
 if __name__ == "__main__":
     # Define path to the directory containing the WoS txt files you want to process
-    directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
+    # directory_path = "~/Desktop/425testing/ResearchNotes/Rommel-Center-Research/PythonCode/Utilities/split_files"
+    directory_path = "/mnt/c/Users/Theki/Desktop/425/Rommel-Center-Research/PythonCode/Utilities/split_files"
     directory_path = os.path.expanduser(directory_path)
 
     # Instantiate the orchestrator class
-    wos_classifiction = WosClassification()
-    
-    # Process the directory
-    wos_classifiction.process_directory(directory_path)
-
-    # Refine faculty sets to remove near duplicates and update counts
-    wos_classifiction.refine_faculty_sets()
-
-    # Serialize the processed data and save it
-    wos_classifiction.serialize_and_save_data("processed_category_data.json")
-    
-    wos_classifiction.file_handler.save_cat_dict("category_dict.pkl", wos_classifiction.get_category_counts())
-
+    wos_classifiction = WosClassification(directory_path=directory_path)
     print("Processing complete.")
