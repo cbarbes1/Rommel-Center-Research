@@ -11,7 +11,7 @@ This script contains a class that has various utility methods that will be used 
 """
 
 class AttributeExtractionStrategy:
-    def extract(self, entry_text):
+    def extract_attribute(self, entry_text):
         pass
 
     def extract_c1_content(self, entry_text):
@@ -49,14 +49,43 @@ class AttributeExtractionStrategy:
         return [
             salisbury_author.strip()
             for salisbury_author in salisbury_authors.split(";")
-        ]    
+        ]
+        
+    def extract_dept_from_c1(self, entry_text):
+        """
+        Extracts department and school names from the 'C1' content in the entry text.
+
+        Parameters:
+            entry_text (str): The text of the entry from which to extract the content.
+
+        Returns:
+            str: Extracted department and school names or an empty string if not found.
+        """
+        c1_content = []
+        capturing = False
+        entry_lines = entry_text.splitlines()
+        for line in entry_lines:
+            if line.startswith("C1"):
+                capturing = True
+            elif line.startswith("C3"):
+                capturing = False
+            if capturing and "Salisbury" in line:
+                # Extract department and school names
+                dept_match = re.search(self.dept_pattern, line)
+                dept_match_alt = re.search(self.dept_pattern_alt, line)
+                if dept_match:
+                    c1_content.append(dept_match.group(1))
+                elif dept_match_alt:
+                    c1_content.append(dept_match_alt.group(1))
+        # return '\n'.join(c1_content)
+        return c1_content        
         
     
 class AuthorExtractionStrategy(AttributeExtractionStrategy):
     def __init__(self):
         self.author_pattern = re.compile(r"AF\s(.+?)(?=\nTI)", re.DOTALL)
         
-    def extract(self, entry_text):        
+    def extract_attribute(self, entry_text):        
         author_c1_content = self.extract_c1_content(entry_text)
 
         # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
@@ -68,6 +97,15 @@ class AuthorExtractionStrategy(AttributeExtractionStrategy):
             result = (True, salisbury_authors)
         
         return result
+    
+class DepartmentExtractionStrategy(AttributeExtractionStrategy):
+    def __init__(self):
+        self.dept_pattern = re.compile(r"Dept (.*?)(,|$)")
+        self.dept_pattern_alt = re.compile(r"Dept, (.*?) ,")
+
+    def extract_attribute(self, entry_text):
+        departments = self.extract_dept_from_c1(entry_text)
+        return (True, departments) if departments else (False, None)
 
 class Utilities:
     MAX_FILENAME_LENGTH = 255
@@ -91,7 +129,7 @@ class Utilities:
             "abstract": self.abstract_pattern,
             "end_record": self.end_record_pattern,
             "wc_pattern": self.wc_pattern,
-            "department": self.dept_pattern,
+            "department": DepartmentExtractionStrategy(),
         }
 
     def get_attributes(self, entry_text, attributes):
@@ -116,24 +154,15 @@ class Utilities:
             # Check if the requested attribute is defined in the attribute patterns dictionary
             if attribute in self.attribute_patterns:
                 if attribute == "author":
-                    # author_c1_content = self.extract_c1_content(entry_text)
-
-                    # # Use the get_salisbury_authors method to extract authors affiliated with Salisbury University
-                    # salisbury_authors = self.split_salisbury_authors(author_c1_content)
-                    # attribute_results[attribute] = (
-                    #     (True, salisbury_authors)
-                    #     if salisbury_authors
-                    #     else (False, None)
-                    # )
-                    attribute_results[attribute] = self.attribute_patterns[attribute].extract(entry_text)
-                    
-                    
+                    attribute_results[attribute] = self.attribute_patterns[attribute].extract_attribute(entry_text)
+                
                 elif attribute == "department":
                     # department = self.extract_dept_name(self.extract_dept_from_c1(entry_text))
-                    department = self.extract_dept_from_c1(entry_text)
-                    attribute_results[attribute] = (
-                        (True, department) if department else (False, None)
-                    )
+                    # department = self.extract_dept_from_c1(entry_text)
+                    # attribute_results[attribute] = (
+                    #     (True, department) if department else (False, None)
+                    # )
+                    attribute_results[attribute] = self.attribute_patterns[attribute].extract_attribute(entry_text)
 
                 else:
                     # Extract the attribute and add it to results dictionary
