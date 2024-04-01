@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/10/24
+// # Summary: gets the info of the topic/category based on a key.
 function fetchTopic(key) {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -29,7 +32,7 @@ function fetchTopic(key) {
         topic_Info.appendChild(topicItem);
     };
 
-    xmlhttp.open("GET", "/static/json/categoryInfo.json", true);
+    xmlhttp.open("GET", "/static/json/categoryInfo.json", true);//gets json file
     xmlhttp.send();
 }
 
