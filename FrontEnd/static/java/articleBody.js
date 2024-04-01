@@ -1,3 +1,7 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: holds the body html of an article
+
 function body() {
     const body = document.getElementById("body");
 

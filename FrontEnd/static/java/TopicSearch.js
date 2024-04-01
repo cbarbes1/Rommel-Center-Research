@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: showcases the list of topics/categories in html form.
 function fetchTopicData() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -23,7 +26,7 @@ function fetchTopicData() {
             topic_Info.appendChild(topicItem);
         });
     };
-    xmlhttp.open("GET", "/static/json/processed_category_data.json", true);
+    xmlhttp.open("GET", "/static/json/processed_category_data.json", true);//gets json file
     xmlhttp.send();
 }
 document.addEventListener("DOMContentLoaded", function () {
