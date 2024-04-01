@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/10/24
+// # Summary: holds the search bar html form, and accepting an url to use for that html form
 function search(key) {
     const header = document.getElementById("search");
 

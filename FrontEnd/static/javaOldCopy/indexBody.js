@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/10/24
+// # Summary: shows the info of the home page
 function body() {
     const body = document.getElementById("body");
 
