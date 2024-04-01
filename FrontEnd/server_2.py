@@ -1,3 +1,6 @@
+# Author: Jude Maggitti
+# Last Modified: 3/17/24
+# Summary: This is the basic framework that helps direct the web pages where to route certain paths 
 from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
@@ -48,3 +51,4 @@ def internalServerError(error):
 
 if __name__ == '__main__':
     app.run(port=1111)
+#port number we access

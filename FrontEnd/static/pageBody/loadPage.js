@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: loads webpages based on a key
 function loadPage(fileName) {
     fetch('/static/pageBody/'+fileName+'.js')
         .then(response => response.text())
