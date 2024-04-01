@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: Header for the webpages
 function header() {
     const header = document.getElementById("nav");
 
