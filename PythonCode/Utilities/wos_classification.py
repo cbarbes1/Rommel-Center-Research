@@ -37,7 +37,7 @@ class WosClassification:
         self.serialize_and_save_data("processed_category_data.json")
     
         self.file_handler.save_cat_dict("category_dict.pkl", self.get_category_counts())
-        AbstractCategoryMap(self.utils)
+        AbstractCategoryMap(self.utils, dir_path="./split_files")
 
 
     def process_directory(self, *, directory_path, category_processor):
