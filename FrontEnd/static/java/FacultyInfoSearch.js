@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: gets the info of the facultymember in html form based on a key
 function fetchFacultyData(key) {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -12,7 +15,7 @@ function fetchFacultyData(key) {
             document.getElementById("Email").innerHTML = abArr[key].Email;
             document.getElementById("Department").innerHTML = abArr[key].Department;
 
-            abArr[key].Articles.forEach(function (item) {
+            abArr[key].Articles.forEach(function (item) {//gets list of articles under the faculty
                 const articleItem = document.createElement("li");
                 articleItem.innerHTML = item;
                 ArticleList.appendChild(articleItem);
@@ -22,7 +25,7 @@ function fetchFacultyData(key) {
                     <p class="medium font">Faculty Not Found</p>`;
         }
     };
-    xmlhttp.open("GET", "/static/json/FacultySample.json", true);
+    xmlhttp.open("GET", "/static/json/FacultySample.json", true);//gets json file
     xmlhttp.send();
 }
 
