@@ -17,13 +17,7 @@ Given a list of predefined categories and topics \
 Please find a hierarchy of topics that go as JSON as follows\
 <Parent Category> : <Child Category>, <Child Category> \
 This should be a consise category like Computer Science
-<<<<<<< Updated upstream
-There should only be one root category with all the subcategories under it
-Make sure the root category is a high level category
-For the subcategories, give a relation score of high, medium or low
-=======
-Only give about 5 or 6 categories, they should be categories from this site https://arxiv.org/category_taxonomy
->>>>>>> Stashed changes
+Only give about 5 or 6 categories, they should be categories from this site https://arxiv.org/category_taxonomy 
 """
 
 test_abstract = f"""\
