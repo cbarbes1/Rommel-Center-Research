@@ -1,5 +1,5 @@
 // # Author: Jude Maggitti
-// # Last Modified: 3/31/24
+// # Last Modified: 3/10/24
 // # Summary: gets the info of the article in html form based on a key
 function fetchArticleData(key) {
     const xmlhttp = new XMLHttpRequest();

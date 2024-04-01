@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/10/24
+// # Summary: gets the list of faculty in html form
 function fetchFacultyListData() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -7,7 +10,7 @@ function fetchFacultyListData() {
 
         faculty_list.innerHTML = '';
 
-        abArr.forEach(function (item) {
+        abArr.forEach(function (item) {//gets each faculty member in a list
             const facultyListItem = document.createElement("ul");
             facultyListItem.innerHTML = `
             <li>
@@ -17,7 +20,7 @@ function fetchFacultyListData() {
             faculty_list.appendChild(facultyListItem);
         });
     };
-    xmlhttp.open("GET", "/static/json/FacultyLinkList.json", true);
+    xmlhttp.open("GET", "/static/json/FacultyLinkList.json", true);//gets json file
     xmlhttp.send();
 }
 
