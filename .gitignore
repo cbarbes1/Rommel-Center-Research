@@ -168,3 +168,88 @@ arxiv-metadata-oai-snapshot.json
 .cursorignore
 .env
 Miniconda3-latest-Linux-x86_64.sh
+
+# Dependency directories
+/su-research/node_modules/
+
+# Production build directory
+/su-research/build
+
+# Environment variables
+/su-research/.env
+/su-research/.env.local
+/su-research/.env.development.local
+/su-research/.env.test.local
+/su-research/.env.production.local
+
+# IDEs and editors
+/su-research/.idea
+/su-research/.project
+/su-research/.classpath
+/su-research/.c9/
+/su-research/*.launch
+/su-research/.settings/
+/su-research/*.sublime-workspace
+
+# Misc
+/su-research/.DS_Store
+/su-research/*.pem
+
+# Debug logs
+/su-research/npm-debug.log*
+/su-research/yarn-debug.log*
+/su-research/yarn-error.log*
+
+# Local Netlify folder
+/su-research/.netlify/
+
+# macOS files
+/su-research/.DS_Store
+
+# Windows files
+/su-research/Thumbs.db
+/su-research/ehthumbs.db
+
+# Linux files
+/su-research/.directory
+
+# Temporary files
+/su-research/*.tmp
+/su-research/*.swp
+/su-research/*.swo
+/su-research/*.swp
+/su-research/*.swn
+/su-research/*.bak
+/su-research/*.orig
+
+# Yarn Integrity file
+/su-research/.yarn-integrity
+
+# Parcel-bundler cache (if used)
+/su-research/.cache
+
+# Next.js build output (if used)
+/su-research/.next
+/su-research/out
+
+# Gatsby files (if used)
+/su-research/.cache/
+/su-research/public
+
+# Storybook build outputs
+/su-research/storybook-static/
+
+# Jest test coverage
+/su-research/coverage
+
+# End-to-end test artifacts (e.g., Cypress)
+/su-research/cypress/screenshots
+/su-research/cypress/videos
+
+# Log files
+/su-research/*.log
+/su-research/npm-debug.log*
+/su-research/yarn-debug.log*
+/su-research/yarn-error.log*
+
+/su-research/public/suVid.mp4
