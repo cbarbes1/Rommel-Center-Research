@@ -1,26 +1,29 @@
 # Author: Jude Maggitti
-# Last Modified: 3/17/24
+# Last Modified: 3/31/24
 # Summary: This is the basic framework that helps direct the web pages where to route certain paths 
 
 from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
+# Specify the template folder
+app.template_folder = 'templates'
+
 app.static_folder = 'static'
 
 @app.route('/')
 def home():
-    return render_template('html/Version1/index.html')
+    return render_template('html/Version3/template.html')
 
-@app.route('/html/Version1/<path:filename>')
+@app.route('/html/Version3/<path:filename>')
 def html(filename):
-    html_folder = 'html/Version1'
+    html_folder = 'html/Version3'
     return render_template(f'{html_folder}/{filename}')
 
-@app.route('/static/javaOldCopy/<path:filename>')
+@app.route('/static/pageBody/<path:filename>')
 def static_files(filename):
-    java_folder = 'javaOldCopy'
-    return send_from_directory(app.static_folder, f'{java_folder}/{filename}')
+    pageBody_folder = 'pageBody'
+    return send_from_directory(app.static_folder, f'{pageBody_folder}/{filename}')
 
 @app.route('/static/json/<path:filename>')
 def serve_json(filename):
@@ -39,4 +42,4 @@ def css(filename):
 
 if __name__ == '__main__':
     app.run(port=1111)
-#port number we access
+    #port number we access

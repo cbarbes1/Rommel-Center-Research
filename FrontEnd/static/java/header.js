@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: gets the header of the webpages in html form
 function header() {
     const header = document.getElementById("header");
 

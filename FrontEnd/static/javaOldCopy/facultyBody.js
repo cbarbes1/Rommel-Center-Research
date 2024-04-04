@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/10/24
+// # Summary: holds the body template of an faculty member html
 function body() {
     const body = document.getElementById("body");
 
