@@ -4,21 +4,33 @@ Last edited: 03/27/2024
 Analyze abstracts to determine a set of categories
 '''
 import openai
+import random
 import os
 import json
+import arxiv
 
 API_KEY = os.getenv('OPENAI_API_KEY')
 
 # Here we define the various prompts we will need within this framework of analysis functions
 
+example_dict = """{ "Top-Level-Category" : { "mid-level-category": "low-level-category", "..."} }"""
+
 __initial_prompt__ = f"""
-You are an expert constructing a category taxonomy from an abstract. \
+You are an expert constructing a category taxonomy from an abstract to output JSON. \
+The output should be as follows: {example_dict}
 Given a list of predefined categories and topics \
-Please find a hierarchy of topics that go as JSON as follows\
+Please find a hierarchy of topics 
+Output the taxonomy in JSON\
 <Parent Category> : <Child Category>, <Child Category> \
 This should be a concise category like Computer Science
 Only give about 5 or 6 categories, they should be categories from this site https://arxiv.org/category_taxonomy\
-The caregories should not be sentences 
+The caregories should not be sentences
+Here is an example taxonomy:
+machine learning 1st level
+learning paradigms 2nd level
+cross validation 2nd level -> supervised learning 3rd level, unsupervised learning 3rd level
+
+
 """
 
 test_abstract = f"""\
@@ -73,29 +85,36 @@ def get_response(messages, model='gpt-3.5-turbo', temperature=0, max_tokens=500)
     )
     return response.choices[0].message.content
 
-"""
-Prompt Tuner: Takes initial prompt and analyzes it with the model and returns the new prompt
-Parameters: The prompt, an example of an input and output, a 
-"""
-def get_tuned_prompt(prompt, sample):
-    analysis_prompt = f"""
-    You are a prompt engineer to create better prompts for querying gpt. Given This prompt {prompt} and this sample run {sample}.
-    The prompt should avoid hallucination and should get the most general output it possibly can. If the same thing is fed in twice the outputs should be somewhat similar.
-    """
-    message = [
-        {'role':'system', 'content': analysis_prompt},
-    ]
-    response = get_response(message)
-    print(response)
+
+def get_taxonomy_abstracts(Abstracts, prompt, num_iter=10):
+    file_name = "Taxonomy.json"
+    rand_index = random.randint(0, len(Abstracts))
+    Abstract_range = Abstracts[rand_index:rand_index+num_iter]
+    with open(file_name, 'w') as file:
+        for abstract in Abstract_range:
+            messages = [
+                {'role':'system', 'content':prompt},
+                {'role':'user', 'content': abstract},
+            ]
+            output_taxonomy = get_response(messages=messages)
+            json.dump(output_taxonomy, file)
+    print("Taxonomy of abstracts Complete")
+        
+
+
 
 
 if __name__ == "__main__":
-    
-    messages = [
-        {'role':'system', 'content':__initial_prompt__},
-        {'role':'user', 'content': test_abstract_new},
-    ]
-    response = get_response(messages)
-    print(response)
+    with open('abstracts_to_categories.json', 'r') as file:
+        data = json.load(file)
+    abstract_list = [key for key, __ in data.items()]
+    get_taxonomy_abstracts(abstract_list, __initial_prompt__)
+
+    # messages = [
+    #     {'role':'system', 'content':__initial_prompt__},
+    #     {'role':'user', 'content': test_abstract_other},
+    # ]
+    # response = get_response(messages)
+    # print(response)
    # new_prompt = get_tuned_prompt(__initial_prompt__, response)
     #print(new_prompt)
