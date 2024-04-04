@@ -16,8 +16,9 @@ You are an expert constructing a category taxonomy from an abstract. \
 Given a list of predefined categories and topics \
 Please find a hierarchy of topics that go as JSON as follows\
 <Parent Category> : <Child Category>, <Child Category> \
-This should be a consise category like Computer Science
-Only give about 5 or 6 categories, they should be categories from this site https://arxiv.org/category_taxonomy 
+This should be a concise category like Computer Science
+Only give about 5 or 6 categories, they should be categories from this site https://arxiv.org/category_taxonomy\
+The caregories should not be sentences 
 """
 
 test_abstract = f"""\
@@ -54,6 +55,10 @@ test_abstract_other = f""" \
 Two studies examined relations of humor styles with well-being, social support, cognitive reappraisal, and social competence. In Study 1 (N = 108), self-enhancing and affiliative humor were associated fewer health difficulties and less psychological distress, mediated by reappraisal and social support, respectively. Self-defeating humor was associated with greater distress, mediated by both reappraisal and social support. Social competence moderated the relation of aggressive humor with social support: Individuals high on both aggressive humor and communication difficulties reported the least support. Study 2 followed undergraduates (N = 193) over ten weeks. T1 results for psychological distress replicated Study 1. Social support and reappraisal mediated relations of humor styles with T1 distress, and social support indirectly mediated the relation of aggressive humor with increased T2 distress. Aggressive humor was associated with T1 health difficulties, and self-defeating humor predicted greater health difficulties over time. Reappraisal and social support indirectly mediated the relation of self-enhancing and affiliative humor with fewer Ti health difficulties, and social support indirectly mediated the relation of aggressive humor with increased health difficulties over time. Communication difficulties moderated the relation of aggressive humor with fewer T1 positive interactions and greater somatic symptoms over time. Relations largely held controlling for shared variance among humor styles.
 """
 
+test_abstract_new = f""" \
+Juvenile summer flounder Paralichthys dentatus and southern flounder P. lethostigma inhabit turbid salt marsh estuaries. Predation rates by juveniles (50-90 mm) were examined at 5 daytime light levels (6 x 10(11) to 2 x 10(14) quanta s(-1) cm(-2)) and in darkness and 4 turbidity levels (clear [<= 1], 11, 20, and 40 NTU) at an intermediate light level. Both species fed equally well on benthopelagic mysid shrimp and benthic spionid polychaetes at all daytime light levels tested. However, predation on mysids was significantly reduced in the dark. Consumption of polychaetes was not reduced in the dark by either species, illustrating the effectiveness of non-visual foraging methods on benthic prey. Turbidity levels tested did not affect predation on either prey type by either flounder species. Locomotor behavior was examined at the same turbidity levels. P. lethostigma spent more time swimming in the water column than P. dentatus in lower turbidity (clear-20 NTU), and both species reduced swimming at 40 NTU. It appears that both species primarily use a benthic-oriented ambush foraging strategy under high turbidity conditions. This is a particularly pronounced switch in foraging style for P. lethostigma. Estuarine turbidity is increasing due to the impacts of climate change. When turbidity is elevated enough to eliminate light sufficient for visual feeding on mysids (between darkness and the lowest light level tested), feeding on this motile prey is negatively impacted for both species. Turbidity can thus alter foraging modes and types of prey consumed, affecting nursery habitat quality and the prey base supporting these young fishes.
+"""
+
 """
 This function prompts the openai api and returns the output
 Parameters: The message in open ai format, the model, the temperature, and the maximum token size
@@ -88,7 +93,7 @@ if __name__ == "__main__":
     
     messages = [
         {'role':'system', 'content':__initial_prompt__},
-        {'role':'user', 'content': test_abstract},
+        {'role':'user', 'content': test_abstract_new},
     ]
     response = get_response(messages)
     print(response)
