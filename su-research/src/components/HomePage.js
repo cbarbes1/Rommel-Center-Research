@@ -16,7 +16,7 @@ const HomePage = () => {
             {/* Navigation bar with TailwindCSS classes for background, text color, padding, rounded corners, shadow, and flexbox layout */}
             <nav className="bg-suMaroon text-white p-4 rounded-md shadow-md flex justify-between items-center">
                 {/* Navigation link to the homepage, styled to stand out as the brand name */}
-                <Link to="/" className="font-bold text-lg hover:bg-suGold rounded p-2 transition-colors duration-200 text-suGold">Salisbury Research</Link>
+                <Link to="/" className="font-bold text-lg hover:bg-suMaroon-dark rounded p-2 transition-colors duration-200 text-suGold">Salisbury Research</Link>
                 {/* Container for additional navigation links, spaced with a gap */}
                 <div className="flex gap-4">
                 {/* Individual navigation links, each with hover effects and transition for smooth color change */}

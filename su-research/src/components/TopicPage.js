@@ -69,7 +69,7 @@ const TopicPage = () => {
             <header className="mb-8">
             <nav className="bg-suMaroon text-white p-4 rounded-md shadow-md flex justify-between items-center">
                 {/* Navigation links using the Link component for SPA navigation */}
-                <Link to="/" className="font-bold text-lg hover:bg-suGold rounded p-2 transition-colors duration-200 text-suGold">Salisbury Research</Link>
+                <Link to="/" className="font-bold text-lg hover:bg-suMaroon-dark rounded p-2 transition-colors duration-200 text-suGold">Salisbury Research</Link>
                 <div className="flex gap-4">
                 {/* Additional navigation links */}
                 <Link to="/" className="font-bold text-lg hover:bg-suMaroon-dark rounded p-2 transition-colors duration-200 text-suGold">Home</Link>
