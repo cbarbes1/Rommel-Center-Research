@@ -23,12 +23,6 @@ class CategoryProcessor:
                 self.update_category_counts_files_set(
                     categories=categories, file_name=file_path
                 )
-                # faculty_members = (
-                #     attribute_results["author"][1]
-                #     if attribute_results["author"][0]
-                #     else "Unknown"
-                # )
-                # print(f"faculty_members is of type: {type(faculty_members)}")
                 
                 faculty_members: list[str] = []
                 if (attribute_results["author"][0]):
