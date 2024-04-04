@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'; // Importing React hooks: useState for state management, useEffect for side effects
 import { Link } from 'react-router-dom'; // Importing Link component from react-router-dom for navigation without page reload
-import VideoBackground from './VideoBackground'; // Importing a custom VideoBackground component
+//import VideoBackground from './VideoBackground'; // Importing a custom VideoBackground component
 
 // Defining the TopicPage functional component
 const TopicPage = () => {
@@ -62,11 +62,11 @@ const TopicPage = () => {
     
   // Rendering the TopicPage component
   return (
-    <div className="min-h-screen bg-stone-200 text-suGold">
-        <VideoBackground /> {/* Rendering the VideoBackground component */}
+    <div className="min-h-screen bg-stone-100 text-suGold">
+        {/*<VideoBackground /> {/* Rendering the VideoBackground component */}
         <div className="container mx-auto px-4 py-8">
             {/* Header section with navigation links */}
-            <header className="mb-8 z-20 relative">
+            <header className="mb-8">
             <nav className="bg-suMaroon text-white p-4 rounded-md shadow-md flex justify-between items-center">
                 {/* Navigation links using the Link component for SPA navigation */}
                 <Link to="/" className="font-bold text-lg hover:bg-suGold rounded p-2 transition-colors duration-200 text-suGold">Salisbury Research</Link>
@@ -82,22 +82,22 @@ const TopicPage = () => {
             {/* Main content section */}
             <main>
             {/* Section for the page title */}
-            <section className="text-center mb-12 z-30 relative">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent"
+            <section className="text-center mb-12 ">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text"
                     style={{
-                        backgroundImage: 'linear-gradient(to right, #D2122E 28%, yellow 72%)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent'
+                      backgroundImage: 'linear-gradient(to right, #8A0000, #FFC420)',
+                      WebkitBackgroundClip: 'text',
+                      WebkitTextFillColor: 'transparent'
                     }}>
                     Topic Information
                 </h1>
                 <h2 className="mt-4 text-2xl font-black bg-clip-text text-white"
-                    // style={{
-                    //         backgroundImage: 'linear-gradient(to right, #D2122E 40%, yellow 72%)',
-                    //         WebkitBackgroundClip: 'text',
-                    //         WebkitTextFillColor: 'transparent'
-                    //     }}>
-                        >Explore detailed information on a wide range of topics.</h2>
+                    style={{
+                            backgroundImage: 'linear-gradient(to right, #8A0000, #FFC420)',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent'
+                        }}>
+                        Explore detailed information on a wide range of topics.</h2>
             </section>
             {/* Section for displaying topics */}
             <section className="flex flex-wrap -mx-4">
@@ -131,7 +131,7 @@ const TopicPage = () => {
                             return (
                                 <li key={key}>
                                 <button onClick={() => toggleDropdown(categoryName, 'departments')} className="font-bold text-white underline">
-                                    Departments
+                                  {details.department_count === 1 ? 'Department' : 'Departments'}
                                 </button>
                                 {/* Conditionally rendering the dropdown content */}
                                 {openDropdowns[`${categoryName}-departments`] && (
