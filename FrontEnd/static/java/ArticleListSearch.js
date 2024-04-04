@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: gets the list of articles in html form
 function fetchArticleListData() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -18,7 +21,7 @@ function fetchArticleListData() {
             article_List.appendChild(articleListItem);
         });
     };
-    xmlhttp.open("GET", "/static/json/AuthorSample.json", true);
+    xmlhttp.open("GET", "/static/json/AuthorSample.json", true);//gets json file
     xmlhttp.send();
 }
 document.addEventListener("DOMContentLoaded", function () {

@@ -1,6 +1,6 @@
 // # Author: Jude Maggitti
 // # Last Modified: 3/31/24
-// # Summary: shows the info of the home page
+// # Summary:The body of the index/home page
 function body() {
     const body = document.getElementById("body");
 
