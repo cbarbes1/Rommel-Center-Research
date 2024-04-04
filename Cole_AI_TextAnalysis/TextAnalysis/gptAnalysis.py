@@ -8,16 +8,23 @@ import random
 import os
 import json
 import arxiv
+from nltk.corpus import wordnet
 
 API_KEY = os.getenv('OPENAI_API_KEY')
 
 # Here we define the various prompts we will need within this framework of analysis functions
 
-example_dict = """{ "Top-Level-Category" : { "mid-level-category": "low-level-category", "..."} }"""
+format = """{ "Top-Level-Category" : { "mid-level-category": "low-level-category", "..."} }"""
 
+task = """You are a expert at generating Taxonomies from text. Users will prompt you with blocks of text and you are to do as follows. \
+    I should be able to search each category and find college majors and research areas not just words \
+    To be a successful taxonomy, It should look as follows {format} \
+    Analyze the text they give you, Summarize the abstract, and Generate a category taxonomy from: the text, your analysis and the summary you create. \
+    
+    """
 __initial_prompt__ = f"""
 You are an expert constructing a category taxonomy from an abstract to output JSON. \
-The output should be as follows: {example_dict}
+The output should be as follows: {format}
 Given a list of predefined categories and topics \
 Please find a hierarchy of topics 
 Output the taxonomy in JSON\
@@ -32,6 +39,8 @@ cross validation 2nd level -> supervised learning 3rd level, unsupervised learni
 
 
 """
+
+
 
 test_abstract = f"""\
     Taxonomies represent hierarchical relations between 
