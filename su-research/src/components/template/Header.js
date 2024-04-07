@@ -9,7 +9,7 @@ const Header = () => {
             <h1>Salsibury Research</h1>
             <nav class="navigation">
                 <Link to="/" class="nav-link">Home</Link>
-                <Link to="/TopicAZ" class="nav-link">Topic A-Z</Link>
+                <Link to="/TopicPage" class="nav-link">Topic A-Z</Link>
                 <Link to="/FacultyAZ" class="nav-link">Faculty Contact</Link>
                 <Link to="/ArticleAZ" class="nav-link">Articles A-Z</Link>
             </nav>
