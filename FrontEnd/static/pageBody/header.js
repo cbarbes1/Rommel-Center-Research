@@ -9,10 +9,10 @@ function header() {
         <header class="site-header">
             <h1>Salsibury Research</h1>
             <nav class="navigation">
-                <a href="#" class="nav-link" onclick="loadPage('indexBody')">Home</a>
-                <a href="#" class="nav-link" onclick="loadPage('TopicBody')">Topic A-Z</a>
-                <a href="#" class="nav-link" onclick="loadPage('FacultyListSearch')">Faculty Contact</a>
-                <a href="#" class="nav-link" onclick="loadPage('ArticleListSearch')">Articles A-Z</a>
+            <a href="/html/Version3/index.html" class="nav-link">Home</a>
+            <a href="/html/Version3/TopicPage.html" class="nav-link">Topic A-Z</a>
+            <a href="/html/Version3/FacultyAZ.html" class="nav-link">Faculty Contact</a>
+            <a href="/html/Version3/ArticleAZ.html" class="nav-link">Articles A-Z</a>
             </nav>
         </header>
     </div>`;
