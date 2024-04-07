@@ -1,6 +1,5 @@
 import React from 'react'; // Importing React to enable JSX syntax and component logic
 import { Link, useParams } from 'react-router-dom'; // Importing Link component for client-side navigation between routes
-
 import jsonData from '../JSON/processed_category_data.json'; // Import JSON data file
 
 const renderBodyAll = (data) => {
@@ -62,4 +61,4 @@ const TopicPage = () => {
 };
 
 
-export default TopicPage; // Exporting the TopicListPage component for use in other parts of the application
+export default TopicPage; // Exporting the TopicPage component for use in other parts of the application
