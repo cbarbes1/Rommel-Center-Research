@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'; // Ensure this imports Tailwind CSS
-import HomeBody from './components/HomeBody';
-import Layout from './components/Layout.js';
-import TopicPage from './components/TopicPage'; // Make sure to import TopicPage
+import HomeBody from './components/template/HomeBody.js';
+import Layout from './components/template/Layout.js';
+import TopicPage from './components/template/TopicPage.js'; // Make sure to import TopicPage
 
 function App() {
   return (
@@ -12,9 +12,10 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomeBody />} />
-          {/* <Route path="/TopicAZ" component={TopicPage} /> */}
-          {/* <Route path="/FacultyAZ" component={ServicesPage} /> */}
-          {/* <Route path="/ArticleAZ" component={ContactPage} /> */}
+          <Route path="/TopicPage/:category" element={<TopicPage />} />
+          <Route path="/TopicPage" element={<TopicPage />} />
+          {/* <Route path="/FacultyAZ" element={<ServicesPage />} /> */}
+          {/* <Route path="/ArticleAZ" element={<ContactPage />} /> */}
         </Routes>
       </Layout>
       {/* </div> */}
