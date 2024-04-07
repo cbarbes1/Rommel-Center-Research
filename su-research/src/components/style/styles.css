@@ -117,12 +117,21 @@ body {
     border-radius: 5px;
 }
 
-.flavor {
+/* .flavor {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     flex: 3;
+} */
+
+.flavor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 960px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .flavor-column {
