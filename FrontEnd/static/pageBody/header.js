@@ -11,7 +11,7 @@ function header() {
             <nav class="navigation">
             <a href="/html/Version3/index.html" class="nav-link">Home</a>
             <a href="/html/Version3/TopicPage.html" class="nav-link">Topic A-Z</a>
-            <a href="/html/Version3/FacultyAZ.html" class="nav-link">Faculty Contact</a>
+            <a href="/html/Version3/FacultyList.html" class="nav-link">Faculty Contact</a>
             <a href="/html/Version3/ArticleAZ.html" class="nav-link">Articles A-Z</a>
             </nav>
         </header>
