@@ -10,7 +10,7 @@ function header() {
             <h1>Salsibury Research</h1>
             <nav class="navigation">
                 <a href="#" class="nav-link" onclick="loadPage('indexBody')">Home</a>
-                <a href="#" class="nav-link" onclick="loadPage('TopicSearch')">Topic A-Z</a>
+                <a href="#" class="nav-link" onclick="loadPage('TopicBody')">Topic A-Z</a>
                 <a href="#" class="nav-link" onclick="loadPage('FacultyListSearch')">Faculty Contact</a>
                 <a href="#" class="nav-link" onclick="loadPage('ArticleListSearch')">Articles A-Z</a>
             </nav>
