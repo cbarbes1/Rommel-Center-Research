@@ -1,8 +1,13 @@
+//Author: Jude Maggitti
+//Created Date: 4/7/24
+//Last Modifed: 4/7/24
+//Note: This file displays the contents of the articles submitted into the ai
+
 import React from 'react'; // Importing React to enable JSX syntax and component logic
 import { Link, useParams } from 'react-router-dom'; // Importing Link component for client-side navigation between routes
 import jsonData from '../JSON/AuthorSample.json'; // Import JSON data file
 
-const renderBodyAll = (data) => {
+const renderBodyAll = (data) => {//renders all articles
     return (
 
         <div>
@@ -19,7 +24,7 @@ const renderBodyAll = (data) => {
     );
 };
 
-const renderBodyArticle = (data, name) => {
+const renderBodyArticle = (data, name) => {//renders one article data
     return (
         <div>
             <section className="flavor" key={name}>
@@ -55,11 +60,11 @@ const ArticlePage = () => {
     const data = jsonData;
 
     if (name && data[name]) {
-        const facultyName = name; // Assuming the name name is stored in a variable    
-        return renderBodyArticle(data[name], facultyName);
+        const facultyName = name; // Assuming the name is stored in a variable    
+        return renderBodyArticle(data[name], facultyName);//renders a specific Article
     }
     else
-        return renderBodyAll(data);
+        return renderBodyAll(data);//renders all Articles
 
 };
 

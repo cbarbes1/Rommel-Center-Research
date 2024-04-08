@@ -1,8 +1,13 @@
+//Author: Jude Maggitti
+//Created Date: 4/7/24
+//Last Modifed: 4/7/24
+//Note: This file displays the contents of the faculty members from the articles submitted into the ai
+
 import React from 'react'; // Importing React to enable JSX syntax and component logic
 import { Link, useParams } from 'react-router-dom'; // Importing Link component for client-side navigation between routes
 import jsonData from '../JSON/FacultySample.json'; // Import JSON data file
 
-const renderBodyAll = (data) => {
+const renderBodyAll = (data) => {//renders all faculty
     return (
 
         <div>
@@ -19,7 +24,7 @@ const renderBodyAll = (data) => {
     );
 };
 
-const renderBodyFaculty = (data, name) => {
+const renderBodyFaculty = (data, name) => {//renders one faculty data
     return (
         <div>
             <section className="flavor" key={name}>
@@ -62,11 +67,11 @@ const FacultyPage = () => {
     const data = jsonData;
 
     if (name && data[name]) {
-        const facultyName = name; // Assuming the name name is stored in a variable    
-        return renderBodyFaculty(data[name], facultyName);
+        const facultyName = name; // Assuming the name is stored in a variable    
+        return renderBodyFaculty(data[name], facultyName);//renders a specific Faculty
     }
     else
-        return renderBodyAll(data);
+        return renderBodyAll(data);//renders all Faculty Names
 
 };
 
