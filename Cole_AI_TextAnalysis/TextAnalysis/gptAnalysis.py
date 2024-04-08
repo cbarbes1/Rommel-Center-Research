@@ -7,8 +7,8 @@ import openai
 import random
 import os
 import json
-import arxiv
-from nltk.corpus import wordnet
+#mport arxiv
+#from nltk.corpus import wordnet
 
 API_KEY = os.getenv('OPENAI_API_KEY')
 
@@ -16,11 +16,36 @@ API_KEY = os.getenv('OPENAI_API_KEY')
 
 format = """{ "Top-Level-Category" : { "mid-level-category": "low-level-category", "..."} }"""
 
+format2 = """{
+    "Health and Medicine": {
+        "Obesity": "Sleep",
+        "Sleep": "Sleep Duration, Sleep Quality"
+    },
+    "Social Sciences": {
+        "College Students": "Health Behaviors",
+        "Race/Nationality": "Blacks, Whites, South Koreans",
+        "Gender": "Men, Women"
+    },
+    "Statistics": {
+        "Multinomial Logistic Regression": "Association between Sleep Duration and Independent Variables",
+        "Poisson Regression": "Relationship between Sleep Quality and Independent Variables"
+    }
+}"""
+
 task = """You are a expert at generating Taxonomies from text. Users will prompt you with blocks of text and you are to do as follows. \
     I should be able to search each category and find college majors and research areas not just words \
-    To be a successful taxonomy, It should look as follows {format} \
-    Analyze the text they give you, Summarize the abstract, and Generate a category taxonomy from: the text, your analysis and the summary you create. \
-    
+    Analyze the text they give you and Generate a category taxonomy from: the text, your analysis and the summary you create. \
+    Please find a hierarchy of topics 
+    Output the taxonomy in JSON\
+    <Parent Category> : <Child Category>, <Child Category> \
+    This should be a concise category like Computer Science
+    Only give about 5 or 6 categories, they should be categories from this site https://arxiv.org/category_taxonomy\
+    The caregories should not be sentences
+    Here is an example taxonomy:
+    machine learning 1st level
+    learning paradigms 2nd level
+    cross validation 2nd level -> supervised learning 3rd level, unsupervised learning 3rd level
+    To be a successful taxonomy, It should look as follows {format} in JSON \
     """
 __initial_prompt__ = f"""
 You are an expert constructing a category taxonomy from an abstract to output JSON. \
@@ -36,8 +61,8 @@ Here is an example taxonomy:
 machine learning 1st level
 learning paradigms 2nd level
 cross validation 2nd level -> supervised learning 3rd level, unsupervised learning 3rd level
-
-
+heres how it should look
+{format2}
 """
 
 
@@ -85,7 +110,7 @@ This function prompts the openai api and returns the output
 Parameters: The message in open ai format, the model, the temperature, and the maximum token size
 Return: The output content in human readable format
 """
-def get_response(messages, model='gpt-3.5-turbo', temperature=0, max_tokens=500):
+def get_response(messages, model='gpt-3.5-turbo', temperature=0.5, max_tokens=500):
     response = openai.chat.completions.create(
         model=model,
         messages = messages, 
@@ -95,35 +120,29 @@ def get_response(messages, model='gpt-3.5-turbo', temperature=0, max_tokens=500)
     return response.choices[0].message.content
 
 
+"""
+This function creates a taxonomy of a random list of abstracts and outputs to json
+parameters: The abstract list, the prompt and the number of abstracts
+print to json file
+"""
 def get_taxonomy_abstracts(Abstracts, prompt, num_iter=10):
     file_name = "Taxonomy.json"
     rand_index = random.randint(0, len(Abstracts))
     Abstract_range = Abstracts[rand_index:rand_index+num_iter]
     with open(file_name, 'w') as file:
+        json_output = {}
         for abstract in Abstract_range:
             messages = [
                 {'role':'system', 'content':prompt},
                 {'role':'user', 'content': abstract},
             ]
             output_taxonomy = get_response(messages=messages)
-            json.dump(output_taxonomy, file)
+            json_output[abstract] = json.loads(output_taxonomy)
+        json.dump(json_output, file, indent=4)
     print("Taxonomy of abstracts Complete")
-        
-
-
-
 
 if __name__ == "__main__":
     with open('abstracts_to_categories.json', 'r') as file:
         data = json.load(file)
     abstract_list = [key for key, __ in data.items()]
     get_taxonomy_abstracts(abstract_list, __initial_prompt__)
-
-    # messages = [
-    #     {'role':'system', 'content':__initial_prompt__},
-    #     {'role':'user', 'content': test_abstract_other},
-    # ]
-    # response = get_response(messages)
-    # print(response)
-   # new_prompt = get_tuned_prompt(__initial_prompt__, response)
-    #print(new_prompt)
