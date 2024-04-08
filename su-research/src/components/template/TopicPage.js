@@ -1,8 +1,13 @@
+//Author: Jude Maggitti
+//Created Date: 4/7/24
+//Last Modifed: 4/7/24
+//Note: This file displays the contents of the topics from the articles submitted into the ai
+
 import React from 'react'; // Importing React to enable JSX syntax and component logic
 import { Link, useParams } from 'react-router-dom'; // Importing Link component for client-side navigation between routes
 import jsonData from '../JSON/processed_category_data.json'; // Import JSON data file
 
-const renderBodyAll = (data) => {
+const renderBodyAll = (data) => {//renders all topics
     return (
 
         <div>
@@ -26,7 +31,7 @@ const renderBodyAll = (data) => {
     );
 };
 
-const renderBodyTopic = (category, data) => {
+const renderBodyTopic = (category, data) => {//renders one topic
     return (
         <div>
             <section className="flavor" key={data}>
@@ -53,10 +58,10 @@ const TopicPage = () => {
 
     if (category && data[category]){
         const categoryName = category; // Assuming the category name is stored in a variable    
-        return renderBodyTopic(data[category], categoryName);
+        return renderBodyTopic(data[category], categoryName);//renders one topic picked
     }
     else
-        return renderBodyAll(data);
+        return renderBodyAll(data);//renders all topics with some data
 
 };
 

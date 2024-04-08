@@ -1,3 +1,4 @@
+// Faculty sample for the FacultyPage
 {
   "Andrew Thompson":{ "Department": "Computer Science","Articles": ["How computer mice eat cheese","The applicataions of A.I. and pets"],"Office": "Conway Hall (TE) 208","Email": "awthompson@salisbury.edu"},
   "Junyi Tu": { "Department": "Computer Science","Articles": ["How computer mice eat cheese","The applicataions of A.I. and pets"],"Office": "Conway Hall (TE) 208","Email": "JunyiTu@salisbury.edu"}
