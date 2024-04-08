@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
+import time
 
 def scrape_arxiv_categories(url):
     response = requests.get(url)
@@ -23,9 +24,22 @@ def scrape_arxiv_categories(url):
 
 def scrape_salisbury_faculty(url):
     response = requests.get(url)
+
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')  # Run in headless mode, i.e., without opening a browser window
+    options.add_argument('--disable-gpu')  # Disable GPU acceleration
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+
+    driver.get(url)
+
+    time.sleep(5)
+
     soup = BeautifulSoup(response.text, 'html.parser')
 
     print(soup)
+
+    driver.quit()
 
 
 if __name__ == "__main__":
@@ -33,5 +47,5 @@ if __name__ == "__main__":
     # categories = scrape_arxiv_categories(url)
     # for code, name in categories.items():
     #     print(f'{code}: {name}')
-    url = 'https://www.salisbury.edu/faculty-and-staff/#isFaculty=&dept=&ltr=a&page=1&pagesize=10'
+    url = 'https://www.salisbury.edu/faculty-and-staff/#isFaculty=1&dept=&ltr=&page=1&pagesize=10'
     categories = scrape_salisbury_faculty(url)
