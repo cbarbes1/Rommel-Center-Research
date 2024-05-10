@@ -1,0 +1,120 @@
+{
+    "The odd symplectic Grassmannian IG:=IG(k,2n+1) parametrizes k dimensional subspaces of C2n+1 which are isotropic with respect to a general (necessarily degenerate) symplectic form. The odd symplectic group acts on IG with two orbits, and IG is itself a smooth Schubert variety in the submaximal isotropic Grassmannian IG(k,2n+2). We use the technique of curve neighborhoods to prove a Chevalley formula in the equivariant quantum cohomology of IG,i.e.a formula to multiply a Schubert class by the Schubert divisor class. This generalizes a formula of Pech in the case k=2, and it gives an algorithm to calculate any multiplication in the equivariant quantum cohomology ring.": {
+        "Mathematics": {
+            "Symplectic Geometry": "Odd Symplectic Grassmannian",
+            "Algebraic Geometry": "Schubert Variety, Schubert Class",
+            "Quantum Cohomology": "Equivariant Quantum Cohomology, Chevalley Formula"
+        },
+        "Physics": {
+            "Symplectic Group": "Odd Symplectic Group",
+            "Isotropic Subspaces": "Submaximal Isotropic Grassmannian",
+            "Quantum Physics": "Quantum Cohomology Ring"
+        }
+    },
+    "Let H center dot(OG) be the quantum cohomology (specialized at q = 1) of the (2n-1)- dimensional quadric OG. We will calculate the characteristic polynomial of the linear operators induced by quantum multiplication in H center dot(OG) and the Frobenius- Perron dimension. We also check that Galkin's lower bound conjecture holds for OG.": {
+        "Mathematics": {
+            "Quantum Cohomology": "Characteristic Polynomial, Frobenius-Perron Dimension",
+            "Galkin's Lower Bound Conjecture": "Verification for (2n-1)-dimensional quadric OG"
+        }
+    },
+    "This paper explores top-down, enacted, institutional pushbacks to supermobility and superdiversity in the under-examined arena of academia using emerging frameworks in political economy and the geography of mobility. Zooming in on the discoursal framings of a recent year of job advertisements on a popular, open-source forum for linguists supplemented with qualitatively and quantitatively sourced data from international, national, and local institutional contexts, the paper examines how macrocontextual pushes toward political populism combined with a synchronous tightening of job markets in academia have enacted a plethora of labels for temporary work in lieu of permanent academic positions-now, increasingly the only option for job seekers in a hypercompetitive academic market. In this manufacturing of euphemization discourse, we witness the invention of novel, microlinguistically rendered lexicalizations of semiotic redundancy in academic capitalism's own obfuscation of profit margins, and a concomitant manufacturing of a new discourse of rationality in which floating semiotic signifiers at multiple scales deploy nationality-criteria to justify ethnic exclusion and/or entry into academic space. More crucially, in these commonsensical framings, we encounter both causation and consequence of newly enacted barriers to transnational mobility. In challenging the myth of porous borders for mobile professionals in the post-global moment, these emerging linguistic signifiers point to the ascendancy of a new public affectivity on display in intellectual spheres and a saturation of sentiment toward illiberality.": {
+        "Academia": {
+            "Job Advertisements": "Temporary Work Labels",
+            "Political Populism": "Academic Job Markets",
+            "Semiotic Redundancy": "Manufacturing of Euphemization Discourse"
+        },
+        "Linguistics": {
+            "Discoursal Framings": "Semiotic Signifiers",
+            "Lexicalizations": "Ethnic Exclusion, Rationality Discourse"
+        },
+        "Political Economy": {
+            "Institutional Pushbacks": "Supermobility, Superdiversity",
+            "Profit Margins": "Manufacturing of Rationality Discourse"
+        },
+        "Geography": {
+            "Transnational Mobility": "Barriers, Nationality-Criteria",
+            "Illiberality": "Public Affectivity"
+        }
+    },
+    "Diabetic peripheral neuropathy (DPN) is estimated to affect 50% of diabetic patients. Although DPN is highly prevalent, molecular mechanisms remain unknown and treatment is limited to pain relief and glycemic control. We provide a novel model of acute DPN in zebrafish (Danio rerio) larvae. Beginning 5 days postfertilization (dpf), zebrafish expressing nitroreductase in their pancreatic beta-cells were treated with metronidazole (MTZ) for 48 h and checked for beta-cell ablation 7 dpf. In experimental design, this was meant to serve as proof of concept that beta-cell ablation and hyperglycemia are possible at this time point, but we were surprised to find changes in both sensory and motor nerve components. Compared with controls, neurod(+) sensory neurons were often observed outside the dorsal root ganglia in MTZ-treated fish. Fewer motor nerves were properly ensheathed by nkx2.2a(+) perineurial cells, and tight junctions were disrupted along the motor nerve in MTZ-treated fish compared with controls. Not surprisingly, the motor axons of the MTZ-treated group were defasciculated compared with the control group, myelination was attenuated, and there was a subtle difference in Schwann cell number between the MTZ-treated and control group. All structural changes occurred in the absence of behavioral changes in the larvae at this time point, suggesting that peripheral nerves are influenced by acute hyperglycemia before becoming symptomatic. Moving forward, this novel animal model of DPN will allow us to access the molecular mechanisms associated with the acute changes in the hyperglycemic peripheral nervous system, which may help direct therapeutic approaches.": {
+        "Medical Sciences": {
+            "Diabetic Peripheral Neuropathy": "Zebrafish Model",
+            "Neurod(+) Sensory Neurons": "Location outside Dorsal Root Ganglia",
+            "Nkx2.2a(+) Perineurial Cells": "Motor Nerve Ensheathment",
+            "Tight Junctions": "Disruption along Motor Nerve",
+            "Schwann Cells": "Difference in Number between MTZ-treated and Control Group"
+        }
+    },
+    "Property O for an arbitrary complex, Fano manifold X is a statement about the eigenvalues of the linear operator obtained from the quantum multiplication of the anticanonical class of X. Conjecture O is a conjecture that property O holds for any Fano variety. Pasquier classified the smooth nonhomogeneous horospherical varieties of Picard rank 1 into five classes. Conjecture O has already been shown to hold for the odd symplectic Grassmannians, which is one of these classes. We will show that conjecture O holds for two more classes and an example in a third class of Pasquier's list. Perron-Frobenius theory reduces our proofs to be graph-theoretic in nature.": {
+        "Mathematics": {
+            "Fano Manifolds": "Quantum Multiplication",
+            "Horospherical Varieties": "Picard Rank 1",
+            "Symplectic Grassmannians": "Conjecture O",
+            "Perron-Frobenius Theory": "Graph Theory"
+        },
+        "Physics": {
+            "Eigenvalues": "Linear Operators",
+            "Odd Symplectic Grassmannians": "Conjecture O"
+        }
+    },
+    "This study examines the extent to which male and female principal candidates use language to signal their perceived values specific to open positions in the field. We analyzed Wisconsin school-leader application data by gender, seeking to understand whether or not men and women present themselves differently through language in the initial application phase. Using an electronic linguistic analysis tool (Docuscope), we identified patterns in the writing samples from 2,061 applicants and applied critical discourse analysis to determine the role gender plays in candidates' portrayals of themselves. This mixed-methods approach revealed that language use differs significantly between male and female applicants. Notably, linguistic variables common in female candidates' writing tend to focus on elaborating ideas and using compare/contrast techniques to describe beliefs. Male applicants' language is often more formal and relies heavily on passive voice. Our findings raise questions as to whether candidates may be selected because of an unconscious preference for language patterns commonly used by females or males.": {
+        "Gender Studies": {
+            "Language Use in Job Applications": "Male Candidates, Female Candidates"
+        },
+        "Education": {
+            "School Leadership": "Principal Candidates"
+        },
+        "Linguistics": {
+            "Electronic Linguistic Analysis": "Docuscope",
+            "Critical Discourse Analysis": "Gender portrayal in writing samples"
+        }
+    },
+    "Aquilaria sinensis (Lour.) Gilg is an economically important tree species that produce the highly prized agarwood. In recent years, agarwood production has been seriously threatened by the outbreak of Heortia vitessoides Moore, a leaf-eating pest that shows gregariousness during the larval stage. However, little attention has been paid to the aggregation behavior of H. vitessoides larvae. In the present study, we collected 102 cohorts of H. vitessoides larvae (13,173 individuals in total) in the wild; 54 cohorts were comprised of the same-instar larvae, and 48 cohorts were comprised of larvae with different developmental stages (instars). In general, young larvae (<third instar) tended to form large aggregations, whereas older-instar larvae were either solitary or formed small aggregations. Laboratory studies showed a strong aggregation tendency in the newly hatched and second-instar larvae of H. vitessoides, whenever the individuals originated from the same or different sibling cohorts. In addition, all newly hatched larvae died within two days after they were isolated. When newly hatched larvae were initially assigned in 10-larvae cohorts (containing sibling individuals) or 20-larvae cohorts (either containing individuals originating from the same or different sibling cohorts), their larval survivorship, duration of larval stage, and adult emergence were not significantly different. Interestingly, combining avermectin-treated larvae (donors) with untreated ones (receptors) significantly decreased larval survivorship and adult emergence of receptors, indicating a horizontal transfer of avermectin among H. vitessoides larvae. This study enhances our understanding of the population ecology of H. vitessoides, and may bring novel insights into the management strategies against this pest.": {
+        "Biology": {
+            "Insect Behavior": "Aggregation Behavior",
+            "Population Ecology": "Larval Survivorship, Adult Emergence",
+            "Pest Management": "Management Strategies"
+        },
+        "Agricultural Sciences": {
+            "Agarwood Production": "Threats from Heortia vitessoides Moore",
+            "Pesticide Effects": "Horizontal Transfer of Avermectin"
+        },
+        "Entomology": {
+            "Heortia vitessoides": "Aggregation Behavior, Larval Development",
+            "Insect Pest": "Leaf-eating Pest"
+        }
+    },
+    "The use of smartphones in experimental physics is by now widely accepted and documented. PASCO scientific's Smart Cart, in combination with student-owned smartphones and free apps, has opened a new universe of low-cost experiments that have traditionally required cumbersome and expensive equipment. In this paper, we demonstrate the simplicity, convenience, and cost-savings achieved by replacing a plethora of traditional motion sensors, wires, interface boards, and other equipment clutter with the smart cart, PASPORT (R) High Sensitivity Light Sensor, and the free SPARKvue (R) app by carrying out diffraction measurements of light with a single as well as double slit. Rylander and Miller reported a similar experiment but with an ordinary laboratory cart and a motion sensor to extract the precise position of the light sensor. The use of the smart cart in this report obviates the need for using a motion sensor and the laborious extraction of the position data.": {
+        "Physics": {
+            "Experimental Physics": "Use of Smartphones",
+            "Light Diffraction": "Single Slit, Double Slit",
+            "Equipment": "Smart Cart, PASPORT High Sensitivity Light Sensor",
+            "Software": "SPARKvue App"
+        },
+        "Technology": {
+            "Smartphones": "Use in Experimental Physics",
+            "Apps": "SPARKvue"
+        }
+    },
+    "The retention of students is a challenge faced by many universities in countries where participation rates are high. Living learning communities (LLCs) have been adopted by college administrators to increase retention, even though evidence of their effectiveness is largely anecdotal. This paper uses propensity score matching to address selection bias and identify the causal effect of an LLC program on GPA and retention. Survival analysis (of the matched sample) is used to estimate retention over time. Results suggest that the LLC program has a positive and lasting effect on retention and a positive impact on GPA in the earlier college years.": {
+        "Education": {
+            "Student Retention": "Living Learning Communities (LLCs)",
+            "Propensity Score Matching": "Selection Bias",
+            "Survival Analysis": "Retention over Time"
+        },
+        "Research Methods": {
+            "Causal Inference": "Propensity Score Matching",
+            "Survival Analysis": "Estimating Retention"
+        },
+        "Impact Evaluation": {
+            "LLC Program": "Effect on GPA and Retention",
+            "Positive Impact": "Retention and GPA"
+        }
+    },
+    "Heart failure (HF) contributes to the highest frequency of 30-day hospital readmissions out of all causes, raising the already significant risk for adverse outcomes and costs. This quality improvement project sought to determine if 60 minutes of standardized inpatient education and scripted telephone followup, administered by staff nurses trained in HF, could reduce 30-day hospital readmissions, thus improving outcomes and self-management in this population.": {
+        "Health and Medicine": {
+            "Heart Failure": "Inpatient Education, Telephone Follow-up",
+            "Nursing": "Staff Nurses, HF Training"
+        }
+    }
+}

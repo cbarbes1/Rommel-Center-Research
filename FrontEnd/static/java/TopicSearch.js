@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: showcases the list of topics/categories in html form.
 function fetchTopicData() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -12,7 +15,7 @@ function fetchTopicData() {
             const topicData = abArr[topicName];
             topicItem.innerHTML = `
                 <li>
-                <a href = "/html/Topic.html?name=${encodeURIComponent(topicName)}" ><p class = "medium font">${topicName}</p></a>
+                <a href = "/html/Version2/Topic.html?name=${encodeURIComponent(topicName)}" class="custom-link" ><p class = "medium font">${topicName}</p></a>
                     <ul>
                         <li><p class="faculty_count">Faculty Count: ${topicData.faculty_count}</p></li>
                         <li><p class="department_count">Department Count: ${topicData.department_count}</p></li>
@@ -23,7 +26,7 @@ function fetchTopicData() {
             topic_Info.appendChild(topicItem);
         });
     };
-    xmlhttp.open("GET", "/static/json/categoryInfo.json", true);
+    xmlhttp.open("GET", "/static/json/processed_category_data.json", true);//gets json file
     xmlhttp.send();
 }
 document.addEventListener("DOMContentLoaded", function () {

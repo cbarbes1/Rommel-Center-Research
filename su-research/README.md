@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+## WHEN YOU PULL YOU MUST
+
+Install node_modules, this can be done with the 'npm install' command  
+'npm install' can take a long time though, so you can try 'npm ci' instead and then check if it works  
+If it does then perfect, if not then delete wahtever npm ci did install and run 'npm install'
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

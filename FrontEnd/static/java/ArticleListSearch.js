@@ -1,3 +1,6 @@
+// # Author: Jude Maggitti
+// # Last Modified: 3/31/24
+// # Summary: gets the list of articles in html form
 function fetchArticleListData() {
     const xmlhttp = new XMLHttpRequest();
     xmlhttp.onload = function () {
@@ -11,14 +14,14 @@ function fetchArticleListData() {
             const articleListItem = document.createElement("ul");
             articleListItem.innerHTML = `
             <li>
-             <a href = "/html/Article.html?key=${encodeURIComponent(item)}" ><p class = "medium font">${item}</p></a>
+             <a href = "/html/Version2/Article.html?key=${encodeURIComponent(item)}" class="custom-link" ><p class = "medium font">${item}</p></a>
            </form>
          </li>
             `;
             article_List.appendChild(articleListItem);
         });
     };
-    xmlhttp.open("GET", "/static/json/AuthorSample.json", true);
+    xmlhttp.open("GET", "/static/json/AuthorSample.json", true);//gets json file
     xmlhttp.send();
 }
 document.addEventListener("DOMContentLoaded", function () {

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Faculty List</title>
+    <link href="/static/style/styles.css" rel="stylesheet"/>
+    <script src="/static/javaOldCopy/FacultyListSearch.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="scroll-container">
+        <section class="flavor-header">
+            <header class="site-header">
+                <h1>Salsibury Research</h1>
+                <nav class="navigation">
+                    <a href="/html/Version1/index.html" class="nav-link">Home</a>
+                    <a href="/html/Version1/TopicAZ.html" class="nav-link">Topic A-Z</a>
+                    <a href="/html/Version1/FacultyAZ.html" class="nav-link">Faculty Contact</a>
+                    <a href="/html/Version1/ArticleAZ.html" class="nav-link">Articles A-Z</a>
+                </nav>
+            </header>
+        </section>
+        <section class="search-bar">
+            <form class="search" action="/html/Version1/Faculty.html" method="GET">
+                <input type="text" placeholder="Search..." name="name">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </section>
+        <div class="content-container">
+            <section class="filter">
+                <article class="flavor-column bigger-column">
+                    <h2 class="medium-font">Filter Section</h2>
+                    <select class="medium-font dropdown" id="Department">
+                        <option value="">None</option>
+                        <option value="option1">Filter option 1</option>
+                        <option value="option2">Filter option 2</option>
+                        <option value="option3">Filter option 3</option>
+                    </select>
+                </article>
+            </section>
+            
+            <section class="flavor">
+                <article class="flavor-column bigger-column" id="faculty_list">
+                </article>
+            </section>
+        </div>
+
+    </div>
+</body>
+</html>

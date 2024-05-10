@@ -15,7 +15,8 @@ class FacultyPostprocessor:
     def get_temp_dict(self):
         return self.temp_dict
 
-    def extract_faculty_sets(self, category_dict):
+    @staticmethod
+    def extract_faculty_sets(category_dict):
         """
         Extracts the faculty attribute from each CategoryInfo object in categories
 
@@ -29,7 +30,8 @@ class FacultyPostprocessor:
         ]
         return list_of_faculty_sets
 
-    def remove_near_duplicates(self, category_dict):
+
+    def remove_near_duplicates(self, *, category_dict):
         """
         Processes each CategoryInfo object to remove near-duplicate faculty names based on MinHash similarity.
 
